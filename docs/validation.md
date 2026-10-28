@@ -83,4 +83,10 @@ All four public figures were opened and inspected: accuracy, accuracy drop, pred
 
 Public figures contain no dataset photographs. Photographic example grids stay under ignored `local_outputs/`; smoke results, environments, data archives, dataset images/annotations, weights and caches are excluded. A Git index audit checks that only the four intended chart/schematic PNGs are included and that no large or credential files are staged. Markdown relative links are checked before publication.
 
-Not tested: the complete 3,669-image split, natural background swaps, predicted segmentation, other prompts/models, boundary-exclusion ablation, macOS, or Linux runtime. The GitHub Actions workflow provides a Linux CPU unit-test configuration; this local record does not claim a remote CI pass.
+The [Linux CPU GitHub Actions run](https://github.com/yumumumule/clip-background-bias/actions/runs/40701042369) also **passed**, including dependency installation and all 28 unit tests, on implementation/report commit `dcf41e1e8e847299476eabfdb1fd90e62201915b`.
+
+Not tested: the complete 3,669-image split, natural background swaps, predicted segmentation, other prompts/models, boundary-exclusion ablation, macOS, or full model inference on Linux. Linux CPU unit tests passed; full inference was tested on Windows CUDA and CPU.
+
+## Publication verification
+
+Published to the authenticated account as a new [public GitHub repository](https://github.com/yumumumule/clip-background-bias). The account had no repository with this name before creation. Creation and push succeeded, and `git ls-remote --heads origin main` matched the local commit. The working tree was clean after committing. Dataset photographs, annotations, weights, local outputs and environments were absent from the 35-file Git index. This documentation-only update records the subsequent CI result.
