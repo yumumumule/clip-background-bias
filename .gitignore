@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+data/
+.cache/
+local_outputs/
+results/smoke/
+**/example_visualizations.png
+*.log
+.env
+*.pt
+*.pth
+*.safetensors
+*.tar.gz
+*.egg-info/
+.DS_Store

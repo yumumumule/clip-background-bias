@@ -1,0 +1,18 @@
+# Paths are relative to the repository root. CLI values override this file.
+data_dir: data
+output_dir: results/main
+cache_dir: .cache
+local_dir: local_outputs
+samples: 370
+seed: 42
+batch_size: 32
+device: auto
+bootstrap: 5000
+padding: 0.10
+blur_radius: 12.0
+gray: [128, 128, 128]
+uniform: [230, 230, 230]
+boundary: include
+model: ViT-B-32
+pretrained: openai
+prompt: "a photo of a {breed}"
