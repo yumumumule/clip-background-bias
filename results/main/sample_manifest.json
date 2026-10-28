@@ -1,0 +1,5922 @@
+[
+  {
+    "dataset_index": 10,
+    "image_id": "Abyssinian_215",
+    "label": 0,
+    "breed": "abyssinian",
+    "width": 300,
+    "height": 225,
+    "box": [
+      6,
+      0,
+      289,
+      206
+    ],
+    "image_sha256": "84a7e7fcf7d6dee4bc8a921b909c53577a27eed997ae2d4956aa144544240823",
+    "trimap_sha256": "9334a6a22c022fbf241424c023b234dfa14a5ef2d5076ac9147910b66a42c906"
+  },
+  {
+    "dataset_index": 18,
+    "image_id": "Abyssinian_224",
+    "label": 0,
+    "breed": "abyssinian",
+    "width": 225,
+    "height": 300,
+    "box": [
+      11,
+      0,
+      225,
+      300
+    ],
+    "image_sha256": "917409ad94d8e502e48ef8b2f053d4eaf2e3ebaf6cae4b7454d810b550ac1a3e",
+    "trimap_sha256": "31571a529bcbc494387ae4cf4f4d21b7d024e10b956e8fe2bfb5fd3f993152c7"
+  },
+  {
+    "dataset_index": 24,
+    "image_id": "Abyssinian_232",
+    "label": 0,
+    "breed": "abyssinian",
+    "width": 277,
+    "height": 300,
+    "box": [
+      60,
+      0,
+      236,
+      300
+    ],
+    "image_sha256": "83501b72af8f1e5d8cd065da9b306ebe650af78815b9824d0ccb63b92ee0a6c8",
+    "trimap_sha256": "739980d43ae7762d80d65af315500aae2cae834d47859cd8991f8bd0cf33ff12"
+  },
+  {
+    "dataset_index": 28,
+    "image_id": "Abyssinian_27",
+    "label": 0,
+    "breed": "abyssinian",
+    "width": 400,
+    "height": 286,
+    "box": [
+      0,
+      0,
+      400,
+      286
+    ],
+    "image_sha256": "0053cc18d369e793aa20e22f93f217bdf26123736e875e7f374f28d47cb4588d",
+    "trimap_sha256": "25ac28ff43eb1c4f9f09221f96c6dd6cfabe65c2ad4699d05b5036b702b2544d"
+  },
+  {
+    "dataset_index": 36,
+    "image_id": "Abyssinian_37",
+    "label": 0,
+    "breed": "abyssinian",
+    "width": 1600,
+    "height": 1200,
+    "box": [
+      406,
+      235,
+      1600,
+      1019
+    ],
+    "image_sha256": "9e41096525b0a6febdefee32f1148dbcc69f914f80aeee230c746efd991359c0",
+    "trimap_sha256": "6eef5a3f5dd8fa5d723c20d5f5e9b37442a4f390223547edf3ebce404f72ba77"
+  },
+  {
+    "dataset_index": 40,
+    "image_id": "Abyssinian_44",
+    "label": 0,
+    "breed": "abyssinian",
+    "width": 990,
+    "height": 962,
+    "box": [
+      0,
+      0,
+      834,
+      962
+    ],
+    "image_sha256": "4f0dffb04696e3d99eeb43ec80a1344222645b2f8834ab60303c3bafe51911c8",
+    "trimap_sha256": "1dba7ea90103d5e69278b7fb79433335fda1d22c5b86ade655c85beafcedaf8f"
+  },
+  {
+    "dataset_index": 46,
+    "image_id": "Abyssinian_4",
+    "label": 0,
+    "breed": "abyssinian",
+    "width": 335,
+    "height": 500,
+    "box": [
+      0,
+      41,
+      335,
+      500
+    ],
+    "image_sha256": "7a0fa532ca8ec312b147db57b08e0f03b8c9009d29f9bbb1c73efaaf9f9ad30a",
+    "trimap_sha256": "00e9d51fc45cdc8b488a910989e6118f48e1dcd69992c2f8432d6a2a458c2609"
+  },
+  {
+    "dataset_index": 50,
+    "image_id": "Abyssinian_54",
+    "label": 0,
+    "breed": "abyssinian",
+    "width": 500,
+    "height": 442,
+    "box": [
+      57,
+      0,
+      448,
+      416
+    ],
+    "image_sha256": "0e8fda8a326218dc5b5a26feb4a5af175efb353c1d629a86b84eb53a1868e9d2",
+    "trimap_sha256": "e25d3c1875ca427bbaf53318b1ada509479a97a838ed329ab28551e466a49ea6"
+  },
+  {
+    "dataset_index": 53,
+    "image_id": "Abyssinian_57",
+    "label": 0,
+    "breed": "abyssinian",
+    "width": 375,
+    "height": 500,
+    "box": [
+      0,
+      0,
+      375,
+      500
+    ],
+    "image_sha256": "759def9427426ba683c48b6f6fd62d6cdbf7476e36d92171f9a0ea09b9dab267",
+    "trimap_sha256": "d2c7ad913555ec8dac94ec5150286de1724a4ded04202d5a286c2b1188880e1f"
+  },
+  {
+    "dataset_index": 71,
+    "image_id": "Abyssinian_75",
+    "label": 0,
+    "breed": "abyssinian",
+    "width": 275,
+    "height": 380,
+    "box": [
+      0,
+      70,
+      258,
+      380
+    ],
+    "image_sha256": "3d84a4ed60e541526a86475b46682f02f831f232398e486770c6c52ee9272a81",
+    "trimap_sha256": "30fea478b63ea8ad869832b705270d07c09b6a2f4450d5436ab073b01b42a81f"
+  },
+  {
+    "dataset_index": 98,
+    "image_id": "american_bulldog_203",
+    "label": 1,
+    "breed": "american bulldog",
+    "width": 334,
+    "height": 500,
+    "box": [
+      0,
+      17,
+      314,
+      500
+    ],
+    "image_sha256": "b8b0bad2388ebff1632d175477ce299ee8f29ab6af1886a4927a686c419f9b30",
+    "trimap_sha256": "0b026e7784bc1c5ae1ea75ef7ad8699903668cceb9c04293c9143419c9b8343a"
+  },
+  {
+    "dataset_index": 114,
+    "image_id": "american_bulldog_22",
+    "label": 1,
+    "breed": "american bulldog",
+    "width": 334,
+    "height": 500,
+    "box": [
+      93,
+      6,
+      334,
+      500
+    ],
+    "image_sha256": "00fd803b562a8dfedfb18ab389150aaf3a8f0b0614f407774bfd308c58328d0e",
+    "trimap_sha256": "ee35b2b832a2b3f04ccdcbbbb9a8b44a08b20f7c116d03e448071c5f83808bef"
+  },
+  {
+    "dataset_index": 118,
+    "image_id": "american_bulldog_26",
+    "label": 1,
+    "breed": "american bulldog",
+    "width": 500,
+    "height": 334,
+    "box": [
+      76,
+      4,
+      500,
+      334
+    ],
+    "image_sha256": "00df35e78c659266041ae7dd2ef9b0c2f276d19a5260f27bb596e9e9baec2fde",
+    "trimap_sha256": "fe88bd9f2e07713b5a3b519eae14514a6f17f5f28449e8b796ed224e5f6de3a7"
+  },
+  {
+    "dataset_index": 158,
+    "image_id": "american_bulldog_63",
+    "label": 1,
+    "breed": "american bulldog",
+    "width": 500,
+    "height": 376,
+    "box": [
+      91,
+      49,
+      494,
+      353
+    ],
+    "image_sha256": "c50df9101f7a90ac73e61ef88b7450b072cb33daf936a4ae8bfcd0de3a376632",
+    "trimap_sha256": "2d3068f0f59dee75ef8ad32e990dac87ab8b5fcc5cc23aa0e8dfcd8172a0fceb"
+  },
+  {
+    "dataset_index": 160,
+    "image_id": "american_bulldog_65",
+    "label": 1,
+    "breed": "american bulldog",
+    "width": 500,
+    "height": 333,
+    "box": [
+      114,
+      69,
+      382,
+      333
+    ],
+    "image_sha256": "3b29e47662ea75cfa40f20bb0f3ead20edcdddf8f1d335027086e012822b8180",
+    "trimap_sha256": "0fa6d2715de0e3147a99126392a00e28244f1b5af83000548f426c5f092be4c2"
+  },
+  {
+    "dataset_index": 164,
+    "image_id": "american_bulldog_69",
+    "label": 1,
+    "breed": "american bulldog",
+    "width": 400,
+    "height": 500,
+    "box": [
+      67,
+      0,
+      400,
+      500
+    ],
+    "image_sha256": "486c712605b90923863d927c1f424f5e1caf192c57913fcba98bc92d901fd4bb",
+    "trimap_sha256": "d5122baaaa0cea406872f8de1560c79ee81f8b3fecd8edec5e2ee489c5d3556c"
+  },
+  {
+    "dataset_index": 175,
+    "image_id": "american_bulldog_79",
+    "label": 1,
+    "breed": "american bulldog",
+    "width": 500,
+    "height": 396,
+    "box": [
+      12,
+      56,
+      500,
+      396
+    ],
+    "image_sha256": "fb66408ed82b36c35d9e932c336852c40c68a4447802c7daab603279c0a7aa69",
+    "trimap_sha256": "470b01a0ff9f27a5cd920b2d3d5d9e79ba59328abec2bf7f668882542025cf12"
+  },
+  {
+    "dataset_index": 181,
+    "image_id": "american_bulldog_84",
+    "label": 1,
+    "breed": "american bulldog",
+    "width": 500,
+    "height": 376,
+    "box": [
+      78,
+      0,
+      445,
+      376
+    ],
+    "image_sha256": "d3d95772d1fb0579b2452b26f23d701dec092ea691f245b895ef06de97941168",
+    "trimap_sha256": "361eccd439d92fb4c24ce05b600f450f3bab419ea474a4fb52ef433675648939"
+  },
+  {
+    "dataset_index": 189,
+    "image_id": "american_bulldog_92",
+    "label": 1,
+    "breed": "american bulldog",
+    "width": 335,
+    "height": 500,
+    "box": [
+      0,
+      56,
+      301,
+      500
+    ],
+    "image_sha256": "bf88c568122e93498b95354dd3cc70547da44e53b3f154e9f3f2ba645dbbcbe0",
+    "trimap_sha256": "a2ebab955f83ec47230fa970f7b2349475f75d495071cf3b140d222b420ecddf"
+  },
+  {
+    "dataset_index": 191,
+    "image_id": "american_bulldog_94",
+    "label": 1,
+    "breed": "american bulldog",
+    "width": 500,
+    "height": 332,
+    "box": [
+      0,
+      0,
+      500,
+      332
+    ],
+    "image_sha256": "d73f751bcd1ad92f8f8d4da2f36ea24b61279872ee35052f1a36e54b14d630d7",
+    "trimap_sha256": "5db206cac6d77b8847f829c67ca138f30ec4d4c0252fd25623e784e237437b1c"
+  },
+  {
+    "dataset_index": 199,
+    "image_id": "american_pit_bull_terrier_192",
+    "label": 2,
+    "breed": "american pit bull terrier",
+    "width": 234,
+    "height": 300,
+    "box": [
+      0,
+      0,
+      234,
+      300
+    ],
+    "image_sha256": "1247c8696ed99b469da2da122e7f7559001f9ec8159cdd0a493f89939ec5c938",
+    "trimap_sha256": "be3452412e6917b40dd4bd03a9d20a4343bee10185e270f1bd1ebc463f035ad2"
+  },
+  {
+    "dataset_index": 208,
+    "image_id": "american_pit_bull_terrier_1",
+    "label": 2,
+    "breed": "american pit bull terrier",
+    "width": 500,
+    "height": 333,
+    "box": [
+      9,
+      12,
+      500,
+      333
+    ],
+    "image_sha256": "3a80bd36fb2da258f215468aeb5cf58e22597773c521cb242cb44cba6ac11bf2",
+    "trimap_sha256": "d8515ea3eb315c52bec6c0273e9611dcebe5743e8571420ead591f5aee09ec5b"
+  },
+  {
+    "dataset_index": 210,
+    "image_id": "american_pit_bull_terrier_201",
+    "label": 2,
+    "breed": "american pit bull terrier",
+    "width": 199,
+    "height": 300,
+    "box": [
+      0,
+      0,
+      162,
+      300
+    ],
+    "image_sha256": "608c1740389e05356bbaadacf3765a531cae5cee06e29e60195d9fe9dcfd0a85",
+    "trimap_sha256": "364718734d59a904be76dd422905254601639c7683afa42c66416749a67b5377"
+  },
+  {
+    "dataset_index": 213,
+    "image_id": "american_pit_bull_terrier_204",
+    "label": 2,
+    "breed": "american pit bull terrier",
+    "width": 300,
+    "height": 207,
+    "box": [
+      0,
+      0,
+      226,
+      207
+    ],
+    "image_sha256": "a7069d7c2a36212cf0fcc3a9f18c71df7e95cb7fd0b851e9698df0e5c4f99fdb",
+    "trimap_sha256": "81ccbb770af41a1a72b46236c66d5c79e9ad70ba9530576fe591d71a425ae6e7"
+  },
+  {
+    "dataset_index": 218,
+    "image_id": "american_pit_bull_terrier_24",
+    "label": 2,
+    "breed": "american pit bull terrier",
+    "width": 500,
+    "height": 401,
+    "box": [
+      130,
+      44,
+      350,
+      401
+    ],
+    "image_sha256": "e823f0010158c35429ae51035f665741f326b4ab4ca9aaff0b32d83ff68ea3a1",
+    "trimap_sha256": "c38daab12219b64cec23beb30a9126a7ef1e55ba80c6bedc51448c75d2d65b58"
+  },
+  {
+    "dataset_index": 229,
+    "image_id": "american_pit_bull_terrier_35",
+    "label": 2,
+    "breed": "american pit bull terrier",
+    "width": 500,
+    "height": 379,
+    "box": [
+      0,
+      8,
+      400,
+      379
+    ],
+    "image_sha256": "fc7f6b477260497de0429f9147fd78fe7bf603496135d8d9105e6ffa5d6bdcb2",
+    "trimap_sha256": "c84d66dcd4276813b9277b742c0cb790b687436fc182dc6676c924d361e90096"
+  },
+  {
+    "dataset_index": 234,
+    "image_id": "american_pit_bull_terrier_40",
+    "label": 2,
+    "breed": "american pit bull terrier",
+    "width": 332,
+    "height": 500,
+    "box": [
+      22,
+      100,
+      291,
+      386
+    ],
+    "image_sha256": "e27f7c73b36f04ee812ed49ab081684639a01dfb7ab49d70c3d3323b1d140ba0",
+    "trimap_sha256": "90889c581ca72108908d4e1f25a714ae61c33e447864269497618b0cc3600f2c"
+  },
+  {
+    "dataset_index": 235,
+    "image_id": "american_pit_bull_terrier_41",
+    "label": 2,
+    "breed": "american pit bull terrier",
+    "width": 500,
+    "height": 460,
+    "box": [
+      28,
+      0,
+      392,
+      460
+    ],
+    "image_sha256": "27a5a5e0d74f6751599796f71dd3e431e3d0d88f0db81024c362db56324ac559",
+    "trimap_sha256": "9ebb70c6a738d0d6cd0c2b3a7d4ef7c3334aa4edea9059ad566c818913c9d92a"
+  },
+  {
+    "dataset_index": 250,
+    "image_id": "american_pit_bull_terrier_55",
+    "label": 2,
+    "breed": "american pit bull terrier",
+    "width": 337,
+    "height": 500,
+    "box": [
+      0,
+      0,
+      337,
+      500
+    ],
+    "image_sha256": "69e5ea5700f1063732ca98bc266a459f27720f71e7a3056cfcd185a5cb7ae1eb",
+    "trimap_sha256": "22f73c0de89b6bed66faee7d48b98b5e60754acf52ec981fd8be270ac9978ee1"
+  },
+  {
+    "dataset_index": 284,
+    "image_id": "american_pit_bull_terrier_88",
+    "label": 2,
+    "breed": "american pit bull terrier",
+    "width": 336,
+    "height": 500,
+    "box": [
+      25,
+      122,
+      249,
+      370
+    ],
+    "image_sha256": "18b2400a40bcd3f077d146f2aa58420cb2d5abe245a64653dd69c4cbb2a62247",
+    "trimap_sha256": "b36909ec57f05a0b021ca062c10a74fe183d5b4b4e4801ceedeeb3b486653b8c"
+  },
+  {
+    "dataset_index": 302,
+    "image_id": "basset_hound_195",
+    "label": 3,
+    "breed": "basset hound",
+    "width": 333,
+    "height": 500,
+    "box": [
+      0,
+      0,
+      297,
+      500
+    ],
+    "image_sha256": "1c2e14171ed8e5288456e09e300217ee6a530401cb9035e7c303e3d9b47be7e7",
+    "trimap_sha256": "462fdb73cf614fa52ed86bca3dd28135a61211623e1c08889207b770526ef5d1"
+  },
+  {
+    "dataset_index": 310,
+    "image_id": "basset_hound_20",
+    "label": 3,
+    "breed": "basset hound",
+    "width": 500,
+    "height": 375,
+    "box": [
+      122,
+      0,
+      382,
+      375
+    ],
+    "image_sha256": "e1b21cbc8a0e0bdb8f1742b99f204ff31b29efd7674dd4d8edda044ca546c0fa",
+    "trimap_sha256": "6550ddb3554bda5024e0fc8719dce458d9eb184eebcaad49b9d0c2b0c1568c1d"
+  },
+  {
+    "dataset_index": 321,
+    "image_id": "basset_hound_30",
+    "label": 3,
+    "breed": "basset hound",
+    "width": 500,
+    "height": 332,
+    "box": [
+      55,
+      7,
+      469,
+      252
+    ],
+    "image_sha256": "4283150581b15d06b37f3709ecc841e366375b40a3a262bed1b2d91cb40daae9",
+    "trimap_sha256": "02e92d6740653cc27e91539d5eecafed7add967bb96889a10d91d61fdefa4944"
+  },
+  {
+    "dataset_index": 342,
+    "image_id": "basset_hound_4",
+    "label": 3,
+    "breed": "basset hound",
+    "width": 334,
+    "height": 500,
+    "box": [
+      10,
+      33,
+      334,
+      500
+    ],
+    "image_sha256": "0b78b0c812c3113ee3ce31f1c26d7bfdabb0025b6413d11a5cc479064e96d991",
+    "trimap_sha256": "fa646ed385b11423ba3a5b5fff11979b02533ef6f168729139246b983894583c"
+  },
+  {
+    "dataset_index": 347,
+    "image_id": "basset_hound_54",
+    "label": 3,
+    "breed": "basset hound",
+    "width": 500,
+    "height": 375,
+    "box": [
+      85,
+      0,
+      379,
+      340
+    ],
+    "image_sha256": "47c611d955467c16d682b58c5243fa05175cbdcb997b94e7c7e751ab62744626",
+    "trimap_sha256": "1489aeefaa94a4cb323a419abeb1ec3dcade97e21649f6d89042dbef89419731"
+  },
+  {
+    "dataset_index": 354,
+    "image_id": "basset_hound_60",
+    "label": 3,
+    "breed": "basset hound",
+    "width": 500,
+    "height": 332,
+    "box": [
+      202,
+      0,
+      426,
+      332
+    ],
+    "image_sha256": "801853ce5e6cafe69e86f59c7dc6a0b3084f39cc962d555954004430dec8f1ae",
+    "trimap_sha256": "b2682f2fded85a49ccd2836dca3f15d1db213a71bd41592964ae593144b0fb2d"
+  },
+  {
+    "dataset_index": 359,
+    "image_id": "basset_hound_65",
+    "label": 3,
+    "breed": "basset hound",
+    "width": 500,
+    "height": 403,
+    "box": [
+      195,
+      69,
+      416,
+      386
+    ],
+    "image_sha256": "c2f16325fe01e847ece34d2f7054fde917373acae5052c2d02167290d2dfa2d9",
+    "trimap_sha256": "de8bb9fc559527d5ead187e39af60953d8f749026ccd790adcf058f6d8f909f8"
+  },
+  {
+    "dataset_index": 369,
+    "image_id": "basset_hound_74",
+    "label": 3,
+    "breed": "basset hound",
+    "width": 500,
+    "height": 445,
+    "box": [
+      79,
+      73,
+      422,
+      445
+    ],
+    "image_sha256": "85f3c32eb821be5b0180447d2139a6f6b4b325865b134e31cc1c3649368a20e1",
+    "trimap_sha256": "d053303e5605b3e8e8518ecf19ab36d9b21ef8cf37aa2aa3378818860aa8e3cb"
+  },
+  {
+    "dataset_index": 371,
+    "image_id": "basset_hound_76",
+    "label": 3,
+    "breed": "basset hound",
+    "width": 500,
+    "height": 444,
+    "box": [
+      73,
+      82,
+      500,
+      418
+    ],
+    "image_sha256": "f9617ebf12c6858d779a9e452f7ad2b9bdac1a5e826dbb7caaf054e5151b189a",
+    "trimap_sha256": "2cb9d09fd3e72cee21b622790f0c620be8d890937e0fb717c8f5cc6fa31dfa86"
+  },
+  {
+    "dataset_index": 388,
+    "image_id": "basset_hound_91",
+    "label": 3,
+    "breed": "basset hound",
+    "width": 500,
+    "height": 341,
+    "box": [
+      98,
+      89,
+      397,
+      308
+    ],
+    "image_sha256": "fb22451d6a5b2c1e51923636d96ee45d76c2a5c5ddc11c25c8ea692c4ed36010",
+    "trimap_sha256": "faf79563e563043cfb3a64c270c9a19fc1444b949fe734ab8729a42aa3427730"
+  },
+  {
+    "dataset_index": 422,
+    "image_id": "beagle_31",
+    "label": 4,
+    "breed": "beagle",
+    "width": 500,
+    "height": 449,
+    "box": [
+      55,
+      0,
+      500,
+      449
+    ],
+    "image_sha256": "9c1215304460b0de4842b30fb73c0ce81661ef45221cbb6dac1863b2f8d9d5c2",
+    "trimap_sha256": "66838310d4d090458830d3c0e17e89d1e4a271f09fbf9472f0aab74a3540f296"
+  },
+  {
+    "dataset_index": 423,
+    "image_id": "beagle_32",
+    "label": 4,
+    "breed": "beagle",
+    "width": 500,
+    "height": 333,
+    "box": [
+      0,
+      0,
+      399,
+      333
+    ],
+    "image_sha256": "8b2c4c65f4b6c6d14ba2574220e782947d556af790f2733d9da536b75d1fe66c",
+    "trimap_sha256": "f2429ab9f8f9b0092329ebb4f2264afa539aaffd5e403711a3d2a26acbd05f9b"
+  },
+  {
+    "dataset_index": 424,
+    "image_id": "beagle_33",
+    "label": 4,
+    "breed": "beagle",
+    "width": 500,
+    "height": 309,
+    "box": [
+      270,
+      12,
+      408,
+      249
+    ],
+    "image_sha256": "5cf0f897b3732ef8244e5d14fb640b11973c41fec5e5db3aa2762a8ddf20b3d7",
+    "trimap_sha256": "1fc354637c48607f6a07e5b3d2469c6dc7f1840076b545b873b988f1b275de35"
+  },
+  {
+    "dataset_index": 432,
+    "image_id": "beagle_40",
+    "label": 4,
+    "breed": "beagle",
+    "width": 500,
+    "height": 375,
+    "box": [
+      0,
+      0,
+      500,
+      375
+    ],
+    "image_sha256": "16e3f42eb6bed13fe29a81e2738c73c3f38e71583b82d747c5ec76d57c8a2b0d",
+    "trimap_sha256": "6c2a55e26830117947c6a2663fb5d0f24da2a9ebac1ec5d0d27cc484d021006f"
+  },
+  {
+    "dataset_index": 435,
+    "image_id": "beagle_43",
+    "label": 4,
+    "breed": "beagle",
+    "width": 500,
+    "height": 375,
+    "box": [
+      108,
+      29,
+      389,
+      375
+    ],
+    "image_sha256": "510423866f63ba1584b3da66aa4c9e8079b0286b93d9e077c717d65c570c78d0",
+    "trimap_sha256": "5c15240b4016a9bc76e3bdfa2218e94a36f6705cc869921c8502f44a11bb0ff8"
+  },
+  {
+    "dataset_index": 437,
+    "image_id": "beagle_45",
+    "label": 4,
+    "breed": "beagle",
+    "width": 500,
+    "height": 333,
+    "box": [
+      103,
+      53,
+      390,
+      317
+    ],
+    "image_sha256": "2378684918585e89353bd06c438416834fd1c9cdbf9b6d73831cfa2a27abec93",
+    "trimap_sha256": "d04adb5cd10c762166352b0dd4f4d4fa3196ebca9ea71d5878180e948028dfc3"
+  },
+  {
+    "dataset_index": 440,
+    "image_id": "beagle_48",
+    "label": 4,
+    "breed": "beagle",
+    "width": 500,
+    "height": 365,
+    "box": [
+      15,
+      0,
+      492,
+      365
+    ],
+    "image_sha256": "c3524b96b6e5949a6cd5321d3386a1f624657a45ade45faea2a1a906bbbfb7e8",
+    "trimap_sha256": "bf36d684b6ea754dec29816c21c96a6ad7c5808e065bf0f1b20a478c9ac995f4"
+  },
+  {
+    "dataset_index": 456,
+    "image_id": "beagle_62",
+    "label": 4,
+    "breed": "beagle",
+    "width": 500,
+    "height": 334,
+    "box": [
+      0,
+      0,
+      487,
+      334
+    ],
+    "image_sha256": "dcc35c261d170ddd58970788bed01232c892c8996aec075ab2628c212d8a2700",
+    "trimap_sha256": "ab8dae5f03af2dee5677cf71b7a7c4d9b07c60ec2fe4cac7578c8c016edc9ee2"
+  },
+  {
+    "dataset_index": 483,
+    "image_id": "beagle_87",
+    "label": 4,
+    "breed": "beagle",
+    "width": 500,
+    "height": 334,
+    "box": [
+      105,
+      32,
+      391,
+      334
+    ],
+    "image_sha256": "410e7235a4689c41322301cee75f8c3fc884bab458b263582be7939b6ed54c06",
+    "trimap_sha256": "a0eb929fee492f4e8a2cd6dd454052df9249043d864439568d1192d09697d219"
+  },
+  {
+    "dataset_index": 496,
+    "image_id": "beagle_99",
+    "label": 4,
+    "breed": "beagle",
+    "width": 375,
+    "height": 500,
+    "box": [
+      0,
+      0,
+      360,
+      381
+    ],
+    "image_sha256": "e9b8f2590604f913c653accd9f3b51c93c93ab16f371f014da418959cc19499e",
+    "trimap_sha256": "16e442e56643766f3a20907d8e31c3a215bcc284a3c8ac6ed1f49455adb31bbe"
+  },
+  {
+    "dataset_index": 515,
+    "image_id": "Bengal_25",
+    "label": 5,
+    "breed": "bengal",
+    "width": 500,
+    "height": 364,
+    "box": [
+      59,
+      0,
+      405,
+      234
+    ],
+    "image_sha256": "f4c827e926f2888cf78e6eadc097d4245713bb246efb22e31836c94629f87f2b",
+    "trimap_sha256": "37222069d76a68c2e65656d15e9d7a89c7a4a9f7ca88e19a4cfc5e9d44dd55a4"
+  },
+  {
+    "dataset_index": 516,
+    "image_id": "Bengal_26",
+    "label": 5,
+    "breed": "bengal",
+    "width": 500,
+    "height": 333,
+    "box": [
+      0,
+      105,
+      500,
+      253
+    ],
+    "image_sha256": "83c9f6eb4058d04833538c233e53e3c6d6eecd40d0600e8d1f2569746546854a",
+    "trimap_sha256": "bde4a0c97c77c636c3cc3d515fe1dac0112be0298065c6a6f0d6f47589765c74"
+  },
+  {
+    "dataset_index": 522,
+    "image_id": "Bengal_31",
+    "label": 5,
+    "breed": "bengal",
+    "width": 500,
+    "height": 333,
+    "box": [
+      0,
+      0,
+      416,
+      333
+    ],
+    "image_sha256": "33c31133ea55e8cd4e97277cb749423f4b13ba2d5787e20028f15a935cd9f4bd",
+    "trimap_sha256": "5855293750f0158ed2f20f494cf388e1788de291ef12db238217c9e054a78289"
+  },
+  {
+    "dataset_index": 527,
+    "image_id": "Bengal_36",
+    "label": 5,
+    "breed": "bengal",
+    "width": 500,
+    "height": 375,
+    "box": [
+      95,
+      131,
+      369,
+      280
+    ],
+    "image_sha256": "bd4a4aaea936a58531c5ae2d6d6f1d827758b5a3437f8d14c2e61e99be520c14",
+    "trimap_sha256": "e4696eff6712b78ea30acf58f2c70d473e6e8b0ebc5984909b0d46d5ae5b2dc6"
+  },
+  {
+    "dataset_index": 529,
+    "image_id": "Bengal_38",
+    "label": 5,
+    "breed": "bengal",
+    "width": 500,
+    "height": 333,
+    "box": [
+      0,
+      0,
+      479,
+      333
+    ],
+    "image_sha256": "507baea52e1c0f9680594b3a62697f414aa892c96ecef2a08dc86c7b2b1f7254",
+    "trimap_sha256": "12dc583195d467476cf53ed09366a411f27116367bd6ce5041f24928fed97a07"
+  },
+  {
+    "dataset_index": 539,
+    "image_id": "Bengal_47",
+    "label": 5,
+    "breed": "bengal",
+    "width": 500,
+    "height": 375,
+    "box": [
+      0,
+      84,
+      403,
+      375
+    ],
+    "image_sha256": "c9d43917dbdb245a001e58ee964ee2236b0c8bf4b1ceb58e4f89af5541e993ff",
+    "trimap_sha256": "42fc99368367aea4dca0d83f31622a802a715b8df5a00e7d61485a2e80283795"
+  },
+  {
+    "dataset_index": 540,
+    "image_id": "Bengal_48",
+    "label": 5,
+    "breed": "bengal",
+    "width": 500,
+    "height": 333,
+    "box": [
+      0,
+      2,
+      500,
+      289
+    ],
+    "image_sha256": "395733cf4d469e98da57e4e83a86e360a1c117340491daa9b4c32bf7b49cb09d",
+    "trimap_sha256": "895fd855bbe2d2a82e1ed4077320c1918cdd4c2d8e98ef356ef32a327533a05f"
+  },
+  {
+    "dataset_index": 557,
+    "image_id": "Bengal_63",
+    "label": 5,
+    "breed": "bengal",
+    "width": 500,
+    "height": 375,
+    "box": [
+      0,
+      0,
+      500,
+      375
+    ],
+    "image_sha256": "6db237023c703d92e8556eae69c91d770ff2797c8c331e71000e86b6e75c464a",
+    "trimap_sha256": "cc41b3d85af232f7fe6b1bd11595d5f12172f592e0068ce51ef21e6ccd4c814f"
+  },
+  {
+    "dataset_index": 588,
+    "image_id": "Bengal_91",
+    "label": 5,
+    "breed": "bengal",
+    "width": 500,
+    "height": 333,
+    "box": [
+      0,
+      5,
+      464,
+      333
+    ],
+    "image_sha256": "745f1fb882305ffa2fea0c4fac5c87878ddba5d99a9934b3249d0494dcc8c2f4",
+    "trimap_sha256": "4eda5eb219ca590873485f36107fd70f3667b2c1653d39b452cae9292f85f186"
+  },
+  {
+    "dataset_index": 597,
+    "image_id": "Bengal_9",
+    "label": 5,
+    "breed": "bengal",
+    "width": 500,
+    "height": 333,
+    "box": [
+      177,
+      51,
+      500,
+      333
+    ],
+    "image_sha256": "a7ef4b7f574327680e2214a10538e55ca98eaf1c5e5cba18adccda8e247c7630",
+    "trimap_sha256": "1655100ce86422f4a61af526c267839c3aebbf520eb4bbe987b5f96c9a4ac476"
+  },
+  {
+    "dataset_index": 616,
+    "image_id": "Birman_26",
+    "label": 6,
+    "breed": "birman",
+    "width": 334,
+    "height": 500,
+    "box": [
+      80,
+      5,
+      332,
+      500
+    ],
+    "image_sha256": "9e3f30c471556a4a3fc0bced0a225fa27a6f916d2584c11938b9b149bf6301c6",
+    "trimap_sha256": "515aba6b7be27a233a8d6ffffc84a4d06f50c64f4bccc1e3f6363ae6e84335bd"
+  },
+  {
+    "dataset_index": 633,
+    "image_id": "Birman_41",
+    "label": 6,
+    "breed": "birman",
+    "width": 500,
+    "height": 332,
+    "box": [
+      10,
+      0,
+      487,
+      332
+    ],
+    "image_sha256": "c1f816839f86b7609d5410c58278a16a182ce440e30bb616315ef9890dcea63e",
+    "trimap_sha256": "b6a2a3f1fa882b51953f98c91bff4cfd2973819d2220570ba32b7939cf93226d"
+  },
+  {
+    "dataset_index": 634,
+    "image_id": "Birman_42",
+    "label": 6,
+    "breed": "birman",
+    "width": 330,
+    "height": 500,
+    "box": [
+      0,
+      0,
+      330,
+      500
+    ],
+    "image_sha256": "159a3e9f585b220bd4ec0a00b31f1e82af549b8b7ce38ff9b5db9ae644d6537b",
+    "trimap_sha256": "aabcddc27fd30406dbe3d5b53e1d80fad16c65fc73b074e448cd1daa5fb31810"
+  },
+  {
+    "dataset_index": 639,
+    "image_id": "Birman_47",
+    "label": 6,
+    "breed": "birman",
+    "width": 500,
+    "height": 333,
+    "box": [
+      0,
+      5,
+      500,
+      333
+    ],
+    "image_sha256": "a7c7a6d7e185788ef972ba9a2a19e042d1837eadb5e1542b60c031025bf0f343",
+    "trimap_sha256": "2bffbe9b665cdde88b9dad75ad524fd9ce1f44328b7e05b1ae32d3e36c11e675"
+  },
+  {
+    "dataset_index": 644,
+    "image_id": "Birman_51",
+    "label": 6,
+    "breed": "birman",
+    "width": 500,
+    "height": 451,
+    "box": [
+      0,
+      0,
+      500,
+      451
+    ],
+    "image_sha256": "d3bba930f90a3a279deb215c2fc9bf39f58b699d9ecd017067682c9593ed6c9d",
+    "trimap_sha256": "9ff00849eab6b3e12cf3231c5f41a6e3c46a51f7601ed153bfebf66c056eec4e"
+  },
+  {
+    "dataset_index": 649,
+    "image_id": "Birman_56",
+    "label": 6,
+    "breed": "birman",
+    "width": 500,
+    "height": 375,
+    "box": [
+      0,
+      65,
+      471,
+      362
+    ],
+    "image_sha256": "8c4459479d9e271ce9df4ca4b7e3a71f267b2544255f2164e4132c33929e2040",
+    "trimap_sha256": "dcbfe39ad707858a98b1fa8f50e1e6a959d08edf6474739943a1ffa73fbbf318"
+  },
+  {
+    "dataset_index": 665,
+    "image_id": "Birman_70",
+    "label": 6,
+    "breed": "birman",
+    "width": 500,
+    "height": 333,
+    "box": [
+      0,
+      0,
+      500,
+      333
+    ],
+    "image_sha256": "dfe28cb7937148ecc5cdb4e69944ad7c104cb58caa4f68aea8bf34f56b9e9aab",
+    "trimap_sha256": "e7afc97f41fdcad2f7c4c71d527852284cea5201baec6301d6c1511f8c3f8195"
+  },
+  {
+    "dataset_index": 674,
+    "image_id": "Birman_79",
+    "label": 6,
+    "breed": "birman",
+    "width": 500,
+    "height": 334,
+    "box": [
+      0,
+      0,
+      421,
+      334
+    ],
+    "image_sha256": "b4d5c2485b57e0ce44a38bab1715489f70702dad6c0fec729adab5e30aee03bc",
+    "trimap_sha256": "f96cc1fc94cee4378239c094c36eab4d191b87b1a840831d52c04b7bc88c9acc"
+  },
+  {
+    "dataset_index": 688,
+    "image_id": "Birman_91",
+    "label": 6,
+    "breed": "birman",
+    "width": 500,
+    "height": 293,
+    "box": [
+      0,
+      0,
+      500,
+      290
+    ],
+    "image_sha256": "f52255a058cdf395085b1733da593af59464a01fb5f9dd2b2149e66563957734",
+    "trimap_sha256": "2854f21ea974eb6506d3df56923c1816329ee26fd19581666de3b9860b72eae4"
+  },
+  {
+    "dataset_index": 697,
+    "image_id": "Birman_9",
+    "label": 6,
+    "breed": "birman",
+    "width": 500,
+    "height": 375,
+    "box": [
+      155,
+      3,
+      346,
+      308
+    ],
+    "image_sha256": "4c8cf5174ccf5fb7f92ef929b20d6917afe62ac555a4333a3df5696271ad24dd",
+    "trimap_sha256": "e865cc947b361fc8537abd775f41d77cff29a87c0800f5453f4bad125edf7a4c"
+  },
+  {
+    "dataset_index": 698,
+    "image_id": "Bombay_200",
+    "label": 7,
+    "breed": "bombay",
+    "width": 275,
+    "height": 300,
+    "box": [
+      49,
+      9,
+      237,
+      300
+    ],
+    "image_sha256": "6a740eee49cda586dec02c6f737e635633587a48e398caf38405757402e96dac",
+    "trimap_sha256": "377328e22e189326fc99d39442fcf2462e6fdd05c5fb34b8fafcfbed94c73e5d"
+  },
+  {
+    "dataset_index": 704,
+    "image_id": "Bombay_20",
+    "label": 7,
+    "breed": "bombay",
+    "width": 500,
+    "height": 334,
+    "box": [
+      0,
+      1,
+      493,
+      334
+    ],
+    "image_sha256": "4f38af0f49a8f90f62b331968a442c2a5c16ff4634c5a805762a125e5ca49e09",
+    "trimap_sha256": "467c47948967d4ab6ebbe65cc45b7c65a4ddbebdc61f574913ea6e81ec80024a"
+  },
+  {
+    "dataset_index": 708,
+    "image_id": "Bombay_21",
+    "label": 7,
+    "breed": "bombay",
+    "width": 225,
+    "height": 225,
+    "box": [
+      8,
+      0,
+      225,
+      225
+    ],
+    "image_sha256": "a0643b26ae0f7598011ac68299225093cddaecbcdee324f5eed0ba4c787c9172",
+    "trimap_sha256": "5c65663c8e7e2e676a50c76b2aa031c6f76c10154082bac0c4cc8f31e4a871d9"
+  },
+  {
+    "dataset_index": 712,
+    "image_id": "Bombay_25",
+    "label": 7,
+    "breed": "bombay",
+    "width": 400,
+    "height": 300,
+    "box": [
+      0,
+      0,
+      376,
+      300
+    ],
+    "image_sha256": "ac67c6682f85b11d8dadaff8d27174f2e6aa3cb0949df83cf9e67fd9265837ce",
+    "trimap_sha256": "1ec54e6251f686805d814e9c221f8c701030c283cf4dfd615a413596b07be7d4"
+  },
+  {
+    "dataset_index": 726,
+    "image_id": "Bombay_40",
+    "label": 7,
+    "breed": "bombay",
+    "width": 500,
+    "height": 375,
+    "box": [
+      0,
+      56,
+      500,
+      287
+    ],
+    "image_sha256": "24a346282ed100c979bd8dbe316efc6978c008ad4c3c3ba8dd32e98c95812aa1",
+    "trimap_sha256": "b6122fb477a21ff693f953e3b9df0554ef2d4018906ba5c3eabdfe5aa064feb6"
+  },
+  {
+    "dataset_index": 747,
+    "image_id": "Bombay_61",
+    "label": 7,
+    "breed": "bombay",
+    "width": 500,
+    "height": 375,
+    "box": [
+      69,
+      0,
+      500,
+      375
+    ],
+    "image_sha256": "ce918f5d36319a828544078d50644b1edd9e2cfa159c6700c186a6726f9bf752",
+    "trimap_sha256": "c9b1f6e7ac0b09e030de180bceb353dfba6368128bd0c59f2ea638cd1a08b828"
+  },
+  {
+    "dataset_index": 750,
+    "image_id": "Bombay_64",
+    "label": 7,
+    "breed": "bombay",
+    "width": 300,
+    "height": 197,
+    "box": [
+      45,
+      0,
+      294,
+      197
+    ],
+    "image_sha256": "06cf11dd99857f33aee83e99db384b8c269d5054e2fc0a963babe4166753551e",
+    "trimap_sha256": "2120deb706e41c57e0d60245245b337acf1ce0ce2bad85a84410bb21f328951c"
+  },
+  {
+    "dataset_index": 761,
+    "image_id": "Bombay_75",
+    "label": 7,
+    "breed": "bombay",
+    "width": 240,
+    "height": 270,
+    "box": [
+      0,
+      0,
+      240,
+      270
+    ],
+    "image_sha256": "5db18dd2c48688e08e99d06dfa10b9de8ca4c657e858277407009eec6d679854",
+    "trimap_sha256": "04e792e753695c7e09e01d27b7b70602f8d7de5b5fa4747ae3cd7adc294e2592"
+  },
+  {
+    "dataset_index": 778,
+    "image_id": "Bombay_91",
+    "label": 7,
+    "breed": "bombay",
+    "width": 500,
+    "height": 375,
+    "box": [
+      42,
+      0,
+      500,
+      375
+    ],
+    "image_sha256": "1f641901ce652ba640f6ca648cc2f801f7820e921bb4abe5bc3d4a5e5f554169",
+    "trimap_sha256": "8c52898f8cf1810939d329b022948dfb80d442652abdd659f812d39c0e6dadca"
+  },
+  {
+    "dataset_index": 784,
+    "image_id": "Bombay_98",
+    "label": 7,
+    "breed": "bombay",
+    "width": 242,
+    "height": 320,
+    "box": [
+      3,
+      0,
+      242,
+      320
+    ],
+    "image_sha256": "ca32395555e3de8b7b71a074a207e26b6a626cb259da89fcbb8466015ac49e40",
+    "trimap_sha256": "d6482b71cb2e6fbcded5c4e1d29e65563e7793b8b78b9cf7b1ace936ff7b3a0c"
+  },
+  {
+    "dataset_index": 788,
+    "image_id": "boxer_193",
+    "label": 8,
+    "breed": "boxer",
+    "width": 333,
+    "height": 500,
+    "box": [
+      24,
+      0,
+      286,
+      489
+    ],
+    "image_sha256": "cf336d7bd6b7f2fac2e39600e87dfe0c993c6c77448ffae130cd3064e11de516",
+    "trimap_sha256": "d3f117e95b9fbce86dc9e75a6bdb260f4137a5f958f84b0d54ba645cf28bb36b"
+  },
+  {
+    "dataset_index": 809,
+    "image_id": "boxer_30",
+    "label": 8,
+    "breed": "boxer",
+    "width": 500,
+    "height": 375,
+    "box": [
+      94,
+      29,
+      389,
+      375
+    ],
+    "image_sha256": "ff043576354ad3b578102908ccd4da87e60b5db3b161934db26fd89bd448da74",
+    "trimap_sha256": "965fbe054c7539a5d71027d8626949c3c0db3ada4779e48feea33039f018fa03"
+  },
+  {
+    "dataset_index": 822,
+    "image_id": "boxer_42",
+    "label": 8,
+    "breed": "boxer",
+    "width": 333,
+    "height": 500,
+    "box": [
+      77,
+      6,
+      299,
+      500
+    ],
+    "image_sha256": "497cfbb7af9f0288a1e67262eb38d3d38867e287dec8a69d6cd3f6d222b06cba",
+    "trimap_sha256": "8ae2744ea60a8399a11b8fd344a4698bd4105ec31c1070e2e38b634618c2619e"
+  },
+  {
+    "dataset_index": 824,
+    "image_id": "boxer_44",
+    "label": 8,
+    "breed": "boxer",
+    "width": 500,
+    "height": 370,
+    "box": [
+      0,
+      0,
+      500,
+      370
+    ],
+    "image_sha256": "0afdc40900f1ad552f0f64bcae2d84cbcfd3e58fa88880cb7bd37cb04696c2e3",
+    "trimap_sha256": "a9bc147f9c3f0c9aed6c3e980b1d5763fd294311ffbe7ea1248e8f63abbc2051"
+  },
+  {
+    "dataset_index": 831,
+    "image_id": "boxer_50",
+    "label": 8,
+    "breed": "boxer",
+    "width": 333,
+    "height": 500,
+    "box": [
+      83,
+      0,
+      298,
+      500
+    ],
+    "image_sha256": "6a6cdc93480d4fb81c1ed0814a33c44a47b8ca2e805ec2e3e058385a5d5df6b3",
+    "trimap_sha256": "be35677acd7a2cec398a983c3abcb1c6d6d4cdb64f3b2451c5e68e5d617e36ca"
+  },
+  {
+    "dataset_index": 835,
+    "image_id": "boxer_54",
+    "label": 8,
+    "breed": "boxer",
+    "width": 500,
+    "height": 464,
+    "box": [
+      0,
+      0,
+      500,
+      464
+    ],
+    "image_sha256": "aca6a93d8134d897d1e2c921f1f810c50ce734c1d298e8a12c3d49ca4ec8afbd",
+    "trimap_sha256": "62d30b8ab538a98f9642edcebe19573041497772e596154c3d04dea7976ccdc0"
+  },
+  {
+    "dataset_index": 859,
+    "image_id": "boxer_76",
+    "label": 8,
+    "breed": "boxer",
+    "width": 438,
+    "height": 500,
+    "box": [
+      25,
+      20,
+      274,
+      500
+    ],
+    "image_sha256": "e05fa4aace49a143cedb13c36eb8840bd554b3a5c330c2e799e6b87e3511b2a5",
+    "trimap_sha256": "f0fb75ade879982379e37e578142298f4a8e231c19c3c1eed58cd6bfa426b728"
+  },
+  {
+    "dataset_index": 860,
+    "image_id": "boxer_77",
+    "label": 8,
+    "breed": "boxer",
+    "width": 500,
+    "height": 336,
+    "box": [
+      49,
+      0,
+      500,
+      336
+    ],
+    "image_sha256": "a870bfcfee5296d15f982822833abbebf075533d150e75c36bbcdf2cea77ee59",
+    "trimap_sha256": "2b64108c35b3973e504681dc57965ee2261e4a2c96065fc15d10588b2a06597b"
+  },
+  {
+    "dataset_index": 861,
+    "image_id": "boxer_78",
+    "label": 8,
+    "breed": "boxer",
+    "width": 500,
+    "height": 375,
+    "box": [
+      0,
+      0,
+      500,
+      375
+    ],
+    "image_sha256": "7172f08cf353a7936608eba9b3768bea80665cd2b6895894d158ef7635b2b179",
+    "trimap_sha256": "2fff393a49d195f3ab9d1302d115fae2b107d7640898f3f12eb7c92e41f6921d"
+  },
+  {
+    "dataset_index": 879,
+    "image_id": "boxer_95",
+    "label": 8,
+    "breed": "boxer",
+    "width": 500,
+    "height": 375,
+    "box": [
+      56,
+      1,
+      500,
+      375
+    ],
+    "image_sha256": "028c46df6ca10f7d65164c2c53b0f5142744d6cd858656e97be536c370dbcbff",
+    "trimap_sha256": "5127a58c34e9dabc39b980ff4e5ec753de9b83b5215783c7999849c2b70f7c83"
+  },
+  {
+    "dataset_index": 890,
+    "image_id": "British_Shorthair_22",
+    "label": 9,
+    "breed": "british shorthair",
+    "width": 361,
+    "height": 500,
+    "box": [
+      0,
+      137,
+      353,
+      500
+    ],
+    "image_sha256": "79df40ef7a239644f6bb246e07ace8a33d1b70d0fd72cd90ad65aa1a4e0b45c1",
+    "trimap_sha256": "d0a4f61c0f8af30729cf4ba32be283ef9a86e041f071f42cda7017aba232f309"
+  },
+  {
+    "dataset_index": 913,
+    "image_id": "British_Shorthair_27",
+    "label": 9,
+    "breed": "british shorthair",
+    "width": 375,
+    "height": 500,
+    "box": [
+      26,
+      81,
+      276,
+      484
+    ],
+    "image_sha256": "bdf387f09f60f8c9835802202b4e1b39e29b78e57a37961b78dc25009495ecff",
+    "trimap_sha256": "7323a987665426396e57f63ed900193e4fee08f8c7c824d7a10c234e5e8a134b"
+  },
+  {
+    "dataset_index": 917,
+    "image_id": "British_Shorthair_30",
+    "label": 9,
+    "breed": "british shorthair",
+    "width": 375,
+    "height": 500,
+    "box": [
+      0,
+      1,
+      375,
+      500
+    ],
+    "image_sha256": "a04c0fffeed476267734d2bec0c74201890e1f350e849b86cef27684f627edf5",
+    "trimap_sha256": "00084366e11cc55969a699e20bf2fa81139ef21042e9631f0a54c153dc33975a"
+  },
+  {
+    "dataset_index": 934,
+    "image_id": "British_Shorthair_47",
+    "label": 9,
+    "breed": "british shorthair",
+    "width": 500,
+    "height": 333,
+    "box": [
+      0,
+      0,
+      434,
+      333
+    ],
+    "image_sha256": "39187dc2ba4ad60677cf2ac8d57a084f1fed3f5aaa96a3f650f7d298450424cd",
+    "trimap_sha256": "674ea9064392b752ba1be76e5143cdcd8d8f44a8ed8a695fba6f658bd7682332"
+  },
+  {
+    "dataset_index": 959,
+    "image_id": "British_Shorthair_72",
+    "label": 9,
+    "breed": "british shorthair",
+    "width": 333,
+    "height": 500,
+    "box": [
+      35,
+      28,
+      333,
+      500
+    ],
+    "image_sha256": "8a623a43e69a2724fb0db07e2a5d7a2453741dc25caa45f8bd837b8f2af4bac9",
+    "trimap_sha256": "60c5620bcc984902a41d6789617bc6df4cc19bed71a0157a94bcbcdeec331241"
+  },
+  {
+    "dataset_index": 967,
+    "image_id": "British_Shorthair_84",
+    "label": 9,
+    "breed": "british shorthair",
+    "width": 500,
+    "height": 375,
+    "box": [
+      0,
+      0,
+      433,
+      375
+    ],
+    "image_sha256": "aa29ee18c4cd297bdd0bf9b92fee20cbc6765c06b0c47d8b01b83df8b06b1b7b",
+    "trimap_sha256": "20cec61eb022789fd53df0a006e140f4e36b3db0be7ba8cc2a39caa14c51292d"
+  },
+  {
+    "dataset_index": 968,
+    "image_id": "British_Shorthair_85",
+    "label": 9,
+    "breed": "british shorthair",
+    "width": 500,
+    "height": 333,
+    "box": [
+      0,
+      0,
+      418,
+      333
+    ],
+    "image_sha256": "889b4d70717d8f77e7e839b62f867ffb914d58fd66484d3808ef9ab008c813cf",
+    "trimap_sha256": "787912cf149db27f350a434a1fde45d7d85016a9f5ab754da0e6647c3eec7935"
+  },
+  {
+    "dataset_index": 975,
+    "image_id": "British_Shorthair_91",
+    "label": 9,
+    "breed": "british shorthair",
+    "width": 500,
+    "height": 335,
+    "box": [
+      28,
+      3,
+      361,
+      335
+    ],
+    "image_sha256": "63af897a55441a877bec7bd12677b2a9227a621c59f3fcd0908777de2fd709ba",
+    "trimap_sha256": "cd57874300c69ba7ee00f9b2a7d7dffc4bf6a961b25b725088c868ecf5a775dd"
+  },
+  {
+    "dataset_index": 978,
+    "image_id": "British_Shorthair_94",
+    "label": 9,
+    "breed": "british shorthair",
+    "width": 500,
+    "height": 375,
+    "box": [
+      0,
+      0,
+      500,
+      375
+    ],
+    "image_sha256": "4897f81d460aa15de8a7963a1c537c8266380c2e0251c82106daae0292a77b10",
+    "trimap_sha256": "4e3941da9c1728c3779fc17831a51dde9a45b9dbfb10d6e81fbcf1bc3179c69c"
+  },
+  {
+    "dataset_index": 980,
+    "image_id": "British_Shorthair_96",
+    "label": 9,
+    "breed": "british shorthair",
+    "width": 335,
+    "height": 500,
+    "box": [
+      56,
+      104,
+      332,
+      371
+    ],
+    "image_sha256": "4a0670a2ed4fb709d8b70ce4a66294db2967fe456d7205c4689b7a91f80f07f0",
+    "trimap_sha256": "71dad3b1176bd5843f34c3bf7c5d6ff06db00f54f0a137e390258cd38f38561c"
+  },
+  {
+    "dataset_index": 986,
+    "image_id": "chihuahua_192",
+    "label": 10,
+    "breed": "chihuahua",
+    "width": 300,
+    "height": 225,
+    "box": [
+      3,
+      0,
+      272,
+      225
+    ],
+    "image_sha256": "63fcffc03341748ebabad371d340367a29659051303d4b4df9a3da03ed51199d",
+    "trimap_sha256": "994802751787ab18cf8018e4d6baa098f9e1ff359a8c5395cef04a72bfcbc8da"
+  },
+  {
+    "dataset_index": 996,
+    "image_id": "chihuahua_200",
+    "label": 10,
+    "breed": "chihuahua",
+    "width": 300,
+    "height": 225,
+    "box": [
+      0,
+      0,
+      281,
+      225
+    ],
+    "image_sha256": "7a05c3e2a1725a811b08157b833905b71ae633fb5a668e7cb0336cf0e69593d6",
+    "trimap_sha256": "6d1051999612c1f7df7c650e4eff8296b8507138491aace34fc44b7e1e21f809"
+  },
+  {
+    "dataset_index": 1000,
+    "image_id": "chihuahua_23",
+    "label": 10,
+    "breed": "chihuahua",
+    "width": 500,
+    "height": 375,
+    "box": [
+      2,
+      0,
+      469,
+      375
+    ],
+    "image_sha256": "887790668adfe0cd7ca72a83cf886e93eda76611bc3ce191fda1a4a387f92cfc",
+    "trimap_sha256": "4e8b6bcc3891d92d9a72f7cae04a8eb5f2a8315951e18e41116f4f7b8aba14d7"
+  },
+  {
+    "dataset_index": 1006,
+    "image_id": "chihuahua_29",
+    "label": 10,
+    "breed": "chihuahua",
+    "width": 332,
+    "height": 500,
+    "box": [
+      0,
+      0,
+      332,
+      500
+    ],
+    "image_sha256": "eb9086bb010928030a62fdcff6d93a3516f972302bbf8927779bf1e4dccfe11e",
+    "trimap_sha256": "3dc0e2fadbae551e418143038a81796f5037dd494c4119704d92765e243b7f13"
+  },
+  {
+    "dataset_index": 1009,
+    "image_id": "chihuahua_31",
+    "label": 10,
+    "breed": "chihuahua",
+    "width": 333,
+    "height": 500,
+    "box": [
+      86,
+      61,
+      296,
+      497
+    ],
+    "image_sha256": "1a86bd881da8324743395bf0981c7a0591d69e5cc4c03da40347d6da5f9d9ba0",
+    "trimap_sha256": "5076ff7524492407ad35c3228cb0ff0c8e77939927a3f6ed5f765556c4c2fc6f"
+  },
+  {
+    "dataset_index": 1012,
+    "image_id": "chihuahua_34",
+    "label": 10,
+    "breed": "chihuahua",
+    "width": 500,
+    "height": 333,
+    "box": [
+      204,
+      30,
+      382,
+      323
+    ],
+    "image_sha256": "0e6302e0c7a710ef017cbeebc5a5d068e63a9a3fe4603f1fe17755678f9c86f7",
+    "trimap_sha256": "b09fb040f281f1b1647c7da37eaebf4a8deb19cf1d3c7afbe160ebf533c83596"
+  },
+  {
+    "dataset_index": 1020,
+    "image_id": "chihuahua_41",
+    "label": 10,
+    "breed": "chihuahua",
+    "width": 500,
+    "height": 333,
+    "box": [
+      132,
+      0,
+      500,
+      333
+    ],
+    "image_sha256": "aede11a068e92a684563c5bb554c056cef0d136bdda38a17111473315a9173e5",
+    "trimap_sha256": "8bd893d2cded8717bb04a5ef79f3869dc1984346efb8339759fa1082d3f837f6"
+  },
+  {
+    "dataset_index": 1045,
+    "image_id": "chihuahua_64",
+    "label": 10,
+    "breed": "chihuahua",
+    "width": 400,
+    "height": 417,
+    "box": [
+      102,
+      0,
+      286,
+      355
+    ],
+    "image_sha256": "8c6421053244921935c91f7de71b68acad78155a1aa6427798ed0b48cf97093b",
+    "trimap_sha256": "8bf5f7cef45268066038f0f811c3885e7774fa2e59902df974634e504b465cf3"
+  },
+  {
+    "dataset_index": 1057,
+    "image_id": "chihuahua_75",
+    "label": 10,
+    "breed": "chihuahua",
+    "width": 500,
+    "height": 375,
+    "box": [
+      96,
+      0,
+      500,
+      375
+    ],
+    "image_sha256": "5e7e313ce17df71bd6ace32ff954f94d44e518836f20867ef6f204eff6cb45af",
+    "trimap_sha256": "6dcaf1f1374788c8d74c865d52b5b9a3b025eded8c2e616b7e226be75d69db6e"
+  },
+  {
+    "dataset_index": 1075,
+    "image_id": "chihuahua_91",
+    "label": 10,
+    "breed": "chihuahua",
+    "width": 333,
+    "height": 500,
+    "box": [
+      142,
+      84,
+      269,
+      312
+    ],
+    "image_sha256": "7dc7a999fa574117ced3b3d71946361813b907c6ee9a281bc0c66cbefc5cd175",
+    "trimap_sha256": "63a8f741bc43de0b7dca2591d3de3005579e0ddf7e2389e0144690d6c49146b1"
+  },
+  {
+    "dataset_index": 1086,
+    "image_id": "Egyptian_Mau_199",
+    "label": 11,
+    "breed": "egyptian mau",
+    "width": 500,
+    "height": 333,
+    "box": [
+      0,
+      0,
+      451,
+      333
+    ],
+    "image_sha256": "764b2f38b11ff8135257091b31ffe2396b15b00717ef261dcd5de851a71b0b56",
+    "trimap_sha256": "7df03a7085e08422d27163e3200ca04074b3fece96b492a81c1421bb6740e7db"
+  },
+  {
+    "dataset_index": 1096,
+    "image_id": "Egyptian_Mau_213",
+    "label": 11,
+    "breed": "egyptian mau",
+    "width": 225,
+    "height": 300,
+    "box": [
+      0,
+      0,
+      196,
+      300
+    ],
+    "image_sha256": "c3f1515e3455f4b5eccb03271f395bbf72931a7f070ffcdc36a356efbdd94125",
+    "trimap_sha256": "a041b7b5414d1cd42862fc809f7508d7b87fd1bd7043d08274173b9ff78cd3d6"
+  },
+  {
+    "dataset_index": 1115,
+    "image_id": "Egyptian_Mau_30",
+    "label": 11,
+    "breed": "egyptian mau",
+    "width": 200,
+    "height": 200,
+    "box": [
+      0,
+      0,
+      200,
+      200
+    ],
+    "image_sha256": "ea4499cec16c3ed5790e410c83392bb30c4058097634e4a68c5bb0dae804d552",
+    "trimap_sha256": "3628765144bf4f22432aa23eabd6f95d62c124b1d31e39daa9a102f3fb91dc09"
+  },
+  {
+    "dataset_index": 1117,
+    "image_id": "Egyptian_Mau_33",
+    "label": 11,
+    "breed": "egyptian mau",
+    "width": 901,
+    "height": 559,
+    "box": [
+      56,
+      12,
+      901,
+      534
+    ],
+    "image_sha256": "069683c9876e7904b6bff963f6008c73f3ac79dc5531ce4fbe20f82cca160a76",
+    "trimap_sha256": "1ba1f917356a60bd2416b4fcdaa8a293c5d67fad63729bf52f1311be7de604a9"
+  },
+  {
+    "dataset_index": 1119,
+    "image_id": "Egyptian_Mau_35",
+    "label": 11,
+    "breed": "egyptian mau",
+    "width": 500,
+    "height": 394,
+    "box": [
+      0,
+      14,
+      500,
+      394
+    ],
+    "image_sha256": "f180d80bbe9e4f21c37d754900781a64f54490e3ae515f6bcd5dfed1369bdf13",
+    "trimap_sha256": "28893cadca8cabc7785b7cebe42fba48f931b95793f48ac731a68e47d46ef1f7"
+  },
+  {
+    "dataset_index": 1120,
+    "image_id": "Egyptian_Mau_36",
+    "label": 11,
+    "breed": "egyptian mau",
+    "width": 190,
+    "height": 285,
+    "box": [
+      0,
+      0,
+      190,
+      285
+    ],
+    "image_sha256": "3aec5f2471b05bab1b4e4dac29d6fac66810d9ea28a04b78f41cbd31fa6a45d5",
+    "trimap_sha256": "56b3190ecdd06c036073eb969dc53d546cf91194d47636e1c7ac19e98ac89127"
+  },
+  {
+    "dataset_index": 1145,
+    "image_id": "Egyptian_Mau_62",
+    "label": 11,
+    "breed": "egyptian mau",
+    "width": 375,
+    "height": 500,
+    "box": [
+      57,
+      48,
+      354,
+      500
+    ],
+    "image_sha256": "0724ab92fda5011d18949f235c8f99ae85a5c88eb509f7f018b23ae5b0e18668",
+    "trimap_sha256": "9ae54132c833fac12e66b4532c25ea1167235a9b1ab1ac1b55cc91b7fb0d8489"
+  },
+  {
+    "dataset_index": 1151,
+    "image_id": "Egyptian_Mau_70",
+    "label": 11,
+    "breed": "egyptian mau",
+    "width": 500,
+    "height": 329,
+    "box": [
+      0,
+      113,
+      467,
+      329
+    ],
+    "image_sha256": "b9682a9e964ac3dcf151a6f200f4df356b8c4c8bb55d96ab09c11428e2485e4f",
+    "trimap_sha256": "571f6c2634909307c57dcb6aa2ce8b9d4cd921e367552b525865546a6ab03e51"
+  },
+  {
+    "dataset_index": 1162,
+    "image_id": "Egyptian_Mau_82",
+    "label": 11,
+    "breed": "egyptian mau",
+    "width": 329,
+    "height": 500,
+    "box": [
+      0,
+      15,
+      329,
+      490
+    ],
+    "image_sha256": "85edf085365d80d70b9e684d997fcb609547de13723e74ce9c0f3db9709c1235",
+    "trimap_sha256": "5f8ccdbb4cd91bbebe1e59c232292a4b7ffe67a02b41e89463189cf11d1565a4"
+  },
+  {
+    "dataset_index": 1176,
+    "image_id": "Egyptian_Mau_95",
+    "label": 11,
+    "breed": "egyptian mau",
+    "width": 309,
+    "height": 360,
+    "box": [
+      0,
+      0,
+      291,
+      360
+    ],
+    "image_sha256": "177fe9f6dcf8b322a826efb9b21dd808cac81e929bcaf0b9039a27a4e814109e",
+    "trimap_sha256": "c937e20d70c87893b5b1b6dba0887d301c3e4682001f0f7dadae132ac531c792"
+  },
+  {
+    "dataset_index": 1184,
+    "image_id": "english_cocker_spaniel_193",
+    "label": 12,
+    "breed": "english cocker spaniel",
+    "width": 500,
+    "height": 375,
+    "box": [
+      0,
+      0,
+      410,
+      324
+    ],
+    "image_sha256": "1dd8f678b636692333399e4b488e3e9f2b162fe4c60273d659fbf6cc2f81f6aa",
+    "trimap_sha256": "5733dc68dce7e7da92ed668bd70ff45974c4b3644918dd8e98503e57842acfd3"
+  },
+  {
+    "dataset_index": 1190,
+    "image_id": "english_cocker_spaniel_199",
+    "label": 12,
+    "breed": "english cocker spaniel",
+    "width": 500,
+    "height": 281,
+    "box": [
+      0,
+      0,
+      500,
+      281
+    ],
+    "image_sha256": "79a88338ea50603b945cb9e542888be55951aa6ac51f007cc1598766d2934d78",
+    "trimap_sha256": "89acd89ffa3aa5217a7179054b549cdb61e3a7ee91d03dc9a664149e804a95b2"
+  },
+  {
+    "dataset_index": 1214,
+    "image_id": "english_cocker_spaniel_39",
+    "label": 12,
+    "breed": "english cocker spaniel",
+    "width": 375,
+    "height": 500,
+    "box": [
+      0,
+      27,
+      375,
+      463
+    ],
+    "image_sha256": "be1a2e94db5c23d55ca3748ea75ef3ea54b47b863c2d80633c9590e2c647ae04",
+    "trimap_sha256": "772b05391cc2eda94f07db92fad31915d83c8997672be1819aba4431bc4ff470"
+  },
+  {
+    "dataset_index": 1217,
+    "image_id": "english_cocker_spaniel_41",
+    "label": 12,
+    "breed": "english cocker spaniel",
+    "width": 500,
+    "height": 333,
+    "box": [
+      137,
+      0,
+      416,
+      333
+    ],
+    "image_sha256": "b16c21b1ba8e8839394c280254f4b088d6ab28737fad3d2e9940644ffc203204",
+    "trimap_sha256": "3310c2d61d0c1013d3d1c9405bd6333ba8e76de6f9883271e3473e5ae70d8a49"
+  },
+  {
+    "dataset_index": 1224,
+    "image_id": "english_cocker_spaniel_48",
+    "label": 12,
+    "breed": "english cocker spaniel",
+    "width": 500,
+    "height": 333,
+    "box": [
+      45,
+      20,
+      500,
+      333
+    ],
+    "image_sha256": "bc1f8c675bd175dc8f80459f9806f0c8a084b86f42c92d4b0de491ac75a43684",
+    "trimap_sha256": "8db5be5d945d424f45f4bd639d76eb7c5c3ac21149f6077ba84f3ea4cf20e921"
+  },
+  {
+    "dataset_index": 1226,
+    "image_id": "english_cocker_spaniel_4",
+    "label": 12,
+    "breed": "english cocker spaniel",
+    "width": 500,
+    "height": 333,
+    "box": [
+      0,
+      4,
+      446,
+      328
+    ],
+    "image_sha256": "55ddef79fb86187782c417b53fcb2643795c8a4daf02c903588cf23bd9796082",
+    "trimap_sha256": "e8d2a92db5bcf160300b24eea3a1f5b47f303961136d470d4a3ae42d30f5811d"
+  },
+  {
+    "dataset_index": 1244,
+    "image_id": "english_cocker_spaniel_66",
+    "label": 12,
+    "breed": "english cocker spaniel",
+    "width": 396,
+    "height": 500,
+    "box": [
+      0,
+      75,
+      396,
+      500
+    ],
+    "image_sha256": "b53ed81a7ac0d1073a60fdff57a9d127bc8d02a90a2618739f3436f2878003d2",
+    "trimap_sha256": "fede572037b61d6e69ac26b1273344d5a235156dea9a5ed63fc8dccd2d37bc23"
+  },
+  {
+    "dataset_index": 1263,
+    "image_id": "english_cocker_spaniel_83",
+    "label": 12,
+    "breed": "english cocker spaniel",
+    "width": 500,
+    "height": 333,
+    "box": [
+      74,
+      34,
+      390,
+      333
+    ],
+    "image_sha256": "5e2a52a7c6026e3452a9a8558f988d03fcfcaf2a4ead721b4c22b7249dcd4a6d",
+    "trimap_sha256": "6228b98e5ee329ec205bf2ad98d04727833bacbb45bd832247984d03a1f6bd14"
+  },
+  {
+    "dataset_index": 1267,
+    "image_id": "english_cocker_spaniel_87",
+    "label": 12,
+    "breed": "english cocker spaniel",
+    "width": 338,
+    "height": 500,
+    "box": [
+      0,
+      22,
+      338,
+      500
+    ],
+    "image_sha256": "f5f43833678e2c61b49ea7cc4807de0020638e51f299c451c7dfac1901251284",
+    "trimap_sha256": "b830eacb1053ddc1df0db2c3036334c94d6c63542a45c293c8924ea8c1f85289"
+  },
+  {
+    "dataset_index": 1276,
+    "image_id": "english_cocker_spaniel_95",
+    "label": 12,
+    "breed": "english cocker spaniel",
+    "width": 451,
+    "height": 500,
+    "box": [
+      0,
+      0,
+      451,
+      500
+    ],
+    "image_sha256": "d8e0e1e66121ffe833286ad77c48c5fed6642f0120c1c335e11fc7af14edcdef",
+    "trimap_sha256": "29960b666947d20fe77965a377a3104455d14420edc16d10463a2ab35200ef1b"
+  },
+  {
+    "dataset_index": 1291,
+    "image_id": "english_setter_19",
+    "label": 13,
+    "breed": "english setter",
+    "width": 356,
+    "height": 500,
+    "box": [
+      60,
+      0,
+      345,
+      500
+    ],
+    "image_sha256": "06793428eb3b39970744743ead5fb24963c184e09bf304682c4fafa6bd7a4889",
+    "trimap_sha256": "611301f10814c23c8e9673d055ea28aa8bd0842d84d62f6286104630156e4966"
+  },
+  {
+    "dataset_index": 1294,
+    "image_id": "english_setter_20",
+    "label": 13,
+    "breed": "english setter",
+    "width": 500,
+    "height": 332,
+    "box": [
+      181,
+      0,
+      408,
+      331
+    ],
+    "image_sha256": "99af5bc1a80cd1cc21b34497937398241e298e79670a439a381eadfe381989a5",
+    "trimap_sha256": "2b817dfc7bb9e8feaa49010d8317caf936efee8eac456f50c96cdaa5bc05f75b"
+  },
+  {
+    "dataset_index": 1301,
+    "image_id": "english_setter_27",
+    "label": 13,
+    "breed": "english setter",
+    "width": 500,
+    "height": 374,
+    "box": [
+      70,
+      8,
+      453,
+      374
+    ],
+    "image_sha256": "a032b7fa4083d764d58aec0da9db6203d958ce3df734e044a27ae83a38810586",
+    "trimap_sha256": "b6b783234efd705059583139c3f96c9c12012375777e80da4e73fab8070de80a"
+  },
+  {
+    "dataset_index": 1316,
+    "image_id": "english_setter_40",
+    "label": 13,
+    "breed": "english setter",
+    "width": 500,
+    "height": 374,
+    "box": [
+      0,
+      0,
+      421,
+      374
+    ],
+    "image_sha256": "2083b25587330ee620dd919a8affe9931046b559409cb909dd9a7339e8d15976",
+    "trimap_sha256": "afc2deb46a9fbd36c059b7dace2faba2a60cce4df44e120dc1a22cc176de1dfa"
+  },
+  {
+    "dataset_index": 1352,
+    "image_id": "english_setter_73",
+    "label": 13,
+    "breed": "english setter",
+    "width": 500,
+    "height": 337,
+    "box": [
+      53,
+      76,
+      423,
+      337
+    ],
+    "image_sha256": "b091407f5ff6420d3ae1dacf6f8ede92cd2457a7f17b6b4932be55b6df9f6b1c",
+    "trimap_sha256": "1e58a43970e1400c2443a76def1b817eb02a8bd655596182b9b53ef54ff88410"
+  },
+  {
+    "dataset_index": 1357,
+    "image_id": "english_setter_78",
+    "label": 13,
+    "breed": "english setter",
+    "width": 500,
+    "height": 500,
+    "box": [
+      114,
+      0,
+      388,
+      500
+    ],
+    "image_sha256": "2c8513b505d43b1d4ba0e7516ba9867bc3c19a50a019c2b7f9bb7fa2e8afb389",
+    "trimap_sha256": "1dbb3494fdba96f62839fadd83598f8155833ee25dd91d7b48a25ce83083d7dc"
+  },
+  {
+    "dataset_index": 1366,
+    "image_id": "english_setter_86",
+    "label": 13,
+    "breed": "english setter",
+    "width": 500,
+    "height": 379,
+    "box": [
+      0,
+      0,
+      500,
+      379
+    ],
+    "image_sha256": "a24219c611a9c455d681f66b139284c5cc3a32abca489673452c74620a255c32",
+    "trimap_sha256": "9968ec592efa06732bf9b4a7541bdcfafc50c3ef54d3646c3227fd2fb1a89836"
+  },
+  {
+    "dataset_index": 1367,
+    "image_id": "english_setter_87",
+    "label": 13,
+    "breed": "english setter",
+    "width": 500,
+    "height": 333,
+    "box": [
+      103,
+      61,
+      339,
+      333
+    ],
+    "image_sha256": "7f60b463e0542d505c74ccebc9e9277bba56523ae834c24c65d89586147b76fc",
+    "trimap_sha256": "92a365a2e9093c71a6947cba0f55b262d2bb64420f8083abe6fcd74070e7de24"
+  },
+  {
+    "dataset_index": 1374,
+    "image_id": "english_setter_93",
+    "label": 13,
+    "breed": "english setter",
+    "width": 500,
+    "height": 375,
+    "box": [
+      127,
+      0,
+      371,
+      375
+    ],
+    "image_sha256": "e68cff69faa41cebb852e0d8f09af872dd715b0d3666554c6203eea11a39eee6",
+    "trimap_sha256": "417ac9559a74f5c8a4aa2f0ea38f67c90c2a51304fa255643edf44254bd0682a"
+  },
+  {
+    "dataset_index": 1379,
+    "image_id": "english_setter_98",
+    "label": 13,
+    "breed": "english setter",
+    "width": 333,
+    "height": 500,
+    "box": [
+      0,
+      0,
+      294,
+      500
+    ],
+    "image_sha256": "7fab2479235ef8ff105954b469734f76d4aa25b35111aa388a064121356734b8",
+    "trimap_sha256": "929b8da4c8f0f6349a868dcfde11d6bd89591862eee1f7950955e6d8e9e17545"
+  },
+  {
+    "dataset_index": 1383,
+    "image_id": "german_shorthaired_192",
+    "label": 14,
+    "breed": "german shorthaired",
+    "width": 500,
+    "height": 333,
+    "box": [
+      115,
+      42,
+      382,
+      333
+    ],
+    "image_sha256": "584477061ae0494745662b0379be299d5d992a7eab543464575822df4adcd453",
+    "trimap_sha256": "4f1f95916edc0b87dc405fd7c67e6a72425f1173f062672dbcc308592bc81e76"
+  },
+  {
+    "dataset_index": 1388,
+    "image_id": "german_shorthaired_197",
+    "label": 14,
+    "breed": "german shorthaired",
+    "width": 333,
+    "height": 500,
+    "box": [
+      0,
+      123,
+      270,
+      463
+    ],
+    "image_sha256": "620916f57b42aec1b56654573fc6c58a768f26c2bc587b622ce05d14ae8117af",
+    "trimap_sha256": "43a4ee4e57b06469ddf76f2fd3f901310f1e3bd25753bc958e18e54cee5665d9"
+  },
+  {
+    "dataset_index": 1395,
+    "image_id": "german_shorthaired_21",
+    "label": 14,
+    "breed": "german shorthaired",
+    "width": 307,
+    "height": 500,
+    "box": [
+      37,
+      0,
+      307,
+      500
+    ],
+    "image_sha256": "25ff3e8b7553e501d37e4c63bd9dad2bc057ba312ca66df07952bbe175c95ce9",
+    "trimap_sha256": "84490d691e24303f5859ebef69ff1ec504447b33a16637d2813ee2a1350c9fa7"
+  },
+  {
+    "dataset_index": 1423,
+    "image_id": "german_shorthaired_47",
+    "label": 14,
+    "breed": "german shorthaired",
+    "width": 429,
+    "height": 500,
+    "box": [
+      77,
+      0,
+      362,
+      500
+    ],
+    "image_sha256": "44e6a2b1ae0940adade4823610725704d1655efcf513412bfab82fdc77569eb1",
+    "trimap_sha256": "c0e89a1b98fb901d87f127fa5aa27a84f58e059dd8a5df46e4f1d217185c4924"
+  },
+  {
+    "dataset_index": 1430,
+    "image_id": "german_shorthaired_53",
+    "label": 14,
+    "breed": "german shorthaired",
+    "width": 357,
+    "height": 500,
+    "box": [
+      0,
+      0,
+      357,
+      500
+    ],
+    "image_sha256": "f7e3adcf1e3e704952c37dc0851763abdc18dee373b3df1d79048e043e1cd10f",
+    "trimap_sha256": "477915a65748adc24c5fa880658a60516bdb0f7954c9739b63dce20e10345660"
+  },
+  {
+    "dataset_index": 1444,
+    "image_id": "german_shorthaired_66",
+    "label": 14,
+    "breed": "german shorthaired",
+    "width": 374,
+    "height": 500,
+    "box": [
+      33,
+      19,
+      374,
+      500
+    ],
+    "image_sha256": "a4a4e87d77452f8953e5acc8aebf0364af7d36be44dcce13198b4b5bbcb0dd3b",
+    "trimap_sha256": "4f9359c148210906f47c42e8c6670f1b7c6e6ef42925b7d206730c9334ebec8e"
+  },
+  {
+    "dataset_index": 1448,
+    "image_id": "german_shorthaired_6",
+    "label": 14,
+    "breed": "german shorthaired",
+    "width": 334,
+    "height": 500,
+    "box": [
+      11,
+      0,
+      286,
+      496
+    ],
+    "image_sha256": "24afb8ef115ba0d173653a4bd2db0540e27bdcd2e0e03dcfa8396ff2ffcdf980",
+    "trimap_sha256": "cb7a4023ea1b5d23a6982324c63e327130dfafc73463285d79e622eba27c926a"
+  },
+  {
+    "dataset_index": 1458,
+    "image_id": "german_shorthaired_79",
+    "label": 14,
+    "breed": "german shorthaired",
+    "width": 500,
+    "height": 333,
+    "box": [
+      83,
+      18,
+      296,
+      333
+    ],
+    "image_sha256": "4f67e387145644bc548be50ba2579a1d5264104990b8e40435948b04a6bc9758",
+    "trimap_sha256": "cff0657d6d38dd90eafd963755d166333da4129c4c31d730b7fb259955c6a905"
+  },
+  {
+    "dataset_index": 1459,
+    "image_id": "german_shorthaired_7",
+    "label": 14,
+    "breed": "german shorthaired",
+    "width": 333,
+    "height": 500,
+    "box": [
+      41,
+      0,
+      320,
+      435
+    ],
+    "image_sha256": "4b779cf8d69ffe79e5d9471ee116004e9cc3b15c0f56cbbffd2c492c2c41d78b",
+    "trimap_sha256": "0267d8173397237b7026d8ad554e197b22d5e3215a6e4e0d9dc8d65f7aab072a"
+  },
+  {
+    "dataset_index": 1460,
+    "image_id": "german_shorthaired_80",
+    "label": 14,
+    "breed": "german shorthaired",
+    "width": 500,
+    "height": 333,
+    "box": [
+      230,
+      51,
+      473,
+      333
+    ],
+    "image_sha256": "59a18be8cb40aa58ead837ad7950c4ec1ee690207f3e055c644aa72c8044c46c",
+    "trimap_sha256": "0d7d2f892a1d62c594c3358f1e00fff8dcb363483bbe042c604ca551489601a6"
+  },
+  {
+    "dataset_index": 1485,
+    "image_id": "great_pyrenees_194",
+    "label": 15,
+    "breed": "great pyrenees",
+    "width": 500,
+    "height": 333,
+    "box": [
+      0,
+      0,
+      500,
+      333
+    ],
+    "image_sha256": "a52d7911d1c1f1357517468cee1f26b52105a2fb7b63a2fe9d9fe0386581c1f2",
+    "trimap_sha256": "69681aaabb033841364add2f8481ee41c905dd3b121f94f4d96401ffdbd81e60"
+  },
+  {
+    "dataset_index": 1496,
+    "image_id": "great_pyrenees_22",
+    "label": 15,
+    "breed": "great pyrenees",
+    "width": 500,
+    "height": 342,
+    "box": [
+      0,
+      45,
+      500,
+      342
+    ],
+    "image_sha256": "c549a29eb6c5315ed3a089e394c7cc2218c65ae87bdb65966cdb452456b3f2f8",
+    "trimap_sha256": "f0aa2539d8ebfbd0675d9f8e53f4ad82ed768999b4fc408e4ea06beffaba0e23"
+  },
+  {
+    "dataset_index": 1500,
+    "image_id": "great_pyrenees_26",
+    "label": 15,
+    "breed": "great pyrenees",
+    "width": 500,
+    "height": 375,
+    "box": [
+      0,
+      38,
+      392,
+      368
+    ],
+    "image_sha256": "001f58bb0b1f7531bed49c27e6f899850fc0ae5e38edf5a77155a8c94005a2aa",
+    "trimap_sha256": "c7b1eda10a243e53fea71974902f1b05f075b9035dbc3e138534afc2da48cd74"
+  },
+  {
+    "dataset_index": 1510,
+    "image_id": "great_pyrenees_35",
+    "label": 15,
+    "breed": "great pyrenees",
+    "width": 500,
+    "height": 400,
+    "box": [
+      0,
+      0,
+      500,
+      400
+    ],
+    "image_sha256": "2f8ec9f1ccfb1894ec07cee1c27fd09354f523018fe786404fe529ac766287f1",
+    "trimap_sha256": "b16b8924bb8f693fa132b017d6636b375e0fc018bc2aad2120f04cc2203c1b7a"
+  },
+  {
+    "dataset_index": 1523,
+    "image_id": "great_pyrenees_47",
+    "label": 15,
+    "breed": "great pyrenees",
+    "width": 500,
+    "height": 400,
+    "box": [
+      0,
+      0,
+      500,
+      400
+    ],
+    "image_sha256": "18c2d3c4e7fddac44e08c371d8ff1afcb5ebc8e8292c9f1f3b2715de100caca2",
+    "trimap_sha256": "3e3c1bb727c19de1a8e95e15e4a63f66ecdc348976738d083c4efead34713d93"
+  },
+  {
+    "dataset_index": 1526,
+    "image_id": "great_pyrenees_4",
+    "label": 15,
+    "breed": "great pyrenees",
+    "width": 500,
+    "height": 333,
+    "box": [
+      89,
+      60,
+      406,
+      333
+    ],
+    "image_sha256": "f34d8c8b4944519e6815c56b0598f0db130a4cff49983c8028757bc2deedad87",
+    "trimap_sha256": "4c2992581d40c9d6ae0afdb58e03e599e308e1ff8b47d16d2f71e729ca342301"
+  },
+  {
+    "dataset_index": 1535,
+    "image_id": "great_pyrenees_58",
+    "label": 15,
+    "breed": "great pyrenees",
+    "width": 500,
+    "height": 333,
+    "box": [
+      48,
+      0,
+      490,
+      333
+    ],
+    "image_sha256": "d10884632a44dede8b6aac76883400e131b994ce74d8230fb02ec85056a7be4f",
+    "trimap_sha256": "80decd09c3dfe69747ef1950f524590497f23a6c3d41534131f7615810a0b9fe"
+  },
+  {
+    "dataset_index": 1548,
+    "image_id": "great_pyrenees_6",
+    "label": 15,
+    "breed": "great pyrenees",
+    "width": 500,
+    "height": 335,
+    "box": [
+      5,
+      6,
+      500,
+      335
+    ],
+    "image_sha256": "9b9f06cd3f411ec596070196afbb210b8911f75e0d6f0f27a3279339397bd3c0",
+    "trimap_sha256": "0ca177519119c3ffc33cfffa859985244ab006015b90e5c10103fc2d2fe21969"
+  },
+  {
+    "dataset_index": 1575,
+    "image_id": "great_pyrenees_94",
+    "label": 15,
+    "breed": "great pyrenees",
+    "width": 500,
+    "height": 335,
+    "box": [
+      118,
+      0,
+      485,
+      335
+    ],
+    "image_sha256": "9cc6b91d365d2ba85d59a6b32663e9e4ab522493519e85e041417cafa80f8829",
+    "trimap_sha256": "8a076f9f64d6896eac3bb3ea3295f1325de6a74ca44efa47e435e2163a6371b5"
+  },
+  {
+    "dataset_index": 1576,
+    "image_id": "great_pyrenees_95",
+    "label": 15,
+    "breed": "great pyrenees",
+    "width": 500,
+    "height": 371,
+    "box": [
+      0,
+      16,
+      378,
+      326
+    ],
+    "image_sha256": "ba1670a54355f763e15cd11a33f66b98dfc6050db273e30f5b75909e8180914e",
+    "trimap_sha256": "4f726db1acc5655ea2b3549d40fb7019b0b791aa8345bb91150290adff458c62"
+  },
+  {
+    "dataset_index": 1590,
+    "image_id": "havanese_199",
+    "label": 16,
+    "breed": "havanese",
+    "width": 500,
+    "height": 375,
+    "box": [
+      0,
+      0,
+      497,
+      375
+    ],
+    "image_sha256": "3847c27bd2ca4fa5815f1f82f8065182721b4b58015da43f7c48b67e4bc40a2e",
+    "trimap_sha256": "4cbaf4ccba66f1613401ca32d0d89e1cbc28af15a29ff31f3becc1cd3578a7e4"
+  },
+  {
+    "dataset_index": 1599,
+    "image_id": "havanese_25",
+    "label": 16,
+    "breed": "havanese",
+    "width": 334,
+    "height": 500,
+    "box": [
+      22,
+      0,
+      333,
+      500
+    ],
+    "image_sha256": "ceb419933b494e4eb5622c6113e6154c202f105e08bae403ba405a9437b235a7",
+    "trimap_sha256": "3cc25de7d12520752d3a386e5569ab188e5002be3fbcfc096183272f33f1df97"
+  },
+  {
+    "dataset_index": 1612,
+    "image_id": "havanese_37",
+    "label": 16,
+    "breed": "havanese",
+    "width": 334,
+    "height": 500,
+    "box": [
+      0,
+      0,
+      334,
+      500
+    ],
+    "image_sha256": "48db0c6f536c6badf3f14e9412c9ea71c34f01461b26459fc87642044a5f8209",
+    "trimap_sha256": "fe3f45e4457365f5ac076e0b1745d394f0548ce1c48415dd2548bc71c2b143af"
+  },
+  {
+    "dataset_index": 1616,
+    "image_id": "havanese_40",
+    "label": 16,
+    "breed": "havanese",
+    "width": 500,
+    "height": 333,
+    "box": [
+      0,
+      0,
+      499,
+      333
+    ],
+    "image_sha256": "76a5f32cb29c513d706a746a9f9c5c8de178171dec729fb6d98a2f7b408b91ff",
+    "trimap_sha256": "9884a0f99532c7022aada56aa2f7b4d311af67c5ae056c24180a3b7d8a60a9b6"
+  },
+  {
+    "dataset_index": 1626,
+    "image_id": "havanese_4",
+    "label": 16,
+    "breed": "havanese",
+    "width": 333,
+    "height": 500,
+    "box": [
+      41,
+      107,
+      276,
+      500
+    ],
+    "image_sha256": "540a2993b4ead20e881fbb6a54438e5bf1070f07d730819de9ea2416a5faad3f",
+    "trimap_sha256": "e973c6ac6b5240f11becf59691883b7365c8a2bc7d82cb19a0874599f62a909b"
+  },
+  {
+    "dataset_index": 1634,
+    "image_id": "havanese_57",
+    "label": 16,
+    "breed": "havanese",
+    "width": 381,
+    "height": 500,
+    "box": [
+      45,
+      131,
+      357,
+      464
+    ],
+    "image_sha256": "d689829731e131d109a28341195c5ea2b2b1c7351a5b49d24e1302f65f28f80f",
+    "trimap_sha256": "f464edf4194d8c0117f7275b45cf201e6e4476a2064850503236267eb7415c69"
+  },
+  {
+    "dataset_index": 1646,
+    "image_id": "havanese_68",
+    "label": 16,
+    "breed": "havanese",
+    "width": 500,
+    "height": 375,
+    "box": [
+      65,
+      0,
+      500,
+      375
+    ],
+    "image_sha256": "a1748862e37accf0c05d206dedb5d6fa21c30de6a8c8d1bfc8abf0bcdcc47390",
+    "trimap_sha256": "3f093c96f811ba1320d162164bc6bf5363008a017c7eb164ded8c2a56bba4346"
+  },
+  {
+    "dataset_index": 1647,
+    "image_id": "havanese_69",
+    "label": 16,
+    "breed": "havanese",
+    "width": 333,
+    "height": 500,
+    "box": [
+      24,
+      13,
+      207,
+      329
+    ],
+    "image_sha256": "1f1ab9cf9e3bc2b07850f341ab3fd36cf3f3f86d8ef91112806c87c6ab77bd9d",
+    "trimap_sha256": "f71b38ff00e381ef8f9bb71ce8520f3b2060ff79f9ef1fd97d36e7e199ccab3e"
+  },
+  {
+    "dataset_index": 1670,
+    "image_id": "havanese_8",
+    "label": 16,
+    "breed": "havanese",
+    "width": 400,
+    "height": 500,
+    "box": [
+      11,
+      19,
+      374,
+      454
+    ],
+    "image_sha256": "dd7b1a073a5c0aff90576366bc6665b65b0458fb60772fb83b413eb6e0b2b0ed",
+    "trimap_sha256": "d6b741a22fa946a94f17275e15f059cbc83f5c1250af5b1f07bc305c72996f44"
+  },
+  {
+    "dataset_index": 1676,
+    "image_id": "havanese_95",
+    "label": 16,
+    "breed": "havanese",
+    "width": 344,
+    "height": 500,
+    "box": [
+      0,
+      0,
+      344,
+      453
+    ],
+    "image_sha256": "801394f06fd20644c3806c2ec2eba4a82546546abf24837585cd8b8c582ceb38",
+    "trimap_sha256": "d85f9d42090b5902bc2dfa209482cfbbd40bded4988b9a89de482bc6f2e2708c"
+  },
+  {
+    "dataset_index": 1685,
+    "image_id": "japanese_chin_194",
+    "label": 17,
+    "breed": "japanese chin",
+    "width": 500,
+    "height": 375,
+    "box": [
+      0,
+      0,
+      405,
+      352
+    ],
+    "image_sha256": "6820bb622b9d4ac24fe2ae18e8b44b8f29036bc1f095949388644a2c75b836e7",
+    "trimap_sha256": "5123f38e87936e1ec9fdf2e874a3574e200a55c04dc1ccdc23898103dde4723d"
+  },
+  {
+    "dataset_index": 1686,
+    "image_id": "japanese_chin_195",
+    "label": 17,
+    "breed": "japanese chin",
+    "width": 500,
+    "height": 375,
+    "box": [
+      0,
+      0,
+      500,
+      375
+    ],
+    "image_sha256": "8c29351144a691a5592ac209e05f49e6845b89b2ba64b3020703d6e0e5ee3f56",
+    "trimap_sha256": "7f52936c9cd7d315c6b96936452baf55d07380ab5104e8aa39d1060ec445cc8d"
+  },
+  {
+    "dataset_index": 1706,
+    "image_id": "japanese_chin_31",
+    "label": 17,
+    "breed": "japanese chin",
+    "width": 500,
+    "height": 333,
+    "box": [
+      96,
+      0,
+      427,
+      333
+    ],
+    "image_sha256": "3f715a8d27c6321236a45f6a4444fd4c52cb50c9015210f3024a9dc93a01c29c",
+    "trimap_sha256": "43b76fee29062da1f516f1c581353016e89a452e5137dc4b89521a82d2dddf2d"
+  },
+  {
+    "dataset_index": 1708,
+    "image_id": "japanese_chin_33",
+    "label": 17,
+    "breed": "japanese chin",
+    "width": 500,
+    "height": 375,
+    "box": [
+      93,
+      38,
+      372,
+      337
+    ],
+    "image_sha256": "8d13b0db061375b55a70fe90908c08cd3209c7a6c256939f25db768a642a28c5",
+    "trimap_sha256": "5ceb0861bd9cbf80f65119d284728ffdb73df4abcecaef1fae57dcb4f77412e2"
+  },
+  {
+    "dataset_index": 1712,
+    "image_id": "japanese_chin_37",
+    "label": 17,
+    "breed": "japanese chin",
+    "width": 500,
+    "height": 333,
+    "box": [
+      57,
+      2,
+      415,
+      333
+    ],
+    "image_sha256": "be00d24ff10178d2fad441bef0966c44a77149cdfe5d42f680967da3f2a05aeb",
+    "trimap_sha256": "fed5b760e3d907721a0ff7e73455d19cd9f59d200416f55f28c05a2f7f5244b4"
+  },
+  {
+    "dataset_index": 1732,
+    "image_id": "japanese_chin_55",
+    "label": 17,
+    "breed": "japanese chin",
+    "width": 500,
+    "height": 375,
+    "box": [
+      0,
+      46,
+      482,
+      375
+    ],
+    "image_sha256": "0a0854ebc0275986c0527d2f95b9acfe7ca9dcc66d1ec05f92f488889fac1631",
+    "trimap_sha256": "4e43d94435dd5d651eddba9484c88c4445348c3449bc48609725c271bc27acfc"
+  },
+  {
+    "dataset_index": 1735,
+    "image_id": "japanese_chin_58",
+    "label": 17,
+    "breed": "japanese chin",
+    "width": 500,
+    "height": 375,
+    "box": [
+      89,
+      0,
+      421,
+      338
+    ],
+    "image_sha256": "8b070a88cbb8a3d967d1d7693044d2d956f68757ecc48bcedc0e7b7114cc5ade",
+    "trimap_sha256": "42117fc2ef98ab9f090cdebd7dfaf1c0140a806c64ab8f8f162f144f19e98268"
+  },
+  {
+    "dataset_index": 1753,
+    "image_id": "japanese_chin_74",
+    "label": 17,
+    "breed": "japanese chin",
+    "width": 500,
+    "height": 375,
+    "box": [
+      0,
+      24,
+      500,
+      375
+    ],
+    "image_sha256": "8699c87c03f2c55537d7521fe68bfd0154726f3a6015271ca5b613bf32ba4a95",
+    "trimap_sha256": "10160d6a00289255c4281d0f7652fc3de9cabaa80df51f5ec2f60eefee2fd066"
+  },
+  {
+    "dataset_index": 1755,
+    "image_id": "japanese_chin_76",
+    "label": 17,
+    "breed": "japanese chin",
+    "width": 500,
+    "height": 483,
+    "box": [
+      0,
+      0,
+      500,
+      483
+    ],
+    "image_sha256": "52b93a4c4d5d8a64213aca6e3d116a108404c9530a461a8e2ae826365dedf867",
+    "trimap_sha256": "e0f186d4443b00018518d7467a5af67ce01ad0f65ef534b6782df33d0f9cef89"
+  },
+  {
+    "dataset_index": 1766,
+    "image_id": "japanese_chin_86",
+    "label": 17,
+    "breed": "japanese chin",
+    "width": 500,
+    "height": 334,
+    "box": [
+      0,
+      0,
+      500,
+      334
+    ],
+    "image_sha256": "a8210619125cc9f734ef80992c264467448eee5a8423fd2fb4db38cfbe01225b",
+    "trimap_sha256": "678129956076364fa1bf6849935bff40407248f9d0f5eadffb4d8c2bc6520f41"
+  },
+  {
+    "dataset_index": 1782,
+    "image_id": "keeshond_191",
+    "label": 18,
+    "breed": "keeshond",
+    "width": 500,
+    "height": 375,
+    "box": [
+      0,
+      0,
+      499,
+      375
+    ],
+    "image_sha256": "276a21967d6f1fca22fe3f8d1c22810118872305947d4927d32f52a84c7d5a87",
+    "trimap_sha256": "ffa4cbf073d7d1a0ea06424cafd9f26d124bf3fb9a3a68ae8557d5b084611154"
+  },
+  {
+    "dataset_index": 1792,
+    "image_id": "keeshond_1",
+    "label": 18,
+    "breed": "keeshond",
+    "width": 500,
+    "height": 500,
+    "box": [
+      0,
+      0,
+      500,
+      500
+    ],
+    "image_sha256": "827b0e6dff5dd384538a8499a3c7e79462214b46b92460f736dbc46105733adc",
+    "trimap_sha256": "0cec4d2efe3da3484db0ceb77973f0c60aa1d191fcdcea3c864d0c83d3a93a5b"
+  },
+  {
+    "dataset_index": 1793,
+    "image_id": "keeshond_200",
+    "label": 18,
+    "breed": "keeshond",
+    "width": 333,
+    "height": 500,
+    "box": [
+      0,
+      0,
+      333,
+      431
+    ],
+    "image_sha256": "805ba628fcd0bc74d620a431e50bb07cc715d53ae3df5f8daecdeadf5ff5244a",
+    "trimap_sha256": "0f4d9911a8c36f0f1d34ce8b5724c1fc73bf2993b9330f73709235a08d2bbbd7"
+  },
+  {
+    "dataset_index": 1794,
+    "image_id": "keeshond_20",
+    "label": 18,
+    "breed": "keeshond",
+    "width": 500,
+    "height": 375,
+    "box": [
+      183,
+      93,
+      500,
+      375
+    ],
+    "image_sha256": "3a0944717125a0801cb9cc903bcfc28f2c93b84424917928bc85352260186c7f",
+    "trimap_sha256": "1fa774b5ee2c49fa599d0efd6856a264ec880235163c48ce607fa55623f623ec"
+  },
+  {
+    "dataset_index": 1796,
+    "image_id": "keeshond_22",
+    "label": 18,
+    "breed": "keeshond",
+    "width": 500,
+    "height": 333,
+    "box": [
+      0,
+      0,
+      500,
+      333
+    ],
+    "image_sha256": "1458501623ef39efd294487959376956df0a069180940823c4f46c05dd4f0703",
+    "trimap_sha256": "f655d1cdd3761df56365c105bc00778c6c169709b74a41f97440f0623ad35eab"
+  },
+  {
+    "dataset_index": 1803,
+    "image_id": "keeshond_29",
+    "label": 18,
+    "breed": "keeshond",
+    "width": 375,
+    "height": 500,
+    "box": [
+      0,
+      0,
+      375,
+      392
+    ],
+    "image_sha256": "b28f903dafbf8c278b7c4ff65e782cfad7a605ce5be3ebf671dbab9a033da21a",
+    "trimap_sha256": "f6c950cf3b33747f6d69297a8e1484939b4b75a85ed1ef0bc4969357ea005632"
+  },
+  {
+    "dataset_index": 1810,
+    "image_id": "keeshond_35",
+    "label": 18,
+    "breed": "keeshond",
+    "width": 480,
+    "height": 320,
+    "box": [
+      32,
+      38,
+      363,
+      320
+    ],
+    "image_sha256": "2a320772b9c101cdc763b96fdd66b2b07e0d79b58a8bbcf247eeab205f14a83b",
+    "trimap_sha256": "7608f839630199e4adaa09696b491c21e99e3145627dba95f7680578f7b9ae2e"
+  },
+  {
+    "dataset_index": 1863,
+    "image_id": "keeshond_84",
+    "label": 18,
+    "breed": "keeshond",
+    "width": 500,
+    "height": 375,
+    "box": [
+      72,
+      0,
+      500,
+      363
+    ],
+    "image_sha256": "bad6a9ad0ca0d7fa722941a9861ecfde1e55dc098a56bde002e3838e19ac3351",
+    "trimap_sha256": "1b8a6d4ea42fae090f2832069973e28946e7553e935e3e9a32d920d0b7c5a646"
+  },
+  {
+    "dataset_index": 1872,
+    "image_id": "keeshond_92",
+    "label": 18,
+    "breed": "keeshond",
+    "width": 500,
+    "height": 374,
+    "box": [
+      19,
+      0,
+      478,
+      374
+    ],
+    "image_sha256": "62f3dd57f5048a4f7cde52f10d9b92346ec7461aba0d15fb008f7f77855f03ba",
+    "trimap_sha256": "060c3e05c4899b9200cd4cf4c11f8658479cbbd9f9d1a37e877744c26534c453"
+  },
+  {
+    "dataset_index": 1873,
+    "image_id": "keeshond_93",
+    "label": 18,
+    "breed": "keeshond",
+    "width": 500,
+    "height": 375,
+    "box": [
+      0,
+      0,
+      500,
+      360
+    ],
+    "image_sha256": "26920a34a03ce5d39b7f9047a8b4d1b9661335a84b3f6bcaa2ee962bddeffb30",
+    "trimap_sha256": "b0ee4d854d7b11500bf5d6b25df70991fe43743b14ac25ac2b9956e5cbec3777"
+  },
+  {
+    "dataset_index": 1886,
+    "image_id": "leonberger_196",
+    "label": 19,
+    "breed": "leonberger",
+    "width": 375,
+    "height": 500,
+    "box": [
+      0,
+      125,
+      367,
+      471
+    ],
+    "image_sha256": "d6ffb5bccc16afce22ce54d3de1f99d4657f82c7a0d6bf775e49fdccad7f9ba1",
+    "trimap_sha256": "524133219d776f9059778ba443ee8e745e76725beae1a81a25aac1cf2e275836"
+  },
+  {
+    "dataset_index": 1895,
+    "image_id": "leonberger_22",
+    "label": 19,
+    "breed": "leonberger",
+    "width": 500,
+    "height": 375,
+    "box": [
+      0,
+      0,
+      478,
+      295
+    ],
+    "image_sha256": "2afb5a0af86bd63d8f6a4d909cbe3abef9f5d71eec7e36a268a37fcde211fc62",
+    "trimap_sha256": "ca8a2327b6c1144e3935887627aabfd307ed32ed7e254188da2d615bf2e652fc"
+  },
+  {
+    "dataset_index": 1900,
+    "image_id": "leonberger_27",
+    "label": 19,
+    "breed": "leonberger",
+    "width": 500,
+    "height": 375,
+    "box": [
+      11,
+      1,
+      478,
+      375
+    ],
+    "image_sha256": "310fc2cf81ab3493724713130f36cd4fb1302601e92bb3a6a4fccc23649680ad",
+    "trimap_sha256": "57d064179aee5d89602bf329ed5413f55dd9347bd2db4aa935af1dae47c33bac"
+  },
+  {
+    "dataset_index": 1911,
+    "image_id": "leonberger_37",
+    "label": 19,
+    "breed": "leonberger",
+    "width": 401,
+    "height": 500,
+    "box": [
+      0,
+      46,
+      401,
+      500
+    ],
+    "image_sha256": "01a6972791fa48873d63b109fdcc8bd0e17161284dfd38944f78a9b310627c3b",
+    "trimap_sha256": "ba320f8a7fbe78b61ca11b3052ecdff85e11182742ee568dc5476ca80bf3ae8c"
+  },
+  {
+    "dataset_index": 1915,
+    "image_id": "leonberger_40",
+    "label": 19,
+    "breed": "leonberger",
+    "width": 375,
+    "height": 500,
+    "box": [
+      0,
+      0,
+      375,
+      500
+    ],
+    "image_sha256": "86e09ee6b05af15489da597ccb9b710c849d3254670c510813fdfd13626000ff",
+    "trimap_sha256": "af100c0608396b59452792eddd4be8933f9e135cb70f5236535b5d4df29297c6"
+  },
+  {
+    "dataset_index": 1927,
+    "image_id": "leonberger_51",
+    "label": 19,
+    "breed": "leonberger",
+    "width": 333,
+    "height": 500,
+    "box": [
+      0,
+      0,
+      333,
+      500
+    ],
+    "image_sha256": "96a5a84a9f9631f5ce7dca0bba0d68cf315f67e9a3bf78d6bef40a332a738891",
+    "trimap_sha256": "bb71a9f4ace478338fae0fe15c15484522447aceeb03db3e808abd93c8a710c1"
+  },
+  {
+    "dataset_index": 1966,
+    "image_id": "leonberger_87",
+    "label": 19,
+    "breed": "leonberger",
+    "width": 500,
+    "height": 375,
+    "box": [
+      125,
+      0,
+      416,
+      375
+    ],
+    "image_sha256": "53f7f96064bbdc4e8a7f813b99c1bda5818e6e84c4353acc8f53bbfa62411039",
+    "trimap_sha256": "f322024afdc7075790bbe6f6446a49b30720bcb2973f3720dc6bf53863b16e3e"
+  },
+  {
+    "dataset_index": 1967,
+    "image_id": "leonberger_88",
+    "label": 19,
+    "breed": "leonberger",
+    "width": 362,
+    "height": 500,
+    "box": [
+      24,
+      0,
+      321,
+      500
+    ],
+    "image_sha256": "97ddae9e8aebcbd8a57a371f55de8ea209864b616ecf5e89fc62bd5143bbe776",
+    "trimap_sha256": "bf83c973093600af5236ff10640b45f9b33cfab266be5c7e7c80ad99344735af"
+  },
+  {
+    "dataset_index": 1974,
+    "image_id": "leonberger_94",
+    "label": 19,
+    "breed": "leonberger",
+    "width": 375,
+    "height": 500,
+    "box": [
+      77,
+      72,
+      371,
+      303
+    ],
+    "image_sha256": "41fbf58255f0ce0241f8b8cf48f98b4b8e424295539ee48accffb168d3779d5e",
+    "trimap_sha256": "aaafec8d2c0ed52b903a03c6ac9b7943925bb9cf7eaa05d471ad0156d5cb87a9"
+  },
+  {
+    "dataset_index": 1977,
+    "image_id": "leonberger_97",
+    "label": 19,
+    "breed": "leonberger",
+    "width": 500,
+    "height": 333,
+    "box": [
+      0,
+      0,
+      500,
+      328
+    ],
+    "image_sha256": "d95e9285e029fbc08c48429b33be3885d6a9accfe52c301a8e41fccb0497871a",
+    "trimap_sha256": "e714c5db8a81bb8e100e88f6c754f3b74f250cf056a82797125da572dcfc69be"
+  },
+  {
+    "dataset_index": 1985,
+    "image_id": "Maine_Coon_238",
+    "label": 20,
+    "breed": "maine coon",
+    "width": 300,
+    "height": 218,
+    "box": [
+      0,
+      0,
+      300,
+      218
+    ],
+    "image_sha256": "b1d04e8635534aed234f7e99758ccca73ea88ba933b715946f29ffa8b3d5c3ee",
+    "trimap_sha256": "e46b2560d0c71e08ff9257efa91c8d1bf23fb07661ff7ae759cf5529b9e27437"
+  },
+  {
+    "dataset_index": 1990,
+    "image_id": "Maine_Coon_244",
+    "label": 20,
+    "breed": "maine coon",
+    "width": 300,
+    "height": 225,
+    "box": [
+      0,
+      0,
+      300,
+      225
+    ],
+    "image_sha256": "9d6a8a80b8ddae394c6feedbf99901736a3ad5a0dd3ba25e6de49a59837274d9",
+    "trimap_sha256": "9ca73b851e76624be49dd9d79bd5c3035fd906cfca54f754e24af34c49835c28"
+  },
+  {
+    "dataset_index": 1991,
+    "image_id": "Maine_Coon_245",
+    "label": 20,
+    "breed": "maine coon",
+    "width": 300,
+    "height": 245,
+    "box": [
+      0,
+      15,
+      300,
+      245
+    ],
+    "image_sha256": "f41e4375e645cc15e2c29b547d67f6e3e9c40901e5d1d82eda760b26e297191e",
+    "trimap_sha256": "3c916a8d46edf0357f2c227ef01001f34be3ff3639193ba210f21eef8314c330"
+  },
+  {
+    "dataset_index": 1997,
+    "image_id": "Maine_Coon_254",
+    "label": 20,
+    "breed": "maine coon",
+    "width": 300,
+    "height": 225,
+    "box": [
+      69,
+      55,
+      258,
+      225
+    ],
+    "image_sha256": "d11ae93dc76a31f4a5d66f3b0ffd706501c3cf04cbd853dea89ed7d28be0fcd7",
+    "trimap_sha256": "22e08ae43ae80a12cfc401363a46374996c9bc7294289b7da2fd5cfd35f72d1f"
+  },
+  {
+    "dataset_index": 2014,
+    "image_id": "Maine_Coon_2",
+    "label": 20,
+    "breed": "maine coon",
+    "width": 245,
+    "height": 300,
+    "box": [
+      0,
+      0,
+      245,
+      300
+    ],
+    "image_sha256": "6bb22b5b6b1e3d1abc65b25b43302d8fe91b2ed41d2dbd2156556f517fdf8043",
+    "trimap_sha256": "4e8a6ccc47516f83bc13c579796802b9deddbdc424328bfec5902705a2ec6ff3"
+  },
+  {
+    "dataset_index": 2017,
+    "image_id": "Maine_Coon_32",
+    "label": 20,
+    "breed": "maine coon",
+    "width": 500,
+    "height": 418,
+    "box": [
+      20,
+      0,
+      500,
+      418
+    ],
+    "image_sha256": "a4da53ce43b4e6c250c2461099c134f1b4aa40d9520b55171dbec9ef17bef0e2",
+    "trimap_sha256": "528144f43a28eff0e52ab4872bca5f5dc52f53af80ba3c8bacb25268d6dacf45"
+  },
+  {
+    "dataset_index": 2032,
+    "image_id": "Maine_Coon_48",
+    "label": 20,
+    "breed": "maine coon",
+    "width": 500,
+    "height": 349,
+    "box": [
+      106,
+      0,
+      500,
+      349
+    ],
+    "image_sha256": "a92ca9b2ee88a075d91081bad414bb3ceae1968a73f19cf47365aa9e8bd659f2",
+    "trimap_sha256": "b8fd35d1379a38262abc0ec6d04b89e036cf3c5c9db5d5cb663e2c65e00c3832"
+  },
+  {
+    "dataset_index": 2033,
+    "image_id": "Maine_Coon_49",
+    "label": 20,
+    "breed": "maine coon",
+    "width": 500,
+    "height": 333,
+    "box": [
+      184,
+      143,
+      427,
+      306
+    ],
+    "image_sha256": "3bc697145598d8c577baa4ef171bf17af79d1f8bdfce430f9f0594cf2dba9c35",
+    "trimap_sha256": "cd2c9a822631780268df43677d162e38c972f3eec2834b0a2ddb4ab6a9928376"
+  },
+  {
+    "dataset_index": 2054,
+    "image_id": "Maine_Coon_71",
+    "label": 20,
+    "breed": "maine coon",
+    "width": 500,
+    "height": 333,
+    "box": [
+      0,
+      0,
+      500,
+      333
+    ],
+    "image_sha256": "a7a3bdd4093841460f9fe56919987650312424f8736771a589b2da9783be31ec",
+    "trimap_sha256": "a226f717c144d7b9f796adcc7142f7e0f6b0a5756ca4a632bd456083c81d357c"
+  },
+  {
+    "dataset_index": 2065,
+    "image_id": "Maine_Coon_83",
+    "label": 20,
+    "breed": "maine coon",
+    "width": 335,
+    "height": 500,
+    "box": [
+      0,
+      0,
+      335,
+      500
+    ],
+    "image_sha256": "91f552b31b90729b380d3b4836c1494447e15be640314f271f16512a0c0cc86c",
+    "trimap_sha256": "55e85fc34faa8239d685df03d9678eea347dcc52d850d5753a3c6af47b4369fc"
+  },
+  {
+    "dataset_index": 2089,
+    "image_id": "miniature_pinscher_199",
+    "label": 21,
+    "breed": "miniature pinscher",
+    "width": 217,
+    "height": 300,
+    "box": [
+      0,
+      0,
+      217,
+      300
+    ],
+    "image_sha256": "504d43b6e9ce045d290d2e27574aee7af53a83bf6f8b5bf091c638115993f036",
+    "trimap_sha256": "b375170b2222f354a810d4c64ed419fe66b6610e9e7c36ad4594ef46d5f417ff"
+  },
+  {
+    "dataset_index": 2104,
+    "image_id": "miniature_pinscher_30",
+    "label": 21,
+    "breed": "miniature pinscher",
+    "width": 500,
+    "height": 332,
+    "box": [
+      98,
+      0,
+      415,
+      332
+    ],
+    "image_sha256": "b55b953dd56087fd1f0fdf33f358fafbbc8417626079d488210448382087ea35",
+    "trimap_sha256": "605ac526d87996bfbd824a318d3d079463314c8292fb1f2449af1dfc674a69c9"
+  },
+  {
+    "dataset_index": 2115,
+    "image_id": "miniature_pinscher_40",
+    "label": 21,
+    "breed": "miniature pinscher",
+    "width": 500,
+    "height": 375,
+    "box": [
+      179,
+      0,
+      394,
+      375
+    ],
+    "image_sha256": "1a989a6840303595d1df634684ac0f99da1c33a76ea1034d9f8244b84ef3a597",
+    "trimap_sha256": "dd8263dcee6f71cc4a10678dd5c7748251d201c5a40f8af3a0c3af9555d5173a"
+  },
+  {
+    "dataset_index": 2122,
+    "image_id": "miniature_pinscher_47",
+    "label": 21,
+    "breed": "miniature pinscher",
+    "width": 334,
+    "height": 500,
+    "box": [
+      145,
+      186,
+      320,
+      462
+    ],
+    "image_sha256": "5d43c74bf49a395819fbc0aa5156d3c657300808c376680d26d81980d236b0ed",
+    "trimap_sha256": "12aa9f29ee570adcbb502696bcf5919743f6914253e348af44084b69b351d189"
+  },
+  {
+    "dataset_index": 2136,
+    "image_id": "miniature_pinscher_5",
+    "label": 21,
+    "breed": "miniature pinscher",
+    "width": 375,
+    "height": 500,
+    "box": [
+      120,
+      255,
+      225,
+      432
+    ],
+    "image_sha256": "54517ee6898967012ab9a87d80e7184f1b3b5ccfa0a9729638104ff042b1ea66",
+    "trimap_sha256": "6365d5881b285ec0de921217fa59f30a482d9edefd5df1b5bded79a9d092306b"
+  },
+  {
+    "dataset_index": 2157,
+    "image_id": "miniature_pinscher_79",
+    "label": 21,
+    "breed": "miniature pinscher",
+    "width": 375,
+    "height": 500,
+    "box": [
+      228,
+      221,
+      328,
+      440
+    ],
+    "image_sha256": "6d272a1b1ca64cf01c53698d97d16ececa39a43552e4e3896e161177e98a9562",
+    "trimap_sha256": "1012ec21d8817200129f43d422c18eade80462ff0e46de5ba55de4913c919773"
+  },
+  {
+    "dataset_index": 2167,
+    "image_id": "miniature_pinscher_88",
+    "label": 21,
+    "breed": "miniature pinscher",
+    "width": 332,
+    "height": 500,
+    "box": [
+      13,
+      136,
+      293,
+      491
+    ],
+    "image_sha256": "261a4830740404292a0449d650cc8e56ef766d8c0fc02ec076788991a6282fac",
+    "trimap_sha256": "2531cc3dc8061be820b514693b73625fd916f77efcb2e24e34c56219573f40b1"
+  },
+  {
+    "dataset_index": 2173,
+    "image_id": "miniature_pinscher_93",
+    "label": 21,
+    "breed": "miniature pinscher",
+    "width": 500,
+    "height": 333,
+    "box": [
+      133,
+      30,
+      260,
+      333
+    ],
+    "image_sha256": "590dd542ac04da040400357daec633320c5ebf08590db8c7832b14c8efcf48fa",
+    "trimap_sha256": "da40000259fd1abbf93abad6c97baa31cfcb0a11b1dac73821a58956f94b5a01"
+  },
+  {
+    "dataset_index": 2174,
+    "image_id": "miniature_pinscher_94",
+    "label": 21,
+    "breed": "miniature pinscher",
+    "width": 500,
+    "height": 333,
+    "box": [
+      78,
+      18,
+      315,
+      333
+    ],
+    "image_sha256": "77bd2a2e745383c4ba445420f3a86191ffd2fc2529078a8fcce87190dfbe1025",
+    "trimap_sha256": "c925d4e4974e89fd3ca77b0f996ba3ae1e97b632c5225878cba96fc484963507"
+  },
+  {
+    "dataset_index": 2178,
+    "image_id": "miniature_pinscher_98",
+    "label": 21,
+    "breed": "miniature pinscher",
+    "width": 500,
+    "height": 375,
+    "box": [
+      189,
+      8,
+      393,
+      375
+    ],
+    "image_sha256": "5306881c02bb700063512933efe5dfed4e32ac71cd02d8bade989ef1353c6146",
+    "trimap_sha256": "20d0396ed3141023a0affe5c145b620a862a352a572fedb1b37dd7a5f5a88001"
+  },
+  {
+    "dataset_index": 2184,
+    "image_id": "newfoundland_194",
+    "label": 22,
+    "breed": "newfoundland",
+    "width": 375,
+    "height": 500,
+    "box": [
+      0,
+      0,
+      356,
+      500
+    ],
+    "image_sha256": "8ac3fc2354c923acd9e0ce46231e5304da2528dc3c7c63db9f0d3fdef21f491c",
+    "trimap_sha256": "b7a847d59dfda4b42b58539e7044463c84abe77e9853fe7e03e4ee6540240ba7"
+  },
+  {
+    "dataset_index": 2206,
+    "image_id": "newfoundland_32",
+    "label": 22,
+    "breed": "newfoundland",
+    "width": 332,
+    "height": 500,
+    "box": [
+      0,
+      0,
+      332,
+      500
+    ],
+    "image_sha256": "2f598fa044d61f94b8ecf6f2d17bb549f7e43cb5fe321c0b51a7ff32a82a62a8",
+    "trimap_sha256": "3fb753847513f283eb1531c11ec5ee2487d8e03ace43fbc1bdc14e4720bb77b7"
+  },
+  {
+    "dataset_index": 2211,
+    "image_id": "newfoundland_37",
+    "label": 22,
+    "breed": "newfoundland",
+    "width": 500,
+    "height": 375,
+    "box": [
+      18,
+      4,
+      500,
+      375
+    ],
+    "image_sha256": "b19d5bd8753307a07f83eb0c2a21961bb6bb25bb24dc84524dce996a53aa049f",
+    "trimap_sha256": "08a7d42ab6ad596dd10fd5e1f7ce2dad3d184c3ae4016aff009395baeec93a56"
+  },
+  {
+    "dataset_index": 2217,
+    "image_id": "newfoundland_42",
+    "label": 22,
+    "breed": "newfoundland",
+    "width": 500,
+    "height": 375,
+    "box": [
+      110,
+      11,
+      409,
+      366
+    ],
+    "image_sha256": "44934eec82028eb8c44914f2824800853f5049dee4b0402ef4b2db6f99ab9406",
+    "trimap_sha256": "a6c717b994f3d1c1a55a051ceda9d0507a5066dc02ae36619a150261c65cd1f3"
+  },
+  {
+    "dataset_index": 2229,
+    "image_id": "newfoundland_53",
+    "label": 22,
+    "breed": "newfoundland",
+    "width": 500,
+    "height": 333,
+    "box": [
+      98,
+      0,
+      500,
+      333
+    ],
+    "image_sha256": "88ede9f3efee525a700feb60e35dc09fb1703269764bcad96a1a3b51d769151e",
+    "trimap_sha256": "d815d9af4ae0d68827770519fa84a07458839432218fb7d969fc5ef0d782a9b7"
+  },
+  {
+    "dataset_index": 2240,
+    "image_id": "newfoundland_63",
+    "label": 22,
+    "breed": "newfoundland",
+    "width": 500,
+    "height": 375,
+    "box": [
+      0,
+      0,
+      500,
+      375
+    ],
+    "image_sha256": "f28ab4eb337411a7889fa6e6e20ddb63c145f667cc279f3afd9ff7f415f7af62",
+    "trimap_sha256": "91b0bd1bf7704491781d5fdaf5288e0f1e51b5851495a990d5dda80d8bcc1364"
+  },
+  {
+    "dataset_index": 2244,
+    "image_id": "newfoundland_67",
+    "label": 22,
+    "breed": "newfoundland",
+    "width": 500,
+    "height": 375,
+    "box": [
+      0,
+      64,
+      500,
+      375
+    ],
+    "image_sha256": "57878f448f9c8eb5d213cbd70b32a5bbf20a734fb7313b82a1856e800e474efb",
+    "trimap_sha256": "cefd088140c0db3f55feeb6f97c18f3d7178e2256ea84c06d300848f4d7f9801"
+  },
+  {
+    "dataset_index": 2245,
+    "image_id": "newfoundland_68",
+    "label": 22,
+    "breed": "newfoundland",
+    "width": 332,
+    "height": 500,
+    "box": [
+      0,
+      71,
+      263,
+      399
+    ],
+    "image_sha256": "2f8c16ef594d4cd4cab0341a880135bf987db3131405ab588aaf16a220c6f3e6",
+    "trimap_sha256": "488006cfe5d67031fa297fe656825571c0704285f27736e66e0a98d1949ee39f"
+  },
+  {
+    "dataset_index": 2249,
+    "image_id": "newfoundland_71",
+    "label": 22,
+    "breed": "newfoundland",
+    "width": 500,
+    "height": 375,
+    "box": [
+      68,
+      60,
+      500,
+      375
+    ],
+    "image_sha256": "3dc1ce197f94520b6e39e45d594f8c534303088317da2a3c71c55533899539a0",
+    "trimap_sha256": "6958fec17bdb6b34091a3699516f86dbc0449b99feeb7e85b884c20585984f72"
+  },
+  {
+    "dataset_index": 2273,
+    "image_id": "newfoundland_93",
+    "label": 22,
+    "breed": "newfoundland",
+    "width": 500,
+    "height": 375,
+    "box": [
+      37,
+      40,
+      393,
+      350
+    ],
+    "image_sha256": "6bc5939f7100ae9003949e17a0be3f3dd1e3cfaad03eedfc54d339d445d5266e",
+    "trimap_sha256": "509a8461453c043dc32f20c411014d1fa76a07a49578c73da8770367f1b9c38e"
+  },
+  {
+    "dataset_index": 2283,
+    "image_id": "Persian_224",
+    "label": 23,
+    "breed": "persian",
+    "width": 300,
+    "height": 225,
+    "box": [
+      54,
+      27,
+      256,
+      225
+    ],
+    "image_sha256": "ef20f2e4e24829a99d0db3c8c631dff20712586e7d59f3cce06fa386ad5b1aa9",
+    "trimap_sha256": "8af8b5bc4233f9be29ed6f978694f55226e9c01e1d7f65918ad26f7853d92634"
+  },
+  {
+    "dataset_index": 2290,
+    "image_id": "Persian_257",
+    "label": 23,
+    "breed": "persian",
+    "width": 466,
+    "height": 309,
+    "box": [
+      0,
+      0,
+      442,
+      309
+    ],
+    "image_sha256": "964ece250342e175f53f57a9e6d8f6e7e5c921c5f0890e0bfc62033ec9ede0a2",
+    "trimap_sha256": "9aea000e95a269bdd70102975e35c3011496eb2a0d69e8f352a327a767ffec75"
+  },
+  {
+    "dataset_index": 2294,
+    "image_id": "Persian_260",
+    "label": 23,
+    "breed": "persian",
+    "width": 260,
+    "height": 194,
+    "box": [
+      0,
+      15,
+      260,
+      194
+    ],
+    "image_sha256": "827ad57889bc95711f14ee43bede3216fd2e8b51d13d2ba75edc2b701a3f374c",
+    "trimap_sha256": "1b8252f3f1971b4564d3698719acbf0c4a8c38e4e258f49cbbaa8097ae9eba00"
+  },
+  {
+    "dataset_index": 2297,
+    "image_id": "Persian_263",
+    "label": 23,
+    "breed": "persian",
+    "width": 262,
+    "height": 335,
+    "box": [
+      0,
+      0,
+      262,
+      335
+    ],
+    "image_sha256": "dc60032e6bfa9d2789f67867a36fe65b1a18e506dcfde270c0907f89a8b2fee4",
+    "trimap_sha256": "a74c7db1526d6b0f00fa36ff878d1b52626e173f7ee13fb4a03d5e5be0f1b214"
+  },
+  {
+    "dataset_index": 2309,
+    "image_id": "Persian_27",
+    "label": 23,
+    "breed": "persian",
+    "width": 456,
+    "height": 500,
+    "box": [
+      0,
+      0,
+      456,
+      500
+    ],
+    "image_sha256": "50eb8e869c5589b1a5ccf16be83032982b76fd8ffd80a2f115bdb8d1ae529d38",
+    "trimap_sha256": "7ffdb3b0e72681678b505227184b281bcd9bdce050972e92647d2662e87d1846"
+  },
+  {
+    "dataset_index": 2316,
+    "image_id": "Persian_34",
+    "label": 23,
+    "breed": "persian",
+    "width": 500,
+    "height": 333,
+    "box": [
+      0,
+      0,
+      500,
+      333
+    ],
+    "image_sha256": "24f96f5f7ed296590b213efb888722a6b79933ee8270f91576b798abe62a3f85",
+    "trimap_sha256": "e0d3a6f38537ce6e84ee275157def145148311053e492b64f1e1ac93348c417b"
+  },
+  {
+    "dataset_index": 2318,
+    "image_id": "Persian_37",
+    "label": 23,
+    "breed": "persian",
+    "width": 500,
+    "height": 333,
+    "box": [
+      3,
+      101,
+      410,
+      333
+    ],
+    "image_sha256": "014acd15c93ca2594d19c977474bb0cc853450696e9143fa6f878facad0e1db7",
+    "trimap_sha256": "71836cd0b83090fd06173dd631525e20eecfda2ba91876a2259ba6597ac16e7a"
+  },
+  {
+    "dataset_index": 2325,
+    "image_id": "Persian_43",
+    "label": 23,
+    "breed": "persian",
+    "width": 500,
+    "height": 281,
+    "box": [
+      0,
+      0,
+      500,
+      281
+    ],
+    "image_sha256": "42f5851f3a6c53731b36047d8e29a54add004e5796a47e5214ddb3164a3e89eb",
+    "trimap_sha256": "ae1f836ca49c40ac1aaf0de4685db6d6b2af99ae244a84ae9cd08216adc2908d"
+  },
+  {
+    "dataset_index": 2326,
+    "image_id": "Persian_44",
+    "label": 23,
+    "breed": "persian",
+    "width": 462,
+    "height": 500,
+    "box": [
+      3,
+      1,
+      462,
+      500
+    ],
+    "image_sha256": "6658dcfd188b708489df6763ecd002bfb987119507ca8dd4e8efc73fd3f47460",
+    "trimap_sha256": "b18f9d640dad88ca2988825ea8758a8b45296d0f5c306285a02844c77bbdb8ae"
+  },
+  {
+    "dataset_index": 2373,
+    "image_id": "Persian_90",
+    "label": 23,
+    "breed": "persian",
+    "width": 500,
+    "height": 375,
+    "box": [
+      0,
+      0,
+      500,
+      375
+    ],
+    "image_sha256": "0d068f83947220ac09d51a18bc7e61b74beebc1f2559c2c15393e2858a99764f",
+    "trimap_sha256": "d6cc2ac5df76a4edc5dab8f8a6c5c2afac5dacb4bdba010365e8a6106f5e0a63"
+  },
+  {
+    "dataset_index": 2385,
+    "image_id": "pomeranian_195",
+    "label": 24,
+    "breed": "pomeranian",
+    "width": 300,
+    "height": 208,
+    "box": [
+      0,
+      0,
+      300,
+      208
+    ],
+    "image_sha256": "a5a7af1a6a06be5c88247967eb06c7659330f1637a4e73505811ed48841cbf6d",
+    "trimap_sha256": "a6ec6a65ddedff7aa4cb69ddd80b5c143fda8c432096859fb13e1ab9557dc985"
+  },
+  {
+    "dataset_index": 2389,
+    "image_id": "pomeranian_199",
+    "label": 24,
+    "breed": "pomeranian",
+    "width": 278,
+    "height": 300,
+    "box": [
+      0,
+      0,
+      278,
+      300
+    ],
+    "image_sha256": "4e260759d228e073eb063724119c7996975999db70847ee8866fe1b3fa954baf",
+    "trimap_sha256": "143ea97cd006118677ff04a80e5ceca0717818ba9b582d3e39460630a34be652"
+  },
+  {
+    "dataset_index": 2401,
+    "image_id": "pomeranian_28",
+    "label": 24,
+    "breed": "pomeranian",
+    "width": 333,
+    "height": 500,
+    "box": [
+      0,
+      0,
+      312,
+      490
+    ],
+    "image_sha256": "3274bb71f30ba2bfd0efcbed37d34c3342deb210e0d4e592fd103b54cce72c95",
+    "trimap_sha256": "7b1405de3bbbcec2e56deec4d4e6bfa2cbfe6d31b82019bcb8e62931d388a10d"
+  },
+  {
+    "dataset_index": 2403,
+    "image_id": "pomeranian_2",
+    "label": 24,
+    "breed": "pomeranian",
+    "width": 333,
+    "height": 500,
+    "box": [
+      45,
+      95,
+      333,
+      500
+    ],
+    "image_sha256": "12a9c1af54d8fb85e2f69363ac9ff3e9427c747eb7441c09d2214869c30be52c",
+    "trimap_sha256": "a57873d2fcff0fa60fdfae852922cc9809b7f6051ee97fb87e0ffd7af8661207"
+  },
+  {
+    "dataset_index": 2407,
+    "image_id": "pomeranian_33",
+    "label": 24,
+    "breed": "pomeranian",
+    "width": 500,
+    "height": 440,
+    "box": [
+      180,
+      4,
+      500,
+      411
+    ],
+    "image_sha256": "9f068d9d731518904b4df9902e0ed7cc28a3662bb43b6e4a6ae26cbce9339ebf",
+    "trimap_sha256": "29a0b5d1841adcaa0aecade9edb40742fc0280bbd2d66e940180555977b22050"
+  },
+  {
+    "dataset_index": 2416,
+    "image_id": "pomeranian_41",
+    "label": 24,
+    "breed": "pomeranian",
+    "width": 500,
+    "height": 382,
+    "box": [
+      0,
+      47,
+      461,
+      319
+    ],
+    "image_sha256": "c4b504cac2c3697d262e296395fd9c96f6edd6469453160bcf163fbb668091c0",
+    "trimap_sha256": "f32b68bfd350ed1adab0f999927e1104e3acb6a4d3c8406c2f3888f4fda16f91"
+  },
+  {
+    "dataset_index": 2435,
+    "image_id": "pomeranian_59",
+    "label": 24,
+    "breed": "pomeranian",
+    "width": 500,
+    "height": 375,
+    "box": [
+      47,
+      0,
+      475,
+      375
+    ],
+    "image_sha256": "63a2f00e00e0d2bc3f4a538463c44cf9241fbe2b6b1411a97bcfe2fda16fa83d",
+    "trimap_sha256": "c114598dd2c5ac89c004df9d0f770b83095a032da3c33c801d6fa6c6956a1bb8"
+  },
+  {
+    "dataset_index": 2462,
+    "image_id": "pomeranian_83",
+    "label": 24,
+    "breed": "pomeranian",
+    "width": 375,
+    "height": 500,
+    "box": [
+      95,
+      166,
+      261,
+      414
+    ],
+    "image_sha256": "fde0cace1a8f0c99f7df0211005b1651e1c82bc92eee6844e05099ba175ea0c6",
+    "trimap_sha256": "14d6b590180ef562c8f7b2d03752c480c7a13119b552278dcc6c1f26142a6bc5"
+  },
+  {
+    "dataset_index": 2473,
+    "image_id": "pomeranian_93",
+    "label": 24,
+    "breed": "pomeranian",
+    "width": 500,
+    "height": 384,
+    "box": [
+      0,
+      0,
+      500,
+      384
+    ],
+    "image_sha256": "2b619d6c49a6abcf45150fe1d844072e7680a9248f2c44e1daf17756fd911aeb",
+    "trimap_sha256": "71a7e86d20726c28044c6448dcfe5c05b94a73a510ae8742b86da2213ea96896"
+  },
+  {
+    "dataset_index": 2478,
+    "image_id": "pomeranian_98",
+    "label": 24,
+    "breed": "pomeranian",
+    "width": 354,
+    "height": 500,
+    "box": [
+      0,
+      0,
+      354,
+      500
+    ],
+    "image_sha256": "80f87a3efe43c35b673edbe06a29fd52b7e99a096a126ffb7b8533fd3cfb0770",
+    "trimap_sha256": "a42beb8d0b5db6785823e7258478eaf096eac7f71bf946daf8d0377eef75ad17"
+  },
+  {
+    "dataset_index": 2483,
+    "image_id": "pug_195",
+    "label": 25,
+    "breed": "pug",
+    "width": 248,
+    "height": 300,
+    "box": [
+      0,
+      11,
+      222,
+      300
+    ],
+    "image_sha256": "abbf59199183ce002876bbfc275b55d7be41c53d0feaa0ac7ecbeffadc49b876",
+    "trimap_sha256": "2f5e578a340425d2c2d4a4625c9db119b585c3495ad42f00537912c569230f43"
+  },
+  {
+    "dataset_index": 2492,
+    "image_id": "pug_202",
+    "label": 25,
+    "breed": "pug",
+    "width": 197,
+    "height": 300,
+    "box": [
+      0,
+      0,
+      197,
+      300
+    ],
+    "image_sha256": "2683f9c1890e32d4c280145c0e808364025f47feafb33da75bf7f141cee281fd",
+    "trimap_sha256": "7e7770a883a66f53c701c57554a2f0343a66d6cf989c8293958b4939381f68a2"
+  },
+  {
+    "dataset_index": 2499,
+    "image_id": "pug_25",
+    "label": 25,
+    "breed": "pug",
+    "width": 500,
+    "height": 334,
+    "box": [
+      37,
+      0,
+      413,
+      334
+    ],
+    "image_sha256": "001bdfef0e80980785a855914a3234e0dc292d7c79015d395b15726dc6f17fc6",
+    "trimap_sha256": "acabae18eee32485664fc6f9cb95cc1a1fae1c9087e499d11478fc75090eac5c"
+  },
+  {
+    "dataset_index": 2515,
+    "image_id": "pug_3",
+    "label": 25,
+    "breed": "pug",
+    "width": 332,
+    "height": 500,
+    "box": [
+      0,
+      47,
+      332,
+      416
+    ],
+    "image_sha256": "636940e5588375d2a462aa75fe24cacf6aedd0eaee2e2ee741734ff1a2940da2",
+    "trimap_sha256": "f92a41f0f47f2da6b47c54e4dca2a947207a45829cff45af679fb10a2d111b65"
+  },
+  {
+    "dataset_index": 2516,
+    "image_id": "pug_40",
+    "label": 25,
+    "breed": "pug",
+    "width": 333,
+    "height": 500,
+    "box": [
+      106,
+      222,
+      333,
+      434
+    ],
+    "image_sha256": "761df568f8d870de3b45c43977653a00fcf3c682b4bf8f99a5a93b873fca9f55",
+    "trimap_sha256": "d9c98a88623cc8f5cb38f6bac9029f8bb3460eab84bf57db584153fbce9f180a"
+  },
+  {
+    "dataset_index": 2524,
+    "image_id": "pug_48",
+    "label": 25,
+    "breed": "pug",
+    "width": 333,
+    "height": 500,
+    "box": [
+      0,
+      0,
+      333,
+      500
+    ],
+    "image_sha256": "e7a5fb33a8d60803e34e73ab116cf43b526cbd5ebb94c548f52b3dc4ec7d17f0",
+    "trimap_sha256": "84975417a44d05b232253437a5e24ef8798ad12a63b53f8348a768cf0ec93dd2"
+  },
+  {
+    "dataset_index": 2546,
+    "image_id": "pug_68",
+    "label": 25,
+    "breed": "pug",
+    "width": 500,
+    "height": 333,
+    "box": [
+      200,
+      72,
+      366,
+      284
+    ],
+    "image_sha256": "678c70b0ccf188b5f306e2b26fd9a9d83b38e8d09a4bbe5349619ae095ca741e",
+    "trimap_sha256": "8e2c8ca2f9b051e583dd36e6fce2c9d231fb20d75725bed79a629512a4c08bc0"
+  },
+  {
+    "dataset_index": 2555,
+    "image_id": "pug_76",
+    "label": 25,
+    "breed": "pug",
+    "width": 500,
+    "height": 332,
+    "box": [
+      100,
+      13,
+      265,
+      301
+    ],
+    "image_sha256": "23dbd60ab4d63f16e0ac95ac1cdb6d074684df2ebc91554af504f68234526bc8",
+    "trimap_sha256": "5a2eb0b5e3ad7c1edb4b6f78c982f394bc91a77f741663bb2a20be6efb9458ed"
+  },
+  {
+    "dataset_index": 2567,
+    "image_id": "pug_88",
+    "label": 25,
+    "breed": "pug",
+    "width": 333,
+    "height": 500,
+    "box": [
+      0,
+      10,
+      331,
+      498
+    ],
+    "image_sha256": "ea40c250e84096d517acd353b4b020f76e52df6f6eb6cb22c595cf2873309a33",
+    "trimap_sha256": "46403e09ec4845195e583770ff2908619f3c3c5968bc85a0174a2b4520fc0922"
+  },
+  {
+    "dataset_index": 2569,
+    "image_id": "pug_8",
+    "label": 25,
+    "breed": "pug",
+    "width": 500,
+    "height": 375,
+    "box": [
+      0,
+      0,
+      500,
+      375
+    ],
+    "image_sha256": "a3444542e6efb053439645f21a1e102b08a68080034960fe2f9ba90770e2e8af",
+    "trimap_sha256": "a23422bfe314e2062bbd92c9423230c686851c39aa3127d68b59496683777632"
+  },
+  {
+    "dataset_index": 2590,
+    "image_id": "Ragdoll_228",
+    "label": 26,
+    "breed": "ragdoll",
+    "width": 300,
+    "height": 199,
+    "box": [
+      0,
+      0,
+      291,
+      199
+    ],
+    "image_sha256": "dc9ec253a2e7afa86bc6a649b4544382f0e37ebef7c6162c23c58abba01a5a58",
+    "trimap_sha256": "3b43176c50df72ae6e9cdcb694ab51d34cc7d0be30f224e9b7ea925b624fb8d3"
+  },
+  {
+    "dataset_index": 2598,
+    "image_id": "Ragdoll_255",
+    "label": 26,
+    "breed": "ragdoll",
+    "width": 300,
+    "height": 225,
+    "box": [
+      0,
+      0,
+      300,
+      225
+    ],
+    "image_sha256": "81b66bc42a05a39c48bbb921e6b17b083c1f7a0b284b317fa5187e3a9110887e",
+    "trimap_sha256": "860b57b53d390befa3898825aac354ced539baa352d5db85861323ad1bc855f5"
+  },
+  {
+    "dataset_index": 2602,
+    "image_id": "Ragdoll_25",
+    "label": 26,
+    "breed": "ragdoll",
+    "width": 500,
+    "height": 334,
+    "box": [
+      2,
+      24,
+      482,
+      334
+    ],
+    "image_sha256": "346e006a80d7e502de60061422bb63f26f58b6cf851e4da75ee88da3cbe46a4c",
+    "trimap_sha256": "3f13044d29590bc8803f3508bd7be8cdc54d8e438a6127496235d89aa2f36d2b"
+  },
+  {
+    "dataset_index": 2612,
+    "image_id": "Ragdoll_2",
+    "label": 26,
+    "breed": "ragdoll",
+    "width": 275,
+    "height": 196,
+    "box": [
+      19,
+      0,
+      254,
+      196
+    ],
+    "image_sha256": "cfa19fb411e33f03c7fc4aa7cc29fb8bbfc5fe4fc3c2c09887f970c0f42d3341",
+    "trimap_sha256": "7b5dc3e57156f3e00f7aa89fea4fc5ef660a48d5958fd7483a5351d979316415"
+  },
+  {
+    "dataset_index": 2618,
+    "image_id": "Ragdoll_35",
+    "label": 26,
+    "breed": "ragdoll",
+    "width": 500,
+    "height": 375,
+    "box": [
+      0,
+      0,
+      434,
+      375
+    ],
+    "image_sha256": "c4a160c37c41159bf3b6b41fddb87ec48d55fc8eacda32de8de10755873ac441",
+    "trimap_sha256": "a44f7d1911b78498886f4083e767d762f9ef52a96d8999d3b8f031c65d415bfb"
+  },
+  {
+    "dataset_index": 2625,
+    "image_id": "Ragdoll_43",
+    "label": 26,
+    "breed": "ragdoll",
+    "width": 375,
+    "height": 500,
+    "box": [
+      23,
+      55,
+      375,
+      500
+    ],
+    "image_sha256": "5b69b03b14560d09d322d34e17068960ffd5c8cf183022e5e3af2d8a1a48e23a",
+    "trimap_sha256": "9457a0dd6920f0666b6be9b7a5202a6719473ee6b578d3956ddddad798d10941"
+  },
+  {
+    "dataset_index": 2635,
+    "image_id": "Ragdoll_54",
+    "label": 26,
+    "breed": "ragdoll",
+    "width": 500,
+    "height": 332,
+    "box": [
+      0,
+      0,
+      500,
+      332
+    ],
+    "image_sha256": "b5d105bd245574dc63aa13c1d4125ae42699480e18a79e21727c1f88a465d68d",
+    "trimap_sha256": "f5a22e25bb54c274122e8e2e1b4361fa9fb9be404eb88d96c57e9f6449719a14"
+  },
+  {
+    "dataset_index": 2651,
+    "image_id": "Ragdoll_73",
+    "label": 26,
+    "breed": "ragdoll",
+    "width": 500,
+    "height": 375,
+    "box": [
+      0,
+      25,
+      500,
+      375
+    ],
+    "image_sha256": "f55f9fbe08300729f938b2e46c15757770c789a595ecc6e127b7a17df83843bf",
+    "trimap_sha256": "662b73546d5a4618696f08abd7b6f93a1a0ef7409efa0ac05e383862b1c0247b"
+  },
+  {
+    "dataset_index": 2659,
+    "image_id": "Ragdoll_80",
+    "label": 26,
+    "breed": "ragdoll",
+    "width": 375,
+    "height": 500,
+    "box": [
+      0,
+      18,
+      375,
+      500
+    ],
+    "image_sha256": "05a876f76de7c0c58a47302117b12d4b9438caf8e8b43e6c3ecaf4ead9b35353",
+    "trimap_sha256": "cef56a6ae3d9817fd66d56322125ca3dc15b907f48c96e79b0f469c78fd23bbd"
+  },
+  {
+    "dataset_index": 2670,
+    "image_id": "Ragdoll_90",
+    "label": 26,
+    "breed": "ragdoll",
+    "width": 500,
+    "height": 419,
+    "box": [
+      48,
+      0,
+      500,
+      419
+    ],
+    "image_sha256": "69c1248a0fe31667738aa5fcc73b8a968cc7ddde8c4b6b918a0f6251930b22fa",
+    "trimap_sha256": "204eed661481e64768b8355d59148b0cf2a12aaca4a6e67e71bb7a31ae1e1eae"
+  },
+  {
+    "dataset_index": 2690,
+    "image_id": "Russian_Blue_20",
+    "label": 27,
+    "breed": "russian blue",
+    "width": 332,
+    "height": 500,
+    "box": [
+      62,
+      107,
+      314,
+      500
+    ],
+    "image_sha256": "87c256cd399e853ae215ae4a307e545375739771f8d4597ec82e5f580ce93ab1",
+    "trimap_sha256": "b811c36610180e6c5122822192a38456f8cba43a299cc382144957f01baffe61"
+  },
+  {
+    "dataset_index": 2696,
+    "image_id": "Russian_Blue_220",
+    "label": 27,
+    "breed": "russian blue",
+    "width": 300,
+    "height": 200,
+    "box": [
+      0,
+      0,
+      278,
+      200
+    ],
+    "image_sha256": "215b909f88d3b77e3bc9cad95c20b24f48e2f746a2f036543a39dcac64e53c33",
+    "trimap_sha256": "cfaadb89f19f5cd8e726474a8d21ee3077d1ece9053468f6633f6bd7525f06b6"
+  },
+  {
+    "dataset_index": 2697,
+    "image_id": "Russian_Blue_221",
+    "label": 27,
+    "breed": "russian blue",
+    "width": 300,
+    "height": 226,
+    "box": [
+      51,
+      41,
+      286,
+      194
+    ],
+    "image_sha256": "4037996f687b962e5f1b6df92dd8cfea630385348f2f7b8ddbbda57ae9a24585",
+    "trimap_sha256": "88705da3325273bf549b047aaf394b455c62035d9f566a84c3bc80fc2eb1f40d"
+  },
+  {
+    "dataset_index": 2704,
+    "image_id": "Russian_Blue_239",
+    "label": 27,
+    "breed": "russian blue",
+    "width": 200,
+    "height": 300,
+    "box": [
+      19,
+      40,
+      200,
+      299
+    ],
+    "image_sha256": "83374ea1a4768d74491d378220dd33cf2c40fb706aa7678d0010b8436fe4a6de",
+    "trimap_sha256": "afefd205e8066de30c74fb5ff289429d6b63b20e30f6d1234f002d0db0be1034"
+  },
+  {
+    "dataset_index": 2712,
+    "image_id": "Russian_Blue_263",
+    "label": 27,
+    "breed": "russian blue",
+    "width": 450,
+    "height": 366,
+    "box": [
+      0,
+      0,
+      450,
+      366
+    ],
+    "image_sha256": "aac2b8047e6606466759a2127e9b9b3cf2d72a5a7515e1a6bc7368ec48999358",
+    "trimap_sha256": "6ab479dfe2b675ef5efd7b6a57c9200b27129af5f72fc3b678915822edcd8529"
+  },
+  {
+    "dataset_index": 2717,
+    "image_id": "Russian_Blue_30",
+    "label": 27,
+    "breed": "russian blue",
+    "width": 500,
+    "height": 337,
+    "box": [
+      0,
+      0,
+      368,
+      337
+    ],
+    "image_sha256": "257ce9d30a7bd17c64ea86d37a4bf4cc912408006cfeb61ca73a0c504b2d0242",
+    "trimap_sha256": "8f5aef402238d235ec9165fb34369282815ed33d5b6c210284f96753291b0c2d"
+  },
+  {
+    "dataset_index": 2729,
+    "image_id": "Russian_Blue_45",
+    "label": 27,
+    "breed": "russian blue",
+    "width": 334,
+    "height": 500,
+    "box": [
+      0,
+      0,
+      334,
+      478
+    ],
+    "image_sha256": "2f9183249b77f414d297ad56fd442e77473240f6c5f7040422c5761ee9037813",
+    "trimap_sha256": "ee709043e70511a474cd1036de34b7267911542f8f50e0ddd691b3ae41c0a722"
+  },
+  {
+    "dataset_index": 2741,
+    "image_id": "Russian_Blue_61",
+    "label": 27,
+    "breed": "russian blue",
+    "width": 500,
+    "height": 333,
+    "box": [
+      161,
+      0,
+      359,
+      304
+    ],
+    "image_sha256": "41fba5399492539ad9fe9702856f945e9828a2a72f010b5b38485ca83618f113",
+    "trimap_sha256": "e5bd5fa87204da688b53b5159f56493cfaa65a635f581da6e089ee02a47b9bf5"
+  },
+  {
+    "dataset_index": 2743,
+    "image_id": "Russian_Blue_63",
+    "label": 27,
+    "breed": "russian blue",
+    "width": 500,
+    "height": 333,
+    "box": [
+      0,
+      0,
+      500,
+      333
+    ],
+    "image_sha256": "a2fe0ed8134c18858bd59b43618ab56f0a2a99daf4ac9685fb0e8b50f815fb1d",
+    "trimap_sha256": "83a0edd4cecd518ed805e5b5441d5e2da028d7a123bf56e0355686958bfe270f"
+  },
+  {
+    "dataset_index": 2772,
+    "image_id": "Russian_Blue_92",
+    "label": 27,
+    "breed": "russian blue",
+    "width": 500,
+    "height": 333,
+    "box": [
+      61,
+      14,
+      370,
+      305
+    ],
+    "image_sha256": "7dc7224fc0bd51ee7a088b8f3b73b0329a7901a41fa7d7ec32c90026b8091fbc",
+    "trimap_sha256": "92a446587eecdf47d7f1240a31e491590e542cc7279fe3873f83e141d04e0e3d"
+  },
+  {
+    "dataset_index": 2785,
+    "image_id": "saint_bernard_195",
+    "label": 28,
+    "breed": "saint bernard",
+    "width": 500,
+    "height": 375,
+    "box": [
+      0,
+      0,
+      493,
+      375
+    ],
+    "image_sha256": "46e23bc1729c9f22c238950ec8578147e0334c3e4d6f7cf7a21d09c82a80035d",
+    "trimap_sha256": "ba40a0afed9558bef4da77e637b55509ac8e92399dcc5ea3a9f28b3717bdcbde"
+  },
+  {
+    "dataset_index": 2795,
+    "image_id": "saint_bernard_22",
+    "label": 28,
+    "breed": "saint bernard",
+    "width": 500,
+    "height": 333,
+    "box": [
+      0,
+      112,
+      417,
+      299
+    ],
+    "image_sha256": "c59560e37fce7854bc6a67ad9dd8a58367ce2d497d968f5228bf50b6c3c380dc",
+    "trimap_sha256": "56c456cfe5b582ec02b64b850f82ae789e7432b9f873e74a574d5bddfcf75c64"
+  },
+  {
+    "dataset_index": 2796,
+    "image_id": "saint_bernard_23",
+    "label": 28,
+    "breed": "saint bernard",
+    "width": 500,
+    "height": 412,
+    "box": [
+      0,
+      2,
+      500,
+      412
+    ],
+    "image_sha256": "f5bb2255f76594b0e22ce31d650de97a3d5e810d5855d7a96bca33049da99f2c",
+    "trimap_sha256": "5821e255445ff2c345592ac7a817eb6161a7e4f1e6c71fb6d9318bcda690ed21"
+  },
+  {
+    "dataset_index": 2820,
+    "image_id": "saint_bernard_45",
+    "label": 28,
+    "breed": "saint bernard",
+    "width": 500,
+    "height": 400,
+    "box": [
+      65,
+      93,
+      348,
+      277
+    ],
+    "image_sha256": "57323d5f3f54ced558f18ffd78bd5a5ce64c0c05846e520ff12d8f6e6f157a1b",
+    "trimap_sha256": "b967a4710d09402f2922b11af9805a796fdc620fe526687232790a2c1b11831f"
+  },
+  {
+    "dataset_index": 2829,
+    "image_id": "saint_bernard_53",
+    "label": 28,
+    "breed": "saint bernard",
+    "width": 500,
+    "height": 421,
+    "box": [
+      0,
+      0,
+      500,
+      421
+    ],
+    "image_sha256": "2168fc8df2cdd8fe40e5183eb2de5b381ab285d776871c59b2ade792db498292",
+    "trimap_sha256": "61ccdd2e938bcbb8e9a95bc48c8c34ca034c702c4a55d8a5b49ec7e93a4ed3f1"
+  },
+  {
+    "dataset_index": 2832,
+    "image_id": "saint_bernard_56",
+    "label": 28,
+    "breed": "saint bernard",
+    "width": 500,
+    "height": 376,
+    "box": [
+      0,
+      0,
+      446,
+      376
+    ],
+    "image_sha256": "41e73a9aea2e852067342a05b4463c56e1f25a0f499b0b4854110ef38c8ab0b2",
+    "trimap_sha256": "99584879f415b507974afdfe5259f18c95f11b37aca55fcbbb3b4b1c6e74f8f4"
+  },
+  {
+    "dataset_index": 2855,
+    "image_id": "saint_bernard_77",
+    "label": 28,
+    "breed": "saint bernard",
+    "width": 456,
+    "height": 500,
+    "box": [
+      0,
+      0,
+      456,
+      500
+    ],
+    "image_sha256": "a5440deb6c8f8d4fe21ecee44f564102d4823a59fbd668ab1e22a4eceba319b5",
+    "trimap_sha256": "ca1ff18b1a138e50bd15d6dcc84e62ebe8ca16653ee32be0444e42c0e0786198"
+  },
+  {
+    "dataset_index": 2858,
+    "image_id": "saint_bernard_7",
+    "label": 28,
+    "breed": "saint bernard",
+    "width": 500,
+    "height": 333,
+    "box": [
+      128,
+      0,
+      422,
+      333
+    ],
+    "image_sha256": "271e79c0f341c3b27f6d566fbff1ebfca3c766b575bcd4503b6a13d589f58a97",
+    "trimap_sha256": "cfcbd2d9fefd5c0f043c3de8353b902d39309d9426d5a6324740536176349fe7"
+  },
+  {
+    "dataset_index": 2859,
+    "image_id": "saint_bernard_80",
+    "label": 28,
+    "breed": "saint bernard",
+    "width": 500,
+    "height": 333,
+    "box": [
+      242,
+      62,
+      392,
+      333
+    ],
+    "image_sha256": "fe1a81414715551e3393d7960bb388a44f6a257c24124f5e8b5add75d005c05e",
+    "trimap_sha256": "632d79207fefb1cd66cab516e77e1d1e3214befaab7f81d5d9731c8fb52b4e63"
+  },
+  {
+    "dataset_index": 2879,
+    "image_id": "saint_bernard_99",
+    "label": 28,
+    "breed": "saint bernard",
+    "width": 357,
+    "height": 500,
+    "box": [
+      16,
+      0,
+      321,
+      500
+    ],
+    "image_sha256": "8fb580277ad1cb59a1aafbb9fdf94d1e3996d949d8742c993b602beb94b5ca7f",
+    "trimap_sha256": "891273114380e3c6b6449dcb2ce43733da8f7df793786622a5ef2627c2845463"
+  },
+  {
+    "dataset_index": 2899,
+    "image_id": "samoyed_26",
+    "label": 29,
+    "breed": "samoyed",
+    "width": 500,
+    "height": 333,
+    "box": [
+      0,
+      0,
+      433,
+      333
+    ],
+    "image_sha256": "d56de5928ae73754e88a08d7e24756e21c329a865faa5988dff48da1ec10993e",
+    "trimap_sha256": "877c859ee09e1ddd736ce5d54c8c75a4118dab96525942d70cd4f4dfb62bb9a1"
+  },
+  {
+    "dataset_index": 2908,
+    "image_id": "samoyed_34",
+    "label": 29,
+    "breed": "samoyed",
+    "width": 500,
+    "height": 375,
+    "box": [
+      140,
+      0,
+      445,
+      375
+    ],
+    "image_sha256": "350393158cf200a5b7c46201bff04fd6a805caf3e0a15a06edc37f3069b4cc11",
+    "trimap_sha256": "87a37898dc5c367f28de6b17e451bc47c9440e83780e77274a7429d867447617"
+  },
+  {
+    "dataset_index": 2911,
+    "image_id": "samoyed_37",
+    "label": 29,
+    "breed": "samoyed",
+    "width": 500,
+    "height": 375,
+    "box": [
+      121,
+      0,
+      500,
+      375
+    ],
+    "image_sha256": "0f2a230a9d6bf41fa5aebce817f9ed6fb9812152f571832bf7cc699bde5b602e",
+    "trimap_sha256": "7e9ad722405879e72e78f7c55e45b87b87e56c316fd8903883450a9a1d8bf5d1"
+  },
+  {
+    "dataset_index": 2913,
+    "image_id": "samoyed_39",
+    "label": 29,
+    "breed": "samoyed",
+    "width": 443,
+    "height": 500,
+    "box": [
+      0,
+      0,
+      443,
+      496
+    ],
+    "image_sha256": "9ea0a3a9a6c6a67d051b463f7f219209dd733d8c4539f2310a958481abe0c045",
+    "trimap_sha256": "f31943bec0e358fc7910e0b6f040417af734969a7d98ba446c7b76d440283214"
+  },
+  {
+    "dataset_index": 2922,
+    "image_id": "samoyed_47",
+    "label": 29,
+    "breed": "samoyed",
+    "width": 333,
+    "height": 500,
+    "box": [
+      0,
+      23,
+      333,
+      500
+    ],
+    "image_sha256": "69f00828e9b58e6ac037d554285d3856a1a1c637c29fafcd92e179f752b7326f",
+    "trimap_sha256": "2f54a2399d29e7a992ebf0dd733d1044371ba5a9627686a1ebcb1d550651137c"
+  },
+  {
+    "dataset_index": 2938,
+    "image_id": "samoyed_61",
+    "label": 29,
+    "breed": "samoyed",
+    "width": 500,
+    "height": 333,
+    "box": [
+      0,
+      0,
+      500,
+      333
+    ],
+    "image_sha256": "d96af2035bda2b381614059e9053cca6219e81dfaf314220a748b51abf5a2f13",
+    "trimap_sha256": "7114a7bff07bcb81b9147997807125a3d17d9dc3e04563e6aef0503de6c25e49"
+  },
+  {
+    "dataset_index": 2941,
+    "image_id": "samoyed_64",
+    "label": 29,
+    "breed": "samoyed",
+    "width": 333,
+    "height": 500,
+    "box": [
+      0,
+      0,
+      333,
+      500
+    ],
+    "image_sha256": "02c2f74d5f978799abde104b2cbafa15712542d7f3d460056018cd86cd8e0017",
+    "trimap_sha256": "9ce2ec7b3312b2c1d560cdf7c043d11023a346fad5b928972064fde2372a62c7"
+  },
+  {
+    "dataset_index": 2957,
+    "image_id": "samoyed_79",
+    "label": 29,
+    "breed": "samoyed",
+    "width": 500,
+    "height": 357,
+    "box": [
+      0,
+      27,
+      500,
+      314
+    ],
+    "image_sha256": "4b241424aafa1a90df2e4339cf2db289aefd1bc46417e983e0528d17b35c6d9c",
+    "trimap_sha256": "95230ff1a05f769c93e59e8a385555e870749db07c7a777890d6d67fb3b814d4"
+  },
+  {
+    "dataset_index": 2962,
+    "image_id": "samoyed_83",
+    "label": 29,
+    "breed": "samoyed",
+    "width": 500,
+    "height": 375,
+    "box": [
+      75,
+      0,
+      287,
+      206
+    ],
+    "image_sha256": "0e372c04484d74c0fc32c6d91fbaa3366af7108a17c5e9fad3d9ada3e56f6c43",
+    "trimap_sha256": "39f720dd69e93efb1b3228f14d602b02b47d72b842957d1b65f6c7af081d6389"
+  },
+  {
+    "dataset_index": 2975,
+    "image_id": "samoyed_95",
+    "label": 29,
+    "breed": "samoyed",
+    "width": 375,
+    "height": 500,
+    "box": [
+      60,
+      31,
+      315,
+      500
+    ],
+    "image_sha256": "0ae8126cc7747c0b12285464a733a63f313bbfdd7421671ae7598f32aab1441a",
+    "trimap_sha256": "28294de2abbf3f98b0b0d1912deea8b2644c1ea595731140c3f987d7cb22ca64"
+  },
+  {
+    "dataset_index": 2986,
+    "image_id": "scottish_terrier_196",
+    "label": 30,
+    "breed": "scottish terrier",
+    "width": 333,
+    "height": 500,
+    "box": [
+      0,
+      0,
+      333,
+      500
+    ],
+    "image_sha256": "7e575f3c8b398399aee8d35fac0ae2aab0f247a26274e7ae8d7459469d502c44",
+    "trimap_sha256": "0b3b2061ce14eef8b138f36be7b557c829e0854834b9fa1f5c44b49fc5566f30"
+  },
+  {
+    "dataset_index": 2992,
+    "image_id": "scottish_terrier_20",
+    "label": 30,
+    "breed": "scottish terrier",
+    "width": 375,
+    "height": 500,
+    "box": [
+      17,
+      0,
+      375,
+      500
+    ],
+    "image_sha256": "3beee93c77c60fe095fbd076b011a3e7245d76b0cef9b64d3e3db94b038af83a",
+    "trimap_sha256": "a30a392851f9f365242fece1dcbb6f3aee9a56da37b1e850cebc601b87c5671f"
+  },
+  {
+    "dataset_index": 2994,
+    "image_id": "scottish_terrier_22",
+    "label": 30,
+    "breed": "scottish terrier",
+    "width": 361,
+    "height": 500,
+    "box": [
+      23,
+      40,
+      351,
+      482
+    ],
+    "image_sha256": "5bb10ee85c4bc52fd02eec86acd35ec4b05ed5acc76bc0fbe73549b754c6fb3e",
+    "trimap_sha256": "687f705dfd830b7748975e1388d187aa1ad10ff59626e0958fc64f372481cbb4"
+  },
+  {
+    "dataset_index": 2996,
+    "image_id": "scottish_terrier_24",
+    "label": 30,
+    "breed": "scottish terrier",
+    "width": 500,
+    "height": 333,
+    "box": [
+      127,
+      0,
+      311,
+      246
+    ],
+    "image_sha256": "b95a4c4114748df566657260bfb24f942024e7f72f6cb839da9f183dd0d25b64",
+    "trimap_sha256": "8cdc0594d91056ef9083a4ab7d57c765243b7eff765aec981f8e9d99ec38375e"
+  },
+  {
+    "dataset_index": 3018,
+    "image_id": "scottish_terrier_44",
+    "label": 30,
+    "breed": "scottish terrier",
+    "width": 350,
+    "height": 500,
+    "box": [
+      0,
+      0,
+      350,
+      497
+    ],
+    "image_sha256": "d5ec86f47c62f7298eafdcff2b70a8c2b654f2ffcf15e8972289cc9255eb553e",
+    "trimap_sha256": "4878b59ca2ee350cb6793d629ccef85401d80d94fcf3e63b1c7d9c301d45a153"
+  },
+  {
+    "dataset_index": 3032,
+    "image_id": "scottish_terrier_57",
+    "label": 30,
+    "breed": "scottish terrier",
+    "width": 500,
+    "height": 332,
+    "box": [
+      147,
+      46,
+      390,
+      295
+    ],
+    "image_sha256": "b5179ec9c36a5c3545e8820f24a2a9d5828c78793fdfdb8a4f099e67f0ea39ee",
+    "trimap_sha256": "cbf1c8da8fb04fc74ad4741f41c0526608e9436fe022de2924d8777954b8a17e"
+  },
+  {
+    "dataset_index": 3036,
+    "image_id": "scottish_terrier_60",
+    "label": 30,
+    "breed": "scottish terrier",
+    "width": 500,
+    "height": 334,
+    "box": [
+      153,
+      0,
+      409,
+      334
+    ],
+    "image_sha256": "dfeed6ce3487315093e6648a47e83e00ce4af5975c90fc97f038ba2d039ee322",
+    "trimap_sha256": "a133e46db18b68a6897310741e65a22d6937a5bb93deea9834467cdef6b2c687"
+  },
+  {
+    "dataset_index": 3037,
+    "image_id": "scottish_terrier_61",
+    "label": 30,
+    "breed": "scottish terrier",
+    "width": 500,
+    "height": 333,
+    "box": [
+      70,
+      0,
+      450,
+      333
+    ],
+    "image_sha256": "fd977d4934028bba581a1a0c5c347d40a86ee094bf28053b99b6c704e242b953",
+    "trimap_sha256": "d8bc9b2ea7dc717e8f5c98fdfbfbfbb50284a7d6acc855f516ba2ce0ad43a77b"
+  },
+  {
+    "dataset_index": 3065,
+    "image_id": "scottish_terrier_87",
+    "label": 30,
+    "breed": "scottish terrier",
+    "width": 500,
+    "height": 333,
+    "box": [
+      139,
+      0,
+      432,
+      333
+    ],
+    "image_sha256": "1be14b2e9f1aefea715e7d531da6442ef01bcf7e1fe89d5b04d4e85fa39caa87",
+    "trimap_sha256": "dcf9a64140062bbd40809fba94a037345387897cb9419ab60f5399f7e3dbb7d7"
+  },
+  {
+    "dataset_index": 3075,
+    "image_id": "scottish_terrier_96",
+    "label": 30,
+    "breed": "scottish terrier",
+    "width": 500,
+    "height": 332,
+    "box": [
+      0,
+      0,
+      323,
+      332
+    ],
+    "image_sha256": "1056c94b94ed20bcf25434f4862ef452d55fd03dc7541ec81cd1efcc988a939a",
+    "trimap_sha256": "52d01357f8dcf86c090f4e1791080e05af27026adbc06dd10dd4b6fe58032b63"
+  },
+  {
+    "dataset_index": 3094,
+    "image_id": "shiba_inu_21",
+    "label": 31,
+    "breed": "shiba inu",
+    "width": 500,
+    "height": 374,
+    "box": [
+      32,
+      0,
+      456,
+      374
+    ],
+    "image_sha256": "e772aab4ba2b54a12f16a6ccd8b192f8ba4da74139722c6228ac3d82a63baf5f",
+    "trimap_sha256": "d70fa01b1ca811a0e8b6dbe7f28a62c89371b844090ccd231988c7068feba8a5"
+  },
+  {
+    "dataset_index": 3099,
+    "image_id": "shiba_inu_26",
+    "label": 31,
+    "breed": "shiba inu",
+    "width": 333,
+    "height": 500,
+    "box": [
+      0,
+      0,
+      333,
+      500
+    ],
+    "image_sha256": "c038ee22b900b9f907c74a7eb3763054de0d213779eec32150018ad3fd4a88f1",
+    "trimap_sha256": "8e1754cc67fd1536e08198fdbfb68af83e4cd3edbaaf441fd99e4c55575f54ff"
+  },
+  {
+    "dataset_index": 3109,
+    "image_id": "shiba_inu_36",
+    "label": 31,
+    "breed": "shiba inu",
+    "width": 375,
+    "height": 500,
+    "box": [
+      9,
+      34,
+      362,
+      500
+    ],
+    "image_sha256": "7b34d8138de15e208b6929a92065ee9609e279a3afd320b89a3cc4aadfd5f232",
+    "trimap_sha256": "bfdb78ee3200fa11fa2557d57fcc364acc7dd3952cc2381fc8803e1c829060fb"
+  },
+  {
+    "dataset_index": 3112,
+    "image_id": "shiba_inu_39",
+    "label": 31,
+    "breed": "shiba inu",
+    "width": 470,
+    "height": 371,
+    "box": [
+      5,
+      0,
+      470,
+      371
+    ],
+    "image_sha256": "1a67be786fe47e7e40da0ee7cfda187e7482571eed48e32fba37ed53d08b58ea",
+    "trimap_sha256": "d78e382ad39182e581d3c41e0fcfc0ca26e7ea00b04d8af746ae7422e146a3a7"
+  },
+  {
+    "dataset_index": 3117,
+    "image_id": "shiba_inu_43",
+    "label": 31,
+    "breed": "shiba inu",
+    "width": 334,
+    "height": 500,
+    "box": [
+      46,
+      0,
+      334,
+      500
+    ],
+    "image_sha256": "57e9a97d5531ecd75b5dc7d5200358e762b85d3831cf96c28e80ecbfbef53c77",
+    "trimap_sha256": "7ecdd07c74add35340efe44779fe8d06e04b8faccecdcb9ee3297deccb5e3a44"
+  },
+  {
+    "dataset_index": 3119,
+    "image_id": "shiba_inu_45",
+    "label": 31,
+    "breed": "shiba inu",
+    "width": 500,
+    "height": 333,
+    "box": [
+      186,
+      0,
+      337,
+      283
+    ],
+    "image_sha256": "be9c5166eca92afbd391a151a3b0fc6fd8f1c5befacc76dc547fb21f10c9fcd1",
+    "trimap_sha256": "25d757002e7208714c3069ede79b1ecf4184bb791dde1930100e7814ec05a222"
+  },
+  {
+    "dataset_index": 3120,
+    "image_id": "shiba_inu_46",
+    "label": 31,
+    "breed": "shiba inu",
+    "width": 369,
+    "height": 500,
+    "box": [
+      11,
+      0,
+      343,
+      500
+    ],
+    "image_sha256": "adbcf6c7bcf853b869bde20cf360dafa09a94ece9206da241b68f50ecf500305",
+    "trimap_sha256": "e360704072da6fc540c498ff1d8a95c2f49519a0d19de78a0674432d227d8308"
+  },
+  {
+    "dataset_index": 3136,
+    "image_id": "shiba_inu_60",
+    "label": 31,
+    "breed": "shiba inu",
+    "width": 375,
+    "height": 500,
+    "box": [
+      75,
+      33,
+      255,
+      500
+    ],
+    "image_sha256": "f1d90f35a33408d4fa583d9c16795b09d55c0d9fec565177335751b0cc4cb7db",
+    "trimap_sha256": "c3f7abc8e788ac4d90c9e46cf40aac631d300a276f21d5d4457754dd788598a0"
+  },
+  {
+    "dataset_index": 3155,
+    "image_id": "shiba_inu_78",
+    "label": 31,
+    "breed": "shiba inu",
+    "width": 500,
+    "height": 331,
+    "box": [
+      0,
+      0,
+      402,
+      331
+    ],
+    "image_sha256": "651d23786a9b9122fa1bbd6ada927d8270783104ff1f810cabae192aceed64ec",
+    "trimap_sha256": "85b3829b5752bab226db3f89de269df287de85be29f256a1574fc3d98aeb1c5b"
+  },
+  {
+    "dataset_index": 3159,
+    "image_id": "shiba_inu_81",
+    "label": 31,
+    "breed": "shiba inu",
+    "width": 500,
+    "height": 333,
+    "box": [
+      98,
+      4,
+      500,
+      300
+    ],
+    "image_sha256": "5ce6d8ceff77eeeadc08f27761dfebc0ad3e567c0a05d6480f13aa378fe969e0",
+    "trimap_sha256": "98a201b855698d41b8892e99ea29584f7ec02d7ca8cea55b0328c0538155b894"
+  },
+  {
+    "dataset_index": 3197,
+    "image_id": "Siamese_238",
+    "label": 32,
+    "breed": "siamese",
+    "width": 300,
+    "height": 200,
+    "box": [
+      0,
+      0,
+      297,
+      200
+    ],
+    "image_sha256": "77ff2fb9e20721d7452d94406faf55ea5e043d62e1d4de3ab02f069fc7296a37",
+    "trimap_sha256": "58db52e28624f4230440e3ebdaf56765bb882225eaad82693c3fef9a8d192f9a"
+  },
+  {
+    "dataset_index": 3203,
+    "image_id": "Siamese_250",
+    "label": 32,
+    "breed": "siamese",
+    "width": 200,
+    "height": 266,
+    "box": [
+      0,
+      34,
+      178,
+      213
+    ],
+    "image_sha256": "f67bfc78ccf3b5ec734e68a1a2456e23e6eae29cedcaa12a0a13920058d1a6f5",
+    "trimap_sha256": "3da31ffa7e6d23ea3087836a53ee0828d7bc5f8a43be48a41703e6baa1d8f8c3"
+  },
+  {
+    "dataset_index": 3206,
+    "image_id": "Siamese_25",
+    "label": 32,
+    "breed": "siamese",
+    "width": 335,
+    "height": 500,
+    "box": [
+      0,
+      8,
+      335,
+      500
+    ],
+    "image_sha256": "cbe26510695b3ecae5e608429aaa01689945eec100c76deb1168f1d0f4f39dd1",
+    "trimap_sha256": "8a30c4e2154038f77df5eba8eb40efb9713791151a76f80cc5bab867aa6eef61"
+  },
+  {
+    "dataset_index": 3207,
+    "image_id": "Siamese_26",
+    "label": 32,
+    "breed": "siamese",
+    "width": 500,
+    "height": 332,
+    "box": [
+      166,
+      15,
+      500,
+      323
+    ],
+    "image_sha256": "33cb567ba5e0e0a7ccddc4201117908858b250bc2422d2bac9c7fdd8e0bbfdbf",
+    "trimap_sha256": "2cce6a05f6beada172142f8c5ccd891754596ead3bead2af1e2dae693f92e6e8"
+  },
+  {
+    "dataset_index": 3212,
+    "image_id": "Siamese_31",
+    "label": 32,
+    "breed": "siamese",
+    "width": 500,
+    "height": 339,
+    "box": [
+      0,
+      0,
+      366,
+      339
+    ],
+    "image_sha256": "06955aab6eeb72ca2b5e59d392546a0a95b45d6d4df3abb9f5ef4c3b30222f91",
+    "trimap_sha256": "e508b153074a2443d449ad0985d94748de597c7c65824c4c5e417502ad4437f6"
+  },
+  {
+    "dataset_index": 3227,
+    "image_id": "Siamese_48",
+    "label": 32,
+    "breed": "siamese",
+    "width": 500,
+    "height": 333,
+    "box": [
+      25,
+      4,
+      500,
+      333
+    ],
+    "image_sha256": "b16bda4a4bcd5d87b87a6767e073dc0f876b6856b5f159ae14c3ef5e995b75bc",
+    "trimap_sha256": "df56ce95a2c727a09f6a76947703646c9431dbf15ef7ccc25a1f50abe3c75796"
+  },
+  {
+    "dataset_index": 3228,
+    "image_id": "Siamese_49",
+    "label": 32,
+    "breed": "siamese",
+    "width": 500,
+    "height": 375,
+    "box": [
+      61,
+      8,
+      441,
+      375
+    ],
+    "image_sha256": "bcd17071c20100ea1ac3b31d31eb34d60d994b200ff04a9e53868f733b4a5b22",
+    "trimap_sha256": "04abe7b8d842d09cb768c18ca442bdb492b0f8fbcf64fe089269c7bbceab2ab7"
+  },
+  {
+    "dataset_index": 3244,
+    "image_id": "Siamese_65",
+    "label": 32,
+    "breed": "siamese",
+    "width": 334,
+    "height": 500,
+    "box": [
+      0,
+      0,
+      323,
+      500
+    ],
+    "image_sha256": "2a7659a202aa3cebbad7b20ec74e9c7d1a3bb5fbfb58ff89812940c829603d64",
+    "trimap_sha256": "006ac47dcbf7035173e819de3203c298d93de9e42038a6ac9c3b91cb3384506f"
+  },
+  {
+    "dataset_index": 3254,
+    "image_id": "Siamese_75",
+    "label": 32,
+    "breed": "siamese",
+    "width": 359,
+    "height": 500,
+    "box": [
+      0,
+      0,
+      359,
+      500
+    ],
+    "image_sha256": "a8062292e6d599086097c1feffdddb9004700c87429845644137d82a1ec13550",
+    "trimap_sha256": "c4fd3eb450821c25ed5f6757c871d5dc81d329f5ee15dd8db9375804153f4474"
+  },
+  {
+    "dataset_index": 3276,
+    "image_id": "Siamese_97",
+    "label": 32,
+    "breed": "siamese",
+    "width": 500,
+    "height": 375,
+    "box": [
+      75,
+      0,
+      455,
+      375
+    ],
+    "image_sha256": "d257f64827c5b76e144b76f7f0a40880d38fa98e1c4ac85c2d749fb2c7343a9b",
+    "trimap_sha256": "4f45f797da481e6ecc7393fc83914eab346103d33595577d0509a297a2438b97"
+  },
+  {
+    "dataset_index": 3282,
+    "image_id": "Sphynx_212",
+    "label": 33,
+    "breed": "sphynx",
+    "width": 279,
+    "height": 300,
+    "box": [
+      12,
+      0,
+      274,
+      300
+    ],
+    "image_sha256": "993ce053edc9a8d5954035346a45c1b185692b5ffbfe10bd66acded8cc9ad0b2",
+    "trimap_sha256": "b4e66510763221b81d4bd0fd45391567ca7270a76ab580833131e9c44e0029c8"
+  },
+  {
+    "dataset_index": 3303,
+    "image_id": "Sphynx_243",
+    "label": 33,
+    "breed": "sphynx",
+    "width": 450,
+    "height": 358,
+    "box": [
+      0,
+      0,
+      450,
+      358
+    ],
+    "image_sha256": "e21c33e6630543d5e9089557bbe22d804dc2a0d7c35b66fc73b99e498074ca07",
+    "trimap_sha256": "d3e23c0bfb5b58537d008fe81ccae59518adcd4ae0533947b23f11a199ab3343"
+  },
+  {
+    "dataset_index": 3316,
+    "image_id": "Sphynx_28",
+    "label": 33,
+    "breed": "sphynx",
+    "width": 500,
+    "height": 500,
+    "box": [
+      98,
+      0,
+      469,
+      500
+    ],
+    "image_sha256": "e96027f60cab072adad11e2b850f8de0ecc37acedbbb04ed5656d84cda496690",
+    "trimap_sha256": "d721b68b430e21e0c3e8d2b43b61b53e216c22953cbbc9de47d66e21c832b556"
+  },
+  {
+    "dataset_index": 3323,
+    "image_id": "Sphynx_36",
+    "label": 33,
+    "breed": "sphynx",
+    "width": 500,
+    "height": 333,
+    "box": [
+      132,
+      0,
+      500,
+      333
+    ],
+    "image_sha256": "0d314eb17c2afa71f57c1c67007750485fdabd3d2004b36f3016c8c2b718bc29",
+    "trimap_sha256": "3472ffd7caf5bd08d8418084e80858ced3debd24d7b0d25d02275df9bc42b3a8"
+  },
+  {
+    "dataset_index": 3328,
+    "image_id": "Sphynx_40",
+    "label": 33,
+    "breed": "sphynx",
+    "width": 429,
+    "height": 500,
+    "box": [
+      0,
+      0,
+      429,
+      500
+    ],
+    "image_sha256": "5bc56a03feb41956c08629e75272fe92fc1adf336fe40f87b74339a92bb2e2f7",
+    "trimap_sha256": "d946dc7447daa3786134d44c04a0073544de24cdfd8fd30acd77f0526ddae640"
+  },
+  {
+    "dataset_index": 3330,
+    "image_id": "Sphynx_42",
+    "label": 33,
+    "breed": "sphynx",
+    "width": 500,
+    "height": 375,
+    "box": [
+      157,
+      0,
+      341,
+      375
+    ],
+    "image_sha256": "4e50eef63cf2320218093667bed69c5205c2df4d0127b6cb9681108881f0f0d7",
+    "trimap_sha256": "acaa9c40d583e56aa73e3c281faf93c777d029d7d4c2056c57558a783a380ecc"
+  },
+  {
+    "dataset_index": 3332,
+    "image_id": "Sphynx_44",
+    "label": 33,
+    "breed": "sphynx",
+    "width": 500,
+    "height": 401,
+    "box": [
+      148,
+      0,
+      500,
+      401
+    ],
+    "image_sha256": "d8b7bee715588cc349e336a30c632380263d5eb6648ac015da4230657515c260",
+    "trimap_sha256": "fa4b043e5ec9ee7ce4244c5d11d8d55a97b60920cd1c02cec345c3ad5c86beeb"
+  },
+  {
+    "dataset_index": 3343,
+    "image_id": "Sphynx_56",
+    "label": 33,
+    "breed": "sphynx",
+    "width": 500,
+    "height": 374,
+    "box": [
+      0,
+      0,
+      500,
+      374
+    ],
+    "image_sha256": "6ddc9fb95752e5b3ddbd69ea7c1f3b3bcdb45bba50f48ce087762e8fe9b2a2ce",
+    "trimap_sha256": "1e88e1e2a5fbdbc8f0cfee53c019a255dac9643ae275d8554aa738890aac35ad"
+  },
+  {
+    "dataset_index": 3345,
+    "image_id": "Sphynx_58",
+    "label": 33,
+    "breed": "sphynx",
+    "width": 500,
+    "height": 366,
+    "box": [
+      0,
+      41,
+      381,
+      366
+    ],
+    "image_sha256": "c29f440441eda7bdb39a59ab0cc0773867f267e0a96f06d9a618ce06fb150020",
+    "trimap_sha256": "2d749b1a8ae64e1a6268423583c3c9e4e56de27ced3cc6c04d6a91d0cf689725"
+  },
+  {
+    "dataset_index": 3365,
+    "image_id": "Sphynx_85",
+    "label": 33,
+    "breed": "sphynx",
+    "width": 332,
+    "height": 500,
+    "box": [
+      42,
+      146,
+      332,
+      408
+    ],
+    "image_sha256": "844f1a258a2fa72cdfcb523dc61aabaa8d9d3dc4379245c439252ab287aeeaef",
+    "trimap_sha256": "1f2c9b0fc1411685e7e15963c137aefcdc0e2c1d83d74914eae7d0b605d4d9b6"
+  },
+  {
+    "dataset_index": 3396,
+    "image_id": "staffordshire_bull_terrier_34",
+    "label": 34,
+    "breed": "staffordshire bull terrier",
+    "width": 500,
+    "height": 351,
+    "box": [
+      153,
+      17,
+      372,
+      300
+    ],
+    "image_sha256": "83db54ccdf4cafa4418d0f771b5c5b55334d64b0a0556847d96510f98775d74c",
+    "trimap_sha256": "746c28ae9eaa06eed90e5b116437f4db2c08d7a2d5f3233651fa1a11b65a1856"
+  },
+  {
+    "dataset_index": 3414,
+    "image_id": "staffordshire_bull_terrier_50",
+    "label": 34,
+    "breed": "staffordshire bull terrier",
+    "width": 500,
+    "height": 398,
+    "box": [
+      119,
+      10,
+      477,
+      398
+    ],
+    "image_sha256": "809179140527761bf1f8fd4f94058608a3a76d12f0f567940155987d20c6dfb8",
+    "trimap_sha256": "c6c9d14f66af98843a41325b1ffe8f7600bc12e3354cae765a237abc67e5fb70"
+  },
+  {
+    "dataset_index": 3419,
+    "image_id": "staffordshire_bull_terrier_55",
+    "label": 34,
+    "breed": "staffordshire bull terrier",
+    "width": 500,
+    "height": 333,
+    "box": [
+      143,
+      0,
+      333,
+      333
+    ],
+    "image_sha256": "91e56b7dd9ae9db3eacd5c360a4bb6d7ee707936e21a4a43a003fd0f293e980f",
+    "trimap_sha256": "0bd88f98098e5462f28142788947ceacc5c4a766fab96d75b248a2aedb45e189"
+  },
+  {
+    "dataset_index": 3425,
+    "image_id": "staffordshire_bull_terrier_60",
+    "label": 34,
+    "breed": "staffordshire bull terrier",
+    "width": 500,
+    "height": 333,
+    "box": [
+      0,
+      17,
+      349,
+      333
+    ],
+    "image_sha256": "26460d52bf183394ca9c43b9aa1eff5381da1c559fdea02b2d850a5acd7cf013",
+    "trimap_sha256": "4967e4944770d408c61820cec3358d31928155055644d00b444f4e63603f2b5c"
+  },
+  {
+    "dataset_index": 3434,
+    "image_id": "staffordshire_bull_terrier_69",
+    "label": 34,
+    "breed": "staffordshire bull terrier",
+    "width": 500,
+    "height": 333,
+    "box": [
+      15,
+      0,
+      500,
+      333
+    ],
+    "image_sha256": "e167d207116091d0674f962e6f3208293d1da39d2132cbbc94dfc3f80315415a",
+    "trimap_sha256": "8293a80e12a6697095eb18b172c54562b07dae26009d16cc0d74037b29e37e0c"
+  },
+  {
+    "dataset_index": 3438,
+    "image_id": "staffordshire_bull_terrier_72",
+    "label": 34,
+    "breed": "staffordshire bull terrier",
+    "width": 375,
+    "height": 500,
+    "box": [
+      0,
+      89,
+      366,
+      500
+    ],
+    "image_sha256": "ff2602cf2c75527091331be6080aa6dfd49f91bf2392d020e8d29ca1fccb206c",
+    "trimap_sha256": "5d5264039e0ac540cdf3019cf742cabd1571dce65d63d6b088bf05959f056155"
+  },
+  {
+    "dataset_index": 3444,
+    "image_id": "staffordshire_bull_terrier_78",
+    "label": 34,
+    "breed": "staffordshire bull terrier",
+    "width": 500,
+    "height": 375,
+    "box": [
+      13,
+      129,
+      497,
+      289
+    ],
+    "image_sha256": "1915bbffedb678683f880f613a956b7a67e1015669fb7370b156697090703405",
+    "trimap_sha256": "63ca1950379fb56bdfd004f88feadd7f611de06eacea6e709c7ee446af9dfc8a"
+  },
+  {
+    "dataset_index": 3451,
+    "image_id": "staffordshire_bull_terrier_84",
+    "label": 34,
+    "breed": "staffordshire bull terrier",
+    "width": 500,
+    "height": 417,
+    "box": [
+      0,
+      17,
+      413,
+      408
+    ],
+    "image_sha256": "aeae358509babc14d96c0e458f9b9411b8e169858b1456f8574758c6a3265bc4",
+    "trimap_sha256": "4c6a09d31311059585f1cf56b65e9955ae74d8afbe43e319037c4867b7f353c5"
+  },
+  {
+    "dataset_index": 3456,
+    "image_id": "staffordshire_bull_terrier_89",
+    "label": 34,
+    "breed": "staffordshire bull terrier",
+    "width": 500,
+    "height": 333,
+    "box": [
+      28,
+      0,
+      408,
+      327
+    ],
+    "image_sha256": "52f2f59f5c512ae2d31557f63aa1af084a8bb92af0f6839c8f4778446aecf23a",
+    "trimap_sha256": "388400ef0012cc039f3958680b678e03309f5188599d47a5bbf74f8ed0e9e932"
+  },
+  {
+    "dataset_index": 3463,
+    "image_id": "staffordshire_bull_terrier_95",
+    "label": 34,
+    "breed": "staffordshire bull terrier",
+    "width": 333,
+    "height": 500,
+    "box": [
+      0,
+      0,
+      322,
+      422
+    ],
+    "image_sha256": "320c268f1203e0a068136942931dfa6c169160303a70b2bf955301cb42d07611",
+    "trimap_sha256": "84116dec529bdad49578b45089c7aabe83ed19c636c4b29e6086028ab864460d"
+  },
+  {
+    "dataset_index": 3477,
+    "image_id": "wheaten_terrier_199",
+    "label": 35,
+    "breed": "wheaten terrier",
+    "width": 500,
+    "height": 332,
+    "box": [
+      105,
+      61,
+      290,
+      332
+    ],
+    "image_sha256": "9d9ad1ad15303df23ec05d1f2cd56a8d8398ae3127eaff527849bb768d45c868",
+    "trimap_sha256": "f7bd5d4554c9151507554ab4ca84bbcfd5ac989b540b4ae30d20a8e1ee9ef3a6"
+  },
+  {
+    "dataset_index": 3482,
+    "image_id": "wheaten_terrier_21",
+    "label": 35,
+    "breed": "wheaten terrier",
+    "width": 500,
+    "height": 375,
+    "box": [
+      0,
+      0,
+      500,
+      375
+    ],
+    "image_sha256": "f84e8f40b0a975b2faafba85b23c72deb6bb9f4e5a3b7ca6324b5150c714a57a",
+    "trimap_sha256": "1c5acce77924c62b68a4fcc2a20c55adcacfb85b13ba8b9d9fd551fe93de0a4d"
+  },
+  {
+    "dataset_index": 3483,
+    "image_id": "wheaten_terrier_22",
+    "label": 35,
+    "breed": "wheaten terrier",
+    "width": 500,
+    "height": 333,
+    "box": [
+      188,
+      8,
+      392,
+      333
+    ],
+    "image_sha256": "dc1a3cc746c3af390d37456315dbf35a2a6130a31a449382ccdf4e1fd2d898ed",
+    "trimap_sha256": "c79c7440455b870a22d4daa17d2ba8749cf060b827a676e2ae20995e3579e3bf"
+  },
+  {
+    "dataset_index": 3495,
+    "image_id": "wheaten_terrier_33",
+    "label": 35,
+    "breed": "wheaten terrier",
+    "width": 500,
+    "height": 375,
+    "box": [
+      0,
+      0,
+      500,
+      375
+    ],
+    "image_sha256": "cf4ce9cc5772fff5f4fc2bf0e5f78348057ac0bd5a7f6d00c699eb5cadf41392",
+    "trimap_sha256": "497c19be7f2981131fa058b0f98d91a1708b6a7cb0210b2da23f78e22e41153b"
+  },
+  {
+    "dataset_index": 3507,
+    "image_id": "wheaten_terrier_44",
+    "label": 35,
+    "breed": "wheaten terrier",
+    "width": 500,
+    "height": 375,
+    "box": [
+      109,
+      52,
+      368,
+      375
+    ],
+    "image_sha256": "189cd38f75a2ca58cd15371e52edbe3a5bee346fb601c3a56765cc9cab966f63",
+    "trimap_sha256": "2eee904af60a37998ccad47145a9ee763990be0bfbd3a4773953eb4e96aa44f7"
+  },
+  {
+    "dataset_index": 3508,
+    "image_id": "wheaten_terrier_45",
+    "label": 35,
+    "breed": "wheaten terrier",
+    "width": 500,
+    "height": 375,
+    "box": [
+      108,
+      32,
+      465,
+      375
+    ],
+    "image_sha256": "10b5e05c1870b950f80faa8af2748b98f4fd87222d46e0d37187c308171b0129",
+    "trimap_sha256": "889ea7ad46af6872785bb2348d7415bbb6079a00d0b7d1391e4284348295728b"
+  },
+  {
+    "dataset_index": 3515,
+    "image_id": "wheaten_terrier_51",
+    "label": 35,
+    "breed": "wheaten terrier",
+    "width": 500,
+    "height": 412,
+    "box": [
+      161,
+      130,
+      347,
+      412
+    ],
+    "image_sha256": "e056f467d860d5255b7732270d02ea0768ad10819dce78e151537bff08c8ffd0",
+    "trimap_sha256": "15362347aeb8775a898609e6b352a54d50786e18c7348da02e0a5fefc7a70c15"
+  },
+  {
+    "dataset_index": 3562,
+    "image_id": "wheaten_terrier_94",
+    "label": 35,
+    "breed": "wheaten terrier",
+    "width": 500,
+    "height": 333,
+    "box": [
+      0,
+      20,
+      383,
+      333
+    ],
+    "image_sha256": "ed564df364624f368db0f209bffa8ea97bce8223856a1edbac2bb739daeaeb39",
+    "trimap_sha256": "24653741446e51f1d865a6c679026df6429833586b4a24d9beb684fdf7b6f122"
+  },
+  {
+    "dataset_index": 3565,
+    "image_id": "wheaten_terrier_97",
+    "label": 35,
+    "breed": "wheaten terrier",
+    "width": 500,
+    "height": 368,
+    "box": [
+      13,
+      0,
+      405,
+      368
+    ],
+    "image_sha256": "0ee06ec5efdc7df5c9af785a552578ecf585cd1105e6685b6ebbcd89dc4c39c4",
+    "trimap_sha256": "fd05848b71074a8487e940cc7492dcffdd129210c90d5ac57ea1a1860756858b"
+  },
+  {
+    "dataset_index": 3567,
+    "image_id": "wheaten_terrier_99",
+    "label": 35,
+    "breed": "wheaten terrier",
+    "width": 374,
+    "height": 500,
+    "box": [
+      0,
+      16,
+      329,
+      465
+    ],
+    "image_sha256": "eba84742840402490d3ba360d0d0220c68fd396daaa3c851bee5056d30bdb3e0",
+    "trimap_sha256": "c04ee3ab630d7dffbe68656b060855b336b5fb72e0af652a3cd6f9d9d8a5a460"
+  },
+  {
+    "dataset_index": 3570,
+    "image_id": "yorkshire_terrier_192",
+    "label": 36,
+    "breed": "yorkshire terrier",
+    "width": 500,
+    "height": 375,
+    "box": [
+      0,
+      0,
+      388,
+      284
+    ],
+    "image_sha256": "fffe1ac34b5c385027733cec50628c540ac727facba9cceb6d9d08b41abde592",
+    "trimap_sha256": "a9582acc1cd6687c7866e99d6d7e8e0d5fab8b2f6068b8d9e1c53948f542687d"
+  },
+  {
+    "dataset_index": 3575,
+    "image_id": "yorkshire_terrier_197",
+    "label": 36,
+    "breed": "yorkshire terrier",
+    "width": 500,
+    "height": 375,
+    "box": [
+      0,
+      0,
+      420,
+      375
+    ],
+    "image_sha256": "fee72c28fc30a13fb2218e5820c9ab5ef9cf1c85f04def75c5cecfe0f0cb6928",
+    "trimap_sha256": "c7bfc9606005fa3b47b131a0a8f5503fbcd022b39a80b10ebaac10e2c8783870"
+  },
+  {
+    "dataset_index": 3582,
+    "image_id": "yorkshire_terrier_21",
+    "label": 36,
+    "breed": "yorkshire terrier",
+    "width": 500,
+    "height": 375,
+    "box": [
+      78,
+      2,
+      465,
+      375
+    ],
+    "image_sha256": "d0c76dfb3b76713f02dbf4837587b91f02d94567e95d4b4ba4d30927af4ada41",
+    "trimap_sha256": "2f33a88f83b66c5d2edb9862b6e5bfe32a272264ce64783b04fa080858ea6b0f"
+  },
+  {
+    "dataset_index": 3583,
+    "image_id": "yorkshire_terrier_22",
+    "label": 36,
+    "breed": "yorkshire terrier",
+    "width": 500,
+    "height": 335,
+    "box": [
+      18,
+      0,
+      500,
+      335
+    ],
+    "image_sha256": "6362c0fe97de690669ab112da74dcbd9dbcb28c779beb04fc0f0c49984c7774b",
+    "trimap_sha256": "e342625a623e1d184b000d0d23340be094c13c739ba21fa6182043debd279051"
+  },
+  {
+    "dataset_index": 3602,
+    "image_id": "yorkshire_terrier_3",
+    "label": 36,
+    "breed": "yorkshire terrier",
+    "width": 334,
+    "height": 500,
+    "box": [
+      14,
+      3,
+      334,
+      427
+    ],
+    "image_sha256": "a750e51edbcb9b8202a577a773bb144a70f87b6dacea167d3dc7ed99e088bc56",
+    "trimap_sha256": "783ed0bc0eb1d7cff200438f20378d85258162e82a56ab346ed79bc3610e7893"
+  },
+  {
+    "dataset_index": 3614,
+    "image_id": "yorkshire_terrier_50",
+    "label": 36,
+    "breed": "yorkshire terrier",
+    "width": 500,
+    "height": 441,
+    "box": [
+      39,
+      0,
+      403,
+      345
+    ],
+    "image_sha256": "1593922c7fe93e4653e3535975e462fd320b637ac40dbffff7cc2d1627e210f1",
+    "trimap_sha256": "06ed4b77b7047533842681101535af79b4ef8be0d4b7efe9cdd0e94a601a3299"
+  },
+  {
+    "dataset_index": 3616,
+    "image_id": "yorkshire_terrier_52",
+    "label": 36,
+    "breed": "yorkshire terrier",
+    "width": 500,
+    "height": 374,
+    "box": [
+      0,
+      0,
+      500,
+      347
+    ],
+    "image_sha256": "1495e437373c875f42ad5494d8a4871aaf6454f708ddb1fc2f224cf343fb43b5",
+    "trimap_sha256": "cc1c151691343e7b0a207f184b3eaf540cc3d52ba7c4b3b208bcf913c09b25ba"
+  },
+  {
+    "dataset_index": 3617,
+    "image_id": "yorkshire_terrier_53",
+    "label": 36,
+    "breed": "yorkshire terrier",
+    "width": 375,
+    "height": 500,
+    "box": [
+      47,
+      0,
+      369,
+      481
+    ],
+    "image_sha256": "909f43a58789c4d08cf6a44ced8289a9b06c02fd77bcc9efe9868b07e6b34b67",
+    "trimap_sha256": "d035eb506863c8da69367e9722bc11080775d86200ca1be859704251d9c4b16e"
+  },
+  {
+    "dataset_index": 3655,
+    "image_id": "yorkshire_terrier_88",
+    "label": 36,
+    "breed": "yorkshire terrier",
+    "width": 500,
+    "height": 335,
+    "box": [
+      62,
+      0,
+      395,
+      335
+    ],
+    "image_sha256": "f263da6f8067ce6b5a2336460e58b2a8f9bcb7321abbb59625dcab3d907df192",
+    "trimap_sha256": "b22cf47b4b8438cb8976c3623dfb3d6f99dcabe411a4bdfe2d6e917ca17f15ff"
+  },
+  {
+    "dataset_index": 3668,
+    "image_id": "yorkshire_terrier_9",
+    "label": 36,
+    "breed": "yorkshire terrier",
+    "width": 500,
+    "height": 375,
+    "box": [
+      56,
+      0,
+      492,
+      375
+    ],
+    "image_sha256": "fc533437272942b4cf47ddb3d59e75886668859770aee42a6fb1f6a41f5eb0b7",
+    "trimap_sha256": "0ce45f3fb0b9ab46f193243eda3c3f5c0e6eb2070e72c87758864870120ff06d"
+  }
+]
