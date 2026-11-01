@@ -1,175 +1,171 @@
 # Can Object-Centric Processing Reduce Background Bias in Vision Models?
 
-A reproducible, inference-only AIST1000 seminar project using OpenAI CLIP ViT-B/32 and Oxford-IIIT Pet. The experiment asks whether focusing on an animal makes breed predictions more stable when its background changes. It does **not** assume cropping improves accuracy.
+A reproducible AIST1000 seminar project using frozen OpenAI CLIP ViT-B/32 and Oxford-IIIT Pet. No model is trained or fine-tuned.
 
-**Measured finding:** on 370 test images, cropping slightly reduced observed prediction flips, but both paired confidence intervals included zero. Original-image accuracy was 83.78% for full images and 83.24% for object crops. These results do not establish a reliable robustness benefit.
+**Main finding:** on 3,662 evaluable test images, object cropping reduced prediction flips by **1.45 percentage points under background blur** and **1.97 points under uniform background replacement**. Both paired 95% bootstrap intervals exclude zero. Classification accuracy gains remain uncertain, and the stability benefit is modest.
 
-## Motivation and core idea
+## Research question and method
 
-A breed classifier should ideally recognize the animal across different settings. CLIP compares an image embedding with text embeddings of candidate descriptions, allowing classification without task-specific training ([Radford et al., 2021](https://proceedings.mlr.press/v139/radford21a.html)). Here, all conditions share one frozen model, one ordered list of 37 breeds, and the exact prompt `a photo of a {breed}`.
+Does focusing on the animal make CLIP's predictions more stable when its background changes?
 
-Ground-truth segmentation provides an object crop or a foreground mask. Controlled background interventions then test prediction stability within each processing method. An accuracy gain from cropping alone would not isolate background dependence: cropping also changes scale, composition, and which pixels CLIP's center crop retains.
+CLIP compares an image embedding with text embeddings of candidate descriptions ([Radford et al., 2021](https://proceedings.mlr.press/v139/radford21a.html)). All conditions share the same frozen model, ordered list of 37 breeds, and prompt `a photo of a {breed}`. Official class names are lowercased and underscores replaced by spaces.
+
+Ground-truth trimaps define an animal crop or a foreground mask. We change the background while keeping foreground RGB pixels fixed before CLIP preprocessing, then compare full-image and cropped predictions on identical images. Cropping also changes object scale and composition; accuracy changes alone cannot isolate background dependence.
 
 ![Experimental pipeline](results/main/figures/experimental_pipeline.png)
 
-## Dataset and conditions
+## Dataset and annotation audit
 
-[Oxford-IIIT Pet](https://www.robots.ox.ac.uk/~vgg/data/pets/) contains 37 cat and dog breeds with trimap annotations. Loading uses `torchvision.datasets.OxfordIIITPet(split="test", target_types=["category", "segmentation"])`. No training split is used. The default subset has **370 images, exactly 10 per breed**, sampled deterministically with seed 42. Every condition uses those same images and labels. Full split size: 3,669 images.
+The [Oxford-IIIT Pet dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/) has 37 breeds and pixel-level trimaps. Loading uses `torchvision.datasets.OxfordIIITPet(split="test", target_types=["category", "segmentation"])`.
 
-Raw trimap values are **1 foreground, 2 background, 3 uncertain boundary**. The default keeps 1 and 3. A hard binary composite preserves their RGB pixels exactly before CLIP preprocessing. No feathering or erosion is applied. Local visual inspection confirmed the intended mapping, but also visible halos and retained nearby background; this is a limitation. `--boundary exclude` supports a future sensitivity analysis and was not used for the published results.
+The official test split contains **3,669 images**. Seven trimaps contain only background pixels, so an animal crop cannot be defined. They are excluded from **every paired condition**, including the full-image baseline. The resulting common cohort contains **3,662 images, 88–100 per breed**, and **40,282 predictions across 11 conditions**. Accuracies are image-weighted.
 
-| Condition | Operation before the shared CLIP preprocessing |
+Exclusions depend on annotation validity, never on model predictions. IDs, reasons, pixel counts and hashes are in [excluded_samples.json](results/main/excluded_samples.json). Original annotations are not modified. Missing or unreadable files still fail explicitly.
+
+Raw trimap labels are **1 foreground, 2 background, 3 uncertain boundary**. The default retains 1 and 3 using hard compositing, without erosion or feathering. Local visual inspection confirmed the mapping but exposed boundary halos and retained nearby background. Normal resize/interpolation can subsequently mix edge colors. Boundary exclusion is configurable but was not evaluated for the main results.
+
+## Experimental conditions
+
+| Condition | Operation before shared CLIP preprocessing |
 | --- | --- |
-| A: Full original | Unmodified RGB image |
-| B: Object crop | Bounding box of retained trimap pixels, padded by 10% of box width/height **on each side**, rounded up and clipped to image boundaries |
-| C: Foreground on gray | Replace label-2 background with RGB (128,128,128) |
-| D1: Background blur | Gaussian blur, radius 12 source-image pixels, composited only into label-2 background |
-| D2: Uniform background | Replace label-2 background with RGB (230,230,230), distinct from C |
-| E: Background only | Replace the retained foreground with RGB (128,128,128); diagnostic only |
-| Centered crop control | Same width and height as the padded animal box, positioned at the image center |
+| Full original | Complete RGB image |
+| Object crop | Animal bounding box; 10% padding of box width/height on each side, rounded up and clipped |
+| Foreground on gray | Replace label-2 background with RGB (128,128,128) |
+| Background blur | Gaussian blur, radius 12 source-image pixels, composited into label-2 background |
+| Uniform background | Replace label-2 background with RGB (230,230,230) |
+| Background only | Replace retained foreground with gray; diagnostic only |
+| Centered crop control | Same dimensions as the padded animal box, positioned at the image center |
 
-For **full image, object crop, and centered crop**, evaluate original, blurred, and uniform-background versions: 9 paired conditions, plus C and E, giving **11 conditions and 4,070 image inferences**. Background changes occur before cropping; each image's crop coordinates are identical across interventions. Blur can spread animal colors into neighboring background pixels even though foreground RGB values remain unchanged. Foreground preservation is asserted by synthetic unit tests. Normal resize/interpolation may mix edge colors afterward.
+Full-image, object-crop and centered-crop inference each use original, blur and uniform variants: nine conditions, plus gray masking and background-only inference. Interventions happen **before cropping**, and each image's coordinates stay fixed across its three variants.
 
-The centered control matches crop dimensions and subsequent resizing, but uses annotation-derived dimensions and can truncate the animal. It is an imperfect geometry control, not a complete causal separation of scale and context.
+The centered control partially matches geometry and resizing, but uses annotation-derived dimensions and may truncate the animal. It does not fully separate object scale, position and context. Blur can spread animal colors into neighboring background even when foreground pixels remain unchanged.
 
 ## Installation
 
-Tested on **Python 3.12.9, Windows 11, NVIDIA RTX 5070 Ti Laptop GPU**, PyTorch 2.7.1+cu128, torchvision 0.22.1+cu128, OpenCLIP 3.2.0. Python 3.11 is also compatible with these direct dependency pins but was not tested here.
+Tested full inference: **Python 3.12.9, Windows 11, RTX 5070 Ti Laptop GPU**, PyTorch 2.7.1+cu128, torchvision 0.22.1+cu128, OpenCLIP 3.2.0. Python 3.11 is compatible with the direct package pins but was not tested here. Linux CPU unit tests also passed on the initial release.
 
-Create and activate an isolated environment from the repository directory:
+From the repository root:
 
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
-```
-
-On macOS/Linux, activate with `source .venv/bin/activate`. If PowerShell activation is disabled, use `.\.venv\Scripts\python.exe` in place of `python` below; no policy change is needed.
-
-For the tested NVIDIA CUDA 12.8 installation:
-
-```text
 python -m pip install torch==2.7.1 torchvision==0.22.1 --index-url https://download.pytorch.org/whl/cu128
 python -m pip install -r requirements.txt
 ```
 
-For CPU-only Windows/Linux, install those two packages from `https://download.pytorch.org/whl/cpu` first. On macOS, use the default PyPI index. See [official PyTorch installation commands](https://pytorch.org/get-started/previous-versions/). CPU inference works with `--device cpu`; automatic selection uses CUDA if available and otherwise CPU. An explicitly requested unavailable CUDA device fails clearly.
+If PowerShell activation is disabled, use `.\.venv\Scripts\python.exe` instead of `python`; no execution-policy change is required. On macOS/Linux activate with `source .venv/bin/activate`.
 
-`requirements.txt` pins direct dependencies; `requirements-lock-windows-cu128.txt` records the complete executed Windows environment. To reproduce that environment exactly, install it with `python -m pip install -r requirements-lock-windows-cu128.txt --extra-index-url https://download.pytorch.org/whl/cu128`. The complete lock is platform-specific.
+For CPU-only Windows/Linux, install the two PyTorch packages from `https://download.pytorch.org/whl/cpu` first. On macOS use the default PyPI index. See [official PyTorch commands](https://pytorch.org/get-started/previous-versions/).
 
-## Run and reproduce
+`requirements.txt` pins direct dependencies. `requirements-lock-windows-cu128.txt` records the complete executed Windows environment; install it with `python -m pip install -r requirements-lock-windows-cu128.txt --extra-index-url https://download.pytorch.org/whl/cu128` for that platform-specific environment.
 
-Unit tests require neither the dataset nor pretrained weights:
+## Run the experiment
+
+Unit tests require neither dataset downloads nor pretrained weights:
 
 ```text
 python -m pytest -q
 python -m pip check
 ```
 
-Smoke test (5 images, 55 image inferences; verifies execution, not scientific evidence):
+Smoke test: five images and 55 predictions, for execution checking only:
 
 ```text
-python scripts/run_experiment.py --download --samples 5 --bootstrap 200 --output-dir results/smoke
+python scripts/run_experiment.py --download --samples 5 --bootstrap 200 --output-dir local_outputs/smoke
 ```
 
-Main experiment, exactly as executed:
+**Main command:** the default now requests the complete test split and audits invalid trimaps:
 
 ```text
-python scripts/run_experiment.py --download --samples 370 --seed 42 --batch-size 32 --device auto --output-dir results/main
+python scripts/run_experiment.py --download --output-dir local_outputs/reproduction
 ```
 
-The repository includes `results/main`, so after cloning choose an empty destination, for example:
+Equivalent explicit settings:
 
 ```text
-python scripts/run_experiment.py --download --samples 370 --seed 42 --batch-size 32 --device auto --output-dir local_outputs/reproduction
+python scripts/run_experiment.py --download --samples 3669 --seed 42 --batch-size 32 --device auto --exclude-invalid-masks --output-dir local_outputs/full-test
 ```
 
-Existing nonempty output directories are refused to preserve previous results. Choose a new directory for every run. `--download` downloads/extracts the dataset only if missing. The official model checkpoint and reusable text embeddings are cached under `.cache`; no repeated weight download is needed. Network access and several GB of disk space are required for the initial setup. The complete dataset download is about 774 MiB compressed; it is not bundled here.
+Choose an empty output directory for each run. Published results already occupy `results/main`; nonempty destinations are refused. `--download` downloads/extracts missing data only. Initial setup needs network access and several GB of disk space. Model weights and reusable text embeddings are cached under `.cache`.
 
-All defaults are in [configs/default.yaml](configs/default.yaml). CLI overrides include `--samples`, `--seed`, `--batch-size`, `--device`, `--output-dir`, `--data-dir`, `--cache-dir`, `--local-dir`, `--bootstrap`, and `--boundary`. Paths resolve from the repository root. Sampling spreads images across breeds in seeded round-robin order; counts below 37 cover only some breeds, while retaining all 37 candidate labels.
+Defaults are in [configs/default.yaml](configs/default.yaml). CLI overrides include device, sample count, seed, batch size, paths, bootstrap count and boundary policy. `--no-exclude-invalid-masks` restores strict failure on invalid masks. Sample counts below the full split use deterministic, approximately balanced round-robin selection; all 37 candidate labels are retained. Cohorts with invalid masks are filtered after selection without replacement, so actual counts may be smaller than requested. Paths resolve from the repository root.
 
-Regenerate charts from measured CSVs without loading CLIP:
-
-```text
-python scripts/plot_results.py --results results/main
-```
-
-Audit pairing, labels and saved CSV/JSON against deterministically recomputed bootstrap tables:
-
-```text
-python scripts/verify_results.py --results results/main
-```
-
-A second complete GPU run produced byte-identical predictions, numerical results and sample manifest. A separate two-image CPU run also completed successfully. Deterministic flags do not guarantee bit-identical floating-point results on other hardware or library versions.
-
-The model uses `eval()`, frozen parameters, and `torch.inference_mode()`. Inference uses float32, normalized image/text embeddings and cosine-similarity argmax. CUDA determinism is enabled and TF32 disabled. The canonical OpenAI TorchScript checkpoint is SHA256 verified by OpenCLIP; its loading call explicitly supports PyTorch's changed `weights_only` default. No model is trained or fine-tuned.
-
-## Evaluation
-
-- **Top-1 accuracy:** fraction of images whose predicted breed matches the label.
-- **Accuracy drop:** original accuracy minus background-modified accuracy for the *same method*. Positive values mean degradation; negative values mean improvement.
-- **Consistency:** fraction whose predicted breed stays unchanged after intervention, including unchanged incorrect answers.
-- **Flip rate:** one minus consistency. A changed prediction can improve or harm accuracy.
-- **Paired method comparison:** crop minus full-image flip rate, and the difference between their accuracy changes, calculated per image before averaging.
-
-Confidence intervals are 95% percentile intervals from **5,000 class-stratified paired bootstrap resamples, seed 42**: images are sampled with replacement within each breed, retaining the class counts. Bounds describe image-sampling uncertainty conditional on these classes, this model and the chosen interventions. They do not measure uncertainty across datasets, masks, models, or prompt choices. With only one image per sampled breed, smoke-test bootstrap intervals degenerate and have no inferential value. Comparisons are exploratory and not corrected for multiple testing. Differences between percentages are reported in **percentage points (pp)**, not relative percent changes. Cosine similarities in `predictions.csv` are ranking scores, not calibrated confidence probabilities; no softmax confidence claims are made.
+`--device auto` selects CUDA when available and otherwise CPU. CPU inference was smoke-tested; unavailable explicitly requested CUDA devices fail clearly. The model uses `eval()`, frozen parameters and `torch.inference_mode()`. Float32 normalized embeddings are compared by cosine-similarity argmax. CUDA determinism is enabled and TF32 disabled. The official OpenAI TorchScript checkpoint is SHA256 verified and loaded with the compatible PyTorch setting.
 
 ## Measured results
 
-Executed on **28 October 2026**. Each accuracy uses n=370. Numbers below come from [accuracy.csv](results/main/accuracy.csv) and [paired_metrics.csv](results/main/paired_metrics.csv).
+Main evaluation: **1 November 2026; n=3,662 per condition**. Model, prompt, padding, boundary handling and background settings were fixed before expanding the earlier subset to the full test split.
 
-| Processing | Original accuracy | Background blur accuracy | Uniform background accuracy | Blur consistency | Uniform consistency |
+| Processing | Original accuracy | Blur accuracy | Uniform accuracy | Blur flip rate ↓ | Uniform flip rate ↓ |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| Full image | 83.78% | 82.16% | 82.16% | 90.81% | 85.95% |
-| Object crop | 83.24% | 82.70% | 79.46% | 93.24% | 87.30% |
-| Centered control | 82.43% | 81.35% | 79.19% | 91.08% | 85.68% |
+| Full image | 84.46% | 82.41% | 80.97% | 9.75% | 13.60% |
+| Object crop | 84.35% | 83.01% | 81.70% | 8.30% | 11.63% |
+| Centered control | 84.05% | 82.00% | 80.97% | 9.42% | 12.45% |
 
-Foreground on gray: **81.08%** (95% CI 77.84–84.05%). Background-only diagnostic: **10.00%** (7.30–12.70%), compared with a uniform random-choice reference of 1/37 = 2.70%. The diagnostic is not proof of background-only reasoning: the gray silhouette, residual animal pixels, and mask artifacts can retain breed information.
+Foreground-on-gray accuracy: **80.34%**. Background-only accuracy: **7.54%**. The latter is a diagnostic: gray silhouettes, residual pixels and compositing artifacts can retain breed information, so it does not establish natural-background-only reasoning.
 
-| Key paired comparison | Estimate (pp) | 95% bootstrap CI (pp) |
+| Crop minus full-image comparison | Difference (pp) | Paired 95% CI (pp) |
 | --- | ---: | ---: |
-| Original crop accuracy minus full accuracy | −0.54 | [−2.97, +1.89] |
-| Blur flip rate: crop minus full | −2.43 | [−5.41, +0.54] |
-| Uniform flip rate: crop minus full | −1.35 | [−4.32, +1.89] |
-| Blur accuracy drop: full | +1.62 | [−0.81, +4.05] |
-| Blur accuracy drop: crop | +0.54 | [−1.62, +2.70] |
-| Uniform accuracy drop: full | +1.62 | [−1.62, +4.86] |
-| Uniform accuracy drop: crop | +3.78 | [+0.81, +6.76] |
+| Original accuracy | −0.11 | [−0.82, +0.60] |
+| Blur accuracy | +0.60 | [−0.19, +1.42] |
+| Uniform accuracy | +0.74 | [−0.08, +1.56] |
+| Blur flip rate | **−1.45** | **[−2.38, −0.49]** |
+| Uniform flip rate | **−1.97** | **[−2.95, −1.01]** |
 
+The primary flip-rate intervals exclude zero. Accuracy differences still include zero. This supports a **modest stability benefit under these interventions**, without a clear accuracy improvement. Centered cropping also improves some outcomes; accurate localization cannot be credited with the entire effect. See [detailed results and interpretation](docs/results.md).
+
+![Paired flip-rate differences](results/main/figures/paired_flip_rate_difference.png)
 ![Accuracy comparison](results/main/figures/accuracy_comparison.png)
 ![Background robustness](results/main/figures/background_robustness.png)
 ![Prediction consistency](results/main/figures/prediction_consistency.png)
 
-**Interpretation.** Background changes altered full-image predictions on 9.19% of images for blur and 14.05% for uniform replacement. Cropping reduced these observed rates to 6.76% and 12.70%, but the paired intervals for the reductions both include zero. Cropping also slightly reduced original accuracy and produced a larger observed accuracy drop under uniform replacement. The difference between the uniform accuracy changes, crop minus full, was −2.16 pp (95% CI −5.14 to +0.81), so a stronger comparative claim is unwarranted. Accuracy and stability must be assessed separately. This experiment demonstrates background sensitivity under the specified interventions, while leaving the robustness benefit of cropping unresolved.
+## Metrics and statistical interpretation
 
-## Reproducibility files and academic materials
+- **Top-1 accuracy:** correct predictions divided by evaluated images.
+- **Accuracy drop:** original minus modified accuracy within the same processing method; positive means degradation.
+- **Consistency:** proportion of unchanged predictions after an intervention, including unchanged incorrect answers.
+- **Flip rate:** one minus consistency; a flip may improve or harm correctness.
+- **Paired differences:** calculate method differences per image before averaging.
 
-- `src/`: dataset loading, preprocessing, frozen inference, paired metrics, and plotting.
-- `tests/`: 28 executed tests covering masks, pixel preservation, crop bounds, tiny/empty masks, missing files, sampling, paired alignment, and bootstrap reproducibility.
-- `results/main/predictions.csv`: all 4,070 predictions and top cosine similarities.
-- `results/main/accuracy.csv`, `paired_metrics.csv`, `results.json`: numerical estimates and intervals in fractional units.
-- `results/main/sample_manifest.json`: image IDs, labels, crop boxes, and SHA256 hashes; no images.
-- `results/main/metadata.json`: exact candidate label list, prompts, configuration, transform, device, versions, model hash, and inference code commit.
-- [Research brief](docs/research_brief.md): approximately two pages of English text.
-- [Presentation outline](docs/presentation_outline.md): four slides and a 3-minute speaking script.
-- [Q&A preparation](docs/qa_preparation.md): eight likely questions.
-- [Validation record](docs/validation.md): commands actually executed and checks completed.
+Intervals use **5,000 class-stratified paired percentile bootstrap resamples, seed 42**. Resample images within each breed, retaining class counts. These intervals describe image-sampling uncertainty conditional on the model, classes, masks and interventions, not variation across models or datasets. Comparisons are exploratory and not adjusted for multiplicity. Percentage differences are **percentage points (pp)**, not relative percent changes. An interval containing zero does not demonstrate equivalence.
 
-Photographic example grids are generated at `local_outputs/<run-name>/example_visualizations.png` (for the main run: `local_outputs/main/example_visualizations.png`). They are deliberately ignored by Git. The four public figures contain only charts and a schematic. Dataset images, annotations, model weights, environments, caches, and credentials are excluded. MIT licensing covers project code/docs, not third-party assets.
+With one image per sampled breed, smoke-test intervals degenerate and have no inferential value. Cosine similarities in the prediction CSV are ranking scores, not calibrated confidence probabilities.
 
-## Limitations and next experiment
+## Reproduce the analysis without CLIP
 
-1. **Oracle localization:** segmentation is supplied by the dataset; deployment would require a detector or segmenter, whose errors are untested.
-2. **Boundary and compositing artifacts:** label 3 can retain background halos, blur can bleed animal colors outward, and hard masks create unnatural edges. The background-only condition also exposes an animal-shaped silhouette.
-3. **Geometry remains entangled:** cropping changes scale, composition and the model's final center crop. The centered control only partially addresses this and also uses oracle crop dimensions.
-4. **Limited interventions:** a fixed 12-pixel blur has different relative strength across image sizes; one uniform color does not represent realistic background variation.
-5. **Limited generalization:** one 370-image sample, one pretrained model and one prompt. No claim about all vision models, causal training shortcuts, demographic fairness, or unseen domains follows. Potential overlap with CLIP's pretraining data is unknown.
-6. **Statistics:** per-breed samples are small; near-duplicate images may violate independence. Bootstrap intervals are conditional and exploratory; an interval containing zero does not demonstrate equivalence or absence of an effect.
+```text
+python scripts/verify_results.py --results results/main
+python scripts/plot_results.py --results results/main
+python scripts/analyze_results.py --results results/main
+```
 
-Next, evaluate the complete held-out split with multiple natural background replacements, explicit object-size controls, and boundary-inclusion/exclusion ablations. Repeat with predicted masks and another frozen vision model. Check whether paired flip-rate differences persist without selecting settings for favorable results.
+The audit checks paired IDs, exclusions, label mapping, numerical outputs and deterministic bootstrap regeneration. Plotting reads measured CSVs. Supplementary analysis recreates direct paired accuracy comparisons, crop-versus-center comparisons, per-breed accuracies and the flip-rate effect-size figure.
+
+## Repository guide
+
+- `src/`: dataset audit/sampling, preprocessing, frozen model inference, paired metrics and visualization.
+- `scripts/`: experiment runner, result audit, plotting and supplementary analysis.
+- `tests/`: 30 tests, including invalid-mask exclusion and missing-file handling.
+- `results/main/`: the sole published result set—40,282 predictions, estimates, intervals, exclusions, sample hashes, provenance and five chart/schematic figures.
+- [Detailed results](docs/results.md), [research brief](docs/research_brief.md), [four-slide speaking outline](docs/presentation_outline.md), [Q&A](docs/qa_preparation.md), [validation record](docs/validation.md).
+
+The earlier 370-image release is available through Git history. It is nested in the full cohort, so the expanded evaluation is not an independent replication. All 4,070 overlapping predictions match exactly.
+
+Photographic grids are written only to ignored `local_outputs/<run-name>/example_visualizations.png`. Dataset images/annotations, weights, environments, caches and credentials are excluded from Git. MIT licensing applies to project code and documentation; third-party assets retain their licenses.
+
+## Limitations and next experiments
+
+1. **Oracle localization:** dataset segmentation is provided; errors from a deployed detector or segmenter are untested.
+2. **Artifacts and distribution shift:** boundary halos, hard edges, blur contamination and gray silhouettes complicate interpretation.
+3. **Geometry:** crops change scale, position and retained context. The centered control is incomplete.
+4. **Coverage:** two artificial interventions, one fixed blur radius/color, one model and one prompt. Natural backgrounds and other domains remain untested.
+5. **Statistics and data:** annotation exclusions limit the cohort; near-duplicate images may violate independence. Pretraining overlap is unknown, and bootstrap intervals are conditional.
+
+Next, use natural background swaps with explicit object-size controls, boundary-policy ablations, predicted masks and another frozen model. Check whether the modest paired stability benefit survives those conditions.
 
 ## References
 
 1. Radford et al. (2021). [Learning Transferable Visual Models From Natural Language Supervision](https://proceedings.mlr.press/v139/radford21a.html). ICML.
-2. Parkhi et al. (2012). [Cats and Dogs](https://www.robots.ox.ac.uk/~vgg/publications/2012/parkhi12a/). CVPR. [Official dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/).
-3. [OpenCLIP official implementation](https://github.com/mlfoundations/open_clip), tested release 3.2.0.
-4. [torchvision OxfordIIITPet documentation](https://docs.pytorch.org/vision/stable/generated/torchvision.datasets.OxfordIIITPet.html) and [tested-version loader source](https://github.com/pytorch/vision/blob/v0.22.1/torchvision/datasets/oxford_iiit_pet.py).
+2. Parkhi et al. (2012). [Cats and Dogs](https://www.robots.ox.ac.uk/~vgg/publications/2012/parkhi12a/). CVPR. [Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/).
+3. [Official OpenCLIP implementation](https://github.com/mlfoundations/open_clip), tested version 3.2.0.
+4. [torchvision OxfordIIITPet documentation](https://docs.pytorch.org/vision/stable/generated/torchvision.datasets.OxfordIIITPet.html) and [tested-version source](https://github.com/pytorch/vision/blob/v0.22.1/torchvision/datasets/oxford_iiit_pet.py).

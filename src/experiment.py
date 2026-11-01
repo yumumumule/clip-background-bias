@@ -15,7 +15,7 @@ import pandas as pd
 import torch
 from tqdm import tqdm
 
-from .dataset import balanced_indices, dataset_records, load_dataset, sha256_file
+from .dataset import audit_trimaps, balanced_indices, dataset_records, load_dataset, sha256_file
 from .metrics import summarize
 from .model import CLIPClassifier
 from .preprocessing import make_conditions
@@ -42,6 +42,13 @@ def run(config):
     dataset = load_dataset(config["data_dir"], config["download"])
     records = dataset_records(dataset)
     indices = balanced_indices([r["label"] for r in records], config["samples"], seed)
+    excluded = []
+    if config.get("exclude_invalid_masks", False):
+        indices, excluded = audit_trimaps(records, indices, config["boundary"])
+        print(f"Trimap audit: {config['samples']} requested, {len(indices)} eligible, "
+              f"{len(excluded)} excluded from every condition", flush=True)
+        for item in excluded:
+            print(f"Excluded {item['image_id']}: {item['reason']}", flush=True)
     classes = [c.replace("_", " ").lower() for c in dataset.classes]
     classifier = CLIPClassifier(classes, config["model"], config["pretrained"], config["prompt"],
                                 config["device"], config["cache_dir"])
@@ -90,6 +97,7 @@ def run(config):
     accuracy.to_csv(output / "accuracy.csv", index=False)
     paired.to_csv(output / "paired_metrics.csv", index=False)
     (output / "sample_manifest.json").write_text(json.dumps(manifest, indent=2), encoding="utf-8")
+    (output / "excluded_samples.json").write_text(json.dumps(excluded, indent=2), encoding="utf-8")
     (output / "results.json").write_text(json.dumps({"accuracy": accuracy.to_dict("records"),
                                                      "paired": paired.to_dict("records")}, indent=2), encoding="utf-8")
     try:
@@ -108,6 +116,9 @@ def run(config):
         "text_cache_key": classifier.text_cache_key, "preprocess": repr(classifier.preprocess),
         "weights_sha256": sha256_file(classifier.weight_path) if classifier.weight_path else None,
         "conditions": sorted(predictions.condition.unique().tolist()), "n_images": len(indices),
+        "n_requested": config["samples"], "n_excluded": len(excluded),
+        "exclusion_policy": "invalid trimaps excluded from every paired condition" if config.get("exclude_invalid_masks", False) else "fail on invalid trimaps",
+        "source_sha256": {f"src/{p.name}": sha256_file(p) for p in sorted(Path(__file__).parent.glob("*.py"))},
         "class_counts": pd.Series([m["breed"] for m in manifest]).value_counts().sort_index().to_dict(),
         "ci_method": "paired class-stratified percentile bootstrap; 95%; resample images within breed",
         "boundary_policy": "include raw trimap 1 and 3" if config["boundary"] == "include" else "include only raw trimap 1",

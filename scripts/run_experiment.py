@@ -22,6 +22,8 @@ def main():
     parser.add_argument("--bootstrap", type=int)
     parser.add_argument("--boundary", choices=["include", "exclude"])
     parser.add_argument("--download", action="store_true")
+    parser.add_argument("--exclude-invalid-masks", action=argparse.BooleanOptionalAction, default=None,
+                        help="Audit selected trimaps; exclude invalid masks from ALL paired conditions and record IDs")
     args = parser.parse_args()
     config = yaml.safe_load(args.config.read_text(encoding="utf-8"))
     for key, value in vars(args).items():

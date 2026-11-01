@@ -3,7 +3,8 @@ data_dir: data
 output_dir: results/main
 cache_dir: .cache
 local_dir: local_outputs
-samples: 370
+samples: 3669
+exclude_invalid_masks: true
 seed: 42
 batch_size: 32
 device: auto

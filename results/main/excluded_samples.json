@@ -1,0 +1,72 @@
+[
+  {
+    "dataset_index": 1093,
+    "image_id": "Egyptian_Mau_20",
+    "label": 11,
+    "reason": "Empty foreground: cannot define an object crop",
+    "trimap_values": {
+      "2": 3110400
+    },
+    "trimap_sha256": "e5287450ef58bba015333f0151715d1e49cc22fa2008363124fea1c7f421e476"
+  },
+  {
+    "dataset_index": 1690,
+    "image_id": "japanese_chin_199",
+    "label": 17,
+    "reason": "Empty foreground: cannot define an object crop",
+    "trimap_values": {
+      "2": 187500
+    },
+    "trimap_sha256": "199189dee3071c54b227e6145c17de8a5e67ea7aba25bf7d8fc8277cbc3c1b1a"
+  },
+  {
+    "dataset_index": 1858,
+    "image_id": "keeshond_7",
+    "label": 18,
+    "reason": "Empty foreground: cannot define an object crop",
+    "trimap_values": {
+      "2": 166500
+    },
+    "trimap_sha256": "831af7a53ae8bd485d5e34a2f53d04443b2e13e944fe503f04c70e4447cecdea"
+  },
+  {
+    "dataset_index": 2292,
+    "image_id": "Persian_259",
+    "label": 23,
+    "reason": "Empty foreground: cannot define an object crop",
+    "trimap_values": {
+      "2": 165910
+    },
+    "trimap_sha256": "9ea5060ba5066471e9f4b1365bbe4dc0503e0ed3d3b26ff517a56f5869d9da9b"
+  },
+  {
+    "dataset_index": 2837,
+    "image_id": "saint_bernard_60",
+    "label": 28,
+    "reason": "Empty foreground: cannot define an object crop",
+    "trimap_values": {
+      "2": 187500
+    },
+    "trimap_sha256": "8370564d70ccb048d9e52d56f17b926c34f8db24c75210f50a6ff36e3ed14440"
+  },
+  {
+    "dataset_index": 2856,
+    "image_id": "saint_bernard_78",
+    "label": 28,
+    "reason": "Empty foreground: cannot define an object crop",
+    "trimap_values": {
+      "2": 187500
+    },
+    "trimap_sha256": "be75e5c9b38a5342b3b040c6c777381a22159a83bc8fa5706e43572aa457d7c0"
+  },
+  {
+    "dataset_index": 3473,
+    "image_id": "wheaten_terrier_195",
+    "label": 35,
+    "reason": "Empty foreground: cannot define an object crop",
+    "trimap_values": {
+      "2": 165000
+    },
+    "trimap_sha256": "04c9307be8abe493e2530b3037e7d326ae19152d0636fa237e2e4eb6868e9db8"
+  }
+]

@@ -20,6 +20,11 @@ def verify(result_dir):
     n = metadata["n_images"]
     assert len(manifest) == n
     assert len(set(m["image_id"] for m in manifest)) == n
+    if "n_excluded" in metadata:
+        excluded = json.loads((result_dir / "excluded_samples.json").read_text(encoding="utf-8"))
+        assert len(excluded) == metadata["n_excluded"]
+        assert n + len(excluded) == metadata["n_requested"]
+        assert not {m["image_id"] for m in manifest}.intersection(m["image_id"] for m in excluded)
     assert len(predictions) == n * len(metadata["conditions"])
     assert predictions.image_id.nunique() == n
     assert set(predictions.image_id) == {m["image_id"] for m in manifest}

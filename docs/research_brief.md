@@ -1,52 +1,50 @@
 # Can Object-Centric Processing Reduce Background Bias in Vision Models?
 
-AIST1000 seminar research brief · 28 October 2026
+AIST1000 research brief · Full-test evaluation, 1 November 2026
 
 ## Problem
 
-Image classifiers may respond to an object's surroundings even when those surroundings do not determine its class. For pet breeds, a model should ideally recognize the animal across different backgrounds. However, improved accuracy after cropping would not by itself demonstrate reduced background dependence: cropping also changes the object's scale and the image composition.
-
-This project asks: **Does focusing on the foreground object make CLIP's breed predictions more stable when the background changes?** We distinguish correctness from stability. A prediction can remain stable but incorrect, or change from incorrect to correct.
+A vision classifier may respond to an animal's surroundings even when those surroundings do not determine its breed. We ask: **Does focusing on the foreground object make CLIP's predictions more stable when the background changes?** Correctness and stability are different: an unchanged answer can be wrong, and a changed answer can become correct. An accuracy increase after cropping would not by itself identify background dependence because cropping also changes scale and composition.
 
 ## Core Idea of the Method
 
-CLIP represents images and text in a shared embedding space [1]. We use a frozen OpenAI ViT-B/32 model through OpenCLIP [3], comparing each image with 37 text descriptions of pet breeds. The description with the highest cosine similarity gives the prediction. No new model is trained.
+CLIP represents images and text in a shared embedding space [1]. A frozen OpenAI ViT-B/32 model, accessed through OpenCLIP [3], predicts the closest of 37 breed descriptions by cosine similarity. No new model is trained.
 
-Ground-truth trimaps define an animal-centered bounding box with 10% padding on each side. We compare full-image inference against this crop, then apply the same two background interventions to each: Gaussian blur and uniform-color replacement. For each animal, foreground pixels and crop coordinates are fixed across the original and modified versions. Prediction flips therefore directly measure sensitivity to these particular interventions within a processing method.
+Dataset trimaps define a padded animal crop. We compare full-image inference with this object crop before and after background blur or uniform-color replacement. Foreground RGB pixels and crop coordinates remain fixed across each image's intervention pair, before CLIP's normal preprocessing. Prediction flips measure sensitivity to these interventions.
 
-Additional conditions retain the animal on neutral gray or remove it to create a background-only diagnostic. A centered crop with the same dimensions as the animal crop partially controls for geometry. It cannot fully disentangle scale, position, and retained context.
+A centered crop with the same dimensions as the animal crop provides a partial geometry control. Additional conditions preserve the animal on gray or remove it for a background-only diagnostic. The centered control cannot fully disentangle scale, position and context.
 
 ## Experimental Setup
 
-We load Oxford-IIIT Pet [2] using torchvision's test split and category/segmentation targets. A deterministic seed-42 subset contains 370 images: ten from each of 37 breeds. All eleven conditions use the same images and ordered candidate labels. The fixed prompt is `a photo of a {breed}`, with official breed names lowercased and underscores replaced by spaces.
+Oxford-IIIT Pet [2] provides breed labels and trimaps. We checked all **3,669 test images**. Seven trimaps contained no foreground, preventing animal cropping; these images were excluded from every paired condition, including the full-image baseline. The resulting cohort contains **3,662 images across 37 breeds**, with 88–100 images per breed and 40,282 predictions across 11 conditions. Exclusions were based only on annotation validity, never on predictions.
 
-Raw trimap labels 1 and 3 are retained; label 2 is treated as background. Hard compositing preserves retained RGB pixels exactly before CLIP preprocessing. Local visual inspection confirmed the mapping but exposed boundary halos. Blur radius is 12 source-image pixels; uniform replacement is RGB (230,230,230), while masking uses (128,128,128). Each variant passes through CLIP's standard resize, center crop and normalization. Interpolation can still mix colors near boundaries.
+All conditions share the prompt `a photo of a {breed}` and ordered candidate labels. Trimap labels 1 (foreground) and 3 (uncertain boundary) are retained; label 2 is modified. Crop padding is 10% of box width/height on each side. Blur radius is 12 source-image pixels. Uniform replacement uses RGB (230,230,230); gray masking uses (128,128,128). Hard compositing preserves retained pixels, but visual inspection exposed boundary halos. Subsequent resize/interpolation can mix edge colors.
 
-Metrics include top-1 accuracy, original-minus-modified accuracy drop, consistency, and flip rate. We calculate 95% percentile bootstrap intervals with 5,000 paired resamples within breeds, seed 42. Pairing aligns predictions by image ID. Accuracy differences are percentage points (pp). Similarity scores are not treated as calibrated probabilities.
+Settings were fixed before expanding the earlier 370-image evaluation. The current experiment uses image-weighted accuracy, consistency, flip rate and accuracy drop. We compute 95% percentile bootstrap intervals from 5,000 paired resamples within breeds, seed 42. Differences are percentage points (pp); similarity scores are not calibrated probabilities.
 
 ## Results and Interpretation
 
-All results below were measured on the 370-image subset; they are not hypothetical.
-
 | Processing | Original accuracy | Blur accuracy | Uniform accuracy | Blur flip rate | Uniform flip rate |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| Full image | 83.78% | 82.16% | 82.16% | 9.19% | 14.05% |
-| Object crop | 83.24% | 82.70% | 79.46% | 6.76% | 12.70% |
-| Centered control | 82.43% | 81.35% | 79.19% | 8.92% | 14.32% |
+| Full image | 84.46% | 82.41% | 80.97% | 9.75% | 13.60% |
+| Object crop | 84.35% | 83.01% | 81.70% | 8.30% | 11.63% |
+| Centered control | 84.05% | 82.00% | 80.97% | 9.42% | 12.45% |
 
-Cropping changed original accuracy by −0.54 pp (95% CI −2.97 to +1.89). Its flip rate was 2.43 pp lower for blur (crop minus full: −2.43; CI −5.41 to +0.54) and 1.35 pp lower for uniform replacement (CI −4.32 to +1.89). **Both paired intervals include zero**, so these observations do not establish a reliable reduction in background sensitivity.
+Crop-minus-full flip-rate differences are **−1.45 pp (95% CI −2.38 to −0.49)** for blur and **−1.97 pp (−2.95 to −1.01)** for uniform replacement. Both intervals exclude zero, supporting a modest stability benefit under the tested conditions.
 
-Uniform replacement reduced crop accuracy by 3.78 pp, compared with 1.62 pp for full images. The difference between these accuracy changes was −2.16 pp (CI −5.14 to +0.81); this also remains uncertain. Lower observed flip rates do not guarantee better classification.
+Classification gains remain uncertain. Crop-minus-full accuracy differences are −0.11 pp (−0.82 to +0.60) on originals, +0.60 pp (−0.19 to +1.42) under blur, and +0.74 pp (−0.08 to +1.56) under uniform replacement. Lower flip rates therefore do not establish higher accuracy.
 
-Foreground-on-gray accuracy was 81.08%. Background-only accuracy was 10.00% (CI 7.30–12.70%), above the uniform random-choice reference of 2.70%. This diagnostic can contain a breed-informative silhouette, residual pixels and compositing artifacts; it cannot demonstrate that natural backgrounds alone explain the predictions.
+Centered cropping also reduces uniform-background flips. Object crop minus centered-control flip rate is −1.12 pp (−1.99 to −0.22) for blur and −0.82 pp (−1.72 to +0.11) for uniform replacement. The latter remains uncertain, so the entire effect cannot be attributed specifically to precise animal localization.
 
-The experiment provides evidence that changing background appearance can alter CLIP's decisions. It leaves the benefit of object cropping unresolved and shows why accuracy and paired stability should be reported together. All predictions, intervals, sample IDs, hashes and settings accompany the repository.
+Foreground-on-gray accuracy is 80.34%. Background-only accuracy is 7.54%, above the uniform random-choice reference of 2.70%; however, animal-shaped silhouettes, residual pixels and compositing artifacts prevent interpreting this as pure natural-background information.
+
+The full cohort provides more precise evidence than the earlier subset, while the absolute benefit remains small. The subset is nested in this cohort, not an independent replication. All overlapping predictions match exactly. Reproducible predictions, exclusions, hashes and intervals accompany the repository.
 
 ## Limitations and Future Testing
 
-Oracle segmentation makes this a preprocessing study rather than a complete deployment method. Boundary halos, artificial uniform backgrounds and blur contamination can introduce distribution shifts. Crop geometry remains entangled with context despite the centered control. Only one model, prompt, subset and two interventions were tested; independence may be weakened by similar images. Intervals condition on the fixed class mix, and exploratory comparisons are not corrected for multiplicity. Including zero is not evidence of equivalence.
+Oracle segmentation makes this a preprocessing study rather than a deployment system. Hard masks and artificial backgrounds can create distribution shifts, and cropping still changes geometry. Invalid-mask exclusions limit the evaluable population. Only one model, prompt and two background interventions were tested. Similar images may weaken independence; intervals condition on fixed classes and settings. Exploratory comparisons are not corrected for multiplicity, and including zero does not prove equivalence.
 
-The next experiment should use the complete test split, multiple natural background replacements, explicit object-scale controls, and boundary-policy ablations. Predicted masks and a second frozen model would test whether any effect survives more realistic conditions.
+The next experiment should use natural background swaps with explicit object-size controls, boundary-policy ablations, predicted masks and another frozen model. This would test whether the observed stability benefit persists under more realistic conditions.
 
 ## References
 
@@ -56,4 +54,4 @@ The next experiment should use the complete test split, multiple natural backgro
 
 ## Short Contribution Statement
 
-This project implements controlled preprocessing, paired CLIP evaluation, deterministic sampling, bootstrap analysis, unit tests, and reproducible reporting. Coding, execution and drafting were assisted by Codex. No individual student roles are asserted; students should describe only work they personally performed and verify the analysis before submission.
+The project implements controlled preprocessing, paired CLIP evaluation, annotation auditing, deterministic sampling, bootstrap analysis, tests and reproducible reporting. Coding, execution and drafting were assisted by Codex. No individual student roles are asserted; students should describe only work they personally performed and verify the analysis before submission.
