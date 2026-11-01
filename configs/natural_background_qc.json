@@ -1,0 +1,218 @@
+{
+  "reviewed_before_inference": true,
+  "selection": "Four distinct breeds per group: breed coverage, high boundary ratio, small animal area. No prediction-based selection.",
+  "observations": [
+    "Animals remain at original position and scale; source pixels are retained according to policy.",
+    "Hard boundaries retain halos and nearby source context.",
+    "Sphynx_94: annotated background includes clothing, producing severe semantic mask artifacts.",
+    "german_shorthaired_60: wide boundary band retains grass.",
+    "leonberger_30: water/occlusion makes the visible animal incomplete.",
+    "Background perspective, lighting and support surfaces may be implausible; photographic donors do not make physically realistic composites."
+  ],
+  "samples": [
+    {
+      "image_id": "Abyssinian_2",
+      "group": "across_breeds",
+      "boundary_ratio": 0.3613916511290657,
+      "animal_area": 0.2721353065539112,
+      "scenes": [
+        "urban",
+        "grassland",
+        "indoor"
+      ],
+      "center_truncates": false,
+      "center_confident_foreground_retained": 1.0,
+      "confident_foreground_pixels": 49321,
+      "boundary_fraction": 0.09834742776603242,
+      "foreground_fraction": 0.2721353065539112,
+      "crop_area_fraction": 0.8966666666666666
+    },
+    {
+      "image_id": "basset_hound_70",
+      "group": "across_breeds",
+      "boundary_ratio": 0.2609778885082529,
+      "animal_area": 0.5308853333333333,
+      "scenes": [
+        "forest",
+        "urban",
+        "grassland"
+      ],
+      "center_truncates": true,
+      "center_confident_foreground_retained": 0.9361635604855701,
+      "confident_foreground_pixels": 73563,
+      "boundary_fraction": 0.13854933333333333,
+      "foreground_fraction": 0.5308853333333333,
+      "crop_area_fraction": 0.826
+    },
+    {
+      "image_id": "Bombay_46",
+      "group": "across_breeds",
+      "boundary_ratio": 0.21506199126133918,
+      "animal_area": 0.480928,
+      "scenes": [
+        "grassland",
+        "forest",
+        "urban"
+      ],
+      "center_truncates": true,
+      "center_confident_foreground_retained": 0.792472556194459,
+      "confident_foreground_pixels": 70781,
+      "boundary_fraction": 0.10342933333333333,
+      "foreground_fraction": 0.480928,
+      "crop_area_fraction": 0.72072
+    },
+    {
+      "image_id": "Egyptian_Mau_214",
+      "group": "across_breeds",
+      "boundary_ratio": 0.32166606214484345,
+      "animal_area": 0.24506666666666665,
+      "scenes": [
+        "grassland",
+        "urban",
+        "forest"
+      ],
+      "center_truncates": true,
+      "center_confident_foreground_retained": 0.9524997772034578,
+      "confident_foreground_pixels": 11221,
+      "boundary_fraction": 0.07882962962962962,
+      "foreground_fraction": 0.24506666666666665,
+      "crop_area_fraction": 0.5536
+    },
+    {
+      "image_id": "german_shorthaired_60",
+      "group": "high_boundary_ratio",
+      "boundary_ratio": 0.8248407643312102,
+      "animal_area": 0.10529341317365269,
+      "scenes": [
+        "indoor",
+        "grassland",
+        "forest"
+      ],
+      "center_truncates": false,
+      "center_confident_foreground_retained": 1.0,
+      "confident_foreground_pixels": 3080,
+      "boundary_fraction": 0.08685029940119761,
+      "foreground_fraction": 0.10529341317365269,
+      "crop_area_fraction": 0.21535329341317366
+    },
+    {
+      "image_id": "miniature_pinscher_79",
+      "group": "high_boundary_ratio",
+      "boundary_ratio": 0.7260441107461286,
+      "animal_area": 0.056826666666666664,
+      "scenes": [
+        "grassland",
+        "urban",
+        "indoor"
+      ],
+      "center_truncates": true,
+      "center_confident_foreground_retained": 0.0,
+      "confident_foreground_pixels": 2919,
+      "boundary_fraction": 0.041258666666666666,
+      "foreground_fraction": 0.056826666666666664,
+      "crop_area_fraction": 0.1168
+    },
+    {
+      "image_id": "leonberger_38",
+      "group": "high_boundary_ratio",
+      "boundary_ratio": 0.7191145738227118,
+      "animal_area": 0.262864,
+      "scenes": [
+        "forest",
+        "urban",
+        "indoor"
+      ],
+      "center_truncates": true,
+      "center_confident_foreground_retained": 0.9693730135798903,
+      "confident_foreground_pixels": 13844,
+      "boundary_fraction": 0.18902933333333333,
+      "foreground_fraction": 0.262864,
+      "crop_area_fraction": 0.49834666666666666
+    },
+    {
+      "image_id": "Sphynx_94",
+      "group": "high_boundary_ratio",
+      "boundary_ratio": 0.7072420001161508,
+      "animal_area": 0.1587004608294931,
+      "scenes": [
+        "indoor",
+        "forest",
+        "grassland"
+      ],
+      "center_truncates": false,
+      "center_confident_foreground_retained": 1.0,
+      "confident_foreground_pixels": 10082,
+      "boundary_fraction": 0.11223963133640553,
+      "foreground_fraction": 0.1587004608294931,
+      "crop_area_fraction": 0.708
+    },
+    {
+      "image_id": "scottish_terrier_92",
+      "group": "small_animal",
+      "boundary_ratio": 0.5196665241556221,
+      "animal_area": 0.028011976047904192,
+      "scenes": [
+        "forest",
+        "indoor",
+        "urban"
+      ],
+      "center_truncates": true,
+      "center_confident_foreground_retained": 0.8620382732532266,
+      "confident_foreground_pixels": 2247,
+      "boundary_fraction": 0.01455688622754491,
+      "foreground_fraction": 0.028011976047904192,
+      "crop_area_fraction": 0.058850299401197605
+    },
+    {
+      "image_id": "basset_hound_197",
+      "group": "small_animal",
+      "boundary_ratio": 0.6204673650282031,
+      "animal_area": 0.030870646766169154,
+      "scenes": [
+        "urban",
+        "indoor",
+        "grassland"
+      ],
+      "center_truncates": true,
+      "center_confident_foreground_retained": 0.008917197452229299,
+      "confident_foreground_pixels": 2355,
+      "boundary_fraction": 0.019154228855721392,
+      "foreground_fraction": 0.030870646766169154,
+      "crop_area_fraction": 0.06674626865671641
+    },
+    {
+      "image_id": "shiba_inu_61",
+      "group": "small_animal",
+      "boundary_ratio": 0.6391129032258065,
+      "animal_area": 0.036470588235294116,
+      "scenes": [
+        "forest",
+        "indoor",
+        "urban"
+      ],
+      "center_truncates": true,
+      "center_confident_foreground_retained": 0.0888268156424581,
+      "confident_foreground_pixels": 1790,
+      "boundary_fraction": 0.023308823529411764,
+      "foreground_fraction": 0.036470588235294116,
+      "crop_area_fraction": 0.08658823529411765
+    },
+    {
+      "image_id": "leonberger_30",
+      "group": "small_animal",
+      "boundary_ratio": 0.5088619973108421,
+      "animal_area": 0.043632,
+      "scenes": [
+        "indoor",
+        "grassland",
+        "forest"
+      ],
+      "center_truncates": false,
+      "center_confident_foreground_retained": 1.0,
+      "confident_foreground_pixels": 4018,
+      "boundary_fraction": 0.022202666666666666,
+      "foreground_fraction": 0.043632,
+      "crop_area_fraction": 0.10157866666666666
+    }
+  ]
+}

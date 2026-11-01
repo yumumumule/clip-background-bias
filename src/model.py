@@ -64,3 +64,10 @@ class CLIPClassifier:
         similarities = features @ self.text.T
         values, predictions = similarities.max(dim=-1)
         return predictions.cpu().numpy(), values.cpu().numpy()
+
+    @torch.inference_mode()
+    def score(self, tensors):
+        """All candidate cosine scores for the natural-swap extension."""
+        images = torch.stack(tensors).to(self.device)
+        features = F.normalize(self.model.encode_image(images).float(), dim=-1)
+        return (features @ self.text.T).cpu().numpy()
