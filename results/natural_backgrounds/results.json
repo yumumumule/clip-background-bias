@@ -1,0 +1,3056 @@
+{
+  "metrics": [
+    {
+      "boundary": "feather",
+      "scope": "forest",
+      "method": "center",
+      "metric": "original_accuracy",
+      "estimate": 0.8347349177330896,
+      "ci_low": 0.8237659963436929,
+      "ci_high": 0.8457038391224863,
+      "n": 2735
+    },
+    {
+      "boundary": "feather",
+      "scope": "forest",
+      "method": "center",
+      "metric": "accuracy",
+      "estimate": 0.7959780621572212,
+      "ci_low": 0.7831809872029251,
+      "ci_high": 0.8080530164533819,
+      "n": 2735
+    },
+    {
+      "boundary": "feather",
+      "scope": "forest",
+      "method": "center",
+      "metric": "flip_rate",
+      "estimate": 0.1319926873857404,
+      "ci_low": 0.12029250457038392,
+      "ci_high": 0.14443327239488105,
+      "n": 2735
+    },
+    {
+      "boundary": "feather",
+      "scope": "forest",
+      "method": "center",
+      "metric": "accuracy_drop",
+      "estimate": 0.038756855575868374,
+      "ci_low": 0.027422303473491772,
+      "ci_high": 0.05082266910420475,
+      "n": 2735
+    },
+    {
+      "boundary": "feather",
+      "scope": "forest",
+      "method": "center",
+      "metric": "correct_to_incorrect",
+      "estimate": 0.07020109689213894,
+      "ci_low": 0.06069469835466179,
+      "ci_high": 0.07970749542961608,
+      "n": 2735
+    },
+    {
+      "boundary": "feather",
+      "scope": "forest",
+      "method": "center",
+      "metric": "incorrect_to_correct",
+      "estimate": 0.03144424131627057,
+      "ci_low": 0.02522851919561243,
+      "ci_high": 0.038025594149908595,
+      "n": 2735
+    },
+    {
+      "boundary": "feather",
+      "scope": "forest",
+      "method": "center",
+      "metric": "stable_incorrect",
+      "estimate": 0.10347349177330896,
+      "ci_low": 0.09396709323583181,
+      "ci_high": 0.113345521023766,
+      "n": 2735
+    },
+    {
+      "boundary": "feather",
+      "scope": "forest",
+      "method": "crop",
+      "metric": "original_accuracy",
+      "estimate": 0.8391224862888482,
+      "ci_low": 0.8281535648994516,
+      "ci_high": 0.8504570383912249,
+      "n": 2735
+    },
+    {
+      "boundary": "feather",
+      "scope": "forest",
+      "method": "crop",
+      "metric": "accuracy",
+      "estimate": 0.8113345521023766,
+      "ci_low": 0.7992687385740402,
+      "ci_high": 0.823400365630713,
+      "n": 2735
+    },
+    {
+      "boundary": "feather",
+      "scope": "forest",
+      "method": "crop",
+      "metric": "flip_rate",
+      "estimate": 0.1170018281535649,
+      "ci_low": 0.1056672760511883,
+      "ci_high": 0.1283363802559415,
+      "n": 2735
+    },
+    {
+      "boundary": "feather",
+      "scope": "forest",
+      "method": "crop",
+      "metric": "accuracy_drop",
+      "estimate": 0.027787934186471665,
+      "ci_low": 0.016453382084095063,
+      "ci_high": 0.03912248628884826,
+      "n": 2735
+    },
+    {
+      "boundary": "feather",
+      "scope": "forest",
+      "method": "crop",
+      "metric": "correct_to_incorrect",
+      "estimate": 0.05996343692870201,
+      "ci_low": 0.051188299817184646,
+      "ci_high": 0.06873857404021938,
+      "n": 2735
+    },
+    {
+      "boundary": "feather",
+      "scope": "forest",
+      "method": "crop",
+      "metric": "incorrect_to_correct",
+      "estimate": 0.03217550274223035,
+      "ci_low": 0.025594149908592323,
+      "ci_high": 0.038756855575868374,
+      "n": 2735
+    },
+    {
+      "boundary": "feather",
+      "scope": "forest",
+      "method": "crop",
+      "metric": "stable_incorrect",
+      "estimate": 0.10383912248628885,
+      "ci_low": 0.09396709323583181,
+      "ci_high": 0.11371115173674588,
+      "n": 2735
+    },
+    {
+      "boundary": "feather",
+      "scope": "forest",
+      "method": "full",
+      "metric": "original_accuracy",
+      "estimate": 0.8402193784277879,
+      "ci_low": 0.8288848263254114,
+      "ci_high": 0.8511882998171847,
+      "n": 2735
+    },
+    {
+      "boundary": "feather",
+      "scope": "forest",
+      "method": "full",
+      "metric": "accuracy",
+      "estimate": 0.7919561243144424,
+      "ci_low": 0.7795246800731261,
+      "ci_high": 0.8043875685557587,
+      "n": 2735
+    },
+    {
+      "boundary": "feather",
+      "scope": "forest",
+      "method": "full",
+      "metric": "flip_rate",
+      "estimate": 0.1469835466179159,
+      "ci_low": 0.13418647166361974,
+      "ci_high": 0.16014625228519194,
+      "n": 2735
+    },
+    {
+      "boundary": "feather",
+      "scope": "forest",
+      "method": "full",
+      "metric": "accuracy_drop",
+      "estimate": 0.04826325411334552,
+      "ci_low": 0.03546617915904936,
+      "ci_high": 0.0603290676416819,
+      "n": 2735
+    },
+    {
+      "boundary": "feather",
+      "scope": "forest",
+      "method": "full",
+      "metric": "correct_to_incorrect",
+      "estimate": 0.08372943327239488,
+      "ci_low": 0.07385740402193784,
+      "ci_high": 0.09396709323583181,
+      "n": 2735
+    },
+    {
+      "boundary": "feather",
+      "scope": "forest",
+      "method": "full",
+      "metric": "incorrect_to_correct",
+      "estimate": 0.03546617915904936,
+      "ci_low": 0.028884826325411336,
+      "ci_high": 0.04241316270566728,
+      "n": 2735
+    },
+    {
+      "boundary": "feather",
+      "scope": "forest",
+      "method": "full",
+      "metric": "stable_incorrect",
+      "estimate": 0.09652650822669104,
+      "ci_low": 0.08702010968921389,
+      "ci_high": 0.10603290676416818,
+      "n": 2735
+    },
+    {
+      "boundary": "feather",
+      "scope": "grassland",
+      "method": "center",
+      "metric": "original_accuracy",
+      "estimate": 0.8432080924855492,
+      "ci_low": 0.8323699421965318,
+      "ci_high": 0.854407514450867,
+      "n": 2768
+    },
+    {
+      "boundary": "feather",
+      "scope": "grassland",
+      "method": "center",
+      "metric": "accuracy",
+      "estimate": 0.8016618497109826,
+      "ci_low": 0.7890173410404624,
+      "ci_high": 0.8146676300578035,
+      "n": 2768
+    },
+    {
+      "boundary": "feather",
+      "scope": "grassland",
+      "method": "center",
+      "metric": "flip_rate",
+      "estimate": 0.14450867052023122,
+      "ci_low": 0.13258670520231214,
+      "ci_high": 0.15715317919075145,
+      "n": 2768
+    },
+    {
+      "boundary": "feather",
+      "scope": "grassland",
+      "method": "center",
+      "metric": "accuracy_drop",
+      "estimate": 0.04154624277456647,
+      "ci_low": 0.02926300578034682,
+      "ci_high": 0.054190751445086706,
+      "n": 2768
+    },
+    {
+      "boundary": "feather",
+      "scope": "grassland",
+      "method": "center",
+      "metric": "correct_to_incorrect",
+      "estimate": 0.07695086705202313,
+      "ci_low": 0.06791907514450866,
+      "ci_high": 0.08706647398843931,
+      "n": 2768
+    },
+    {
+      "boundary": "feather",
+      "scope": "grassland",
+      "method": "center",
+      "metric": "incorrect_to_correct",
+      "estimate": 0.03540462427745665,
+      "ci_low": 0.028901734104046242,
+      "ci_high": 0.04226878612716763,
+      "n": 2768
+    },
+    {
+      "boundary": "feather",
+      "scope": "grassland",
+      "method": "center",
+      "metric": "stable_incorrect",
+      "estimate": 0.08923410404624277,
+      "ci_low": 0.07984104046242775,
+      "ci_high": 0.0986271676300578,
+      "n": 2768
+    },
+    {
+      "boundary": "feather",
+      "scope": "grassland",
+      "method": "crop",
+      "metric": "original_accuracy",
+      "estimate": 0.8424855491329479,
+      "ci_low": 0.8316473988439307,
+      "ci_high": 0.8536849710982659,
+      "n": 2768
+    },
+    {
+      "boundary": "feather",
+      "scope": "grassland",
+      "method": "crop",
+      "metric": "accuracy",
+      "estimate": 0.8114161849710982,
+      "ci_low": 0.7994942196531792,
+      "ci_high": 0.8236994219653179,
+      "n": 2768
+    },
+    {
+      "boundary": "feather",
+      "scope": "grassland",
+      "method": "crop",
+      "metric": "flip_rate",
+      "estimate": 0.12427745664739884,
+      "ci_low": 0.11271676300578035,
+      "ci_high": 0.1365606936416185,
+      "n": 2768
+    },
+    {
+      "boundary": "feather",
+      "scope": "grassland",
+      "method": "crop",
+      "metric": "accuracy_drop",
+      "estimate": 0.03106936416184971,
+      "ci_low": 0.019508670520231215,
+      "ci_high": 0.04263005780346821,
+      "n": 2768
+    },
+    {
+      "boundary": "feather",
+      "scope": "grassland",
+      "method": "crop",
+      "metric": "correct_to_incorrect",
+      "estimate": 0.06683526011560693,
+      "ci_low": 0.057803468208092484,
+      "ci_high": 0.07586705202312138,
+      "n": 2768
+    },
+    {
+      "boundary": "feather",
+      "scope": "grassland",
+      "method": "crop",
+      "metric": "incorrect_to_correct",
+      "estimate": 0.035765895953757225,
+      "ci_low": 0.02926300578034682,
+      "ci_high": 0.04226878612716763,
+      "n": 2768
+    },
+    {
+      "boundary": "feather",
+      "scope": "grassland",
+      "method": "crop",
+      "metric": "stable_incorrect",
+      "estimate": 0.10007225433526011,
+      "ci_low": 0.09031791907514451,
+      "ci_high": 0.10982658959537572,
+      "n": 2768
+    },
+    {
+      "boundary": "feather",
+      "scope": "grassland",
+      "method": "full",
+      "metric": "original_accuracy",
+      "estimate": 0.8442919075144508,
+      "ci_low": 0.8338150289017341,
+      "ci_high": 0.8554913294797688,
+      "n": 2768
+    },
+    {
+      "boundary": "feather",
+      "scope": "grassland",
+      "method": "full",
+      "metric": "accuracy",
+      "estimate": 0.7973265895953757,
+      "ci_low": 0.7839595375722543,
+      "ci_high": 0.8103323699421965,
+      "n": 2768
+    },
+    {
+      "boundary": "feather",
+      "scope": "grassland",
+      "method": "full",
+      "metric": "flip_rate",
+      "estimate": 0.1611271676300578,
+      "ci_low": 0.14812138728323698,
+      "ci_high": 0.17449421965317918,
+      "n": 2768
+    },
+    {
+      "boundary": "feather",
+      "scope": "grassland",
+      "method": "full",
+      "metric": "accuracy_drop",
+      "estimate": 0.04696531791907514,
+      "ci_low": 0.034320809248554913,
+      "ci_high": 0.06033236994219653,
+      "n": 2768
+    },
+    {
+      "boundary": "feather",
+      "scope": "grassland",
+      "method": "full",
+      "metric": "correct_to_incorrect",
+      "estimate": 0.08995664739884393,
+      "ci_low": 0.08020231213872832,
+      "ci_high": 0.10043352601156069,
+      "n": 2768
+    },
+    {
+      "boundary": "feather",
+      "scope": "grassland",
+      "method": "full",
+      "metric": "incorrect_to_correct",
+      "estimate": 0.04299132947976879,
+      "ci_low": 0.036127167630057806,
+      "ci_high": 0.050216763005780346,
+      "n": 2768
+    },
+    {
+      "boundary": "feather",
+      "scope": "grassland",
+      "method": "full",
+      "metric": "stable_incorrect",
+      "estimate": 0.08453757225433527,
+      "ci_low": 0.0755057803468208,
+      "ci_high": 0.09356936416184972,
+      "n": 2768
+    },
+    {
+      "boundary": "feather",
+      "scope": "indoor",
+      "method": "center",
+      "metric": "original_accuracy",
+      "estimate": 0.84122359796067,
+      "ci_low": 0.8295702840495266,
+      "ci_high": 0.8517844136926438,
+      "n": 2746
+    },
+    {
+      "boundary": "feather",
+      "scope": "indoor",
+      "method": "center",
+      "metric": "accuracy",
+      "estimate": 0.8029861616897305,
+      "ci_low": 0.7898761835396941,
+      "ci_high": 0.8161052439912598,
+      "n": 2746
+    },
+    {
+      "boundary": "feather",
+      "scope": "indoor",
+      "method": "center",
+      "metric": "flip_rate",
+      "estimate": 0.1412964311726147,
+      "ci_low": 0.12891478514202476,
+      "ci_high": 0.15367807720320467,
+      "n": 2746
+    },
+    {
+      "boundary": "feather",
+      "scope": "indoor",
+      "method": "center",
+      "metric": "accuracy_drop",
+      "estimate": 0.03823743627093955,
+      "ci_low": 0.025855790240349598,
+      "ci_high": 0.04989075018208303,
+      "n": 2746
+    },
+    {
+      "boundary": "feather",
+      "scope": "indoor",
+      "method": "center",
+      "metric": "correct_to_incorrect",
+      "estimate": 0.07283321194464676,
+      "ci_low": 0.06336489439184267,
+      "ci_high": 0.08230152949745084,
+      "n": 2746
+    },
+    {
+      "boundary": "feather",
+      "scope": "indoor",
+      "method": "center",
+      "metric": "incorrect_to_correct",
+      "estimate": 0.03459577567370721,
+      "ci_low": 0.028395848506919157,
+      "ci_high": 0.041514930808448654,
+      "n": 2746
+    },
+    {
+      "boundary": "feather",
+      "scope": "indoor",
+      "method": "center",
+      "metric": "stable_incorrect",
+      "estimate": 0.09031318281136198,
+      "ci_low": 0.0808448652585579,
+      "ci_high": 0.10014566642388929,
+      "n": 2746
+    },
+    {
+      "boundary": "feather",
+      "scope": "indoor",
+      "method": "crop",
+      "metric": "original_accuracy",
+      "estimate": 0.8463219227967953,
+      "ci_low": 0.8346686088856519,
+      "ci_high": 0.8572469045884924,
+      "n": 2746
+    },
+    {
+      "boundary": "feather",
+      "scope": "indoor",
+      "method": "crop",
+      "metric": "accuracy",
+      "estimate": 0.8215586307356154,
+      "ci_low": 0.8095320466132557,
+      "ci_high": 0.8339402767662054,
+      "n": 2746
+    },
+    {
+      "boundary": "feather",
+      "scope": "indoor",
+      "method": "crop",
+      "metric": "flip_rate",
+      "estimate": 0.13328477785870357,
+      "ci_low": 0.12199563000728332,
+      "ci_high": 0.1453022578295703,
+      "n": 2746
+    },
+    {
+      "boundary": "feather",
+      "scope": "indoor",
+      "method": "crop",
+      "metric": "accuracy_drop",
+      "estimate": 0.024763292061179897,
+      "ci_low": 0.012745812090313183,
+      "ci_high": 0.03641660597232338,
+      "n": 2746
+    },
+    {
+      "boundary": "feather",
+      "scope": "indoor",
+      "method": "crop",
+      "metric": "correct_to_incorrect",
+      "estimate": 0.06554989075018208,
+      "ci_low": 0.05644573925710124,
+      "ci_high": 0.07465404224326293,
+      "n": 2746
+    },
+    {
+      "boundary": "feather",
+      "scope": "indoor",
+      "method": "crop",
+      "metric": "incorrect_to_correct",
+      "estimate": 0.04078659868900218,
+      "ci_low": 0.033867443554260745,
+      "ci_high": 0.04806991988346686,
+      "n": 2746
+    },
+    {
+      "boundary": "feather",
+      "scope": "indoor",
+      "method": "crop",
+      "metric": "stable_incorrect",
+      "estimate": 0.08594319009468318,
+      "ci_low": 0.0764748725418791,
+      "ci_high": 0.09577567370721049,
+      "n": 2746
+    },
+    {
+      "boundary": "feather",
+      "scope": "indoor",
+      "method": "full",
+      "metric": "original_accuracy",
+      "estimate": 0.8477785870356883,
+      "ci_low": 0.836489439184268,
+      "ci_high": 0.8590677348871085,
+      "n": 2746
+    },
+    {
+      "boundary": "feather",
+      "scope": "indoor",
+      "method": "full",
+      "metric": "accuracy",
+      "estimate": 0.8044428259286235,
+      "ci_low": 0.791332847778587,
+      "ci_high": 0.8168335761107063,
+      "n": 2746
+    },
+    {
+      "boundary": "feather",
+      "scope": "indoor",
+      "method": "full",
+      "metric": "flip_rate",
+      "estimate": 0.15367807720320467,
+      "ci_low": 0.14093226511289147,
+      "ci_high": 0.16678805535324107,
+      "n": 2746
+    },
+    {
+      "boundary": "feather",
+      "scope": "indoor",
+      "method": "full",
+      "metric": "accuracy_drop",
+      "estimate": 0.04333576110706482,
+      "ci_low": 0.03058994901675164,
+      "ci_high": 0.05572651128914772,
+      "n": 2746
+    },
+    {
+      "boundary": "feather",
+      "scope": "indoor",
+      "method": "full",
+      "metric": "correct_to_incorrect",
+      "estimate": 0.0819373634377276,
+      "ci_low": 0.07246904588492352,
+      "ci_high": 0.09213401310997815,
+      "n": 2746
+    },
+    {
+      "boundary": "feather",
+      "scope": "indoor",
+      "method": "full",
+      "metric": "incorrect_to_correct",
+      "estimate": 0.03860160233066278,
+      "ci_low": 0.03168244719592134,
+      "ci_high": 0.045884923525127456,
+      "n": 2746
+    },
+    {
+      "boundary": "feather",
+      "scope": "indoor",
+      "method": "full",
+      "metric": "stable_incorrect",
+      "estimate": 0.08048069919883467,
+      "ci_low": 0.07174071376547705,
+      "ci_high": 0.08958485069191552,
+      "n": 2746
+    },
+    {
+      "boundary": "feather",
+      "scope": "overall",
+      "method": "center",
+      "metric": "original_accuracy",
+      "estimate": 0.8405243036592026,
+      "ci_low": 0.8304205352266522,
+      "ci_high": 0.8500819224467504,
+      "n": 3662
+    },
+    {
+      "boundary": "feather",
+      "scope": "overall",
+      "method": "center",
+      "metric": "accuracy",
+      "estimate": 0.8020207536865102,
+      "ci_low": 0.7928272346622975,
+      "ci_high": 0.8113052976515565,
+      "n": 3662
+    },
+    {
+      "boundary": "feather",
+      "scope": "overall",
+      "method": "center",
+      "metric": "flip_rate",
+      "estimate": 0.14136173311487346,
+      "ci_low": 0.132532313853996,
+      "ci_high": 0.1502821773165847,
+      "n": 3662
+    },
+    {
+      "boundary": "feather",
+      "scope": "overall",
+      "method": "center",
+      "metric": "accuracy_drop",
+      "estimate": 0.038503549972692515,
+      "ci_low": 0.029765155652648825,
+      "ci_high": 0.0472419442927362,
+      "n": 3662
+    },
+    {
+      "boundary": "feather",
+      "scope": "overall",
+      "method": "center",
+      "metric": "correct_to_incorrect",
+      "estimate": 0.0732750773711997,
+      "ci_low": 0.06681230657200073,
+      "ci_high": 0.07991989805206626,
+      "n": 3662
+    },
+    {
+      "boundary": "feather",
+      "scope": "overall",
+      "method": "center",
+      "metric": "incorrect_to_correct",
+      "estimate": 0.03477152739850719,
+      "ci_low": 0.030038230475150186,
+      "ci_high": 0.03959584926269797,
+      "n": 3662
+    },
+    {
+      "boundary": "feather",
+      "scope": "overall",
+      "method": "center",
+      "metric": "stable_incorrect",
+      "estimate": 0.0913890405971236,
+      "ci_low": 0.08401602038958675,
+      "ci_high": 0.0986710358638267,
+      "n": 3662
+    },
+    {
+      "boundary": "feather",
+      "scope": "overall",
+      "method": "crop",
+      "metric": "original_accuracy",
+      "estimate": 0.8435281267067176,
+      "ci_low": 0.8336974330966684,
+      "ci_high": 0.852812670671764,
+      "n": 3662
+    },
+    {
+      "boundary": "feather",
+      "scope": "overall",
+      "method": "crop",
+      "metric": "accuracy",
+      "estimate": 0.8137629710540688,
+      "ci_low": 0.8049335517931916,
+      "ci_high": 0.8225013653741126,
+      "n": 3662
+    },
+    {
+      "boundary": "feather",
+      "scope": "overall",
+      "method": "crop",
+      "metric": "flip_rate",
+      "estimate": 0.12661569269979975,
+      "ci_low": 0.11823912251957033,
+      "ci_high": 0.13480793737484068,
+      "n": 3662
+    },
+    {
+      "boundary": "feather",
+      "scope": "overall",
+      "method": "crop",
+      "metric": "accuracy_drop",
+      "estimate": 0.029765155652648822,
+      "ci_low": 0.02148188603677408,
+      "ci_high": 0.03804842526852356,
+      "n": 3662
+    },
+    {
+      "boundary": "feather",
+      "scope": "overall",
+      "method": "crop",
+      "metric": "correct_to_incorrect",
+      "estimate": 0.06572000728199526,
+      "ci_low": 0.059619060622610576,
+      "ci_high": 0.07190970325869289,
+      "n": 3662
+    },
+    {
+      "boundary": "feather",
+      "scope": "overall",
+      "method": "crop",
+      "metric": "incorrect_to_correct",
+      "estimate": 0.03595485162934644,
+      "ci_low": 0.031130529765155658,
+      "ci_high": 0.04077917349353723,
+      "n": 3662
+    },
+    {
+      "boundary": "feather",
+      "scope": "overall",
+      "method": "crop",
+      "metric": "stable_incorrect",
+      "estimate": 0.09557618787547786,
+      "ci_low": 0.08829419260877482,
+      "ci_high": 0.10313125796468232,
+      "n": 3662
+    },
+    {
+      "boundary": "feather",
+      "scope": "overall",
+      "method": "full",
+      "metric": "original_accuracy",
+      "estimate": 0.8446204259967232,
+      "ci_low": 0.8350559803386128,
+      "ci_high": 0.8539049699617696,
+      "n": 3662
+    },
+    {
+      "boundary": "feather",
+      "scope": "overall",
+      "method": "full",
+      "metric": "accuracy",
+      "estimate": 0.7945567085381395,
+      "ci_low": 0.7854542144547605,
+      "ci_high": 0.8035681776806843,
+      "n": 3662
+    },
+    {
+      "boundary": "feather",
+      "scope": "overall",
+      "method": "full",
+      "metric": "flip_rate",
+      "estimate": 0.15710904787911886,
+      "ci_low": 0.1482796286182414,
+      "ci_high": 0.1661205170216639,
+      "n": 3662
+    },
+    {
+      "boundary": "feather",
+      "scope": "overall",
+      "method": "full",
+      "metric": "accuracy_drop",
+      "estimate": 0.050063717458583644,
+      "ci_low": 0.04087019843437102,
+      "ci_high": 0.05916621154196249,
+      "n": 3662
+    },
+    {
+      "boundary": "feather",
+      "scope": "overall",
+      "method": "full",
+      "metric": "correct_to_incorrect",
+      "estimate": 0.0882941926087748,
+      "ci_low": 0.08110322228290552,
+      "ci_high": 0.09521208811214273,
+      "n": 3662
+    },
+    {
+      "boundary": "feather",
+      "scope": "overall",
+      "method": "full",
+      "metric": "incorrect_to_correct",
+      "estimate": 0.03823047515019115,
+      "ci_low": 0.03304205352266522,
+      "ci_high": 0.04332787183688332,
+      "n": 3662
+    },
+    {
+      "boundary": "feather",
+      "scope": "overall",
+      "method": "full",
+      "metric": "stable_incorrect",
+      "estimate": 0.08656471873293281,
+      "ci_low": 0.0798288731112325,
+      "ci_high": 0.09384671399963589,
+      "n": 3662
+    },
+    {
+      "boundary": "feather",
+      "scope": "urban",
+      "method": "center",
+      "metric": "original_accuracy",
+      "estimate": 0.8428936792108147,
+      "ci_low": 0.8315582754841067,
+      "ci_high": 0.8538545853123858,
+      "n": 2737
+    },
+    {
+      "boundary": "feather",
+      "scope": "urban",
+      "method": "center",
+      "metric": "accuracy",
+      "estimate": 0.8074534161490683,
+      "ci_low": 0.7950310559006211,
+      "ci_high": 0.8206065034709537,
+      "n": 2737
+    },
+    {
+      "boundary": "feather",
+      "scope": "urban",
+      "method": "center",
+      "metric": "flip_rate",
+      "estimate": 0.1476068688344903,
+      "ci_low": 0.13481914504932407,
+      "ci_high": 0.16039459261965655,
+      "n": 2737
+    },
+    {
+      "boundary": "feather",
+      "scope": "urban",
+      "method": "center",
+      "metric": "accuracy_drop",
+      "estimate": 0.03544026306174644,
+      "ci_low": 0.023748629886737302,
+      "ci_high": 0.047497259773474604,
+      "n": 2737
+    },
+    {
+      "boundary": "feather",
+      "scope": "urban",
+      "method": "center",
+      "metric": "correct_to_incorrect",
+      "estimate": 0.0730727073438071,
+      "ci_low": 0.06357325538911217,
+      "ci_high": 0.08257215929850201,
+      "n": 2737
+    },
+    {
+      "boundary": "feather",
+      "scope": "urban",
+      "method": "center",
+      "metric": "incorrect_to_correct",
+      "estimate": 0.037632444282060654,
+      "ci_low": 0.031055900621118012,
+      "ci_high": 0.04457435147972232,
+      "n": 2737
+    },
+    {
+      "boundary": "feather",
+      "scope": "urban",
+      "method": "center",
+      "metric": "stable_incorrect",
+      "estimate": 0.08257215929850201,
+      "ci_low": 0.07343807088052612,
+      "ci_high": 0.0917062477164779,
+      "n": 2737
+    },
+    {
+      "boundary": "feather",
+      "scope": "urban",
+      "method": "crop",
+      "metric": "original_accuracy",
+      "estimate": 0.8461819510412861,
+      "ci_low": 0.835221044939715,
+      "ci_high": 0.8571428571428571,
+      "n": 2737
+    },
+    {
+      "boundary": "feather",
+      "scope": "urban",
+      "method": "crop",
+      "metric": "accuracy",
+      "estimate": 0.8107416879795396,
+      "ci_low": 0.7986755571793935,
+      "ci_high": 0.8235294117647058,
+      "n": 2737
+    },
+    {
+      "boundary": "feather",
+      "scope": "urban",
+      "method": "crop",
+      "metric": "flip_rate",
+      "estimate": 0.1318962367555718,
+      "ci_low": 0.11983924004384362,
+      "ci_high": 0.14358786993058092,
+      "n": 2737
+    },
+    {
+      "boundary": "feather",
+      "scope": "urban",
+      "method": "crop",
+      "metric": "accuracy_drop",
+      "estimate": 0.03544026306174644,
+      "ci_low": 0.02411399342345634,
+      "ci_high": 0.04713189623675557,
+      "n": 2737
+    },
+    {
+      "boundary": "feather",
+      "scope": "urban",
+      "method": "crop",
+      "metric": "correct_to_incorrect",
+      "estimate": 0.07051516258677384,
+      "ci_low": 0.061381074168797956,
+      "ci_high": 0.08001461454146876,
+      "n": 2737
+    },
+    {
+      "boundary": "feather",
+      "scope": "urban",
+      "method": "crop",
+      "metric": "incorrect_to_correct",
+      "estimate": 0.0350748995250274,
+      "ci_low": 0.028498355864084765,
+      "ci_high": 0.04165144318597004,
+      "n": 2737
+    },
+    {
+      "boundary": "feather",
+      "scope": "urban",
+      "method": "crop",
+      "metric": "stable_incorrect",
+      "estimate": 0.09243697478991597,
+      "ci_low": 0.08257215929850201,
+      "ci_high": 0.10266715381804896,
+      "n": 2737
+    },
+    {
+      "boundary": "feather",
+      "scope": "urban",
+      "method": "full",
+      "metric": "original_accuracy",
+      "estimate": 0.8461819510412861,
+      "ci_low": 0.835221044939715,
+      "ci_high": 0.8571428571428571,
+      "n": 2737
+    },
+    {
+      "boundary": "feather",
+      "scope": "urban",
+      "method": "full",
+      "metric": "accuracy",
+      "estimate": 0.7844355133357691,
+      "ci_low": 0.7709170624771647,
+      "ci_high": 0.7975886006576544,
+      "n": 2737
+    },
+    {
+      "boundary": "feather",
+      "scope": "urban",
+      "method": "full",
+      "metric": "flip_rate",
+      "estimate": 0.16660577274388016,
+      "ci_low": 0.1534526854219949,
+      "ci_high": 0.17975886006576544,
+      "n": 2737
+    },
+    {
+      "boundary": "feather",
+      "scope": "urban",
+      "method": "full",
+      "metric": "accuracy_drop",
+      "estimate": 0.061746437705516986,
+      "ci_low": 0.04859335038363171,
+      "ci_high": 0.07489952502740227,
+      "n": 2737
+    },
+    {
+      "boundary": "feather",
+      "scope": "urban",
+      "method": "full",
+      "metric": "correct_to_incorrect",
+      "estimate": 0.09755206430398246,
+      "ci_low": 0.0865911582024114,
+      "ci_high": 0.10814760686883448,
+      "n": 2737
+    },
+    {
+      "boundary": "feather",
+      "scope": "urban",
+      "method": "full",
+      "metric": "incorrect_to_correct",
+      "estimate": 0.03580562659846547,
+      "ci_low": 0.0288637194008038,
+      "ci_high": 0.04274753379612715,
+      "n": 2737
+    },
+    {
+      "boundary": "feather",
+      "scope": "urban",
+      "method": "full",
+      "metric": "stable_incorrect",
+      "estimate": 0.08476434051881622,
+      "ci_low": 0.07526488856412131,
+      "ci_high": 0.09426379247351115,
+      "n": 2737
+    },
+    {
+      "boundary": "hard",
+      "scope": "forest",
+      "method": "center",
+      "metric": "original_accuracy",
+      "estimate": 0.8347349177330896,
+      "ci_low": 0.8237659963436929,
+      "ci_high": 0.8457038391224863,
+      "n": 2735
+    },
+    {
+      "boundary": "hard",
+      "scope": "forest",
+      "method": "center",
+      "metric": "accuracy",
+      "estimate": 0.7930530164533821,
+      "ci_low": 0.780255941499086,
+      "ci_high": 0.8054844606946984,
+      "n": 2735
+    },
+    {
+      "boundary": "hard",
+      "scope": "forest",
+      "method": "center",
+      "metric": "flip_rate",
+      "estimate": 0.1396709323583181,
+      "ci_low": 0.1276051188299817,
+      "ci_high": 0.15210237659963438,
+      "n": 2735
+    },
+    {
+      "boundary": "hard",
+      "scope": "forest",
+      "method": "center",
+      "metric": "accuracy_drop",
+      "estimate": 0.041681901279707494,
+      "ci_low": 0.029981718464351007,
+      "ci_high": 0.05338208409506399,
+      "n": 2735
+    },
+    {
+      "boundary": "hard",
+      "scope": "forest",
+      "method": "center",
+      "metric": "correct_to_incorrect",
+      "estimate": 0.07422303473491773,
+      "ci_low": 0.06471663619744059,
+      "ci_high": 0.08372943327239488,
+      "n": 2735
+    },
+    {
+      "boundary": "hard",
+      "scope": "forest",
+      "method": "center",
+      "metric": "incorrect_to_correct",
+      "estimate": 0.03254113345521024,
+      "ci_low": 0.0263254113345521,
+      "ci_high": 0.038756855575868374,
+      "n": 2735
+    },
+    {
+      "boundary": "hard",
+      "scope": "forest",
+      "method": "center",
+      "metric": "stable_incorrect",
+      "estimate": 0.09981718464351005,
+      "ci_low": 0.09031078610603291,
+      "ci_high": 0.10968921389396709,
+      "n": 2735
+    },
+    {
+      "boundary": "hard",
+      "scope": "forest",
+      "method": "crop",
+      "metric": "original_accuracy",
+      "estimate": 0.8391224862888482,
+      "ci_low": 0.8281535648994516,
+      "ci_high": 0.8504570383912249,
+      "n": 2735
+    },
+    {
+      "boundary": "hard",
+      "scope": "forest",
+      "method": "crop",
+      "metric": "accuracy",
+      "estimate": 0.8076782449725777,
+      "ci_low": 0.7956124314442413,
+      "ci_high": 0.819744058500914,
+      "n": 2735
+    },
+    {
+      "boundary": "hard",
+      "scope": "forest",
+      "method": "crop",
+      "metric": "flip_rate",
+      "estimate": 0.12358318098720293,
+      "ci_low": 0.11224862888482633,
+      "ci_high": 0.13528336380255943,
+      "n": 2735
+    },
+    {
+      "boundary": "hard",
+      "scope": "forest",
+      "method": "crop",
+      "metric": "accuracy_drop",
+      "estimate": 0.03144424131627057,
+      "ci_low": 0.019744058500914076,
+      "ci_high": 0.04277879341864717,
+      "n": 2735
+    },
+    {
+      "boundary": "hard",
+      "scope": "forest",
+      "method": "crop",
+      "metric": "correct_to_incorrect",
+      "estimate": 0.0643510054844607,
+      "ci_low": 0.05521023765996344,
+      "ci_high": 0.07349177330895795,
+      "n": 2735
+    },
+    {
+      "boundary": "hard",
+      "scope": "forest",
+      "method": "crop",
+      "metric": "incorrect_to_correct",
+      "estimate": 0.03290676416819013,
+      "ci_low": 0.026691042047531994,
+      "ci_high": 0.03948811700182815,
+      "n": 2735
+    },
+    {
+      "boundary": "hard",
+      "scope": "forest",
+      "method": "crop",
+      "metric": "stable_incorrect",
+      "estimate": 0.1016453382084095,
+      "ci_low": 0.09212979890310787,
+      "ci_high": 0.11151736745886655,
+      "n": 2735
+    },
+    {
+      "boundary": "hard",
+      "scope": "forest",
+      "method": "full",
+      "metric": "original_accuracy",
+      "estimate": 0.8402193784277879,
+      "ci_low": 0.8288848263254114,
+      "ci_high": 0.8511882998171847,
+      "n": 2735
+    },
+    {
+      "boundary": "hard",
+      "scope": "forest",
+      "method": "full",
+      "metric": "accuracy",
+      "estimate": 0.7886654478976234,
+      "ci_low": 0.7758683729433272,
+      "ci_high": 0.801106032906764,
+      "n": 2735
+    },
+    {
+      "boundary": "hard",
+      "scope": "forest",
+      "method": "full",
+      "metric": "flip_rate",
+      "estimate": 0.15027422303473492,
+      "ci_low": 0.13747714808043876,
+      "ci_high": 0.16343692870201096,
+      "n": 2735
+    },
+    {
+      "boundary": "hard",
+      "scope": "forest",
+      "method": "full",
+      "metric": "accuracy_drop",
+      "estimate": 0.051553930530164535,
+      "ci_low": 0.038756855575868374,
+      "ci_high": 0.06398537477148081,
+      "n": 2735
+    },
+    {
+      "boundary": "hard",
+      "scope": "forest",
+      "method": "full",
+      "metric": "correct_to_incorrect",
+      "estimate": 0.08702010968921389,
+      "ci_low": 0.07678244972577697,
+      "ci_high": 0.09762340036563072,
+      "n": 2735
+    },
+    {
+      "boundary": "hard",
+      "scope": "forest",
+      "method": "full",
+      "metric": "incorrect_to_correct",
+      "estimate": 0.03546617915904936,
+      "ci_low": 0.029250457038391225,
+      "ci_high": 0.04277879341864717,
+      "n": 2735
+    },
+    {
+      "boundary": "hard",
+      "scope": "forest",
+      "method": "full",
+      "metric": "stable_incorrect",
+      "estimate": 0.09652650822669104,
+      "ci_low": 0.08702010968921389,
+      "ci_high": 0.10639853747714809,
+      "n": 2735
+    },
+    {
+      "boundary": "hard",
+      "scope": "grassland",
+      "method": "center",
+      "metric": "original_accuracy",
+      "estimate": 0.8432080924855492,
+      "ci_low": 0.8323699421965318,
+      "ci_high": 0.854407514450867,
+      "n": 2768
+    },
+    {
+      "boundary": "hard",
+      "scope": "grassland",
+      "method": "center",
+      "metric": "accuracy",
+      "estimate": 0.8034682080924855,
+      "ci_low": 0.7904624277456648,
+      "ci_high": 0.8161127167630058,
+      "n": 2768
+    },
+    {
+      "boundary": "hard",
+      "scope": "grassland",
+      "method": "center",
+      "metric": "flip_rate",
+      "estimate": 0.14920520231213874,
+      "ci_low": 0.13764450867052022,
+      "ci_high": 0.16221098265895953,
+      "n": 2768
+    },
+    {
+      "boundary": "hard",
+      "scope": "grassland",
+      "method": "center",
+      "metric": "accuracy_drop",
+      "estimate": 0.039739884393063585,
+      "ci_low": 0.028179190751445087,
+      "ci_high": 0.052745664739884394,
+      "n": 2768
+    },
+    {
+      "boundary": "hard",
+      "scope": "grassland",
+      "method": "center",
+      "metric": "correct_to_incorrect",
+      "estimate": 0.07622832369942197,
+      "ci_low": 0.06719653179190752,
+      "ci_high": 0.08634393063583815,
+      "n": 2768
+    },
+    {
+      "boundary": "hard",
+      "scope": "grassland",
+      "method": "center",
+      "metric": "incorrect_to_correct",
+      "estimate": 0.03648843930635838,
+      "ci_low": 0.029624277456647398,
+      "ci_high": 0.04335260115606936,
+      "n": 2768
+    },
+    {
+      "boundary": "hard",
+      "scope": "grassland",
+      "method": "center",
+      "metric": "stable_incorrect",
+      "estimate": 0.0838150289017341,
+      "ci_low": 0.07442196531791907,
+      "ci_high": 0.09284682080924855,
+      "n": 2768
+    },
+    {
+      "boundary": "hard",
+      "scope": "grassland",
+      "method": "crop",
+      "metric": "original_accuracy",
+      "estimate": 0.8424855491329479,
+      "ci_low": 0.8316473988439307,
+      "ci_high": 0.8536849710982659,
+      "n": 2768
+    },
+    {
+      "boundary": "hard",
+      "scope": "grassland",
+      "method": "crop",
+      "metric": "accuracy",
+      "estimate": 0.8128612716763006,
+      "ci_low": 0.800930274566474,
+      "ci_high": 0.8251445086705202,
+      "n": 2768
+    },
+    {
+      "boundary": "hard",
+      "scope": "grassland",
+      "method": "crop",
+      "metric": "flip_rate",
+      "estimate": 0.13005780346820808,
+      "ci_low": 0.11849710982658959,
+      "ci_high": 0.14197976878612717,
+      "n": 2768
+    },
+    {
+      "boundary": "hard",
+      "scope": "grassland",
+      "method": "crop",
+      "metric": "accuracy_drop",
+      "estimate": 0.029624277456647398,
+      "ci_low": 0.018063583815028903,
+      "ci_high": 0.041184971098265896,
+      "n": 2768
+    },
+    {
+      "boundary": "hard",
+      "scope": "grassland",
+      "method": "crop",
+      "metric": "correct_to_incorrect",
+      "estimate": 0.06683526011560693,
+      "ci_low": 0.058164739884393066,
+      "ci_high": 0.07586705202312138,
+      "n": 2768
+    },
+    {
+      "boundary": "hard",
+      "scope": "grassland",
+      "method": "crop",
+      "metric": "incorrect_to_correct",
+      "estimate": 0.037210982658959536,
+      "ci_low": 0.030346820809248554,
+      "ci_high": 0.04407514450867052,
+      "n": 2768
+    },
+    {
+      "boundary": "hard",
+      "scope": "grassland",
+      "method": "crop",
+      "metric": "stable_incorrect",
+      "estimate": 0.09429190751445087,
+      "ci_low": 0.08453757225433527,
+      "ci_high": 0.10404624277456648,
+      "n": 2768
+    },
+    {
+      "boundary": "hard",
+      "scope": "grassland",
+      "method": "full",
+      "metric": "original_accuracy",
+      "estimate": 0.8442919075144508,
+      "ci_low": 0.8338150289017341,
+      "ci_high": 0.8554913294797688,
+      "n": 2768
+    },
+    {
+      "boundary": "hard",
+      "scope": "grassland",
+      "method": "full",
+      "metric": "accuracy",
+      "estimate": 0.7944364161849711,
+      "ci_low": 0.7810693641618497,
+      "ci_high": 0.807442196531792,
+      "n": 2768
+    },
+    {
+      "boundary": "hard",
+      "scope": "grassland",
+      "method": "full",
+      "metric": "flip_rate",
+      "estimate": 0.16726878612716764,
+      "ci_low": 0.1546242774566474,
+      "ci_high": 0.18063583815028902,
+      "n": 2768
+    },
+    {
+      "boundary": "hard",
+      "scope": "grassland",
+      "method": "full",
+      "metric": "accuracy_drop",
+      "estimate": 0.04985549132947977,
+      "ci_low": 0.037210982658959536,
+      "ci_high": 0.06322254335260116,
+      "n": 2768
+    },
+    {
+      "boundary": "hard",
+      "scope": "grassland",
+      "method": "full",
+      "metric": "correct_to_incorrect",
+      "estimate": 0.09356936416184972,
+      "ci_low": 0.08345375722543352,
+      "ci_high": 0.10440751445086706,
+      "n": 2768
+    },
+    {
+      "boundary": "hard",
+      "scope": "grassland",
+      "method": "full",
+      "metric": "incorrect_to_correct",
+      "estimate": 0.043713872832369945,
+      "ci_low": 0.03684971098265896,
+      "ci_high": 0.0509393063583815,
+      "n": 2768
+    },
+    {
+      "boundary": "hard",
+      "scope": "grassland",
+      "method": "full",
+      "metric": "stable_incorrect",
+      "estimate": 0.08200867052023121,
+      "ci_low": 0.07297687861271676,
+      "ci_high": 0.09104046242774566,
+      "n": 2768
+    },
+    {
+      "boundary": "hard",
+      "scope": "indoor",
+      "method": "center",
+      "metric": "original_accuracy",
+      "estimate": 0.84122359796067,
+      "ci_low": 0.8295702840495266,
+      "ci_high": 0.8517844136926438,
+      "n": 2746
+    },
+    {
+      "boundary": "hard",
+      "scope": "indoor",
+      "method": "center",
+      "metric": "accuracy",
+      "estimate": 0.8091769847050255,
+      "ci_low": 0.7960670065549891,
+      "ci_high": 0.8222869628550619,
+      "n": 2746
+    },
+    {
+      "boundary": "hard",
+      "scope": "indoor",
+      "method": "center",
+      "metric": "flip_rate",
+      "estimate": 0.14093226511289147,
+      "ci_low": 0.129278951201748,
+      "ci_high": 0.1529497450837582,
+      "n": 2746
+    },
+    {
+      "boundary": "hard",
+      "scope": "indoor",
+      "method": "center",
+      "metric": "accuracy_drop",
+      "estimate": 0.032046613255644577,
+      "ci_low": 0.02002002913328478,
+      "ci_high": 0.04406409322651129,
+      "n": 2746
+    },
+    {
+      "boundary": "hard",
+      "scope": "indoor",
+      "method": "center",
+      "metric": "correct_to_incorrect",
+      "estimate": 0.07028404952658412,
+      "ci_low": 0.06081573197378004,
+      "ci_high": 0.07938820101966497,
+      "n": 2746
+    },
+    {
+      "boundary": "hard",
+      "scope": "indoor",
+      "method": "center",
+      "metric": "incorrect_to_correct",
+      "estimate": 0.03823743627093955,
+      "ci_low": 0.031318281136198105,
+      "ci_high": 0.04515659140568099,
+      "n": 2746
+    },
+    {
+      "boundary": "hard",
+      "scope": "indoor",
+      "method": "center",
+      "metric": "stable_incorrect",
+      "estimate": 0.08812818645302258,
+      "ci_low": 0.0786598689002185,
+      "ci_high": 0.09796067006554988,
+      "n": 2746
+    },
+    {
+      "boundary": "hard",
+      "scope": "indoor",
+      "method": "crop",
+      "metric": "original_accuracy",
+      "estimate": 0.8463219227967953,
+      "ci_low": 0.8346686088856519,
+      "ci_high": 0.8572469045884924,
+      "n": 2746
+    },
+    {
+      "boundary": "hard",
+      "scope": "indoor",
+      "method": "crop",
+      "metric": "accuracy",
+      "estimate": 0.8219227967953386,
+      "ci_low": 0.8091769847050255,
+      "ci_high": 0.8339402767662054,
+      "n": 2746
+    },
+    {
+      "boundary": "hard",
+      "scope": "indoor",
+      "method": "crop",
+      "metric": "flip_rate",
+      "estimate": 0.1358339402767662,
+      "ci_low": 0.12418062636562273,
+      "ci_high": 0.14786052439912586,
+      "n": 2746
+    },
+    {
+      "boundary": "hard",
+      "scope": "indoor",
+      "method": "crop",
+      "metric": "accuracy_drop",
+      "estimate": 0.024399126001456665,
+      "ci_low": 0.012381646030589949,
+      "ci_high": 0.03678077203204661,
+      "n": 2746
+    },
+    {
+      "boundary": "hard",
+      "scope": "indoor",
+      "method": "crop",
+      "metric": "correct_to_incorrect",
+      "estimate": 0.06664238892935179,
+      "ci_low": 0.0578932993445011,
+      "ci_high": 0.07574654042243263,
+      "n": 2746
+    },
+    {
+      "boundary": "hard",
+      "scope": "indoor",
+      "method": "crop",
+      "metric": "incorrect_to_correct",
+      "estimate": 0.04224326292789512,
+      "ci_low": 0.035324107793153675,
+      "ci_high": 0.049526584122359794,
+      "n": 2746
+    },
+    {
+      "boundary": "hard",
+      "scope": "indoor",
+      "method": "crop",
+      "metric": "stable_incorrect",
+      "estimate": 0.08448652585579024,
+      "ci_low": 0.07501820830298617,
+      "ci_high": 0.09431900946831755,
+      "n": 2746
+    },
+    {
+      "boundary": "hard",
+      "scope": "indoor",
+      "method": "full",
+      "metric": "original_accuracy",
+      "estimate": 0.8477785870356883,
+      "ci_low": 0.836489439184268,
+      "ci_high": 0.8590677348871085,
+      "n": 2746
+    },
+    {
+      "boundary": "hard",
+      "scope": "indoor",
+      "method": "full",
+      "metric": "accuracy",
+      "estimate": 0.8073561544064093,
+      "ci_low": 0.7946103423160962,
+      "ci_high": 0.8197378004369993,
+      "n": 2746
+    },
+    {
+      "boundary": "hard",
+      "scope": "indoor",
+      "method": "full",
+      "metric": "flip_rate",
+      "estimate": 0.15914056809905316,
+      "ci_low": 0.14638565185724692,
+      "ci_high": 0.1722505462490896,
+      "n": 2746
+    },
+    {
+      "boundary": "hard",
+      "scope": "indoor",
+      "method": "full",
+      "metric": "accuracy_drop",
+      "estimate": 0.04042243262927895,
+      "ci_low": 0.027676620538965767,
+      "ci_high": 0.053532410779315365,
+      "n": 2746
+    },
+    {
+      "boundary": "hard",
+      "scope": "indoor",
+      "method": "full",
+      "metric": "correct_to_incorrect",
+      "estimate": 0.08412235979606701,
+      "ci_low": 0.07428987618353969,
+      "ci_high": 0.09395484340859432,
+      "n": 2746
+    },
+    {
+      "boundary": "hard",
+      "scope": "indoor",
+      "method": "full",
+      "metric": "incorrect_to_correct",
+      "estimate": 0.043699927166788055,
+      "ci_low": 0.03641660597232338,
+      "ci_high": 0.05134741442097596,
+      "n": 2746
+    },
+    {
+      "boundary": "hard",
+      "scope": "indoor",
+      "method": "full",
+      "metric": "stable_incorrect",
+      "estimate": 0.07720320466132556,
+      "ci_low": 0.06809905316824472,
+      "ci_high": 0.08594319009468318,
+      "n": 2746
+    },
+    {
+      "boundary": "hard",
+      "scope": "overall",
+      "method": "center",
+      "metric": "original_accuracy",
+      "estimate": 0.8405243036592026,
+      "ci_low": 0.8304205352266522,
+      "ci_high": 0.8500819224467504,
+      "n": 3662
+    },
+    {
+      "boundary": "hard",
+      "scope": "overall",
+      "method": "center",
+      "metric": "accuracy",
+      "estimate": 0.8020207536865102,
+      "ci_low": 0.7924631348989621,
+      "ci_high": 0.8113075732750775,
+      "n": 3662
+    },
+    {
+      "boundary": "hard",
+      "scope": "overall",
+      "method": "center",
+      "metric": "flip_rate",
+      "estimate": 0.14600400509739667,
+      "ci_low": 0.13699253595485167,
+      "ci_high": 0.15501547423994178,
+      "n": 3662
+    },
+    {
+      "boundary": "hard",
+      "scope": "overall",
+      "method": "center",
+      "metric": "accuracy_drop",
+      "estimate": 0.038503549972692515,
+      "ci_low": 0.029492080830147465,
+      "ci_high": 0.04733296923356999,
+      "n": 3662
+    },
+    {
+      "boundary": "hard",
+      "scope": "overall",
+      "method": "center",
+      "metric": "correct_to_incorrect",
+      "estimate": 0.07464045148370653,
+      "ci_low": 0.06808665574367376,
+      "ci_high": 0.08146732204624069,
+      "n": 3662
+    },
+    {
+      "boundary": "hard",
+      "scope": "overall",
+      "method": "center",
+      "metric": "incorrect_to_correct",
+      "estimate": 0.036136901511014015,
+      "ci_low": 0.03122155470598944,
+      "ci_high": 0.04105452393955941,
+      "n": 3662
+    },
+    {
+      "boundary": "hard",
+      "scope": "overall",
+      "method": "center",
+      "metric": "stable_incorrect",
+      "estimate": 0.08811214272710723,
+      "ci_low": 0.08073912251957037,
+      "ci_high": 0.09548516293464407,
+      "n": 3662
+    },
+    {
+      "boundary": "hard",
+      "scope": "overall",
+      "method": "crop",
+      "metric": "original_accuracy",
+      "estimate": 0.8435281267067176,
+      "ci_low": 0.8336974330966684,
+      "ci_high": 0.852812670671764,
+      "n": 3662
+    },
+    {
+      "boundary": "hard",
+      "scope": "overall",
+      "method": "crop",
+      "metric": "accuracy",
+      "estimate": 0.8131257964682324,
+      "ci_low": 0.8043874021481887,
+      "ci_high": 0.821864190788276,
+      "n": 3662
+    },
+    {
+      "boundary": "hard",
+      "scope": "overall",
+      "method": "crop",
+      "metric": "flip_rate",
+      "estimate": 0.13134898962315675,
+      "ci_low": 0.12297241944292735,
+      "ci_high": 0.13945020935736388,
+      "n": 3662
+    },
+    {
+      "boundary": "hard",
+      "scope": "overall",
+      "method": "crop",
+      "metric": "accuracy_drop",
+      "estimate": 0.03040233023848534,
+      "ci_low": 0.021937010740943026,
+      "ci_high": 0.038685599854360084,
+      "n": 3662
+    },
+    {
+      "boundary": "hard",
+      "scope": "overall",
+      "method": "crop",
+      "metric": "correct_to_incorrect",
+      "estimate": 0.06754050609867103,
+      "ci_low": 0.06125978518113962,
+      "ci_high": 0.07363917713453486,
+      "n": 3662
+    },
+    {
+      "boundary": "hard",
+      "scope": "overall",
+      "method": "crop",
+      "metric": "incorrect_to_correct",
+      "estimate": 0.03713817586018569,
+      "ci_low": 0.032220553431640264,
+      "ci_high": 0.04214454760604406,
+      "n": 3662
+    },
+    {
+      "boundary": "hard",
+      "scope": "overall",
+      "method": "crop",
+      "metric": "stable_incorrect",
+      "estimate": 0.09266338976879665,
+      "ci_low": 0.08538139450209357,
+      "ci_high": 0.10012743491716732,
+      "n": 3662
+    },
+    {
+      "boundary": "hard",
+      "scope": "overall",
+      "method": "full",
+      "metric": "original_accuracy",
+      "estimate": 0.8446204259967232,
+      "ci_low": 0.8350559803386128,
+      "ci_high": 0.8539049699617696,
+      "n": 3662
+    },
+    {
+      "boundary": "hard",
+      "scope": "overall",
+      "method": "full",
+      "metric": "accuracy",
+      "estimate": 0.7933733843073002,
+      "ci_low": 0.7841798652830877,
+      "ci_high": 0.8024781540142002,
+      "n": 3662
+    },
+    {
+      "boundary": "hard",
+      "scope": "overall",
+      "method": "full",
+      "metric": "flip_rate",
+      "estimate": 0.1615692699799745,
+      "ci_low": 0.15255780083742942,
+      "ci_high": 0.17058073912251956,
+      "n": 3662
+    },
+    {
+      "boundary": "hard",
+      "scope": "overall",
+      "method": "full",
+      "metric": "accuracy_drop",
+      "estimate": 0.0512470416894229,
+      "ci_low": 0.041962497724376484,
+      "ci_high": 0.06044056071363554,
+      "n": 3662
+    },
+    {
+      "boundary": "hard",
+      "scope": "overall",
+      "method": "full",
+      "metric": "correct_to_incorrect",
+      "estimate": 0.09084289095212086,
+      "ci_low": 0.08356089568541782,
+      "ci_high": 0.09812488621882394,
+      "n": 3662
+    },
+    {
+      "boundary": "hard",
+      "scope": "overall",
+      "method": "full",
+      "metric": "incorrect_to_correct",
+      "estimate": 0.03959584926269798,
+      "ci_low": 0.03440742763517203,
+      "ci_high": 0.04478654651374475,
+      "n": 3662
+    },
+    {
+      "boundary": "hard",
+      "scope": "overall",
+      "method": "full",
+      "metric": "stable_incorrect",
+      "estimate": 0.08465319497542326,
+      "ci_low": 0.07800837429455672,
+      "ci_high": 0.09184416530129255,
+      "n": 3662
+    },
+    {
+      "boundary": "hard",
+      "scope": "urban",
+      "method": "center",
+      "metric": "original_accuracy",
+      "estimate": 0.8428936792108147,
+      "ci_low": 0.8315582754841067,
+      "ci_high": 0.8538545853123858,
+      "n": 2737
+    },
+    {
+      "boundary": "hard",
+      "scope": "urban",
+      "method": "center",
+      "metric": "accuracy",
+      "estimate": 0.8023383266350018,
+      "ci_low": 0.7895506028498356,
+      "ci_high": 0.8154914139568871,
+      "n": 2737
+    },
+    {
+      "boundary": "hard",
+      "scope": "urban",
+      "method": "center",
+      "metric": "flip_rate",
+      "estimate": 0.15418341249543296,
+      "ci_low": 0.1410303251735477,
+      "ci_high": 0.1669711362805992,
+      "n": 2737
+    },
+    {
+      "boundary": "hard",
+      "scope": "urban",
+      "method": "center",
+      "metric": "accuracy_drop",
+      "estimate": 0.040555352575812935,
+      "ci_low": 0.027767628790646693,
+      "ci_high": 0.052977712824260136,
+      "n": 2737
+    },
+    {
+      "boundary": "hard",
+      "scope": "urban",
+      "method": "center",
+      "metric": "correct_to_incorrect",
+      "estimate": 0.07782243332115454,
+      "ci_low": 0.0679576178297406,
+      "ci_high": 0.08768724881256851,
+      "n": 2737
+    },
+    {
+      "boundary": "hard",
+      "scope": "urban",
+      "method": "center",
+      "metric": "incorrect_to_correct",
+      "estimate": 0.037267080745341616,
+      "ci_low": 0.030681402995981006,
+      "ci_high": 0.04420898794300329,
+      "n": 2737
+    },
+    {
+      "boundary": "hard",
+      "scope": "urban",
+      "method": "center",
+      "metric": "stable_incorrect",
+      "estimate": 0.08074534161490683,
+      "ci_low": 0.07161125319693094,
+      "ci_high": 0.08987943003288272,
+      "n": 2737
+    },
+    {
+      "boundary": "hard",
+      "scope": "urban",
+      "method": "crop",
+      "metric": "original_accuracy",
+      "estimate": 0.8461819510412861,
+      "ci_low": 0.835221044939715,
+      "ci_high": 0.8571428571428571,
+      "n": 2737
+    },
+    {
+      "boundary": "hard",
+      "scope": "urban",
+      "method": "crop",
+      "metric": "accuracy",
+      "estimate": 0.8100109609061016,
+      "ci_low": 0.7972232371209353,
+      "ci_high": 0.8228078187796857,
+      "n": 2737
+    },
+    {
+      "boundary": "hard",
+      "scope": "urban",
+      "method": "crop",
+      "metric": "flip_rate",
+      "estimate": 0.1359152356594812,
+      "ci_low": 0.12349287541103397,
+      "ci_high": 0.1476068688344903,
+      "n": 2737
+    },
+    {
+      "boundary": "hard",
+      "scope": "urban",
+      "method": "crop",
+      "metric": "accuracy_drop",
+      "estimate": 0.03617099013518451,
+      "ci_low": 0.024479356960175374,
+      "ci_high": 0.04786262331019364,
+      "n": 2737
+    },
+    {
+      "boundary": "hard",
+      "scope": "urban",
+      "method": "crop",
+      "metric": "correct_to_incorrect",
+      "estimate": 0.07234198027036902,
+      "ci_low": 0.06320789185239313,
+      "ci_high": 0.08184143222506395,
+      "n": 2737
+    },
+    {
+      "boundary": "hard",
+      "scope": "urban",
+      "method": "crop",
+      "metric": "incorrect_to_correct",
+      "estimate": 0.03617099013518451,
+      "ci_low": 0.02959444647424187,
+      "ci_high": 0.043112897332846185,
+      "n": 2737
+    },
+    {
+      "boundary": "hard",
+      "scope": "urban",
+      "method": "crop",
+      "metric": "stable_incorrect",
+      "estimate": 0.09024479356960176,
+      "ci_low": 0.0803799780781878,
+      "ci_high": 0.10010960906101571,
+      "n": 2737
+    },
+    {
+      "boundary": "hard",
+      "scope": "urban",
+      "method": "full",
+      "metric": "original_accuracy",
+      "estimate": 0.8461819510412861,
+      "ci_low": 0.835221044939715,
+      "ci_high": 0.8571428571428571,
+      "n": 2737
+    },
+    {
+      "boundary": "hard",
+      "scope": "urban",
+      "method": "full",
+      "metric": "accuracy",
+      "estimate": 0.782974059188893,
+      "ci_low": 0.7698209718670077,
+      "ci_high": 0.7961271465107782,
+      "n": 2737
+    },
+    {
+      "boundary": "hard",
+      "scope": "urban",
+      "method": "full",
+      "metric": "flip_rate",
+      "estimate": 0.16952868103763244,
+      "ci_low": 0.15637559371574716,
+      "ci_high": 0.18231640482279868,
+      "n": 2737
+    },
+    {
+      "boundary": "hard",
+      "scope": "urban",
+      "method": "full",
+      "metric": "accuracy_drop",
+      "estimate": 0.06320789185239313,
+      "ci_low": 0.049689440993788817,
+      "ci_high": 0.0763609791742784,
+      "n": 2737
+    },
+    {
+      "boundary": "hard",
+      "scope": "urban",
+      "method": "full",
+      "metric": "correct_to_incorrect",
+      "estimate": 0.09864815491413957,
+      "ci_low": 0.08768724881256851,
+      "ci_high": 0.10887833394227256,
+      "n": 2737
+    },
+    {
+      "boundary": "hard",
+      "scope": "urban",
+      "method": "full",
+      "metric": "incorrect_to_correct",
+      "estimate": 0.03544026306174644,
+      "ci_low": 0.0288637194008038,
+      "ci_high": 0.04201680672268908,
+      "n": 2737
+    },
+    {
+      "boundary": "hard",
+      "scope": "urban",
+      "method": "full",
+      "metric": "stable_incorrect",
+      "estimate": 0.08293752283522104,
+      "ci_low": 0.07380343441724516,
+      "ci_high": 0.09243697478991597,
+      "n": 2737
+    }
+  ],
+  "paired": [
+    {
+      "boundary": "feather",
+      "scope": "forest",
+      "comparison": "crop_minus_full",
+      "metric": "accuracy",
+      "estimate": 0.019378427787934187,
+      "ci_low": 0.009506398537477149,
+      "ci_high": 0.02925959780621559,
+      "n": 2735
+    },
+    {
+      "boundary": "feather",
+      "scope": "forest",
+      "comparison": "crop_minus_full",
+      "metric": "flip_rate",
+      "estimate": -0.029981718464351007,
+      "ci_low": -0.04241316270566728,
+      "ci_high": -0.018281535648994516,
+      "n": 2735
+    },
+    {
+      "boundary": "feather",
+      "scope": "forest",
+      "comparison": "crop_minus_full",
+      "metric": "accuracy_drop",
+      "estimate": -0.020475319926873858,
+      "ci_low": -0.032184643510054844,
+      "ci_high": -0.008775137111517367,
+      "n": 2735
+    },
+    {
+      "boundary": "feather",
+      "scope": "forest",
+      "comparison": "crop_minus_center",
+      "metric": "accuracy",
+      "estimate": 0.015356489945155392,
+      "ci_low": 0.006215722120658135,
+      "ci_high": 0.02486288848263254,
+      "n": 2735
+    },
+    {
+      "boundary": "feather",
+      "scope": "forest",
+      "comparison": "crop_minus_center",
+      "metric": "flip_rate",
+      "estimate": -0.014990859232175503,
+      "ci_low": -0.025959780621572212,
+      "ci_high": -0.0043875685557586835,
+      "n": 2735
+    },
+    {
+      "boundary": "feather",
+      "scope": "forest",
+      "comparison": "crop_minus_center",
+      "metric": "accuracy_drop",
+      "estimate": -0.010968921389396709,
+      "ci_low": -0.021937842778793418,
+      "ci_high": -0.00036563071297989033,
+      "n": 2735
+    },
+    {
+      "boundary": "feather",
+      "scope": "forest",
+      "comparison": "center_minus_full",
+      "metric": "accuracy",
+      "estimate": 0.0040219378427787935,
+      "ci_low": -0.005118829981718464,
+      "ci_high": 0.01316270566727605,
+      "n": 2735
+    },
+    {
+      "boundary": "feather",
+      "scope": "forest",
+      "comparison": "center_minus_full",
+      "metric": "flip_rate",
+      "estimate": -0.014990859232175503,
+      "ci_low": -0.0263254113345521,
+      "ci_high": -0.0040219378427787935,
+      "n": 2735
+    },
+    {
+      "boundary": "feather",
+      "scope": "forest",
+      "comparison": "center_minus_full",
+      "metric": "accuracy_drop",
+      "estimate": -0.009506398537477149,
+      "ci_low": -0.020475319926873858,
+      "ci_high": 0.0018281535648994515,
+      "n": 2735
+    },
+    {
+      "boundary": "feather",
+      "scope": "grassland",
+      "comparison": "crop_minus_full",
+      "metric": "accuracy",
+      "estimate": 0.014089595375722543,
+      "ci_low": 0.003973988439306358,
+      "ci_high": 0.024205202312138727,
+      "n": 2768
+    },
+    {
+      "boundary": "feather",
+      "scope": "grassland",
+      "comparison": "crop_minus_full",
+      "metric": "flip_rate",
+      "estimate": -0.03684971098265896,
+      "ci_low": -0.049132947976878616,
+      "ci_high": -0.025289017341040464,
+      "n": 2768
+    },
+    {
+      "boundary": "feather",
+      "scope": "grassland",
+      "comparison": "crop_minus_full",
+      "metric": "accuracy_drop",
+      "estimate": -0.015895953757225433,
+      "ci_low": -0.02781791907514451,
+      "ci_high": -0.004335260115606936,
+      "n": 2768
+    },
+    {
+      "boundary": "feather",
+      "scope": "grassland",
+      "comparison": "crop_minus_center",
+      "metric": "accuracy",
+      "estimate": 0.009754335260115607,
+      "ci_low": 0.000361271676300578,
+      "ci_high": 0.019508670520231215,
+      "n": 2768
+    },
+    {
+      "boundary": "feather",
+      "scope": "grassland",
+      "comparison": "crop_minus_center",
+      "metric": "flip_rate",
+      "estimate": -0.02023121387283237,
+      "ci_low": -0.03106936416184971,
+      "ci_high": -0.009754335260115607,
+      "n": 2768
+    },
+    {
+      "boundary": "feather",
+      "scope": "grassland",
+      "comparison": "crop_minus_center",
+      "metric": "accuracy_drop",
+      "estimate": -0.010476878612716763,
+      "ci_low": -0.020953757225433526,
+      "ci_high": -0.000361271676300578,
+      "n": 2768
+    },
+    {
+      "boundary": "feather",
+      "scope": "grassland",
+      "comparison": "center_minus_full",
+      "metric": "accuracy",
+      "estimate": 0.004335260115606936,
+      "ci_low": -0.00541907514450867,
+      "ci_high": 0.014450867052023121,
+      "n": 2768
+    },
+    {
+      "boundary": "feather",
+      "scope": "grassland",
+      "comparison": "center_minus_full",
+      "metric": "flip_rate",
+      "estimate": -0.016618497109826588,
+      "ci_low": -0.02781791907514451,
+      "ci_high": -0.00541907514450867,
+      "n": 2768
+    },
+    {
+      "boundary": "feather",
+      "scope": "grassland",
+      "comparison": "center_minus_full",
+      "metric": "accuracy_drop",
+      "estimate": -0.00541907514450867,
+      "ci_low": -0.017341040462427744,
+      "ci_high": 0.006141618497109827,
+      "n": 2768
+    },
+    {
+      "boundary": "feather",
+      "scope": "indoor",
+      "comparison": "crop_minus_full",
+      "metric": "accuracy",
+      "estimate": 0.01711580480699199,
+      "ci_low": 0.006919155134741442,
+      "ci_high": 0.026948288419519302,
+      "n": 2746
+    },
+    {
+      "boundary": "feather",
+      "scope": "indoor",
+      "comparison": "crop_minus_full",
+      "metric": "flip_rate",
+      "estimate": -0.02039329934450109,
+      "ci_low": -0.032046613255644577,
+      "ci_high": -0.00873998543335761,
+      "n": 2746
+    },
+    {
+      "boundary": "feather",
+      "scope": "indoor",
+      "comparison": "crop_minus_full",
+      "metric": "accuracy_drop",
+      "estimate": -0.018572469045884922,
+      "ci_low": -0.029506554989075014,
+      "ci_high": -0.007283321194464676,
+      "n": 2746
+    },
+    {
+      "boundary": "feather",
+      "scope": "indoor",
+      "comparison": "crop_minus_center",
+      "metric": "accuracy",
+      "estimate": 0.018572469045884922,
+      "ci_low": 0.00873998543335761,
+      "ci_high": 0.028404952658412235,
+      "n": 2746
+    },
+    {
+      "boundary": "feather",
+      "scope": "indoor",
+      "comparison": "crop_minus_center",
+      "metric": "flip_rate",
+      "estimate": -0.008011653313911144,
+      "ci_low": -0.01930080116533139,
+      "ci_high": 0.0032774945375091042,
+      "n": 2746
+    },
+    {
+      "boundary": "feather",
+      "scope": "indoor",
+      "comparison": "crop_minus_center",
+      "metric": "accuracy_drop",
+      "estimate": -0.013474144209759651,
+      "ci_low": -0.02403495994173343,
+      "ci_high": -0.0029133284777858705,
+      "n": 2746
+    },
+    {
+      "boundary": "feather",
+      "scope": "indoor",
+      "comparison": "center_minus_full",
+      "metric": "accuracy",
+      "estimate": -0.0014566642388929353,
+      "ci_low": -0.010924981791697014,
+      "ci_high": 0.00764748725418791,
+      "n": 2746
+    },
+    {
+      "boundary": "feather",
+      "scope": "indoor",
+      "comparison": "center_minus_full",
+      "metric": "flip_rate",
+      "estimate": -0.012381646030589949,
+      "ci_low": -0.023306627822286964,
+      "ci_high": -0.0014566642388929353,
+      "n": 2746
+    },
+    {
+      "boundary": "feather",
+      "scope": "indoor",
+      "comparison": "center_minus_full",
+      "metric": "accuracy_drop",
+      "estimate": -0.005098324836125273,
+      "ci_low": -0.01638747268754552,
+      "ci_high": 0.005826656955571741,
+      "n": 2746
+    },
+    {
+      "boundary": "feather",
+      "scope": "overall",
+      "comparison": "crop_minus_full",
+      "metric": "accuracy",
+      "estimate": 0.019206262515929367,
+      "ci_low": 0.012925541598397964,
+      "ci_high": 0.025669033315128344,
+      "n": 3662
+    },
+    {
+      "boundary": "feather",
+      "scope": "overall",
+      "comparison": "crop_minus_full",
+      "metric": "flip_rate",
+      "estimate": -0.030493355179319132,
+      "ci_low": -0.03795740032768979,
+      "ci_high": -0.023391134170762818,
+      "n": 3662
+    },
+    {
+      "boundary": "feather",
+      "scope": "overall",
+      "comparison": "crop_minus_full",
+      "metric": "accuracy_drop",
+      "estimate": -0.020298561805934826,
+      "ci_low": -0.028490806480975794,
+      "ci_high": -0.012379391953395229,
+      "n": 3662
+    },
+    {
+      "boundary": "feather",
+      "scope": "overall",
+      "comparison": "crop_minus_center",
+      "metric": "accuracy",
+      "estimate": 0.011742217367558712,
+      "ci_low": 0.005732295649007827,
+      "ci_high": 0.01774986346258875,
+      "n": 3662
+    },
+    {
+      "boundary": "feather",
+      "scope": "overall",
+      "comparison": "crop_minus_center",
+      "metric": "flip_rate",
+      "estimate": -0.01474604041507373,
+      "ci_low": -0.022028035681776813,
+      "ci_high": -0.0077371199708720206,
+      "n": 3662
+    },
+    {
+      "boundary": "feather",
+      "scope": "overall",
+      "comparison": "crop_minus_center",
+      "metric": "accuracy_drop",
+      "estimate": -0.008738394320043691,
+      "ci_low": -0.016111414527580557,
+      "ci_high": -0.0018182231931549574,
+      "n": 3662
+    },
+    {
+      "boundary": "feather",
+      "scope": "overall",
+      "comparison": "center_minus_full",
+      "metric": "accuracy",
+      "estimate": 0.007464045148370656,
+      "ci_low": 0.0015474239941744052,
+      "ci_high": 0.013289641361733117,
+      "n": 3662
+    },
+    {
+      "boundary": "feather",
+      "scope": "overall",
+      "comparison": "center_minus_full",
+      "metric": "flip_rate",
+      "estimate": -0.0157473147642454,
+      "ci_low": -0.022667485891134175,
+      "ci_high": -0.008920444201711267,
+      "n": 3662
+    },
+    {
+      "boundary": "feather",
+      "scope": "overall",
+      "comparison": "center_minus_full",
+      "metric": "accuracy_drop",
+      "estimate": -0.011560167485891133,
+      "ci_low": -0.019479337338430724,
+      "ci_high": -0.0034589477516839616,
+      "n": 3662
+    },
+    {
+      "boundary": "feather",
+      "scope": "urban",
+      "comparison": "crop_minus_full",
+      "metric": "accuracy",
+      "estimate": 0.026306174643770552,
+      "ci_low": 0.016797588600657658,
+      "ci_high": 0.03653635367190355,
+      "n": 2737
+    },
+    {
+      "boundary": "feather",
+      "scope": "urban",
+      "comparison": "crop_minus_full",
+      "metric": "flip_rate",
+      "estimate": -0.034709535988308365,
+      "ci_low": -0.046766532700036535,
+      "ci_high": -0.023383266350018268,
+      "n": 2737
+    },
+    {
+      "boundary": "feather",
+      "scope": "urban",
+      "comparison": "crop_minus_full",
+      "metric": "accuracy_drop",
+      "estimate": -0.026306174643770552,
+      "ci_low": -0.03836317135549872,
+      "ci_high": -0.014614541468761417,
+      "n": 2737
+    },
+    {
+      "boundary": "feather",
+      "scope": "urban",
+      "comparison": "crop_minus_center",
+      "metric": "accuracy",
+      "estimate": 0.003288271830471319,
+      "ci_low": -0.005845816587504567,
+      "ci_high": 0.01278772378516624,
+      "n": 2737
+    },
+    {
+      "boundary": "feather",
+      "scope": "urban",
+      "comparison": "crop_minus_center",
+      "metric": "flip_rate",
+      "estimate": -0.015710632078918523,
+      "ci_low": -0.026671538180489587,
+      "ci_high": -0.005115089514066497,
+      "n": 2737
+    },
+    {
+      "boundary": "feather",
+      "scope": "urban",
+      "comparison": "crop_minus_center",
+      "metric": "accuracy_drop",
+      "estimate": 0.0,
+      "ci_low": -0.010230179028132993,
+      "ci_high": 0.010239313116550837,
+      "n": 2737
+    },
+    {
+      "boundary": "feather",
+      "scope": "urban",
+      "comparison": "center_minus_full",
+      "metric": "accuracy",
+      "estimate": 0.023017902813299233,
+      "ci_low": 0.013883814395323347,
+      "ci_high": 0.03251735476799415,
+      "n": 2737
+    },
+    {
+      "boundary": "feather",
+      "scope": "urban",
+      "comparison": "center_minus_full",
+      "metric": "flip_rate",
+      "estimate": -0.018998903909389842,
+      "ci_low": -0.029959810010960906,
+      "ci_high": -0.00803799780781878,
+      "n": 2737
+    },
+    {
+      "boundary": "feather",
+      "scope": "urban",
+      "comparison": "center_minus_full",
+      "metric": "accuracy_drop",
+      "estimate": -0.026306174643770552,
+      "ci_low": -0.03836317135549872,
+      "ci_high": -0.015345268542199489,
+      "n": 2737
+    },
+    {
+      "boundary": "hard",
+      "scope": "forest",
+      "comparison": "crop_minus_full",
+      "metric": "accuracy",
+      "estimate": 0.019012797074954298,
+      "ci_low": 0.008775137111517367,
+      "ci_high": 0.029250457038391225,
+      "n": 2735
+    },
+    {
+      "boundary": "hard",
+      "scope": "forest",
+      "comparison": "crop_minus_full",
+      "metric": "flip_rate",
+      "estimate": -0.026691042047531994,
+      "ci_low": -0.038756855575868374,
+      "ci_high": -0.014990859232175503,
+      "n": 2735
+    },
+    {
+      "boundary": "hard",
+      "scope": "forest",
+      "comparison": "crop_minus_full",
+      "metric": "accuracy_drop",
+      "estimate": -0.02010968921389397,
+      "ci_low": -0.03217550274223035,
+      "ci_high": -0.008043875685557587,
+      "n": 2735
+    },
+    {
+      "boundary": "hard",
+      "scope": "forest",
+      "comparison": "crop_minus_center",
+      "metric": "accuracy",
+      "estimate": 0.014625228519195612,
+      "ci_low": 0.005118829981718464,
+      "ci_high": 0.024497257769652652,
+      "n": 2735
+    },
+    {
+      "boundary": "hard",
+      "scope": "forest",
+      "comparison": "crop_minus_center",
+      "metric": "flip_rate",
+      "estimate": -0.016087751371115174,
+      "ci_low": -0.027056672760511883,
+      "ci_high": -0.005484460694698354,
+      "n": 2735
+    },
+    {
+      "boundary": "hard",
+      "scope": "forest",
+      "comparison": "crop_minus_center",
+      "metric": "accuracy_drop",
+      "estimate": -0.010237659963436929,
+      "ci_low": -0.02157221206581353,
+      "ci_high": 0.00036563071297989033,
+      "n": 2735
+    },
+    {
+      "boundary": "hard",
+      "scope": "forest",
+      "comparison": "center_minus_full",
+      "metric": "accuracy",
+      "estimate": 0.0043875685557586835,
+      "ci_low": -0.005118829981718464,
+      "ci_high": 0.013903107861060197,
+      "n": 2735
+    },
+    {
+      "boundary": "hard",
+      "scope": "forest",
+      "comparison": "center_minus_full",
+      "metric": "flip_rate",
+      "estimate": -0.01060329067641682,
+      "ci_low": -0.021937842778793418,
+      "ci_high": 0.00036563071297989033,
+      "n": 2735
+    },
+    {
+      "boundary": "hard",
+      "scope": "forest",
+      "comparison": "center_minus_full",
+      "metric": "accuracy_drop",
+      "estimate": -0.009872029250457038,
+      "ci_low": -0.02120658135283364,
+      "ci_high": 0.0014716636197439257,
+      "n": 2735
+    },
+    {
+      "boundary": "hard",
+      "scope": "grassland",
+      "comparison": "crop_minus_full",
+      "metric": "accuracy",
+      "estimate": 0.01842485549132948,
+      "ci_low": 0.008309248554913294,
+      "ci_high": 0.028540462427745664,
+      "n": 2768
+    },
+    {
+      "boundary": "hard",
+      "scope": "grassland",
+      "comparison": "crop_minus_full",
+      "metric": "flip_rate",
+      "estimate": -0.037210982658959536,
+      "ci_low": -0.04949421965317919,
+      "ci_high": -0.024927745664739886,
+      "n": 2768
+    },
+    {
+      "boundary": "hard",
+      "scope": "grassland",
+      "comparison": "crop_minus_full",
+      "metric": "accuracy_drop",
+      "estimate": -0.02023121387283237,
+      "ci_low": -0.032153179190751446,
+      "ci_high": -0.008309248554913294,
+      "n": 2768
+    },
+    {
+      "boundary": "hard",
+      "scope": "grassland",
+      "comparison": "crop_minus_center",
+      "metric": "accuracy",
+      "estimate": 0.00939306358381503,
+      "ci_low": 0.0,
+      "ci_high": 0.019147398843930637,
+      "n": 2768
+    },
+    {
+      "boundary": "hard",
+      "scope": "grassland",
+      "comparison": "crop_minus_center",
+      "metric": "flip_rate",
+      "estimate": -0.019147398843930637,
+      "ci_low": -0.029985549132947976,
+      "ci_high": -0.008309248554913294,
+      "n": 2768
+    },
+    {
+      "boundary": "hard",
+      "scope": "grassland",
+      "comparison": "crop_minus_center",
+      "metric": "accuracy_drop",
+      "estimate": -0.010115606936416185,
+      "ci_low": -0.020953757225433526,
+      "ci_high": 9.03179190738302e-06,
+      "n": 2768
+    },
+    {
+      "boundary": "hard",
+      "scope": "grassland",
+      "comparison": "center_minus_full",
+      "metric": "accuracy",
+      "estimate": 0.009031791907514452,
+      "ci_low": -0.000722543352601156,
+      "ci_high": 0.01878612716763006,
+      "n": 2768
+    },
+    {
+      "boundary": "hard",
+      "scope": "grassland",
+      "comparison": "center_minus_full",
+      "metric": "flip_rate",
+      "estimate": -0.018063583815028903,
+      "ci_low": -0.02926300578034682,
+      "ci_high": -0.0072164017341041775,
+      "n": 2768
+    },
+    {
+      "boundary": "hard",
+      "scope": "grassland",
+      "comparison": "center_minus_full",
+      "metric": "accuracy_drop",
+      "estimate": -0.010115606936416185,
+      "ci_low": -0.021315028901734104,
+      "ci_high": 0.001083815028901734,
+      "n": 2768
+    },
+    {
+      "boundary": "hard",
+      "scope": "indoor",
+      "comparison": "crop_minus_full",
+      "metric": "accuracy",
+      "estimate": 0.014566642388929352,
+      "ci_low": 0.0032774945375091042,
+      "ci_high": 0.025127458120903133,
+      "n": 2746
+    },
+    {
+      "boundary": "hard",
+      "scope": "indoor",
+      "comparison": "crop_minus_full",
+      "metric": "flip_rate",
+      "estimate": -0.023306627822286964,
+      "ci_low": -0.03569737800436999,
+      "ci_high": -0.01056081573197378,
+      "n": 2746
+    },
+    {
+      "boundary": "hard",
+      "scope": "indoor",
+      "comparison": "crop_minus_full",
+      "metric": "accuracy_drop",
+      "estimate": -0.016023306627822288,
+      "ci_low": -0.028404952658412235,
+      "ci_high": -0.003641660597232338,
+      "n": 2746
+    },
+    {
+      "boundary": "hard",
+      "scope": "indoor",
+      "comparison": "crop_minus_center",
+      "metric": "accuracy",
+      "estimate": 0.012745812090313183,
+      "ci_low": 0.0025491624180626364,
+      "ci_high": 0.022578295702840496,
+      "n": 2746
+    },
+    {
+      "boundary": "hard",
+      "scope": "indoor",
+      "comparison": "crop_minus_center",
+      "metric": "flip_rate",
+      "estimate": -0.005098324836125273,
+      "ci_low": -0.0163965768390386,
+      "ci_high": 0.006190823015294974,
+      "n": 2746
+    },
+    {
+      "boundary": "hard",
+      "scope": "indoor",
+      "comparison": "crop_minus_center",
+      "metric": "accuracy_drop",
+      "estimate": -0.00764748725418791,
+      "ci_low": -0.018945739257101236,
+      "ci_high": 0.003650764748725286,
+      "n": 2746
+    },
+    {
+      "boundary": "hard",
+      "scope": "indoor",
+      "comparison": "center_minus_full",
+      "metric": "accuracy",
+      "estimate": 0.001820830298616169,
+      "ci_low": -0.008011653313911144,
+      "ci_high": 0.011653313911143482,
+      "n": 2746
+    },
+    {
+      "boundary": "hard",
+      "scope": "indoor",
+      "comparison": "center_minus_full",
+      "metric": "flip_rate",
+      "estimate": -0.01820830298616169,
+      "ci_low": -0.029497450837581936,
+      "ci_high": -0.007283321194464676,
+      "n": 2746
+    },
+    {
+      "boundary": "hard",
+      "scope": "indoor",
+      "comparison": "center_minus_full",
+      "metric": "accuracy_drop",
+      "estimate": -0.008375819373634377,
+      "ci_low": -0.02039329934450109,
+      "ci_high": 0.0032774945375091042,
+      "n": 2746
+    },
+    {
+      "boundary": "hard",
+      "scope": "overall",
+      "comparison": "crop_minus_full",
+      "metric": "accuracy",
+      "estimate": 0.019752412160932098,
+      "ci_low": 0.013562716184234479,
+      "ci_high": 0.026215182960131072,
+      "n": 3662
+    },
+    {
+      "boundary": "hard",
+      "scope": "overall",
+      "comparison": "crop_minus_full",
+      "metric": "flip_rate",
+      "estimate": -0.030220280356817765,
+      "ci_low": -0.03777535044602221,
+      "ci_high": -0.022938285090114693,
+      "n": 3662
+    },
+    {
+      "boundary": "hard",
+      "scope": "overall",
+      "comparison": "crop_minus_full",
+      "metric": "accuracy_drop",
+      "estimate": -0.020844711450937553,
+      "ci_low": -0.02921900600764609,
+      "ci_high": -0.012652466775896595,
+      "n": 3662
+    },
+    {
+      "boundary": "hard",
+      "scope": "overall",
+      "comparison": "crop_minus_center",
+      "metric": "accuracy",
+      "estimate": 0.011105042781722193,
+      "ci_low": 0.005004096122337521,
+      "ci_high": 0.017294738758419807,
+      "n": 3662
+    },
+    {
+      "boundary": "hard",
+      "scope": "overall",
+      "comparison": "crop_minus_center",
+      "metric": "flip_rate",
+      "estimate": -0.014655015474239943,
+      "ci_low": -0.02211906062261059,
+      "ci_high": -0.0077371199708720206,
+      "n": 3662
+    },
+    {
+      "boundary": "hard",
+      "scope": "overall",
+      "comparison": "crop_minus_center",
+      "metric": "accuracy_drop",
+      "estimate": -0.008101219734207172,
+      "ci_low": -0.015838339705079193,
+      "ci_high": -0.0006371745858365196,
+      "n": 3662
+    },
+    {
+      "boundary": "hard",
+      "scope": "overall",
+      "comparison": "center_minus_full",
+      "metric": "accuracy",
+      "estimate": 0.008647369379209905,
+      "ci_low": 0.002639723284179868,
+      "ci_high": 0.014563990533406151,
+      "n": 3662
+    },
+    {
+      "boundary": "hard",
+      "scope": "overall",
+      "comparison": "center_minus_full",
+      "metric": "flip_rate",
+      "estimate": -0.015565264882577824,
+      "ci_low": -0.022574185326779534,
+      "ci_high": -0.008920444201711267,
+      "n": 3662
+    },
+    {
+      "boundary": "hard",
+      "scope": "overall",
+      "comparison": "center_minus_full",
+      "metric": "accuracy_drop",
+      "estimate": -0.012743491716730384,
+      "ci_low": -0.020662661569269977,
+      "ci_high": -0.004551247041689422,
+      "n": 3662
+    },
+    {
+      "boundary": "hard",
+      "scope": "urban",
+      "comparison": "crop_minus_full",
+      "metric": "accuracy",
+      "estimate": 0.02703690171720862,
+      "ci_low": 0.01680672268907563,
+      "ci_high": 0.037267080745341616,
+      "n": 2737
+    },
+    {
+      "boundary": "hard",
+      "scope": "urban",
+      "comparison": "crop_minus_full",
+      "metric": "flip_rate",
+      "estimate": -0.03361344537815126,
+      "ci_low": -0.0453050785531604,
+      "ci_high": -0.022278041651443318,
+      "n": 2737
+    },
+    {
+      "boundary": "hard",
+      "scope": "urban",
+      "comparison": "crop_minus_full",
+      "metric": "accuracy_drop",
+      "estimate": -0.02703690171720862,
+      "ci_low": -0.03909389842893679,
+      "ci_high": -0.014614541468761417,
+      "n": 2737
+    },
+    {
+      "boundary": "hard",
+      "scope": "urban",
+      "comparison": "crop_minus_center",
+      "metric": "accuracy",
+      "estimate": 0.0076726342710997444,
+      "ci_low": -0.001826817683595177,
+      "ci_high": 0.0175374497625137,
+      "n": 2737
+    },
+    {
+      "boundary": "hard",
+      "scope": "urban",
+      "comparison": "crop_minus_center",
+      "metric": "flip_rate",
+      "estimate": -0.018268176835951774,
+      "ci_low": -0.0288637194008038,
+      "ci_high": -0.0076726342710997444,
+      "n": 2737
+    },
+    {
+      "boundary": "hard",
+      "scope": "urban",
+      "comparison": "crop_minus_center",
+      "metric": "accuracy_drop",
+      "estimate": -0.004384362440628425,
+      "ci_low": -0.014979905005480453,
+      "ci_high": 0.006576543660942638,
+      "n": 2737
+    },
+    {
+      "boundary": "hard",
+      "scope": "urban",
+      "comparison": "center_minus_full",
+      "metric": "accuracy",
+      "estimate": 0.01936426744610888,
+      "ci_low": 0.010230179028132993,
+      "ci_high": 0.0288637194008038,
+      "n": 2737
+    },
+    {
+      "boundary": "hard",
+      "scope": "urban",
+      "comparison": "center_minus_full",
+      "metric": "flip_rate",
+      "estimate": -0.015345268542199489,
+      "ci_low": -0.026306174643770552,
+      "ci_high": -0.004384362440628425,
+      "n": 2737
+    },
+    {
+      "boundary": "hard",
+      "scope": "urban",
+      "comparison": "center_minus_full",
+      "metric": "accuracy_drop",
+      "estimate": -0.0226525392765802,
+      "ci_low": -0.034344172451589335,
+      "ci_high": -0.011691633175009134,
+      "n": 2737
+    }
+  ],
+  "boundary": [
+    {
+      "comparison": "feather_minus_hard_center_flip_rate",
+      "estimate": -0.004642271982523211,
+      "ci_low": -0.0076483706535590765,
+      "ci_high": -0.0016384489350081924,
+      "n": 3662
+    },
+    {
+      "comparison": "feather_minus_hard_crop_flip_rate",
+      "estimate": -0.004733296923357001,
+      "ci_low": -0.007737119970872019,
+      "ci_high": -0.0018204988166757696,
+      "n": 3662
+    },
+    {
+      "comparison": "feather_minus_hard_full_flip_rate",
+      "estimate": -0.004460222100855635,
+      "ci_low": -0.007464045148370653,
+      "ci_high": -0.001547423994174404,
+      "n": 3662
+    },
+    {
+      "comparison": "feather_minus_hard_primary_effect",
+      "estimate": -0.00027307482250136535,
+      "ci_low": -0.0038230475150191155,
+      "ci_high": 0.003276897870016385,
+      "n": 3662
+    }
+  ],
+  "geometry": [
+    {
+      "boundary": "hard",
+      "subgroup": "center_does_not_truncate_confident_foreground",
+      "comparison": "crop_minus_center",
+      "estimate": -0.005488799881323247,
+      "ci_low": -0.01305444296098502,
+      "ci_high": 0.002076843198338525,
+      "n": 2247
+    },
+    {
+      "boundary": "feather",
+      "subgroup": "center_does_not_truncate_confident_foreground",
+      "comparison": "crop_minus_center",
+      "estimate": -0.006527221480492509,
+      "ci_low": -0.01409286456015428,
+      "ci_high": 0.000890075656430796,
+      "n": 2247
+    }
+  ]
+}

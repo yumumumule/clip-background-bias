@@ -1,6 +1,6 @@
 # Four-slide presentation: 3 minutes
 
-Full-test version · 1 November 2026. Timings total 180 seconds. The English script is 351 words; rehearse with pauses and the figures. Photographic examples remain local.
+Original artificial-background talk · 1 November 2026. Timings total 180 seconds. The English script is 351 words; rehearse with pauses and the figures. Photographic examples remain local. The updated research brief additionally reports the completed natural-background experiment.
 
 ## Slide 1 — Problem (0:00–0:30; 30 seconds)
 
@@ -67,8 +67,8 @@ On slide:
 - Object cropping modestly reduces background-induced prediction flips.
 - No clear classification accuracy gain.
 - Oracle masks and artificial interventions limit generalization.
-- Next: natural backgrounds, object-size controls and predicted masks.
+- Next: larger background pools, object-size controls and predicted masks.
 
 Script:
 
-“Our conclusion is that object cropping can modestly improve prediction stability under these background changes, without a clear accuracy gain. We used ideal dataset masks, artificial backgrounds, and crops that also change object scale. Next, we would use natural background replacements, control object size, and evaluate predicted masks. The lesson is to assess correctness, stability, effect size, and uncertainty together.”
+“Our conclusion is that object cropping can modestly improve prediction stability under these background changes, without a clear accuracy gain. We used ideal dataset masks, artificial backgrounds, and crops that also change object scale. Next, we would expand photographic background pools, control object size, and evaluate predicted masks. The lesson is to assess correctness, stability, effect size, and uncertainty together.”

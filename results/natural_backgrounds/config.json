@@ -1,0 +1,25 @@
+{
+  "data_dir": "data",
+  "baseline_dir": "results/main",
+  "background_dir": "data/natural_backgrounds",
+  "background_manifest": "configs/natural_background_manifest.json",
+  "output_dir": "results/natural_backgrounds",
+  "cache_dir": ".cache",
+  "local_dir": "local_outputs/natural_backgrounds",
+  "samples": 3662,
+  "seed": 42,
+  "batch_size": 32,
+  "device": "auto",
+  "bootstrap": 5000,
+  "padding": 0.1,
+  "swaps": 3,
+  "boundary_policies": [
+    "hard",
+    "feather"
+  ],
+  "feather_sigma": 1.5,
+  "model": "ViT-B-32",
+  "pretrained": "openai",
+  "prompt": "a photo of a {breed}",
+  "primary_endpoint": "hard_mean_flip_rate_crop_minus_full"
+}

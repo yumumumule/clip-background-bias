@@ -1,6 +1,6 @@
 # Two-minute Q&A preparation
 
-Full-test version · 1 November 2026. Eight likely questions; answer those actually asked. Aim for approximately 10–15 seconds per answer.
+Original artificial-background Q&A · 1 November 2026. Eight likely questions; answer those actually asked. Aim for approximately 10–15 seconds per answer.
 
 1. **Why use CLIP?**
 
@@ -32,6 +32,6 @@ Full-test version · 1 November 2026. Eight likely questions; answer those actua
 
 8. **What experiment should be conducted next?**
 
-   Use multiple natural background swaps with explicit object-size controls. Then vary boundary handling, evaluate predicted masks and repeat with another frozen model. The complete evaluable test split has already been run.
+   Expand the completed photographic-background test to larger independent pools with explicit object-size controls. Then vary boundary handling, evaluate predicted masks and repeat with another frozen model. The complete evaluable test split has already been run.
 
 Numerical reminder: crop-minus-full flip-rate differences are −1.45 percentage points for blur (95% CI −2.38 to −0.49) and −1.97 points for uniform replacement (−2.95 to −1.01). These exploratory intervals are not corrected for multiple comparisons. Stable predictions can still be incorrect.

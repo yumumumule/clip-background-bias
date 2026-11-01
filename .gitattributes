@@ -1,0 +1,4 @@
+# Preserve byte offsets in PDF files and keep numerical/image artifacts binary.
+*.pdf binary
+*.npz binary
+*.png binary

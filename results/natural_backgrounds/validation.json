@@ -1,0 +1,59 @@
+{
+  "status": "completed_and_verified",
+  "validated_utc": "2026-11-01T14:05:51.284924+00:00",
+  "source_images": 3662,
+  "animal_background_assignments": 10986,
+  "total_predictions": 76902,
+  "swap_predictions": 65916,
+  "original_predictions_match_baseline": true,
+  "primary_endpoint": "hard mean source-level flip-rate difference crop minus full",
+  "primary_result": {
+    "estimate": -0.030220280356817765,
+    "ci_low": -0.03777535044602221,
+    "ci_high": -0.022938285090114693,
+    "n": 3662
+  },
+  "bootstrap_resamples": 5000,
+  "seed": 42,
+  "unit_tests_passed": 42,
+  "baseline_file_sha256": {
+    "results/main/accuracy.csv": "dfb62e68cfe1ea410808960117a7ad2209d36bd4bbb5dccd69c2379268608f28",
+    "results/main/additional_paired_comparisons.csv": "402372a98e5930b07a44b04f884e87e03f9173c3106993b755a58d1c7045691a",
+    "results/main/excluded_samples.json": "c16001dc910c75542baaf73313f7bf0dcbe8a8550bf37127266f325a6c8913a4",
+    "results/main/figures/accuracy_comparison.png": "51dc404d907c464c4d5f901f1e6f957888a45407adce9d3857f98f119269b71e",
+    "results/main/figures/background_robustness.png": "6ea28c1e5a312758ff2b685e670e0308b7d892f5a9e401c68fcb15147d05c1a1",
+    "results/main/figures/experimental_pipeline.png": "5960ec7e1b00be670b25f59952c1b91de85b9cfd8de3d2eef38ad5b8f2635e62",
+    "results/main/figures/paired_flip_rate_difference.png": "bfcbbce8e414b5b145f875d6b12dfcb19a53fc2eb8f12f201a779663cba86ad4",
+    "results/main/figures/prediction_consistency.png": "5718768b36fae7a80a50944812d63a4bef1c09669497a67185365f1f35b034dc",
+    "results/main/metadata.json": "90bb188c88813538178f76c787be4ea8461922e4878a39df84f34ba47b300e4d",
+    "results/main/paired_metrics.csv": "003f5cffb2acb888df7ac026b05eed3b5097a6d23782e419127c9a35c494a9a8",
+    "results/main/per_breed_accuracy.csv": "466120edf876b3b0a4e121273e64f9823742650bf7231e2512c54c7e5c395e3f",
+    "results/main/predictions.csv": "adc1c0feb63f8db2b45743ff540057a908d0b03fad80f05874a13b8db94daa18",
+    "results/main/results.json": "f3c999bbff54f36c66f5733aab8cce1be7702c8b0c04d93d6a5cd8f6d6db148b",
+    "results/main/sample_manifest.json": "3e9e6c8da263609ef70aa48fa115e1d1441bd7c14332d450f9b808119b5eda79"
+  },
+  "packages": {
+    "torch": "2.7.1+cu128",
+    "torchvision": "0.22.1+cu128",
+    "open_clip_torch": "3.2.0",
+    "numpy": "2.2.6",
+    "Pillow": "11.3.0",
+    "pandas": "2.3.1",
+    "matplotlib": "3.10.5",
+    "scipy": "1.16.1",
+    "pytest": "8.4.1",
+    "PyYAML": "6.0.2",
+    "tqdm": "4.67.1",
+    "reportlab": "4.4.3",
+    "pypdf": "6.1.1",
+    "PyMuPDF": "1.26.4"
+  },
+  "pdf_pages": 3,
+  "pdf_page_size": "A4",
+  "visual_qa": "Three public figures and all three PDF pages opened; three local pre-inference composite grids inspected",
+  "uncompleted_conditions": [
+    "Independent larger donor pools",
+    "Randomized exact object-scale/framing control",
+    "Predicted segmentation and other models"
+  ]
+}

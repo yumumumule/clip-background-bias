@@ -1,0 +1,156 @@
+{
+  "dataset": "Places365-Standard validation, 256x256 photographs",
+  "source_url": "https://places2.csail.mit.edu/",
+  "archive_url": "https://data.csail.mit.edu/places/places365/val_256.tar",
+  "archive_md5": "e27b17d8d44f4af9a78502beb927f808",
+  "devkit_md5": "35a0585fee1fa656440f3ab298f8479c",
+  "source_documentation": "https://github.com/zhoubolei/places_devkit",
+  "terms_url": "https://web.archive.org/web/20210220220343/http://places2.csail.mit.edu/download.html",
+  "usage_restrictions": "Non-commercial research and educational purposes only; do not redistribute images. Image copyrights remain with original owners. The model/code license is not an image license. Current project page requests legacy-data contact via form; URLs remain publicly accessible. No photographs are included in this repository.",
+  "selection_seed": 42,
+  "selection_procedure": "Seeded permutation of sorted 100 validation IDs per specified Places category, sorted category iteration. Inspect candidates in rank order; accept first three without prominent animals/people, dominant foreground subjects, or scene-quality problems. Inspect 48 proposals for convenience; decisions use only ranks up to each third acceptance. No CLIP predictions consulted.",
+  "qc_approved": true,
+  "qc_timestamp_utc": "2026-11-01T13:35:19.181375+00:00",
+  "selection_decisions": [
+    {
+      "category": "grassland",
+      "candidate_rank": 0,
+      "decision": "reject",
+      "reason": "Dominant person"
+    },
+    {
+      "category": "grassland",
+      "candidate_rank": 2,
+      "decision": "reject",
+      "reason": "Prominent horses"
+    },
+    {
+      "category": "grassland",
+      "candidate_rank": 4,
+      "decision": "reject",
+      "reason": "Prominent horse"
+    },
+    {
+      "category": "grassland",
+      "candidate_rank": 5,
+      "decision": "reject",
+      "reason": "Dominant workers"
+    },
+    {
+      "category": "grassland",
+      "candidate_rank": 6,
+      "decision": "reject",
+      "reason": "Woodland close-up rather than open grassland; large watermark"
+    },
+    {
+      "category": "indoor",
+      "candidate_rank": 1,
+      "decision": "reject",
+      "reason": "Dominant person"
+    },
+    {
+      "category": "urban",
+      "candidate_rank": 0,
+      "decision": "reject",
+      "reason": "Dominant people"
+    },
+    {
+      "category": "urban",
+      "candidate_rank": 2,
+      "decision": "reject",
+      "reason": "Dominant runner"
+    },
+    {
+      "category": "urban",
+      "candidate_rank": 4,
+      "decision": "reject",
+      "reason": "Dominant people"
+    }
+  ],
+  "images": [
+    {
+      "image_id": "Places365_val_00023207.jpg",
+      "category": "forest",
+      "places_category": "/f/forest/broadleaf",
+      "candidate_rank": 0,
+      "sha256": "7625d1f2abb84ccc2836a84a48e87c4f07137a689ce7d60e8e0abb0f6c100d00"
+    },
+    {
+      "image_id": "Places365_val_00008121.jpg",
+      "category": "forest",
+      "places_category": "/f/forest/broadleaf",
+      "candidate_rank": 1,
+      "sha256": "f258278a776734ae50d0ab4ebc092b3397df6f15a45ef160494ece6283db65f9"
+    },
+    {
+      "image_id": "Places365_val_00021776.jpg",
+      "category": "forest",
+      "places_category": "/f/forest/broadleaf",
+      "candidate_rank": 2,
+      "sha256": "3ecedfaeeb0581331ad5990a267c2bbfba428791574ec47eeb66fb9ad9fc1155"
+    },
+    {
+      "image_id": "Places365_val_00009325.jpg",
+      "category": "grassland",
+      "places_category": "/p/pasture",
+      "candidate_rank": 1,
+      "sha256": "8998a6f920e33ae03f87dd5e5e99386b0af377345a723ac1a30644763b81de6b"
+    },
+    {
+      "image_id": "Places365_val_00016816.jpg",
+      "category": "grassland",
+      "places_category": "/p/pasture",
+      "candidate_rank": 3,
+      "sha256": "20e926fca37141c4ef9fc12120aacfd43a958f36335f35a993794e4918ee80f4"
+    },
+    {
+      "image_id": "Places365_val_00016764.jpg",
+      "category": "grassland",
+      "places_category": "/p/pasture",
+      "candidate_rank": 7,
+      "sha256": "3ac5e37f9024f28681cf57bb954f7d124d0136852349080c4edbf3ea68cb69fe"
+    },
+    {
+      "image_id": "Places365_val_00026432.jpg",
+      "category": "indoor",
+      "places_category": "/l/living_room",
+      "candidate_rank": 0,
+      "sha256": "126f481aef0134eca91fc6a5ffa38ccaad2568c642e417782242ecc94c0b3b3e"
+    },
+    {
+      "image_id": "Places365_val_00024175.jpg",
+      "category": "indoor",
+      "places_category": "/l/living_room",
+      "candidate_rank": 2,
+      "sha256": "e657cddf55997748d9bd797ce09edabd34d0e9c43ddf1f3c2aadb45021bfab05"
+    },
+    {
+      "image_id": "Places365_val_00034676.jpg",
+      "category": "indoor",
+      "places_category": "/l/living_room",
+      "candidate_rank": 3,
+      "sha256": "1d9d497b5795d598ede810a06d471aa976cbc6b930d66d4d2cc4ab659750c17c"
+    },
+    {
+      "image_id": "Places365_val_00000856.jpg",
+      "category": "urban",
+      "places_category": "/s/street",
+      "candidate_rank": 1,
+      "sha256": "08b18597c109d4d76c32bf7b42844ee43d7a5d721dce6af9b52bbbf89ffac407"
+    },
+    {
+      "image_id": "Places365_val_00015568.jpg",
+      "category": "urban",
+      "places_category": "/s/street",
+      "candidate_rank": 3,
+      "sha256": "704b3ce2382bd1ca2110e5651fae180eb1a6687f8170541ffc102dd0b22ea974"
+    },
+    {
+      "image_id": "Places365_val_00014083.jpg",
+      "category": "urban",
+      "places_category": "/s/street",
+      "candidate_rank": 5,
+      "sha256": "dd55c7689cab4e7b7ace7e04e6ce06e8e1d5ca4200a1418d71c432b6cc4c8358"
+    }
+  ]
+}

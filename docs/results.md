@@ -45,7 +45,7 @@ The centered control also reduces the observed uniform-background flip rate. Obj
 
 The larger cohort improves precision; it does not make the effect large. The 370-image subset is contained in this cohort, so this is an expanded evaluation rather than an independent replication. All 4,070 predictions on that subset match the full-run predictions exactly. Model checkpoint hash and text-cache key also match the earlier run.
 
-Oracle masks, boundary halos, artificial backgrounds, changes in object scale, unknown pretraining overlap and limited model/prompt coverage remain limitations. Natural background swaps, explicit scale controls, predicted masks and other frozen models have not been evaluated here.
+Oracle masks, boundary halos, changes in object scale, unknown pretraining overlap and limited model/prompt coverage remain limitations. The separate natural-background extension below tests photographic donors; explicit scale controls, predicted masks and other frozen models remain untested.
 
 ## Validation and reproduction
 
@@ -68,3 +68,28 @@ Choose an empty output directory. The measured run originally used `--output-dir
 Measured files: [accuracy.csv](../results/main/accuracy.csv), [paired_metrics.csv](../results/main/paired_metrics.csv), [additional_paired_comparisons.csv](../results/main/additional_paired_comparisons.csv), [per_breed_accuracy.csv](../results/main/per_breed_accuracy.csv), [predictions.csv](../results/main/predictions.csv), [results.json](../results/main/results.json), [metadata.json](../results/main/metadata.json), and [sample_manifest.json](../results/main/sample_manifest.json).
 
 Reproduce supplementary comparisons and the effect-size figure with `python scripts/analyze_results.py --results results/main`; the [analysis script](../scripts/analyze_results.py) reads saved predictions without model inference.
+
+## Additional natural-background robustness test
+
+The original experiment above remains the primary baseline and its saved files are unchanged. The extension uses the same 3,662 animals, three distinct scene categories per animal from a fixed pool of 12 Places365 photographs, and both hard and feathered boundaries. All 76,902 inferences completed; rerun original predictions match the baseline exactly. The primary sample size is 3,662 **source images**, not 10,986 independent swaps. Each animal's swaps are averaged before the 5,000-replicate breed-stratified paired cluster bootstrap.
+
+| Hard-boundary method | Natural-swap accuracy | Flip rate | Accuracy drop from its own original |
+| --- | ---: | ---: | ---: |
+| Full image | 79.34% | 16.16% | 5.12 pp |
+| Object crop | 81.31% | 13.13% | 3.04 pp |
+| Center control | 80.20% | 14.60% | 3.85 pp |
+
+| Paired natural comparison | Difference (pp) | 95% cluster CI (pp) |
+| --- | ---: | ---: |
+| Crop minus Full, flip rate (primary) | −3.02 | [−3.78, −2.29] |
+| Crop minus Full, swap accuracy | +1.98 | [+1.36, +2.62] |
+| Crop minus Center, flip rate | −1.47 | [−2.21, −0.77] |
+| Crop minus Center, swap accuracy | +1.11 | [+0.50, +1.73] |
+| Center minus Full, flip rate | −1.56 | [−2.26, −0.89] |
+| Feather Crop minus Full, flip rate | −3.05 | [−3.80, −2.34] |
+
+The extension supports persistence of the stability benefit in this fixed photographic pool. Its observed effect is larger than the artificial-intervention point estimates, but that does not isolate an effect of naturalness: intervention strength and scene content differ. Accuracy improves compared with swapped full images, while remaining below original-background crop accuracy. This does not show elimination of learned background bias.
+
+Center truncation occurs for 1,415 images. Among 2,247 without confident-foreground truncation, Crop-minus-Center flips are −0.55 pp [−1.31, +0.21]. Geometry remains a plausible contributor. The indoor Crop-minus-Center interval also includes zero. Feathering changes the primary effect by −0.03 pp [−0.38, +0.33]; numerical similarity is not proof of equivalence.
+
+The [extension report](natural_background_experiment.md) contains all four scene contrasts, transitions, provenance, local-only visual QC, locked design and exact commands. Numerical outputs are in [results/natural_backgrounds](../results/natural_backgrounds). The [three-page PDF](../output/pdf/research_brief.pdf) combines both experiments.

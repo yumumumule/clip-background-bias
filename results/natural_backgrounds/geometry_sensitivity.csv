@@ -1,0 +1,3 @@
+boundary,subgroup,comparison,estimate,ci_low,ci_high,n
+hard,center_does_not_truncate_confident_foreground,crop_minus_center,-0.005488799881323247,-0.01305444296098502,0.002076843198338525,2247
+feather,center_does_not_truncate_confident_foreground,crop_minus_center,-0.006527221480492509,-0.01409286456015428,0.000890075656430796,2247

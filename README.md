@@ -2,7 +2,9 @@
 
 A reproducible AIST1000 seminar project using frozen OpenAI CLIP ViT-B/32 and Oxford-IIIT Pet. No model is trained or fine-tuned.
 
-**Main finding:** on 3,662 evaluable test images, object cropping reduced prediction flips by **1.45 percentage points under background blur** and **1.97 points under uniform background replacement**. Both paired 95% bootstrap intervals exclude zero. Classification accuracy gains remain uncertain, and the stability benefit is modest.
+**Original baseline finding:** on 3,662 evaluable test images, object cropping reduced prediction flips by **1.45 percentage points under background blur** and **1.97 points under uniform background replacement**. Both paired 95% bootstrap intervals exclude zero. Accuracy gains in that original experiment remain uncertain, and the stability benefit is modest.
+
+**Natural-background extension:** the same cohort with three photographic backgrounds per animal gives a **3.02-point flip-rate reduction** (95% cluster CI 2.29–3.78) and a **1.98-point swap-accuracy gain** (1.36–2.62) for Crop versus Full. The original `results/main` files are unchanged. See the [locked protocol and complete extension results](docs/natural_background_experiment.md) and the [three-page research brief PDF](output/pdf/research_brief.pdf).
 
 ## Research question and method
 
@@ -133,6 +135,8 @@ With one image per sampled breed, smoke-test intervals degenerate and have no in
 
 ## Reproduce the analysis without CLIP
 
+The commands in this section reproduce the original artificial-background baseline. Natural-swap commands are below.
+
 ```text
 python scripts/verify_results.py --results results/main
 python scripts/plot_results.py --results results/main
@@ -146,22 +150,71 @@ The audit checks paired IDs, exclusions, label mapping, numerical outputs and de
 - `src/`: dataset audit/sampling, preprocessing, frozen model inference, paired metrics and visualization.
 - `scripts/`: experiment runner, result audit, plotting and supplementary analysis.
 - `tests/`: 30 tests, including invalid-mask exclusion and missing-file handling.
-- `results/main/`: the sole published result set—40,282 predictions, estimates, intervals, exclusions, sample hashes, provenance and five chart/schematic figures.
+- `results/main/`: preserved artificial-background baseline—40,282 predictions, estimates, intervals, exclusions, sample hashes, provenance and five chart/schematic figures.
+- `results/natural_backgrounds/`: the separate photographic-swap experiment, all 37-class cosine scores, clustered statistics, donor provenance, fixed assignments and three additional figures.
 - [Detailed results](docs/results.md), [research brief](docs/research_brief.md), [four-slide speaking outline](docs/presentation_outline.md), [Q&A](docs/qa_preparation.md), [validation record](docs/validation.md).
 
 The earlier 370-image release is available through Git history. It is nested in the full cohort, so the expanded evaluation is not an independent replication. All 4,070 overlapping predictions match exactly.
 
 Photographic grids are written only to ignored `local_outputs/<run-name>/example_visualizations.png`. Dataset images/annotations, weights, environments, caches and credentials are excluded from Git. MIT licensing applies to project code and documentation; third-party assets retain their licenses.
 
+## Natural photographic background experiment
+
+This additional robustness test uses **12 Places365 validation photographs**, three each from indoor rooms, urban streets, forests and grassland. The pool was visually approved and committed before any predictions. Its [manifest](configs/natural_background_manifest.json) records exact IDs, hashes, selection decisions, source URLs and usage restrictions. Photos and composites are local-only. Seed-42 image-ID assignments choose three distinct scene categories per animal without consulting labels or predictions.
+
+Only the donor is resized/cropped to the source canvas. Confident foreground pixels retain their exact RGB, size and position. Hard compositing keeps labels 1 and 3; feather sensitivity blends only label 3. Original animal and center boxes remain fixed across swaps. Center truncation is recorded. The same frozen checkpoint, text embeddings and preprocessing are reused.
+
+**Completed:** 3,662 sources, 10,986 animal/background assignments, two boundary policies, three methods, and **76,902 inferences**, including 10,986 rerun originals. All original predictions match the baseline. Primary inference uses a source-image clustered bootstrap: average the three swaps per animal, then resample animals within breeds, 5,000 times, seed 42.
+
+| Hard-boundary method | Original accuracy | Natural-swap accuracy | Natural flip rate |
+| --- | ---: | ---: | ---: |
+| Full image | 84.46% | 79.34% | 16.16% |
+| Object crop | 84.35% | 81.31% | 13.13% |
+| Center control | 84.05% | 80.20% | 14.60% |
+
+Crop-minus-Full flip difference: **−3.02 pp [−3.78, −2.29]**, about 18.7% relative reduction. Crop-minus-Center: **−1.47 pp [−2.21, −0.77]**. Natural-swap Crop-minus-Full accuracy: **+1.98 pp [+1.36, +2.62]**. Intervals are paired 95% cluster intervals. Original accuracy is essentially unchanged; crops still lose 3.04 pp under swaps. Feathered boundaries give −3.05 pp [−3.80, −2.34] for the primary contrast.
+
+All four scene types favor Crop over Full, but Crop versus Center remains uncertain indoors. Among 2,247 images whose center control does not truncate confident foreground, Crop-minus-Center flips are −0.55 pp [−1.31, +0.21]. Thus geometry, retained context and artifacts remain plausible explanations. The fixed 12-image pool does not represent all natural backgrounds, and the intervals do not estimate donor-pool uncertainty. Comparisons beyond the primary endpoint are exploratory.
+
+![Artificial versus natural interventions](results/natural_backgrounds/figures/artificial_vs_natural.png)
+![Natural-background accuracy and stability](results/natural_backgrounds/figures/natural_accuracy_stability.png)
+![All scene comparisons](results/natural_backgrounds/figures/per_scene_effects.png)
+
+From an activated environment:
+
+```text
+python scripts/prepare_natural_backgrounds.py
+python scripts/qc_natural_backgrounds.py
+python scripts/run_natural_backgrounds.py --samples 5 --bootstrap 200 --output-dir local_outputs/natural-smoke
+python scripts/run_natural_backgrounds.py --output-dir local_outputs/natural-reproduction
+python scripts/verify_natural_backgrounds.py --results local_outputs/natural-reproduction
+```
+
+Choose empty destinations. The measured full run used the default `results/natural_backgrounds`, already included in the repository. Preparation downloads about 501 MiB plus the devkit and extracts the fixed pool. Missing/corrupt assets abort; no silent replacements or cohort changes occur. The original `results/main` is protected. The complete [protocol, scene tables, transitions and limitations](docs/natural_background_experiment.md) explains the statistical unit and licensing. To regenerate published analyses without photos or CLIP:
+
+```text
+python scripts/analyze_natural_backgrounds.py --results results/natural_backgrounds
+python scripts/verify_natural_backgrounds.py --results results/natural_backgrounds
+```
+
+The updated brief has **two A4 pages of main text and one separate reference page**. Regenerate it from Markdown:
+
+```text
+python -m pip install -r requirements-docs.txt
+python scripts/build_research_brief.py
+```
+
+The build asserts three A4 pages; the published PDF was rendered and all pages inspected. Source: [research_brief.md](docs/research_brief.md); output: [research_brief.pdf](output/pdf/research_brief.pdf).
+
 ## Limitations and next experiments
 
 1. **Oracle localization:** dataset segmentation is provided; errors from a deployed detector or segmenter are untested.
 2. **Artifacts and distribution shift:** boundary halos, hard edges, blur contamination and gray silhouettes complicate interpretation.
 3. **Geometry:** crops change scale, position and retained context. The centered control is incomplete.
-4. **Coverage:** two artificial interventions, one fixed blur radius/color, one model and one prompt. Natural backgrounds and other domains remain untested.
+4. **Coverage:** the baseline has two artificial interventions; the extension adds only twelve fixed photographic donors. Other donor pools, models, prompts and domains remain untested.
 5. **Statistics and data:** annotation exclusions limit the cohort; near-duplicate images may violate independence. Pretraining overlap is unknown, and bootstrap intervals are conditional.
 
-Next, use natural background swaps with explicit object-size controls, boundary-policy ablations, predicted masks and another frozen model. Check whether the modest paired stability benefit survives those conditions.
+Next, expand to independent photographic pools, physically more plausible composites, stronger object-size controls, predicted masks and another frozen model. Check whether the observed stability benefit survives those conditions.
 
 ## References
 

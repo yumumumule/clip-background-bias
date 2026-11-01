@@ -1,57 +1,81 @@
 # Can Object-Centric Processing Reduce Background Bias in Vision Models?
 
-AIST1000 research brief · Full-test evaluation, 1 November 2026
+**Page 1 - Problem and Method | AIST1000 research seminar**
 
-## Problem
+## Background bias and shortcut learning
 
-A vision classifier may respond to an animal's surroundings even when those surroundings do not determine its breed. We ask: **Does focusing on the foreground object make CLIP's predictions more stable when the background changes?** Correctness and stability are different: an unchanged answer can be wrong, and a changed answer can become correct. An accuracy increase after cropping would not by itself identify background dependence because cropping also changes scale and composition.
+An image classifier can exploit correlations between an object and its surroundings instead of learning features that transfer reliably. Such shortcuts can work on a benchmark and fail when testing conditions change [1]. Background-intervention research shows that object-recognition models can respond strongly to context, even with an unchanged foreground [2]. For pet breeds, a useful model should identify the animal across different settings.
 
-## Core Idea of the Method
+This project asks: **Can object-centric preprocessing reduce CLIP's background sensitivity without retraining it?** We distinguish prediction stability from classification correctness. An unchanged prediction can be wrong; a changed prediction can become correct. Reduced flip rates alone do not establish higher accuracy or elimination of learned background bias.
 
-CLIP represents images and text in a shared embedding space [1]. A frozen OpenAI ViT-B/32 model, accessed through OpenCLIP [3], predicts the closest of 37 breed descriptions by cosine similarity. No new model is trained.
+## Core idea: focus on the object
 
-Dataset trimaps define a padded animal crop. We compare full-image inference with this object crop before and after background blur or uniform-color replacement. Foreground RGB pixels and crop coordinates remain fixed across each image's intervention pair, before CLIP's normal preprocessing. Prediction flips measure sensitivity to these interventions.
+The method uses a segmentation trimap to locate the animal, computes its bounding box, and adds 10% padding on each side. Cropping removes some context and changes the animal's representation in the input. We compare the crop with complete-image inference and a centered crop of exactly the same dimensions. The centered control partially matches resizing and framing, but it is not a perfect control for animal scale or final model cropping.
 
-A centered crop with the same dimensions as the animal crop provides a partial geometry control. Additional conditions preserve the animal on gray or remove it for a background-only diagnostic. The centered control cannot fully disentangle scale, position and context.
+## CLIP and the evaluation framework
 
-## Experimental Setup
+Frozen OpenAI CLIP ViT-B/32 compares normalized image embeddings with 37 breed descriptions [3,8]. Every condition uses the same checkpoint, class order, standard preprocessing, and prompt, `a photo of a {breed}`. No model is trained or fine-tuned. Oxford-IIIT Pet supplies breed labels and trimaps [4]. All 3,669 test records were checked; seven masks contained no foreground and were excluded consistently, leaving 3,662 paired animals.
 
-Oxford-IIIT Pet [2] provides breed labels and trimaps. We checked all **3,669 test images**. Seven trimaps contained no foreground, preventing animal cropping; these images were excluded from every paired condition, including the full-image baseline. The resulting cohort contains **3,662 images across 37 breeds**, with 88–100 images per breed and 40,282 predictions across 11 conditions. Exclusions were based only on annotation validity, never on predictions.
+## Controlled background interventions
 
-All conditions share the prompt `a photo of a {breed}` and ordered candidate labels. Trimap labels 1 (foreground) and 3 (uncertain boundary) are retained; label 2 is modified. Crop padding is 10% of box width/height on each side. Blur radius is 12 source-image pixels. Uniform replacement uses RGB (230,230,230); gray masking uses (128,128,128). Hard compositing preserves retained pixels, but visual inspection exposed boundary halos. Subsequent resize/interpolation can mix edge colors.
+The original experiment applies background blur or uniform-color replacement. The extension uses twelve Places365 validation photographs: three each from living rooms, streets, forests and grassland [5,6]. Donors were visually screened and locked before inference. Each animal receives three different scene categories through a seed-42, image-ID-based assignment that does not consult labels or predictions.
 
-Settings were fixed before expanding the earlier 370-image evaluation. The current experiment uses image-weighted accuracy, consistency, flip rate and accuracy drop. We compute 95% percentile bootstrap intervals from 5,000 paired resamples within breeds, seed 42. Differences are percentage points (pp); similarity scores are not calibrated probabilities.
+Only the donor is resized and cropped to the original canvas. The animal stays at its source position and size. Primary hard compositing retains trimap labels 1 and 3 exactly; a sensitivity analysis blends only uncertain label 3 while preserving confident foreground label 1. RGB invariance is asserted for every composite. Both crop coordinates remain fixed across backgrounds and boundary policies.
 
-## Results and Interpretation
+## Paired statistical design
 
-| Processing | Original accuracy | Blur accuracy | Uniform accuracy | Blur flip rate | Uniform flip rate |
-| --- | ---: | ---: | ---: | ---: | ---: |
-| Full image | 84.46% | 82.41% | 80.97% | 9.75% | 13.60% |
-| Object crop | 84.35% | 83.01% | 81.70% | 8.30% | 11.63% |
-| Centered control | 84.05% | 82.00% | 80.97% | 9.42% | 12.45% |
+The prespecified primary endpoint is natural-swap flip rate, Object Crop minus Full Image. Each animal's three swaps are averaged first. A 5,000-resample, seed-42, breed-stratified paired cluster bootstrap resamples source animals with all repeated measurements together. Secondary comparisons address accuracy, center cropping, scene category and boundary handling. Intervals are conditional on this model, donor pool and protocol; exploratory comparisons are unadjusted for multiplicity.
 
-Crop-minus-full flip-rate differences are **−1.45 pp (95% CI −2.38 to −0.49)** for blur and **−1.97 pp (−2.95 to −1.01)** for uniform replacement. Both intervals exclude zero, supporting a modest stability benefit under the tested conditions.
+<!-- PAGE BREAK -->
 
-Classification gains remain uncertain. Crop-minus-full accuracy differences are −0.11 pp (−0.82 to +0.60) on originals, +0.60 pp (−0.19 to +1.42) under blur, and +0.74 pp (−0.08 to +1.56) under uniform replacement. Lower flip rates therefore do not establish higher accuracy.
+# Page 2 - Evidence and Limitations
 
-Centered cropping also reduces uniform-background flips. Object crop minus centered-control flip rate is −1.12 pp (−1.99 to −0.22) for blur and −0.82 pp (−1.72 to +0.11) for uniform replacement. The latter remains uncertain, so the entire effect cannot be attributed specifically to precise animal localization.
+## Original complete-test experiment
 
-Foreground-on-gray accuracy is 80.34%. Background-only accuracy is 7.54%, above the uniform random-choice reference of 2.70%; however, animal-shaped silhouettes, residual pixels and compositing artifacts prevent interpreting this as pure natural-background information.
+Across 3,662 animals, original-image accuracy was 84.46% for full images and 84.35% for object crops. Cropping reduced blur-induced flips by 1.45 percentage points (pp; 95% CI 0.49 to 2.38) and uniform-background flips by 1.97 pp (1.01 to 2.95). These support modest stability improvements; the paired accuracy differences remained uncertain. The original numerical results are preserved unchanged.
 
-The full cohort provides more precise evidence than the earlier subset, while the absolute benefit remains small. The subset is nested in this cohort, not an independent replication. All overlapping predictions match exactly. Reproducible predictions, exclusions, hashes and intervals accompany the repository.
+## Natural photographic backgrounds
 
-## Limitations and Future Testing
+The extension completed 10,986 animal-background assignments, evaluated under hard and feathered boundaries with three methods: 76,902 inferences including rerun originals. All original predictions matched the baseline. Hard-boundary results, averaged within source animals, were:
 
-Oracle segmentation makes this a preprocessing study rather than a deployment system. Hard masks and artificial backgrounds can create distribution shifts, and cropping still changes geometry. Invalid-mask exclusions limit the evaluable population. Only one model, prompt and two background interventions were tested. Similar images may weaken independence; intervals condition on fixed classes and settings. Exploratory comparisons are not corrected for multiplicity, and including zero does not prove equivalence.
+| Method | Original accuracy | Swap accuracy | Flip rate |
+| --- | ---: | ---: | ---: |
+| Full image | 84.46% | 79.34% | 16.16% |
+| Object crop | 84.35% | 81.31% | 13.13% |
+| Center control | 84.05% | 80.20% | 14.60% |
 
-The next experiment should use natural background swaps with explicit object-size controls, boundary-policy ablations, predicted masks and another frozen model. This would test whether the observed stability benefit persists under more realistic conditions.
+The primary Crop-minus-Full flip-rate difference was **-3.02 pp (95% CI -3.78 to -2.29)**, about a 19% relative reduction. Crop-minus-Full swap accuracy increased by **1.98 pp (1.36 to 2.62)**. Original accuracy was essentially unchanged, while cropping still lost 3.04 pp after swapping, compared with 5.12 pp for full images. Thus robustness improved without making predictions invariant.
 
-## References
+Against the same-size center control, crops reduced flips by 1.47 pp (0.77 to 2.21) and improved swap accuracy by 1.11 pp (0.50 to 1.73). These exploratory results support an additional advantage over generic centered cropping.
 
-1. Radford et al. (2021). [Learning Transferable Visual Models From Natural Language Supervision](https://proceedings.mlr.press/v139/radford21a.html). ICML.
-2. Parkhi et al. (2012). [Cats and Dogs](https://www.robots.ox.ac.uk/~vgg/publications/2012/parkhi12a/). CVPR. [Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/).
-3. [OpenCLIP](https://github.com/mlfoundations/open_clip), version 3.2.0.
+## Boundary, scene and geometry checks
 
-## Short Contribution Statement
+Feathered-boundary Crop-minus-Full flips were -3.05 pp (-3.80 to -2.34), similar to the primary estimate. The boundary effect's change was -0.03 pp (-0.38 to +0.33); this does not prove equivalence. All four scene categories favored Crop over Full, with point reductions of 2.33-3.72 pp, although Crop versus Center remained uncertain indoors.
 
-The project implements controlled preprocessing, paired CLIP evaluation, annotation auditing, deterministic sampling, bootstrap analysis, tests and reproducible reporting. Coding, execution and drafting were assisted by Codex. No individual student roles are asserted; students should describe only work they personally performed and verify the analysis before submission.
+The center control truncated confident foreground in 1,415 images. Among the 2,247 without that truncation, Crop-minus-Center flips were -0.55 pp (-1.31 to +0.21). Framing therefore remains a plausible contributor; the subgroup is not a randomized scale control.
+
+## Limitations, further testing and conclusion
+
+Twelve screened donors do not represent all photographic backgrounds. Bootstrap intervals condition on this fixed pool, not unseen scenes. Donor resizing, inconsistent lighting, retained boundary halos and semantic mask errors can create artifacts; visual QC found clothing removed by a nominally valid mask. Oracle annotations also differ from deployed segmentation. Photo redistribution is restricted [7].
+
+Next, test larger independent donor pools, physically more plausible composites, explicit object-scale controls and predicted masks. **Object-centric cropping reduces measured background sensitivity in these experiments, but does not eliminate it or establish general background invariance.** Implementation and drafting were assisted by Codex; individual student roles are not assigned.
+
+<!-- PAGE BREAK -->
+
+# Page 3 - References
+
+[1] Geirhos, R., Jacobsen, J.-H., Michaelis, C., Zemel, R., Brendel, W., Bethge, M., and Wichmann, F. A. (2020). Shortcut learning in deep neural networks. *Nature Machine Intelligence*, 2, 665-673. [doi:10.1038/s42256-020-00257-z](https://doi.org/10.1038/s42256-020-00257-z).
+
+[2] Xiao, K., Engstrom, L., Ilyas, A., and Madry, A. (2021). Noise or Signal: The Role of Image Backgrounds in Object Recognition. *International Conference on Learning Representations (ICLR)*. [Paper](https://arxiv.org/abs/2006.09994); [authors' code and dataset](https://github.com/MadryLab/backgrounds_challenge).
+
+[3] Radford, A., Kim, J. W., Hallacy, C., Ramesh, A., Goh, G., Agarwal, S., Sastry, G., Askell, A., Mishkin, P., Clark, J., Krueger, G., and Sutskever, I. (2021). Learning Transferable Visual Models From Natural Language Supervision. *Proceedings of the 38th International Conference on Machine Learning*, PMLR 139, 8748-8763. [Paper and proceedings](https://proceedings.mlr.press/v139/radford21a.html).
+
+[4] Parkhi, O. M., Vedaldi, A., Zisserman, A., and Jawahar, C. V. (2012). Cats and Dogs. *IEEE Conference on Computer Vision and Pattern Recognition*, 3498-3505. [doi:10.1109/CVPR.2012.6248092](https://doi.org/10.1109/CVPR.2012.6248092); [official Oxford-IIIT Pet dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/).
+
+[5] Zhou, B., Lapedriza, A., Khosla, A., Oliva, A., and Torralba, A. (2018). Places: A 10 Million Image Database for Scene Recognition. *IEEE Transactions on Pattern Analysis and Machine Intelligence*, 40(6), 1452-1464. [doi:10.1109/TPAMI.2017.2723009](https://doi.org/10.1109/TPAMI.2017.2723009).
+
+[6] Zhou, B., and the Places dataset team. Places365 Data Development Kit: category definitions, validation identifiers and dataset documentation. [Official development kit](https://github.com/zhoubolei/places_devkit); [official validation archive](https://data.csail.mit.edu/places/places365/val_256.tar). The twelve donor IDs, selection decisions and SHA256 hashes are provided in the repository's background manifest.
+
+[7] MIT Places2. Official dataset download terms, archived 20 February 2021: use restricted to educational or noncommercial research; image redistribution prohibited. Image copyrights remain with their owners. [Archived terms](https://web.archive.org/web/20210220220343/http://places2.csail.mit.edu/download.html); [current project documentation](https://github.com/CSAILVision/places365). Donor photographs and composites are not published.
+
+[8] OpenCLIP contributors. OpenCLIP, version 3.2.0. [Official implementation](https://github.com/mlfoundations/open_clip/tree/v3.2.0). Software reference for the frozen CLIP inference pipeline.

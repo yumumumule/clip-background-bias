@@ -68,6 +68,20 @@ Initial execution exposed the PyTorch `weights_only` change for OpenAI's TorchSc
 
 Five public figures contain only charts and a schematic. Accuracy, robustness, consistency and effect-size charts were opened and inspected. Initial local photographic grids were also inspected; visible halos and silhouette leakage are documented. Photographs stay in ignored local outputs. Dataset images/annotations, environments, weights, caches and credentials are excluded from Git. Relative document links and staged file contents are audited before publication.
 
-The repository uses `results/main` as the sole published result set. No duplicate follow-up result directory is retained. Academic documents and default commands use the full evaluable cohort.
+The original artificial-background result set remains in `results/main`. The natural-background extension is separately published in `results/natural_backgrounds`, preserving the original files. Default artificial-experiment commands and its original full cohort remain unchanged.
 
-Not tested: natural background swaps, predicted masks, other prompts/models, boundary-exclusion ablation, macOS inference, or full CLIP inference on Linux. The seven background-only trimaps cannot support paired object-crop evaluation.
+Not tested: unseen photographic donor pools, predicted masks, other prompts/models, boundary-exclusion ablation, macOS inference, or full CLIP inference on Linux. The seven background-only trimaps cannot support paired object-crop evaluation.
+
+## Natural-background extension validation
+
+The pool and protocol were locked in commit `76128f7` before the first smoke prediction. Twelve official Places365 validation photographs were screened without model outcomes; donor/category assignments and the hard-boundary primary endpoint were fixed in advance. The donor files remain local under the documented research-use/redistribution restrictions.
+
+The five-source GPU smoke completed 105 inferences. The full GPU command `python scripts/run_natural_backgrounds.py` completed 3,662 source animals, three assigned natural scenes per animal, two boundary policies and three methods: **76,902 inferences**. All original predictions match the original baseline. Confidence-1 RGB pixels, dimensions/positions and label-2 replacement were checked for every composite; crop coordinates were held fixed.
+
+**42 unit tests passed** after adding natural-composite, assignment, asset-integrity, pairing, truncation and source-cluster bootstrap tests. One initial new test incorrectly expected truncation in a non-truncating geometry example; its expectation was corrected and a separate genuinely truncating example was added before inference.
+
+`python scripts/verify_natural_backgrounds.py` passed the full score, candidate-order, donor, geometry, label, original-baseline and numerical-regeneration audits. A separate calculation averaged flips over swaps within each source and reproduced the primary effect and cluster interval. Accuracy-drop/transition identities were checked. All 14 original result files were SHA256-verified unchanged.
+
+The extension's [validation record](../results/natural_backgrounds/validation.json) records package versions, counts, the primary estimate and baseline hashes. Three new public plots were opened and inspected. Three pre-inference, local-only QC grids covered different breeds, high boundary fractions and small animals; the recorded masks include known semantic artifacts and no sample was removed based on predictions.
+
+`python scripts/build_research_brief.py` created exactly three A4 pages from the Markdown source: two pages of main text and one of references. Poppler rendered all pages, which were opened and checked for layout defects. Optional pinned build/render dependencies are in `requirements-docs.txt`. The expanded CI workflow reruns original and natural numerical audits and rebuilds the PDF in addition to unit tests.
