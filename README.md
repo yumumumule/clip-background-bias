@@ -160,7 +160,7 @@ Photographic grids are written only to ignored `local_outputs/<run-name>/example
 
 ## Natural photographic background experiment
 
-This additional robustness test uses **12 Places365 validation photographs**, three each from indoor rooms, urban streets, forests and grassland. The pool was visually approved and committed before any predictions. Its [manifest](configs/natural_background_manifest.json) records exact IDs, hashes, selection decisions, source URLs and usage restrictions. Photos and composites are local-only. Seed-42 image-ID assignments choose three distinct scene categories per animal without consulting labels or predictions.
+This additional robustness test uses **12 Places365 validation photographs**, three each from indoor rooms, urban streets, forests and grassland. The pool was visually approved and committed before any predictions. Its [manifest](configs/natural_background_manifest.json) records exact IDs, hashes, selection decisions, source URLs and usage restrictions. Raw donor photographs and routine QC grids remain local. Two illustrative brief figures are published at the repository owner's request; see the [figure assets and image-rights notice](output/brief_assets/README.md). No additional Places365 redistribution rights have been verified. Seed-42 image-ID assignments choose three distinct scene categories per animal without consulting labels or predictions.
 
 Only the donor is resized/cropped to the source canvas. Confident foreground pixels retain their exact RGB, size and position. Hard compositing keeps labels 1 and 3; feather sensitivity blends only label 3. Original animal and center boxes remain fixed across swaps. Center truncation is recorded. The same frozen checkpoint, text embeddings and preprocessing are reused.
 
@@ -222,3 +222,7 @@ Next, expand to independent photographic pools, physically more plausible compos
 2. Parkhi et al. (2012). [Cats and Dogs](https://www.robots.ox.ac.uk/~vgg/publications/2012/parkhi12a/). CVPR. [Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/).
 3. [Official OpenCLIP implementation](https://github.com/mlfoundations/open_clip), tested version 3.2.0.
 4. [torchvision OxfordIIITPet documentation](https://docs.pytorch.org/vision/stable/generated/torchvision.datasets.OxfordIIITPet.html) and [tested-version source](https://github.com/pytorch/vision/blob/v0.22.1/torchvision/datasets/oxford_iiit_pet.py).
+
+## Research brief figure assets
+
+[Download the two method illustrations](output/brief_assets/README.md) as 600-DPI PNGs, lossless PDFs or a PNG/provenance ZIP. Both use `havanese_55` and the exact saved experimental geometry and donor assignments. The [generation script](scripts/build_brief_figures.py) runs no inference and leaves experimental results and the research brief unchanged. Third-party image terms are documented alongside the figures; the project's MIT software license does not license these images.

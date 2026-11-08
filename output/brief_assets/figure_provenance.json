@@ -1,0 +1,531 @@
+{
+  "project": "Can Object-Centric Processing Reduce Background Bias in Vision Models?",
+  "repository": "https://github.com/yumumumule/clip-background-bias",
+  "git_commit": "dbaf7b52faf0b3779f2cf0fb955bac231a674704",
+  "created_date": "2026-11-08",
+  "local_only": false,
+  "sample": {
+    "dataset_index": 1632,
+    "image_id": "havanese_55",
+    "label": 16,
+    "breed": "havanese",
+    "width": 500,
+    "height": 375,
+    "box": [
+      35,
+      1,
+      386,
+      375
+    ],
+    "image_sha256": "bede187b47a20be1b7f13d69be2e7654b9e5f954e4fce30013180fd3e27aa28f",
+    "trimap_sha256": "46d4b3fb4011b5bd4f4a8774033212295e04f4340e751409c8e3b64482e0f30a",
+    "center_box": [
+      74,
+      0,
+      425,
+      374
+    ],
+    "center_truncates": false,
+    "center_confident_foreground_retained": 1.0,
+    "confident_foreground_pixels": 58061,
+    "boundary_fraction": 0.08773866666666667,
+    "foreground_fraction": 0.3973973333333333,
+    "crop_area_fraction": 0.700128,
+    "donor_ids": [
+      "Places365_val_00024175.jpg",
+      "Places365_val_00015568.jpg",
+      "Places365_val_00021776.jpg"
+    ],
+    "image_path": "data/oxford-iiit-pet/images/havanese_55.jpg",
+    "trimap_path": "data/oxford-iiit-pet/annotations/trimaps/havanese_55.png",
+    "photographer_credit_visible_in_source": "Ralf Bitzer (visible signature; not independently verified)",
+    "cohort_size": 3662,
+    "trimap_label_counts": {
+      "1": 58061,
+      "2": 112988,
+      "3": 16451
+    }
+  },
+  "selection": {
+    "outcome_blind": true,
+    "existing_qc_samples_reviewed": 12,
+    "qc_rejection_reasons": {
+      "Abyssinian_2": "Thick dark retained halo; crop retains 89.7% of image, weak cropping illustration.",
+      "basset_hound_70": "Body truncated at image edge; human/blanket pixels retained.",
+      "Bombay_46": "Body truncated; dark animal has weak small-panel readability.",
+      "Egyptian_Mau_214": "Truncated tail and costume-related semantic mask artifacts.",
+      "german_shorthaired_60": "Wide retained grass boundary and occluded lower body.",
+      "miniature_pinscher_79": "Tiny full-frame animal and conspicuous green boundary halo.",
+      "leonberger_38": "Retained vegetation over animal; lower body obscured by grass.",
+      "Sphynx_94": "Severe clothing-related mask failure removes torso.",
+      "scottish_terrier_92": "Tiny full-frame animal; limited native crop resolution.",
+      "basset_hound_197": "Tiny animal with snow occlusion and retained bright boundary.",
+      "shiba_inu_61": "Tiny animal with retained leash/support context; limited crop resolution.",
+      "leonberger_30": "Water occlusion; incomplete animal viewed from above."
+    },
+    "fallback_filters": {
+      "minimum_image_short_side_px": 350,
+      "foreground_fraction_inclusive": [
+        0.15,
+        0.55
+      ],
+      "maximum_crop_area_fraction": 0.72,
+      "minimum_foreground_margin_fraction_each_side": 0.025
+    },
+    "ranking": "Ascending label-3 / (label-1 + label-3) pixel count ratio, then image_id lexicographically",
+    "eligible_count": 259,
+    "selected_rank_one_based": 1,
+    "boundary_ratio": 0.22078322954691862,
+    "first_ten_candidates": [
+      {
+        "image_id": "havanese_55",
+        "boundary_ratio": 0.22078322954691862
+      },
+      {
+        "image_id": "Birman_59",
+        "boundary_ratio": 0.22896191646191646
+      },
+      {
+        "image_id": "japanese_chin_53",
+        "boundary_ratio": 0.24589302548410527
+      },
+      {
+        "image_id": "Bombay_5",
+        "boundary_ratio": 0.25554326498168456
+      },
+      {
+        "image_id": "newfoundland_93",
+        "boundary_ratio": 0.2573407940314415
+      },
+      {
+        "image_id": "shiba_inu_210",
+        "boundary_ratio": 0.25901516186313345
+      },
+      {
+        "image_id": "keeshond_95",
+        "boundary_ratio": 0.26418647980882176
+      },
+      {
+        "image_id": "newfoundland_98",
+        "boundary_ratio": 0.2663964757709251
+      },
+      {
+        "image_id": "saint_bernard_19",
+        "boundary_ratio": 0.27208514755684565
+      },
+      {
+        "image_id": "samoyed_74",
+        "boundary_ratio": 0.28281855495173236
+      }
+    ],
+    "visual_assessment": "Complete visible dog; recognizable face and body; modest retained floor-colored fringe documented, not retouched.",
+    "prediction_outcomes_used": false
+  },
+  "geometry": {
+    "box_xyxy": [
+      35,
+      1,
+      386,
+      375
+    ],
+    "coordinate_convention": "PIL left/top inclusive, right/bottom exclusive",
+    "padding": 0.1,
+    "padding_rule": "Ceil 10% of unpadded mask extent on EACH side, clipped to source canvas",
+    "retained_labels": [
+      1,
+      3
+    ],
+    "fixed_across_all_variants": true
+  },
+  "donors_in_saved_order": [
+    {
+      "image_id": "Places365_val_00024175.jpg",
+      "category": "indoor",
+      "places_category": "/l/living_room",
+      "candidate_rank": 2,
+      "sha256": "e657cddf55997748d9bd797ce09edabd34d0e9c43ddf1f3c2aadb45021bfab05",
+      "path": "data/natural_backgrounds/Places365_val_00024175.jpg",
+      "archive_url": "https://data.csail.mit.edu/places/places365/val_256.tar"
+    },
+    {
+      "image_id": "Places365_val_00015568.jpg",
+      "category": "urban",
+      "places_category": "/s/street",
+      "candidate_rank": 3,
+      "sha256": "704b3ce2382bd1ca2110e5651fae180eb1a6687f8170541ffc102dd0b22ea974",
+      "path": "data/natural_backgrounds/Places365_val_00015568.jpg",
+      "archive_url": "https://data.csail.mit.edu/places/places365/val_256.tar"
+    },
+    {
+      "image_id": "Places365_val_00021776.jpg",
+      "category": "forest",
+      "places_category": "/f/forest/broadleaf",
+      "candidate_rank": 2,
+      "sha256": "3ecedfaeeb0581331ad5990a267c2bbfba428791574ec47eeb66fb9ad9fc1155",
+      "path": "data/natural_backgrounds/Places365_val_00021776.jpg",
+      "archive_url": "https://data.csail.mit.edu/places/places365/val_256.tar"
+    }
+  ],
+  "compositing": {
+    "policy": "hard",
+    "function": "src.natural.composite",
+    "donor_transform": "PIL ImageOps.fit BICUBIC, centered (0.5, 0.5), to original canvas",
+    "retained_foreground_rgb_size_position": "Exactly unchanged before figure display resampling",
+    "boundary_cleanup_or_feathering": false
+  },
+  "source_provenance": {
+    "oxford_dataset": "https://www.robots.ox.ac.uk/~vgg/data/pets/",
+    "image_archive": "https://thor.robots.ox.ac.uk/~vgg/data/pets/images.tar.gz",
+    "annotations_archive": "https://thor.robots.ox.ac.uk/~vgg/data/pets/annotations.tar.gz",
+    "places_dataset": "Places365-Standard validation, 256x256 photographs",
+    "places_archive_md5": "e27b17d8d44f4af9a78502beb927f808",
+    "asset_restoration_needed": false
+  },
+  "permissions": {
+    "checked_date": "2026-11-08",
+    "oxford": "Current official dataset page specifies CC BY-SA 4.0; original owners retain copyright. Provide dataset/owner credit where known, license link, and change notice; ShareAlike applies to adaptations when shared.",
+    "oxford_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "places": "Non-commercial research and educational purposes only; do not redistribute images. Image copyrights remain with original owners. The model/code license is not an image license. Current project page requests legacy-data contact via form; URLs remain publicly accessible. No photographs are included in this repository.",
+    "places_current_copyright_source": "https://github.com/CSAILVision/places365#license",
+    "places_archived_terms_url": "https://web.archive.org/web/20210220220343/http://places2.csail.mit.edu/download.html",
+    "verification_limit": "Current Oxford license and Places owner-copyright statement verified online. Places download page timed out and archived terms could not be fetched; research/education-only and no-redistribution restrictions are retained from the locked experiment manifest, not independently revalidated in this run.",
+    "classroom_or_transfer": "User requested public publication. No express Places365 redistribution or classroom-submission exception was independently verified; recorded third-party restrictions remain applicable. Publication does not establish further redistribution rights.",
+    "public_commit": true,
+    "zip_status": "Publicly packaged at user request; no additional image license is granted."
+  },
+  "captions": [
+    "Figure 1. Object-centric preprocessing using ground-truth segmentation. The animal is localized using its trimap, and a padded bounding box is used to reduce surrounding context before CLIP inference.",
+    "Figure 2. Controlled natural-background interventions. The foreground animal is preserved while its surrounding background is replaced with three photographic scenes. Identical crop coordinates are applied across all conditions."
+  ],
+  "export": {
+    "width_mm": 170,
+    "png_dpi": 600,
+    "pdf_embedded_images": "Lossless source pixels, vector labels and box",
+    "trimap_display": "Categorical RGB lookup only; no interpolation between labels in embedded source",
+    "figure1_height_mm": 50,
+    "figure2_height_mm": 89,
+    "layout": {
+      "figure1": [
+        {
+          "source_size_px": [
+            500,
+            375
+          ],
+          "display_size_pt": [
+            114.09448818897638,
+            85.57086614173228
+          ],
+          "effective_source_ppi": 315.527950310559
+        },
+        {
+          "source_size_px": [
+            500,
+            375
+          ],
+          "display_size_pt": [
+            114.09448818897638,
+            85.57086614173228
+          ],
+          "effective_source_ppi": 315.527950310559
+        },
+        {
+          "source_size_px": [
+            500,
+            375
+          ],
+          "display_size_pt": [
+            114.09448818897638,
+            85.57086614173228
+          ],
+          "effective_source_ppi": 315.527950310559
+        },
+        {
+          "source_size_px": [
+            351,
+            374
+          ],
+          "display_size_pt": [
+            88.32270832456105,
+            94.11023622047246
+          ],
+          "effective_source_ppi": 286.1325301204819
+        }
+      ],
+      "figure2": [
+        {
+          "source_size_px": [
+            500,
+            375
+          ],
+          "display_size_pt": [
+            114.09448818897638,
+            85.57086614173228
+          ],
+          "effective_source_ppi": 315.527950310559
+        },
+        {
+          "source_size_px": [
+            500,
+            375
+          ],
+          "display_size_pt": [
+            114.09448818897638,
+            85.57086614173228
+          ],
+          "effective_source_ppi": 315.527950310559
+        },
+        {
+          "source_size_px": [
+            500,
+            375
+          ],
+          "display_size_pt": [
+            114.09448818897638,
+            85.57086614173228
+          ],
+          "effective_source_ppi": 315.527950310559
+        },
+        {
+          "source_size_px": [
+            500,
+            375
+          ],
+          "display_size_pt": [
+            114.09448818897638,
+            85.57086614173228
+          ],
+          "effective_source_ppi": 315.527950310559
+        },
+        {
+          "source_size_px": [
+            351,
+            374
+          ],
+          "display_size_pt": [
+            86.99254705461284,
+            92.69291338582678
+          ],
+          "effective_source_ppi": 290.5076452599388
+        },
+        {
+          "source_size_px": [
+            351,
+            374
+          ],
+          "display_size_pt": [
+            86.99254705461284,
+            92.69291338582678
+          ],
+          "effective_source_ppi": 290.5076452599388
+        },
+        {
+          "source_size_px": [
+            351,
+            374
+          ],
+          "display_size_pt": [
+            86.99254705461284,
+            92.69291338582678
+          ],
+          "effective_source_ppi": 290.5076452599388
+        },
+        {
+          "source_size_px": [
+            351,
+            374
+          ],
+          "display_size_pt": [
+            86.99254705461284,
+            92.69291338582678
+          ],
+          "effective_source_ppi": 290.5076452599388
+        }
+      ]
+    }
+  },
+  "verification": {
+    "source_and_trimap_hashes_match_both_saved_manifests": true,
+    "donor_hashes_match_locked_pool": true,
+    "assignments_match_protocol_and_saved_prediction_metadata": true,
+    "variant_pixel_checks": [
+      {
+        "full_rgb_sha256": "466374421bc5c963c184ecc8df24ff49b9f2afbf4d97513e56b4facb04ad47b4",
+        "crop_rgb_sha256": "20309d0aadde2c3f1a87390c8ee5a308936f5cc1f1d901e1426b048e2261e14a",
+        "retained_foreground_identical": true,
+        "box": [
+          35,
+          1,
+          386,
+          375
+        ]
+      },
+      {
+        "full_rgb_sha256": "6665c8f7626a3a7d0a66b65b56d0a70ae2ad5b53fda17989a8574eac7d04cec7",
+        "crop_rgb_sha256": "94920f54b3fbb9c9b0df67b24370f714277513f9a43c774f2bbb725b4493dbae",
+        "retained_foreground_identical": true,
+        "box": [
+          35,
+          1,
+          386,
+          375
+        ]
+      },
+      {
+        "full_rgb_sha256": "28e70458d967622f5852fd777d2c1e26ac03c892109d22bc8360fcc2c26fad31",
+        "crop_rgb_sha256": "e7302bb6912c333c8de00ff7cc43bed7c924b6f78aaf9ccaa961f6e62c2af58c",
+        "retained_foreground_identical": true,
+        "box": [
+          35,
+          1,
+          386,
+          375
+        ]
+      },
+      {
+        "full_rgb_sha256": "e09a70d92262159cb90a316d298d155cca56bef47e9119008a1855256dc5aad4",
+        "crop_rgb_sha256": "e701067ef0c87c604cf642e2291550d449079da89a1f72a189e322b0abbc3c91",
+        "retained_foreground_identical": true,
+        "box": [
+          35,
+          1,
+          386,
+          375
+        ]
+      }
+    ],
+    "protected_files_unchanged": true,
+    "protected_file_sha256_before_and_after": {
+      ".cache/weights/ViT-B-32.pt": "40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af",
+      "configs/default.yaml": "34876573196ce992f5f1c640acb4899006efa621b2b02bec8f31b8356aa095fe",
+      "configs/natural_background_manifest.json": "2a20a20b0fbb0af39887574940855866e1bafce9b710d1d323fc5dabd6c2219d",
+      "configs/natural_background_qc.json": "b6df4d1b80b6a321fa73250a451842e91e9eefbf95c1c601593370ffecf67b0c",
+      "configs/natural_backgrounds.yaml": "78450fdfe9bab8837dc7594a206ead465f12e1266e0a944d2200a75967f9de7b",
+      "docs/natural_background_experiment.md": "c3e74a7ee12a8c73e1665960d90bc5bf95817b43b3508c33bd9ba6d3f22807ea",
+      "docs/presentation_outline.md": "2a24b1dc8c35be569f94743dedcb355dab512dd2a2a5549551b9ccc8b0eba2f9",
+      "docs/qa_preparation.md": "4359d4b25c559253d9858f07f38e661dc4821f7bef65872a01ff49387cd919c6",
+      "docs/research_brief.md": "1ac62b4c901748ab9a900079cf92974f796fdf810d9b706d9dfd6889b94538e4",
+      "docs/results.md": "40ada5f5a790d2af546aca34acf48d2f4dbea2d1818a0e10f87f4697616c2d1a",
+      "docs/validation.md": "cc1b68d104f292174dd0b36b7ad384d15f98240b41fcff9892bc1d8c8efd91db",
+      "output/pdf/research_brief.pdf": "e4f2cef1b31eca68b85655bf6b80cbd289b710fb978406a0d99260769f5da33d",
+      "results/main/accuracy.csv": "dfb62e68cfe1ea410808960117a7ad2209d36bd4bbb5dccd69c2379268608f28",
+      "results/main/additional_paired_comparisons.csv": "402372a98e5930b07a44b04f884e87e03f9173c3106993b755a58d1c7045691a",
+      "results/main/excluded_samples.json": "c16001dc910c75542baaf73313f7bf0dcbe8a8550bf37127266f325a6c8913a4",
+      "results/main/figures/accuracy_comparison.png": "51dc404d907c464c4d5f901f1e6f957888a45407adce9d3857f98f119269b71e",
+      "results/main/figures/background_robustness.png": "6ea28c1e5a312758ff2b685e670e0308b7d892f5a9e401c68fcb15147d05c1a1",
+      "results/main/figures/experimental_pipeline.png": "5960ec7e1b00be670b25f59952c1b91de85b9cfd8de3d2eef38ad5b8f2635e62",
+      "results/main/figures/paired_flip_rate_difference.png": "bfcbbce8e414b5b145f875d6b12dfcb19a53fc2eb8f12f201a779663cba86ad4",
+      "results/main/figures/prediction_consistency.png": "5718768b36fae7a80a50944812d63a4bef1c09669497a67185365f1f35b034dc",
+      "results/main/metadata.json": "90bb188c88813538178f76c787be4ea8461922e4878a39df84f34ba47b300e4d",
+      "results/main/paired_metrics.csv": "003f5cffb2acb888df7ac026b05eed3b5097a6d23782e419127c9a35c494a9a8",
+      "results/main/per_breed_accuracy.csv": "466120edf876b3b0a4e121273e64f9823742650bf7231e2512c54c7e5c395e3f",
+      "results/main/predictions.csv": "adc1c0feb63f8db2b45743ff540057a908d0b03fad80f05874a13b8db94daa18",
+      "results/main/results.json": "f3c999bbff54f36c66f5733aab8cce1be7702c8b0c04d93d6a5cd8f6d6db148b",
+      "results/main/sample_manifest.json": "3e9e6c8da263609ef70aa48fa115e1d1441bd7c14332d450f9b808119b5eda79",
+      "results/natural_backgrounds/accuracy.csv": "6c786e3386a3d4103e92c62b4c57aee3a54ad8946288011e5fb5133ba5a05c7b",
+      "results/natural_backgrounds/background_manifest.json": "2a20a20b0fbb0af39887574940855866e1bafce9b710d1d323fc5dabd6c2219d",
+      "results/natural_backgrounds/boundary_sensitivity.csv": "7afbea48daa0777b126792f254d47ee61e008a4fac78983a9801717b45bb49ad",
+      "results/natural_backgrounds/config.json": "109b0c8e8dd310178ca33c1f4a3a564f1cf2ff65bde5695cfe1c9ed2a5dad2b2",
+      "results/natural_backgrounds/cosine_scores.npz": "8489c0328aee0e43335f645fe81aaf7a8f534eb013793b35494e835c3b7b0823",
+      "results/natural_backgrounds/figures/artificial_vs_natural.png": "570f71f2667a1aa4e073e973ad89821e9306f0f2d01695c20ef09f7e549c5491",
+      "results/natural_backgrounds/figures/natural_accuracy_stability.png": "86fbe329c78a420fb53cee39ef55678032672e7970ccec7c00905a28cc0d78c0",
+      "results/natural_backgrounds/figures/per_scene_effects.png": "6054767a119c74b09f3c0e354b34cf6bc95745c23368705e4d8037d53ea1f9ad",
+      "results/natural_backgrounds/flip_rates.csv": "b2f0eb62a384c8aeae491274dffbb85da6a548573cd6fe42a1fffc919e73e2e7",
+      "results/natural_backgrounds/geometry_sensitivity.csv": "c292a553d1d3c0db7b37567e18a0e24a4122994cee4bf2bb942ccad1c815fa82",
+      "results/natural_backgrounds/metadata.json": "bfcb5f8554e5055f6ebd4cfd63a1ce52022c596b69551502700bd6ef28e4e2eb",
+      "results/natural_backgrounds/metrics.csv": "b5b106cbeed560a89dd5b4eef8992b1382b68a1d7b6cca7bafdcf63b3d4b29ba",
+      "results/natural_backgrounds/original_predictions.csv": "0eb013a58a8efd4b8ee916565cf640fd60b02cea8ebe2c28c3b080deae9b2502",
+      "results/natural_backgrounds/paired_comparisons.csv": "998ff94099807eddc300e09b1a332ae54f253fb7d75483d3d7117b2d643b2c7b",
+      "results/natural_backgrounds/predictions.csv": "13c9bdf28bf530fb13f24d1ffc289592fac2a62dcacfa7b2e43fd10c21fdecfa",
+      "results/natural_backgrounds/protocol.json": "697d0d02375c3e64a3e675f9c89618946434a8d7cdc615488bef555c87c5a6b6",
+      "results/natural_backgrounds/results.json": "3cdc581a9ea9049f87f0446d1a9791131e6479134ad93814169caf47a3d604fc",
+      "results/natural_backgrounds/sample_manifest.json": "3302fe9cd6512ae2f8ef848b0c2f013d7a697db5ff3ea3d6e087b44fc6febf58",
+      "results/natural_backgrounds/source_image_metrics.csv": "3051526de99337c913f6f99ad8457348f644d5ca1c74fe2117f984f4d9da0ba6",
+      "results/natural_backgrounds/validation.json": "c6fb569312b5b467b461d000151388518ce5582d7b2f5cbce79e4dd8e30336d7",
+      "results/smoke/accuracy.csv": "54fec11fc0f21ac31c9e8f14d2903fbc9fc84b98067b7d5d058c5e9c75f7aab4",
+      "results/smoke/figures/accuracy_comparison.png": "d106358f3800412e7b22f92817f39e47e1e67d1920685de03ddadea34f5dda6c",
+      "results/smoke/figures/background_robustness.png": "345aa3c9495f384e72b37e71e96c939535d4e09dc01dc2696fef4fbd44323918",
+      "results/smoke/figures/experimental_pipeline.png": "5960ec7e1b00be670b25f59952c1b91de85b9cfd8de3d2eef38ad5b8f2635e62",
+      "results/smoke/figures/prediction_consistency.png": "722ae96d704771072c28ee2ea3bea5e7b75fe8ecb76d0b6b81790c84fbf4cf38",
+      "results/smoke/metadata.json": "7ff7fecd53d37baad0e318ef31ddadcaecd3d7217d12c8528c40221628294c6a",
+      "results/smoke/paired_metrics.csv": "c651e35c8751bff1c97305560323bab0db48d9b31cdcde39d1e114afa92859f1",
+      "results/smoke/predictions.csv": "84e2a8e5df0cf86097da375255604db16d5d22221f64ae71681c7a2b65a86cb6",
+      "results/smoke/results.json": "dea51ea9790cc734efe4f2a773c816418f0aeb84da91bdebdd70b9183ad039b7",
+      "results/smoke/sample_manifest.json": "917cbb52e4eee624beda496072c1fc3c4901fc0018c05f3038bec6504ba0fe3b",
+      "src/__init__.py": "df98c80b1ea4be85196431d8316292ed91f0bf8b55b63879be4b47db98141689",
+      "src/dataset.py": "58522b7d93e20ffcd7fe659b8edef12da1a859c7f0eebf06c149408c3fbb134d",
+      "src/experiment.py": "e386edf16ec288fdadb8f90f34b25a6a767cfecb5e32247191498d91a10a3846",
+      "src/metrics.py": "711f3c53c042a1bce7af7b8e0f4a96415d668f571b15f9d959b7cab0e2babc74",
+      "src/model.py": "1e2e2a497d40ee569971065523c3347bb3a3ef0a0bc1679caf7e4d7f612668f3",
+      "src/natural.py": "d4df9f3b302c8413417aaa1e009be0c1183e6cebfacb7468b83e1df747a787eb",
+      "src/natural_analysis.py": "d145584731f99e4a8cc9fa17a2b293f2f4acdb645cfbc2b6c57fff315edb00ac",
+      "src/natural_metrics.py": "695fb6b2dc310ddcccf8426172441ddd57824e8e94c66805de2ee8e1277068ea",
+      "src/preprocessing.py": "4ea5a352b1411c857c3446bf9b2a1355588fd140541fa8242ac1fe40970d298f",
+      "src/visualization.py": "f6c8fd430344e94e833ec30bd19079d65eaacac8aef93925b33a675fed611bb4"
+    },
+    "inference_run": false,
+    "predictions_displayed": false,
+    "exported_pdf_pixel_arrays_verified": {
+      "figure1_object_cropping": {
+        "embedded_image_count": 3,
+        "expected_unmodified_image_arrays_verified": 2,
+        "text_within_page": true
+      },
+      "figure2_natural_background_swap": {
+        "embedded_image_count": 8,
+        "expected_unmodified_image_arrays_verified": 8,
+        "text_within_page": true
+      }
+    },
+    "visual_qa": {
+      "status": "passed",
+      "reviewed_date": "2026-11-08",
+      "method": "Inspected figures_preview.png rendered from both final PDFs at 180 DPI using PyMuPDF; also checked PDF text extraction and bounds.",
+      "checks": [
+        "Correct A-D and A-H row-major panel ordering",
+        "No label overlap or clipping",
+        "No photograph stretching; source aspect ratios preserved",
+        "Complete visible animal; exact source-fringe retained without retouching",
+        "Faithful categorical trimap with all three legend entries",
+        "Bounding box matches saved source coordinates",
+        "Readable labels at 170-mm intended width"
+      ],
+      "scope": "Final output hashes recorded in outputs; preview is local-only."
+    }
+  },
+  "outputs": {
+    "figure1_object_cropping.png": {
+      "size_px": [
+        4016,
+        1182
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "sha256": "df9642127a3f10f9367218008e53b6aed2a3634475bbdd72c573899732488d68"
+    },
+    "figure1_object_cropping.pdf": {
+      "sha256": "1d5096ffdbe7e157bfced9775c607d421de844c298cd766d1606a59f3341766f"
+    },
+    "figure2_natural_background_swap.png": {
+      "size_px": [
+        4016,
+        2103
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "sha256": "e3a06995099d6f139b9b263baf4d196ed973f0dea70fa0d6b7dcffafbd20a0a1"
+    },
+    "figure2_natural_background_swap.pdf": {
+      "sha256": "a971f32162825a3825c8a05709a0cf36e0358871ddc3ab0e6214e6f5e4caa74d"
+    }
+  },
+  "publication": {
+    "date": "2026-11-08",
+    "directory": "output/brief_assets",
+    "explicitly_requested_by_user": true,
+    "note": "Publication requested by repository owner. This records authorization to publish to this repository, not independent verification of third-party redistribution rights. Local originals remain unchanged."
+  }
+}
